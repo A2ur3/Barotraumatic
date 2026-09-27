@@ -104,57 +104,66 @@
     <StatusEffect type="OnActive" target="NearbyCharacters" range="1500" targets="monster" onlyoutside="true" interval="1" disabledeltatime="true">
       <Affliction identifier="watchersgaze" strength="20" />
     </StatusEffect>
-    <StatusEffect type="OnDamaged" target="This" checkconditionalways="true" comparison="and" delay="0.4" stackable="false">
-      <RequiredAffliction type="damage,burn" minstrength="1" />
-      <Conditional isdead="false" />
-      <SpawnItem identifier="acidemitter" spawnposition="This" count="3" spread="500" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst1.ogg" range="5000" selectionmode="Random" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst2.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst3.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst4.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst5.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst6.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst7.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst8.ogg" range="5000" />
-    </StatusEffect>
-    <StatusEffect type="OnDamaged" target="This" checkconditionalways="true" comparison="and" delay="0.6" stackable="false">
-      <RequiredAffliction type="damage,burn" minstrength="1" />
-      <Conditional isdead="false" />
-      <SpawnItem identifier="acidemitter" spawnposition="This" count="2" spread="300" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst1.ogg" range="5000" selectionmode="Random" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst2.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst3.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst4.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst5.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst6.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst7.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst8.ogg" range="5000" />
-    </StatusEffect>
-    <StatusEffect type="OnDamaged" target="This" checkconditionalways="true" comparison="and" delay="0.8" stackable="false">
-      <RequiredAffliction type="damage,burn" minstrength="1" />
-      <Conditional isdead="false" />
-      <SpawnItem identifier="acidemitter" spawnposition="This" count="3" spread="400" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst1.ogg" range="5000" selectionmode="Random" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst2.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst3.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst4.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst5.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst6.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst7.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst8.ogg" range="5000" />
-    </StatusEffect>
-    <StatusEffect type="OnDamaged" target="This" checkconditionalways="true" comparison="and" delay="1.0" stackable="false">
-      <RequiredAffliction type="damage,burn" minstrength="1" />
-      <Conditional isdead="false" />
-      <SpawnItem identifier="acidemitter" spawnposition="This" count="1" spread="200" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst1.ogg" range="5000" selectionmode="Random" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst2.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst3.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst4.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst5.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst6.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst7.ogg" range="5000" />
-      <Sound file="Content/Characters/Watcher/WATCHER_burst8.ogg" range="5000" />
-    </StatusEffect>
+  <StatusEffect type="OnDamaged" target="This" checkconditionalways="true" comparison="and" delay="0.4" stackable="false" >
+    <RequiredAffliction type="damage,burn" minstrength="1"/>
+    <Conditional isdead="false" />
+    <Conditional hasstatustag="! acidcooldown" />
+    <SpawnItem identifier="acidemitter" spawnposition="This" count="3" spread="500" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst1.ogg" range="5000" selectionmode="Random"/>
+    <Sound file="Content/Characters/Watcher/WATCHER_burst2.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst3.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst4.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst5.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst6.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst7.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst8.ogg" range="5000" />
+  </StatusEffect>
+  <StatusEffect type="OnDamaged" target="This" checkconditionalways="true" comparison="and" delay="0.6" stackable="false" >
+    <RequiredAffliction type="damage,burn" minstrength="1"/>
+    <Conditional isdead="false" />
+    <Conditional hasstatustag="! acidcooldown" />
+    <SpawnItem identifier="acidemitter" spawnposition="This" count="2" spread="300" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst1.ogg" range="5000" selectionmode="Random"/>
+    <Sound file="Content/Characters/Watcher/WATCHER_burst2.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst3.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst4.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst5.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst6.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst7.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst8.ogg" range="5000" />
+  </StatusEffect>
+  <StatusEffect type="OnDamaged" target="This" checkconditionalways="true" comparison="and" delay="0.8" stackable="false" >
+    <RequiredAffliction type="damage,burn" minstrength="1"/>
+    <Conditional isdead="false" />
+    <Conditional hasstatustag="! acidcooldown" />
+    <SpawnItem identifier="acidemitter" spawnposition="This" count="3" spread="400" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst1.ogg" range="5000" selectionmode="Random"/>
+    <Sound file="Content/Characters/Watcher/WATCHER_burst2.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst3.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst4.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst5.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst6.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst7.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst8.ogg" range="5000" />
+  </StatusEffect>
+  <StatusEffect type="OnDamaged" target="This" checkconditionalways="true" comparison="and" delay="1.0" stackable="false" >
+    <RequiredAffliction type="damage,burn" minstrength="1"/>
+    <Conditional isdead="false" />
+    <Conditional hasstatustag="! acidcooldown" />
+    <SpawnItem identifier="acidemitter" spawnposition="This" count="1" spread="200" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst1.ogg" range="5000" selectionmode="Random"/>
+    <Sound file="Content/Characters/Watcher/WATCHER_burst2.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst3.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst4.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst5.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst6.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst7.ogg" range="5000" />
+    <Sound file="Content/Characters/Watcher/WATCHER_burst8.ogg" range="5000" />
+  </StatusEffect>
+  <!-- "dummy effect" that runs for 5 seconds and prevents the acid from being spawned while active -->
+  <StatusEffect type="OnDamaged" target="This" statuseffecttags="acidcooldown" comparison="and" duration="5" stackable="false" ResetDurationWhenReapplied="false">
+    <RequiredAffliction type="damage,burn" minstrength="1"/>
+    <Conditional isdead="false" />
+  </StatusEffect>
   </Character>
 </Override>
