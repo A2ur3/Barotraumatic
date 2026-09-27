@@ -36,7 +36,6 @@
     <Affliction identifier="watchersgaze" strength="15" />
   </StatusEffect>
     <StatusEffect type="OnDeath" target="This" targetlimb="Head">
-	  <SpawnItem identifier="acidemitter" spawnposition="This" count="2" spread="300" />
       <ParticleEmitter particle="bubbles" particleamount="60" scalemin="1" scalemax="2" velocitymin="50" velocitymax="100" anglemin="+30" anglemax="30" />
       <ParticleEmitter particle="bloodsplashwater" particleamount="3" scalemin="0.5" scalemax="1" velocitymin="25" velocitymax="200" anglemin="0" anglemax="360" distancemin="20" distancemax="50" />
       <ParticleEmitter drawontop="True" particle="gib" particleamount="10" scalemin="0.5" scalemax="0.75" velocitymin="200" velocitymax="500" anglemin="-30" anglemax="30" CopyEntityAngle="true"  />
