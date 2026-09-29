@@ -294,7 +294,7 @@
   sonarlabel="Emergency Beacons" maxsonarmarkerdistance="18000">
     <monster character="Carrierleviathan" />
     <Reputation identifier="location" amount="3" />
-    <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,512,256,256" color="214,50,48" />
+    <Icon texture="%ModDir:2518816103%/UI/XanIcons3.png" sourcerect="0,0,256,256" color="214,50,48" />
     <LocationType from="AnyOutpost" to="Any" />
     <message header="Target Investigated" text="The missing vessel appears to have been taken over by some sort of parasitic growth, but it seems to be incapacitated now. You should report the incident to [location2]." />
   </MonsterMission>
@@ -1595,10 +1595,16 @@
         <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" />
       </Item>
       <Item identifier="largemudraptoregg">
-        <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="2" />
+        <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" />
       </Item>
       <Item identifier="largemudraptoregg">
-        <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="3"  />
+        <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" />
+      </Item>
+      <Item identifier="largemudraptoregg">
+        <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" />
+      </Item>
+      <Item identifier="largemudraptoregg">
+        <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" />
       </Item>
       <Item identifier="largemudraptoregg">
         <StatusEffectOnApproach target="This" Scale="1.0" setvalue="true" delay="5" />
@@ -1622,11 +1628,9 @@
       <Item identifier="largemudraptoregg" />
       <Item identifier="largemudraptoregg" />
     </Items>
-    <Characters>
-      <Character identifier="mudraptor" min="2" max="3"/>
-      <Character identifier="Mudraptor_unarmored" min="3" max="5"/>
-      <Character identifier="Mudraptor_veteran" min="1" max="1"/>
-    </Characters>
+    <Monster character="Mudraptor" min="2" max="3" />
+    <Monster character="Mudraptor_unarmored" min="3" max="5" />
+    <Monster character="Mudraptor_veteran" />
     <Reputation identifier="location" amount="3" />
     <Icon texture="%ModDir:2518816103%/UI/XanIcons.png" sourcerect="260,511,253,248" color="214,50,48" />
     <LocationType from="AnyOutpost" to="Any" />
