@@ -10949,7 +10949,6 @@ _/ ___\\__  \\  \/ // __ \ /  ___/
         <MonsterEvent characterfile="Europanboxcutter" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Razzershrimp_kse" minamount="1" maxamount="3" delaybetweenspawns="12" spawntype="cave" />
         <MonsterEvent characterfile="Shrimpbrut_kse" minamount="3" maxamount="4" delaybetweenspawns="12" spawntype="cave" />
-        <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="1" delaybetweenspawns="12" spawntype="cave" />
         <MonsterEvent characterfile="Mudraptor_veteran" minamount="2" maxamount="2" delaybetweenspawns="12" spawntype="cave" />
         <MonsterEvent characterfile="Mudrex" minamount="1" maxamount="1" delaybetweenspawns="12" spawntype="cave" />
         <MonsterEvent characterfile="Nightraptor" minamount="2" maxamount="3" delaybetweenspawns="12" spawntype="cave" />
@@ -13789,7 +13788,6 @@ _/ ___\\__  \\  \/ // __ \ /  ___/
         <MonsterEvent characterfile="Razzershrimp_kse" minamount="1" maxamount="3" delaybetweenspawns="12" spawntype="cave" />
         <MonsterEvent characterfile="Shrimpbrut_kse" minamount="3" maxamount="4" delaybetweenspawns="12" spawntype="cave" />
         <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="1" delaybetweenspawns="12" spawntype="cave" />
-        <MonsterEvent characterfile="Mudraptor_veteran" minamount="2" maxamount="2" delaybetweenspawns="12" spawntype="cave" />
         <MonsterEvent characterfile="Mudrex" minamount="1" maxamount="1" delaybetweenspawns="12" spawntype="cave" />
         <MonsterEvent characterfile="Nightraptor" minamount="2" maxamount="3" delaybetweenspawns="12" spawntype="cave" />
         <MonsterEvent characterfile="Husk_RandomLight" minamount="2" maxamount="4" delaybetweenspawns="12" spawntype="cave" />
@@ -16640,7 +16638,6 @@ _/ ___\\__  \\  \/ // __ \ /  ___/
         <MonsterEvent characterfile="Nightraptor" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
         <MonsterEvent characterfile="Spineling_morbusine" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
         <MonsterEvent characterfile="Lavathresher" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
-        <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="1" delaybetweenspawns="12" spawntype="cave" />
         <MonsterEvent characterfile="Caver" minamount="4" maxamount="6" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
         <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
         <MonsterEvent characterfile="Nuclearmine" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
@@ -18753,7 +18750,6 @@ _/ ___\\__  \\  \/ // __ \ /  ___/
         <MonsterEvent characterfile="Nightraptor" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
         <MonsterEvent characterfile="Spineling_morbusine" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
         <MonsterEvent characterfile="Lavathresher" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
-        <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="1" delaybetweenspawns="12" spawntype="cave" />
         <MonsterEvent characterfile="Caver" minamount="4" maxamount="6" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
         <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
         <MonsterEvent characterfile="Nuclearmine" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
