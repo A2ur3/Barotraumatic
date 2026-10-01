@@ -176,7 +176,7 @@ MonsterEvent
       <MonsterEvent characterfile="Whitefish" minamount="3" maxamount="5" spawntype="cave" delaybetweenspawns="30" />
       <MonsterEvent characterfile="Europantrout" minamount="4" maxamount="5" spawntype="cave" delaybetweenspawns="30" />
       <MonsterEvent characterfile="Goofyfish" minamount="3" maxamount="7" spawntype="cave" delaybetweenspawns="30" />
-      <MonsterEvent characterfile="Thrasher" minamount="4" maxamount="6" spawntype="cave" delaybetweenspawns="30" />
+      <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="6" spawntype="cave" delaybetweenspawns="30" />
       <MonsterEvent characterfile="Crawlerold" minamount="4" maxamount="6" spawntype="cave" delaybetweenspawns="30" />
       <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="8" spawntype="cave" delaybetweenspawns="30" />
       <MonsterEvent characterfile="Psilotoadmonster" minamount="1" maxamount="2" spawntype="cave" delaybetweenspawns="30" />
@@ -399,7 +399,7 @@ MonsterEvent
         <MonsterEvent characterfile="Goofyfish" minamount="3" maxamount="6" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Glowfish" minamount="3" maxamount="6" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Whitefish" minamount="3" maxamount="6" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-        <MonsterEvent characterfile="Thrasher" minamount="4" maxamount="6" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+        <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="6" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Europantrout" minamount="4" maxamount="5" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Seaurchin" minamount="0" maxamount="4" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
@@ -599,7 +599,7 @@ MonsterEvent
         <MonsterEvent characterfile="Europantrout" minamount="3" maxamount="5" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Husk_RandomLight" minamount="1" maxamount="2" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Goofyfish" minamount="2" maxamount="7" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-        <MonsterEvent characterfile="Thrasher" minamount="4" maxamount="6" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+        <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="6" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Hornshrimp" minamount="1" maxamount="1" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Minoga" minamount="4" maxamount="6" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Mudraptor_unarmored" minamount="1" maxamount="2" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
@@ -647,7 +647,7 @@ MonsterEvent
         <MonsterEvent characterfile="Europantrout" minamount="3" maxamount="5" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Husk_RandomLight" minamount="1" maxamount="2" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Goofyfish" minamount="2" maxamount="7" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-        <MonsterEvent characterfile="Thrasher" minamount="4" maxamount="6" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+        <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="6" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Hornshrimp" minamount="1" maxamount="1" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Minoga" minamount="4" maxamount="6" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Mudraptor_unarmored" minamount="1" maxamount="2" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
@@ -695,7 +695,7 @@ MonsterEvent
         <MonsterEvent characterfile="Europantrout" minamount="3" maxamount="5" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Husk_RandomLight" minamount="1" maxamount="2" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Goofyfish" minamount="2" maxamount="7" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-        <MonsterEvent characterfile="Thrasher" minamount="4" maxamount="6" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+        <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="6" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Hornshrimp" minamount="1" maxamount="1" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Minoga" minamount="4" maxamount="6" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Mudraptor_unarmored" minamount="1" maxamount="2" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
@@ -753,7 +753,7 @@ MonsterEvent
           <MonsterEvent characterfile="Praywhalebaby" minamount="1" maxamount="1" spawntype="abyss" />
           <MonsterEvent characterfile="Mantis" minamount="1" maxamount="2" spawntype="abyss" />
           <MonsterEvent characterfile="Husk_RandomLight" minamount="1" maxamount="2" spawntype="abyss" />
-          <MonsterEvent characterfile="Thrasher" minamount="2" maxamount="3" spawntype="abyss" />
+          <MonsterEvent characterfile="Gnasher" minamount="2" maxamount="3" spawntype="abyss" />
 		   <MonsterEvent characterfile="Seasnek" minamount="2" maxamount="3" spawntype="abyss" />
           <MonsterEvent characterfile="Stonewandererice" minamount="1" maxamount="2" spawntype="abyss" />
         </EventSet>
@@ -782,7 +782,7 @@ MonsterEvent
           <MonsterEvent characterfile="Praywhalebaby" minamount="1" maxamount="1" spawntype="abyss" />
           <MonsterEvent characterfile="Mantis" minamount="1" maxamount="2" spawntype="abyss" />
           <MonsterEvent characterfile="Husk_RandomLight" minamount="1" maxamount="2" spawntype="abyss" />
-          <MonsterEvent characterfile="Thrasher" minamount="2" maxamount="4" spawntype="abyss" />
+          <MonsterEvent characterfile="Gnasher" minamount="2" maxamount="4" spawntype="abyss" />
           <MonsterEvent characterfile="Seasnek" minamount="3" maxamount="3" spawntype="abyss" />
 		  <MonsterEvent characterfile="Stonewandererice" minamount="1" maxamount="2" spawntype="abyss" />
         </EventSet>
@@ -811,7 +811,7 @@ MonsterEvent
           <MonsterEvent characterfile="Praywhalebaby" minamount="1" maxamount="1" spawntype="abyss" />
           <MonsterEvent characterfile="Mantis" minamount="1" maxamount="2" spawntype="abyss" />
           <MonsterEvent characterfile="Husk_RandomLight" minamount="1" maxamount="2" spawntype="abyss" />
-          <MonsterEvent characterfile="Thrasher" minamount="2" maxamount="4" spawntype="abyss" />
+          <MonsterEvent characterfile="Gnasher" minamount="2" maxamount="4" spawntype="abyss" />
           <MonsterEvent characterfile="Seasnek" minamount="1" maxamount="2" spawntype="abyss" />
 		  <MonsterEvent characterfile="Stonewandererice" minamount="1" maxamount="2" spawntype="abyss" />
         </EventSet>
@@ -1303,10 +1303,10 @@ MonsterEvent
         <MonsterEvent characterfile="Hornshrimp" minamount="1" maxamount="2" spawntype="cave" delaybetweenspawns="30" />
 		<MonsterEvent characterfile="Shrimpbrut_kse" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="30" />
         <MonsterEvent characterfile="Paralyticshark" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="30" />
-        <MonsterEvent characterfile="Thrasher" minamount="4" maxamount="6" spawntype="cave" delaybetweenspawns="15" />
+        <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="6" spawntype="cave" delaybetweenspawns="15" />
         <MonsterEvent characterfile="Trichordate" minamount="6" maxamount="8" spawntype="cave" delaybetweenspawns="15" />
         <MonsterEvent characterfile="TrichordateVitriolic" minamount="4" maxamount="6" spawntype="cave" delaybetweenspawns="15" />
-        <MonsterEvent characterfile="thrasher" minamount="3" maxamount="5" spawntype="cave" delaybetweenspawns="30" />
+        <MonsterEvent characterfile="Gnasher" minamount="3" maxamount="5" spawntype="cave" delaybetweenspawns="30" />
         <MonsterEvent characterfile="Mantis" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="30" />
         <MonsterEvent characterfile="Hammerhead_young" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="15" />
         <MonsterEvent characterfile="Husk_RandomLight" minamount="1" maxamount="3" spawntype="cave" delaybetweenspawns="30" />
@@ -1542,11 +1542,11 @@ MonsterEvent
         <MonsterEvent characterfile="Whitefish" minamount="3" maxamount="5" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Goofyfish" minamount="5" maxamount="7" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Seasnek" minamount="5" maxamount="6" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-        <MonsterEvent characterfile="Thrasher" minamount="4" maxamount="6" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+        <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="6" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Trichordate" minamount="3" maxamount="12" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Trichordatemetalvore" minamount="3" maxamount="6" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Swarmfeeder" minamount="6" maxamount="8" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-        <MonsterEvent characterfile="thrasher" minamount="4" maxamount="6" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+        <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="6" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
 		<MonsterEvent characterfile="Shrimpbrut_kse" minamount="2" maxamount="3" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Carrierflakrandom" minamount="1" maxamount="1" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
@@ -1694,7 +1694,7 @@ MonsterEvent
         <MonsterEvent characterfile="Husksprinterhumanold" minamount="0" maxamount="1" spawntype="wreck" />
         <MonsterEvent characterfile="Husk_prowler" minamount="0" maxamount="1" spawntype="wreck" />
         <MonsterEvent characterfile="Crawlerhusk" minamount="0" maxamount="3" spawntype="wreck" />
-        <MonsterEvent characterfile="thrasher" minamount="0" maxamount="3" spawntype="wreck" />
+        <MonsterEvent characterfile="Gnasher" minamount="0" maxamount="3" spawntype="wreck" />
       </EventSet>
       <EventSet identifier="critters" chooserandom="true" commonness="30">
         <EventSet chooserandom="false">
@@ -1878,9 +1878,9 @@ MonsterEvent
         <MonsterEvent characterfile="Crawler_large" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
 		<MonsterEvent characterfile="CrookBTCoutside" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Husk_RandomTiny" minamount="1" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-        <MonsterEvent characterfile="Thrasher" minamount="4" maxamount="7" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+        <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="7" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Crawlerold" minamount="3" maxamount="5" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-        <MonsterEvent characterfile="thrasher" minamount="4" maxamount="8" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+        <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="8" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Minoga" minamount="4" maxamount="6" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Husker" minamount="1" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Spineling" minamount="1" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
@@ -1970,9 +1970,9 @@ MonsterEvent
         <MonsterEvent characterfile="Crawler_large" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
 		<MonsterEvent characterfile="CrookBTCoutside" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Husk_RandomTiny" minamount="1" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-        <MonsterEvent characterfile="Thrasher" minamount="4" maxamount="7" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+        <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="7" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Crawlerold" minamount="3" maxamount="5" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-        <MonsterEvent characterfile="thrasher" minamount="4" maxamount="8" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+        <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="8" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Minoga" minamount="4" maxamount="6" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Husker" minamount="1" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Spineling" minamount="1" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
@@ -2071,9 +2071,9 @@ MonsterEvent
         <MonsterEvent characterfile="Husk_RandomLight" minamount="1" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Crawler_large" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Husk_RandomTiny" minamount="1" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-        <MonsterEvent characterfile="Thrasher" minamount="4" maxamount="7" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+        <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="7" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Crawlerold" minamount="3" maxamount="5" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-        <MonsterEvent characterfile="thrasher" minamount="4" maxamount="8" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+        <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="8" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Minoga" minamount="4" maxamount="6" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
 		<MonsterEvent characterfile="Psiloturtle" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
         <MonsterEvent characterfile="Husker" minamount="1" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
@@ -2184,7 +2184,7 @@ MonsterEvent
           <MonsterEvent characterfile="Praywhalebaby" minamount="1" maxamount="1" spawntype="abyss" />
           <MonsterEvent characterfile="Mantis" minamount="1" maxamount="2" spawntype="abyss" />
           <MonsterEvent characterfile="Husk_RandomLight" minamount="2" maxamount="3" spawntype="abyss" />
-          <MonsterEvent characterfile="Thrasher" minamount="3" maxamount="4" spawntype="abyss" />
+          <MonsterEvent characterfile="Gnasher" minamount="3" maxamount="4" spawntype="abyss" />
           <MonsterEvent characterfile="Seasnek" minamount="2" maxamount="3" spawntype="abyss" />
           <MonsterEvent characterfile="Abyssalcrawler" minamount="2" maxamount="4" spawntype="abyss" />
           <MonsterEvent characterfile="Trichordate" minamount="3" maxamount="5" spawntype="abyss" />
@@ -2277,7 +2277,7 @@ MonsterEvent
           <MonsterEvent characterfile="Praywhalebaby" minamount="1" maxamount="1" spawntype="abyss" />
           <MonsterEvent characterfile="Mantis" minamount="1" maxamount="2" spawntype="abyss" />
           <MonsterEvent characterfile="Husk_RandomLight" minamount="2" maxamount="3" spawntype="abyss" />
-          <MonsterEvent characterfile="Thrasher" minamount="3" maxamount="4" spawntype="abyss" />
+          <MonsterEvent characterfile="Gnasher" minamount="3" maxamount="4" spawntype="abyss" />
           <MonsterEvent characterfile="Seasnek" minamount="2" maxamount="3" spawntype="abyss" />
           <MonsterEvent characterfile="Abyssalcrawler" minamount="2" maxamount="4" spawntype="abyss" />
           <MonsterEvent characterfile="Trichordate" minamount="3" maxamount="5" spawntype="abyss" />
@@ -2374,7 +2374,7 @@ MonsterEvent
           <MonsterEvent characterfile="Praywhalebaby" minamount="1" maxamount="1" spawntype="abyss" />
           <MonsterEvent characterfile="Mantis" minamount="1" maxamount="2" spawntype="abyss" />
           <MonsterEvent characterfile="Husk_RandomLight" minamount="2" maxamount="3" spawntype="abyss" />
-          <MonsterEvent characterfile="Thrasher" minamount="3" maxamount="4" spawntype="abyss" />
+          <MonsterEvent characterfile="Gnasher" minamount="3" maxamount="4" spawntype="abyss" />
           <MonsterEvent characterfile="Seasnek" minamount="2" maxamount="3" spawntype="abyss" />
           <MonsterEvent characterfile="Abyssalcrawler" minamount="2" maxamount="4" spawntype="abyss" />
           <MonsterEvent characterfile="Trichordate" minamount="3" maxamount="5" spawntype="abyss" />
@@ -3137,7 +3137,7 @@ MonsterEvent
       <MonsterEvent characterfile="CrookBTCoutside" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="15" />
       <MonsterEvent characterfile="Hornshrimp" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="15" />
 	  <MonsterEvent characterfile="Shrimpbrut_kse" minamount="3" maxamount="4" spawntype="cave" delaybetweenspawns="15" />
-      <MonsterEvent characterfile="thrasher" minamount="3" maxamount="6" spawntype="cave" delaybetweenspawns="15" />
+      <MonsterEvent characterfile="Gnasher" minamount="3" maxamount="6" spawntype="cave" delaybetweenspawns="15" />
       <MonsterEvent characterfile="Crawlerhusk" minamount="2" maxamount="5" spawntype="cave" delaybetweenspawns="30" />
       <MonsterEvent characterfile="Fractalguardianwanderer" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="30" />
       <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="5" spawntype="cave" delaybetweenspawns="30" />
@@ -3155,7 +3155,7 @@ MonsterEvent
     </EventSet>
 	      <EventSet identifier="swarm" chooserandom="true" commonness="20">
         <EventSet chooserandom="false">
-          <MonsterEvent characterfile="thrasher" minamount="7" maxamount="8" spawntype="cave" delaybetweenspawns="30" />
+          <MonsterEvent characterfile="Gnasher" minamount="7" maxamount="8" spawntype="cave" delaybetweenspawns="30" />
           <MonsterEvent characterfile="Minoga" minamount="0" maxamount="2" spawntype="cave" delaybetweenspawns="45" />
           <MonsterEvent characterfile="GrayEel" minamount="0" maxamount="1" spawntype="cave" delaybetweenspawns="60" />
         </EventSet>
@@ -3473,7 +3473,7 @@ MonsterEvent
         <MonsterEvent characterfile="Swarmfeeder" minamount="6" maxamount="8" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Carrierflakrandom" minamount="1" maxamount="2" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
 		<MonsterEvent characterfile="Psilosaur" minamount="1" maxamount="1" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-        <MonsterEvent characterfile="thrasher" minamount="2" maxamount="8" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+        <MonsterEvent characterfile="Gnasher" minamount="2" maxamount="8" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
 		<MonsterEvent characterfile="Shrimpbrut_kse" minamount="2" maxamount="3" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Psilotoadmonster" minamount="1" maxamount="2" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="4" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
@@ -3551,7 +3551,7 @@ MonsterEvent
         <MonsterEvent characterfile="Minoga" minamount="2" maxamount="3" spawntype="wreck" />
         <MonsterEvent characterfile="Scorpion" minamount="2" maxamount="3" spawntype="wreck" />
         <MonsterEvent characterfile="Crawlerhusk" minamount="0" maxamount="2" spawntype="wreck" />
-        <MonsterEvent characterfile="thrasher" minamount="0" maxamount="2" spawntype="wreck" />
+        <MonsterEvent characterfile="Gnasher" minamount="0" maxamount="2" spawntype="wreck" />
       </EventSet>
       <EventSet identifier="nests" chooserandom="true" commonness="30">
         <EventSet chooserandom="false">
@@ -3768,7 +3768,7 @@ MonsterEvent
       <EventSet identifier="common" chooserandom="true" eventcount="1" commonness="70">
         <MonsterEvent characterfile="Hammerheadspawn" minamount="4" maxamount="8" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Hullfish" minamount="5" maxamount="8" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-        <MonsterEvent characterfile="Thrasher" minamount="3" maxamount="5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+        <MonsterEvent characterfile="Gnasher" minamount="3" maxamount="5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Husker" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="CrookBTCoutside" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -3864,7 +3864,7 @@ MonsterEvent
         <MonsterEvent characterfile="Hammerheadspawn" minamount="4" maxamount="8" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Molochbaby" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Hullfish" minamount="6" maxamount="6" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-        <MonsterEvent characterfile="Thrasher" minamount="3" maxamount="5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+        <MonsterEvent characterfile="Gnasher" minamount="3" maxamount="5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Husker" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="CrookBTCoutside" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -3960,7 +3960,7 @@ MonsterEvent
         <MonsterEvent characterfile="Hammerheadspawn" minamount="4" maxamount="8" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Molochbaby" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Hullfish" minamount="6" maxamount="6" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-        <MonsterEvent characterfile="Thrasher" minamount="3" maxamount="5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+        <MonsterEvent characterfile="Gnasher" minamount="3" maxamount="5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Husker" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="CrookBTCoutside" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -4058,7 +4058,7 @@ MonsterEvent
         <MonsterEvent characterfile="Hammerheadspawn" minamount="4" maxamount="8" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Molochbaby" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Hullfish" minamount="6" maxamount="6" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-        <MonsterEvent characterfile="Thrasher" minamount="3" maxamount="5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+        <MonsterEvent characterfile="Gnasher" minamount="3" maxamount="5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Husker" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="CrookBTCoutside" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -4199,7 +4199,7 @@ MonsterEvent
           <MonsterEvent characterfile="Mantis" minamount="1" maxamount="2" spawntype="abyss" />
           <MonsterEvent characterfile="Husk_RandomLight" minamount="2" maxamount="3" spawntype="abyss" />
           <MonsterEvent characterfile="Husk_RandomHeavy" minamount="1" maxamount="2" spawntype="abyss" />
-          <MonsterEvent characterfile="Thrasher" minamount="2" maxamount="3" spawntype="abyss" />
+          <MonsterEvent characterfile="Gnasher" minamount="2" maxamount="3" spawntype="abyss" />
           <MonsterEvent characterfile="Seasnek" minamount="2" maxamount="3" spawntype="abyss" />
           <MonsterEvent characterfile="Abyssalcrawler" minamount="1" maxamount="2" spawntype="abyss" />
           <MonsterEvent characterfile="Abyssalcrawler" minamount="1" maxamount="2" spawntype="abyss" />
@@ -4304,7 +4304,7 @@ MonsterEvent
           <MonsterEvent characterfile="Mantis" minamount="1" maxamount="2" spawntype="abyss" />
           <MonsterEvent characterfile="Husk_RandomLight" minamount="2" maxamount="3" spawntype="abyss" />
           <MonsterEvent characterfile="Husk_RandomHeavy" minamount="1" maxamount="2" spawntype="abyss" />
-          <MonsterEvent characterfile="Thrasher" minamount="2" maxamount="3" spawntype="abyss" />
+          <MonsterEvent characterfile="Gnasher" minamount="2" maxamount="3" spawntype="abyss" />
           <MonsterEvent characterfile="Seasnek" minamount="2" maxamount="3" spawntype="abyss" />
           <MonsterEvent characterfile="Abyssalcrawler" minamount="1" maxamount="2" spawntype="abyss" />
           <MonsterEvent characterfile="Abyssalcrawler" minamount="1" maxamount="2" spawntype="abyss" />
@@ -4419,7 +4419,7 @@ MonsterEvent
           <MonsterEvent characterfile="Mantis" minamount="1" maxamount="2" spawntype="abyss" />
           <MonsterEvent characterfile="Husk_RandomLight" minamount="2" maxamount="3" spawntype="abyss" />
           <MonsterEvent characterfile="Husk_RandomHeavy" minamount="1" maxamount="2" spawntype="abyss" />
-          <MonsterEvent characterfile="Thrasher" minamount="2" maxamount="3" spawntype="abyss" />
+          <MonsterEvent characterfile="Gnasher" minamount="2" maxamount="3" spawntype="abyss" />
           <MonsterEvent characterfile="Seasnek" minamount="2" maxamount="3" spawntype="abyss" />
           <MonsterEvent characterfile="Abyssalcrawler" minamount="1" maxamount="2" spawntype="abyss" />
           <MonsterEvent characterfile="Abyssalcrawler" minamount="1" maxamount="2" spawntype="abyss" />
@@ -5713,7 +5713,7 @@ MonsterEvent
       <MonsterEvent characterfile="Trichordatemetalvore" minamount="5" maxamount="6" delaybetweenspawns="25" spawntype="cave" />
       <MonsterEvent characterfile="TrichordateVitriolic" minamount="4" maxamount="6" delaybetweenspawns="25" spawntype="cave" />
       <MonsterEvent characterfile="TrichordateBloodsucker" minamount="4" maxamount="6" delaybetweenspawns="25" spawntype="cave" />
-      <MonsterEvent characterfile="Thrasher" minamount="6" maxamount="8" delaybetweenspawns="25" spawntype="cave" />
+      <MonsterEvent characterfile="Gnasher" minamount="6" maxamount="8" delaybetweenspawns="25" spawntype="cave" />
       <MonsterEvent characterfile="LegacyCrawler" minamount="5" maxamount="7" delaybetweenspawns="35" spawntype="cave" />
       <MonsterEvent characterfile="Crawler_large" minamount="3" maxamount="4" delaybetweenspawns="35" spawntype="cave" />
 	  <MonsterEvent characterfile="Crawlersmart" minamount="4" maxamount="5" delaybetweenspawns="35" spawntype="cave" />
@@ -6000,7 +6000,7 @@ MonsterEvent
         <MonsterEvent characterfile="Goofyfish" minamount="3" maxamount="7" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Minoga" minamount="2" maxamount="5" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Seasnek" minamount="3" maxamount="5" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-        <MonsterEvent characterfile="Thrasher" minamount="6" maxamount="8" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+        <MonsterEvent characterfile="Gnasher" minamount="6" maxamount="8" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Shrimpbrut_kse" minamount="3" maxamount="4" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="TuluWild" minamount="1" maxamount="3" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Trichordate" minamount="3" maxamount="8" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
@@ -6357,7 +6357,7 @@ MonsterEvent
         <MonsterEvent characterfile="Shadowleech" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Minoga" minamount="3" maxamount="5" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Watcherwanderer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
-        <MonsterEvent characterfile="Thrasher" minamount="6" maxamount="9" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
+        <MonsterEvent characterfile="Gnasher" minamount="6" maxamount="9" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Tigerthresher" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Turretcarrier_random" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Stonewandererlava" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
@@ -6507,7 +6507,7 @@ MonsterEvent
         <MonsterEvent characterfile="Shadowleech" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Minoga" minamount="3" maxamount="5" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Watcherelite" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
-        <MonsterEvent characterfile="Thrasher" minamount="6" maxamount="9" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
+        <MonsterEvent characterfile="Gnasher" minamount="6" maxamount="9" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Tigerthresher" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Turretcarrier_random" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Stonewandererlava" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
@@ -6667,7 +6667,7 @@ MonsterEvent
         <MonsterEvent characterfile="Shadowleech" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Minoga" minamount="3" maxamount="5" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Watcherwanderer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
-        <MonsterEvent characterfile="Thrasher" minamount="6" maxamount="9" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
+        <MonsterEvent characterfile="Gnasher" minamount="6" maxamount="9" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Tigerthresher" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Turretcarrier_random" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Stonewandererlava" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
@@ -6851,7 +6851,7 @@ MonsterEvent
           <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Mantis" minamount="1" maxamount="2" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Husksprinterold" minamount="1" maxamount="2" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="Thrasher" minamount="4" maxamount="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Tigerthresher" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Seasnek" minamount="3" maxamount="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Turretcarrier_random" minamount="2" maxamount="3" spawntype="mainpath,sidepath" />
@@ -6976,7 +6976,7 @@ MonsterEvent
           <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="1" spawntype="abyss" />
           <MonsterEvent characterfile="Mantis" minamount="1" maxamount="2" spawntype="abyss" />
           <MonsterEvent characterfile="Husksprinterold" minamount="1" maxamount="2" spawntype="abyss" />
-          <MonsterEvent characterfile="Thrasher" minamount="4" maxamount="5" spawntype="abyss" />
+          <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="5" spawntype="abyss" />
 		  <MonsterEvent characterfile="Tigerthresher" minamount="2" maxamount="3" spawntype="abyss" />
           <MonsterEvent characterfile="Seasnek" minamount="1" maxamount="2" spawntype="abyss" />
           <MonsterEvent characterfile="Turretcarrier_random" minamount="1" maxamount="3" spawntype="abyss" />
@@ -7070,7 +7070,7 @@ MonsterEvent
           <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="1" spawntype="abyss" />
           <MonsterEvent characterfile="Mantis" minamount="1" maxamount="2" spawntype="abyss" />
           <MonsterEvent characterfile="Husksprinterold" minamount="1" maxamount="2" spawntype="abyss" />
-          <MonsterEvent characterfile="Thrasher" minamount="4" maxamount="5" spawntype="abyss" />
+          <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="5" spawntype="abyss" />
 		  <MonsterEvent characterfile="Tigerthresher" minamount="2" maxamount="3" spawntype="abyss" />
           <MonsterEvent characterfile="Seasnek" minamount="1" maxamount="2" spawntype="abyss" />
           <MonsterEvent characterfile="Turretcarrier_random" minamount="1" maxamount="3" spawntype="abyss" />
@@ -7180,7 +7180,7 @@ MonsterEvent
           <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="1" spawntype="abyss" />
           <MonsterEvent characterfile="Mantis" minamount="1" maxamount="2" spawntype="abyss" />
           <MonsterEvent characterfile="Husksprinterold" minamount="1" maxamount="2" spawntype="abyss" />
-          <MonsterEvent characterfile="Thrasher" minamount="4" maxamount="5" spawntype="abyss" />
+          <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="5" spawntype="abyss" />
 		  <MonsterEvent characterfile="Tigerthresher" minamount="2" maxamount="3" spawntype="abyss" />
           <MonsterEvent characterfile="Seasnek" minamount="1" maxamount="2" spawntype="abyss" />
           <MonsterEvent characterfile="Turretcarrier_random" minamount="1" maxamount="3" spawntype="abyss" />
@@ -7701,7 +7701,7 @@ MonsterEvent
 		  <MonsterEvent characterfile="Spineyfish" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Minoga" minamount="0" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Scorpion" minamount="0" maxamount="2" scatter="3000" probability="0.5" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-		  <MonsterEvent characterfile="Thrasher" minamount="0" maxamount="2" scatter="3000" probability="0.3" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+		  <MonsterEvent characterfile="Gnasher" minamount="0" maxamount="2" scatter="3000" probability="0.3" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         </EventSet>		
       </EventSet>
       <EventSet chooserandom="true" commonness="5">
@@ -8297,7 +8297,7 @@ MonsterEvent
 		  <MonsterEvent characterfile="Minoga" minamount="0" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Scorpion" minamount="0" maxamount="2" scatter="3000" probability="0.5" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Europantrout" minamount="0" maxamount="2" scatter="3000" probability="0.3" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-		  <MonsterEvent characterfile="Thrasher" minamount="0" maxamount="2" scatter="3000" probability="0.3" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+		  <MonsterEvent characterfile="Gnasher" minamount="0" maxamount="2" scatter="3000" probability="0.3" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         </EventSet>		
       </EventSet>
       <EventSet chooserandom="true" commonness="5">
