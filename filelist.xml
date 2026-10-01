@@ -71,7 +71,6 @@
   <Character file="%ModDir%/Characters/Abysswatcher/Abysswatcher.xml" />
   <Character file="%ModDir%/Characters/Coelanth/Coelanth.xml" />
   <Character file="%ModDir%/Characters/Cnidaeprime/Cnidaeprime.xml" />
-  <Character file="%ModDir%/Characters/Watcherold/Watcherold.xml" />
   <Character file="%ModDir%/Characters/Crawlerold/Crawlerold.xml" />
   <Character file="%ModDir%/Characters/Variants/Silverhammerhead/Silverhammerhead.xml" />
   <Character file="%ModDir%/Characters/Hammerhead_DigermNamed/Hammerhead_DigermNamed.xml" />
@@ -111,7 +110,6 @@
   <Character file="%ModDir%/Characters/Variants/Spineling_hard/Spineling_hard.xml" />
   <Character file="%ModDir%/Characters/Variants/Crawler_hatchling/Crawler_hatchling.xml" />
   <Character file="%ModDir%/Characters/Tigerthresher/Tigerthresher.xml" />
-  <Character file="%ModDir%/Characters/Legacyendworm/Legacyendworm.xml" />
   <Character file="%ModDir%/Characters/Crawler/Crawler.xml" />
   <Character file="%ModDir%/Characters/Mantis/Mantis.xml" />
   <Character file="%ModDir%/Characters/Mantisnew/Mantisnew.xml" />
@@ -204,7 +202,6 @@
   <Character file="%ModDir%/Characters/Variants/Latcherabyss/Latcherabyss.xml" />
   <Character file="%ModDir%/Characters/Variants/Humanimmortalnovice/Humanimmortalnovice.xml" />
   <Character file="%ModDir%/Characters/Variants/Hammerhead_young/Hammerhead_young.xml" />
-  <Character file="%ModDir%/Characters/WatcherWanderer/WatcherWanderer.xml" />
   <Character file="%ModDir%/Characters/Pirates/Joviandiver/Joviandiver.xml" />
   <Character file="%ModDir%/Characters/Pirates/Jovianwrecker/Jovianwrecker.xml" />
   <Character file="%ModDir%/Characters/Pirates/Jovianbomber/Jovianbomber.xml" />

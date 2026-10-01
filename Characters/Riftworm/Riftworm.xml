@@ -2,16 +2,16 @@
   <ragdolls folder="default" />
   <animations folder="default" />
   <health Vitality="4000" DoesBleed="False" CrushDepth="Infinity" UseHealthWindow="False" BleedingReduction="0" BurnReduction="0" ConstantHealthRegeneration="0" HealthRegenerationWhenEating="0" StunImmunity="False" PoisonImmunity="False" PoisonVulnerability="0.2" EmpVulnerability="0" ApplyMovementPenalties="True" DieFromBeheading="True" AllowSeveringLegs="False" ApplyAfflictionColors="False" Immunities="" />
-  <sound gender="None" dontmuffle="true" File="%ModDir%/Characters/Legacyendworm/idle1.ogg" State="Idle" Range="10000" Volume="2" Tags="" />
-  <sound gender="None" dontmuffle="true" File="%ModDir%/Characters/Legacyendworm/idle2.ogg" State="Idle" Range="10000" Volume="2" Tags="" />
-  <sound gender="None" dontmuffle="true" File="%ModDir%/Characters/Legacyendworm/attack1.ogg" State="Attack" Range="8000" Volume="2" Tags="" />
-  <sound gender="None" dontmuffle="true" File="%ModDir%/Characters/Legacyendworm/attack2.ogg" State="Attack" Range="8000" Volume="2" Tags="" />
-  <sound gender="None" dontmuffle="true" File="%ModDir%/Characters/Legacyendworm/attack3.ogg" State="Attack" Range="8000" Volume="2" Tags="" />
-  <sound gender="None" dontmuffle="true" File="%ModDir%/Characters/Legacyendworm/damage1.ogg" State="Damage" Range="8000" Volume="2" Tags="" />
-  <sound gender="None" dontmuffle="true" File="%ModDir%/Characters/Legacyendworm/damage2.ogg" State="Damage" Range="8000" Volume="2" Tags="" />
-  <sound gender="None" dontmuffle="true" File="%ModDir%/Characters/Legacyendworm/damage3.ogg" State="Damage" Range="8000" Volume="2" Tags="" />
-  <sound gender="None" File="%ModDir%/Characters/Legacyendworm/death1.ogg" State="Die" Range="8000" Volume="2" Tags="" />
-  <sound gender="None" File="%ModDir%/Characters/Legacyendworm/death2.ogg" State="Die" Range="8000" Volume="2" Tags="" />
+  <sound gender="None" dontmuffle="true" File="%ModDir%/Characters/Riftworm/idle1.ogg" State="Idle" Range="10000" Volume="2" Tags="" />
+  <sound gender="None" dontmuffle="true" File="%ModDir%/Characters/Riftworm/idle2.ogg" State="Idle" Range="10000" Volume="2" Tags="" />
+  <sound gender="None" dontmuffle="true" File="%ModDir%/Characters/Riftworm/attack1.ogg" State="Attack" Range="8000" Volume="2" Tags="" />
+  <sound gender="None" dontmuffle="true" File="%ModDir%/Characters/Riftworm/attack2.ogg" State="Attack" Range="8000" Volume="2" Tags="" />
+  <sound gender="None" dontmuffle="true" File="%ModDir%/Characters/Riftworm/attack3.ogg" State="Attack" Range="8000" Volume="2" Tags="" />
+  <sound gender="None" dontmuffle="true" File="%ModDir%/Characters/Riftworm/damage1.ogg" State="Damage" Range="8000" Volume="2" Tags="" />
+  <sound gender="None" dontmuffle="true" File="%ModDir%/Characters/Riftworm/damage2.ogg" State="Damage" Range="8000" Volume="2" Tags="" />
+  <sound gender="None" dontmuffle="true" File="%ModDir%/Characters/Riftworm/damage3.ogg" State="Damage" Range="8000" Volume="2" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/Riftworm/death1.ogg" State="Die" Range="8000" Volume="2" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/Riftworm/death2.ogg" State="Die" Range="8000" Volume="2" Tags="" />
   <Inventory Slots="Any, Any, Any, Any, Any, Any, Any, Any, Any, Any" AccessibleWhenAlive="False" Commonness="1">
     <Item Identifier="alienblood" />
     <Item Identifier="scrap" />
