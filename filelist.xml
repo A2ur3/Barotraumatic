@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Barotraumatic" modversion="1.0.273" corepackage="False" steamworkshopid="2518816103" gameversion="1.13.4.0">
+<contentpackage name="Barotraumatic" modversion="1.0.272" corepackage="False" steamworkshopid="2518816103" gameversion="1.13.4.0">
   <EventManagerSettings file="%ModDir%/Events/EventManagerSettings.xml" />
   <UIStyle file="%ModDir%/Text/style.xml" />
   <Missions file="%ModDir%/Events/Missions.xml" />
@@ -148,7 +148,7 @@
   <Character file="%ModDir%/Characters/TrichordateVitriolic/TrichordateVitriolic.xml" />
   <Character file="%ModDir%/Characters/TrichordateMetalvore/TrichordateMetalvore.xml" />
   <Character file="%ModDir%/Characters/TrichordateBloodsucker/TrichordateBloodsucker.xml" />
-  <Character file="%ModDir%/Characters/Thrasher/Thrasher.xml" />
+  <Character file="%ModDir%/Characters/Gnasher/Gnasher.xml" />
   <Character file="%ModDir%/Characters/TigerSharkThresher/TigerSharkThresher.xml" />
   <Character file="%ModDir%/Characters/AlphaCharybdis/AlphaCharybdis.xml" />
   <Character file="%ModDir%/Characters/Abyssalhammerhead/Abyssalhammerhead.xml" />

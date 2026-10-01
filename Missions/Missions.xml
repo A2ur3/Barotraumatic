@@ -70,7 +70,7 @@
   commonness="50" 
   reward="1500" 
   sonarlabel="Gnasher" maxsonarmarkerdistance="10000">
-    <monster character="Thrasher" min="6" max="7" />
+    <monster character="Gnasher" min="6" max="7" />
     <Reputation identifier="location" amount="1" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="512,768,256,256" color="214,50,48" />
     <LocationType from="AnyOutpost" to="Any" />
@@ -652,7 +652,7 @@
   commonness="40" 
   reward="2200" 
   sonarlabel="Gnasher" maxsonarmarkerdistance="10000">
-    <monster character="Thrasher" min="12" max="15" />
+    <monster character="Gnasher" min="12" max="15" />
     <Reputation identifier="location" amount="2" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="512,768,256,256" color="214,50,48" />
     <LocationType from="AnyOutpost" to="Any" />
