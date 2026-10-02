@@ -1215,7 +1215,7 @@
   <MonsterMission
   textidentifier=""
   name="Stopping Unusual Mudraptor Attacks"
-  identifier="killnightraptor" 
+  identifier="killMudraptor_Night" 
   tags="killmonster,killmonster_set2"
   type="Monster"
   description="Unusual mudraptor attacks have been reportered between [location1] and [location2], the attacks came suddenly and without warning. A reward of [reward] credits has been promised to anyone who can stop these creatures." 
@@ -1223,7 +1223,7 @@
   commonness="55" 
   reward="4500" 
   sonarlabel="Mudraptor?" maxsonarmarkerdistance="550" successmessage="The Mudraptors have been killed.">
-    <monster character="Nightraptor" count="8" />
+    <monster character="Mudraptor_Night" count="8" />
     <Reputation identifier="location" amount="2" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,512,256,256" color="214,50,48" />
     <LocationType from="AnyOutpost" to="Any" />
@@ -1233,7 +1233,7 @@
   <MonsterMission
   textidentifier=""
   name="Stopping Unusual Mudraptor Attacks"
-  identifier="killnightraptor2" 
+  identifier="killMudraptor_Night2" 
   tags="killmonster,killmonster_set2"
   type="Monster"
   description="Unusual mudraptor attacks have been reportered between [location1] and [location2], the attacks came suddenly and without warning. A reward of [reward] credits has been promised to anyone who can stop these creatures." 
@@ -1241,7 +1241,7 @@
   commonness="35" 
   reward="4500" 
   sonarlabel="Mudraptor?" maxsonarmarkerdistance="550" successmessage="The Mudraptors have been killed.">
-    <monster character="Nightraptor" count="6" />
+    <monster character="Mudraptor_Night" count="6" />
     <monster character="Mudrex" min="1" max="1" />
     <Reputation identifier="location" amount="2" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,512,256,256" color="214,50,48" />
