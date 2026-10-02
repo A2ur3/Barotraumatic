@@ -76,7 +76,7 @@
   <Character file="%ModDir%/Characters/Hammerhead_DigermNamed/Hammerhead_DigermNamed.xml" />
   <Character file="%ModDir%/Characters/Endworm/Endworm.xml" />
   <Character file="%ModDir%/Characters/Guardianrepairbot/Guardianrepairbot.xml" />
-  <Character file="%ModDir%/Characters/Endwormre/Endwormre.xml" />
+  <Character file="%ModDir%/Characters/Polychaetes/Polychaetes.xml" />
   <Character file="%ModDir%/Characters/Mudraptor/Mudraptor.xml" />
   <Character file="%ModDir%/Characters/Mudraptor_unarmored/Mudraptor_unarmored.xml" />
   <Character file="%ModDir%/Characters/Carrier/Carrier.xml" />

@@ -1799,7 +1799,7 @@ MonsterEvent
         <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="2" spawntype="abyss" musictype="deep" delaybetweenspawns="45" />
         <MonsterEvent characterfile="Praywhalemineral" minamount="1" maxamount="1" spawntype="abyss" musictype="deep" delaybetweenspawns="45" />
         <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="130" spawntype="abyss" musictype="deep" />
-        <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="130" spawntype="abyss" musictype="deep" />
+        <MonsterEvent characterfile="Polychaetes" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="130" spawntype="abyss" musictype="deep" />
         <MonsterEvent characterfile="Endwormcoral" minamount="1" maxamount="1" maxamountperlevel="1" spawntype="abyss" musictype="deep" />
         <MonsterEvent characterfile="Endwhale" minamount="1" maxamount="1" maxamountperlevel="1" spawntype="abyss" musictype="deep" />
         <MonsterEvent characterfile="Chelicerate" minamount="1" maxamount="1" spawntype="abyss" delaybetweenspawns="30" />
@@ -3701,7 +3701,7 @@ MonsterEvent
         <MonsterEvent characterfile="Voidstalker" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Charybdis" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Endworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
-        <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
+        <MonsterEvent characterfile="Polychaetes" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Latcher_Trapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Pylon" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
@@ -8877,7 +8877,7 @@ MonsterEvent
           <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5"  spawntype="wreck" spawnpointtag="encounter" musictype="flooded" />
           <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="wreck" spawnpointtag="encounter" musictype="flooded" />
 		  <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="wreck" spawnpointtag="encounter" musictype="flooded" />
-		  <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="wreck" spawnpointtag="encounter" musictype="flooded" />
+		  <MonsterEvent characterfile="Polychaetes" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="wreck" spawnpointtag="encounter" musictype="flooded" />
 		  <MonsterEvent characterfile="Harpoonwhale" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="wreck" spawnpointtag="encounter" musictype="flooded" />
 		  <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="wreck" spawnpointtag="encounter" musictype="flooded" />
           <MonsterEvent characterfile="Latcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="wreck" spawnpointtag="encounter" musictype="flooded" />
@@ -9035,7 +9035,7 @@ MonsterEvent
         <EventSet identifier="wtfthermalwormal" chooserandom="false">
           <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1200" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
 		  <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="deep" />\
-	      <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="deep" />
+	      <MonsterEvent characterfile="Polychaetes" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="deep" />
         </EventSet>
 		        <EventSet chooserandom="false">
           <MonsterEvent characterfile="Cthulhu" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="120" spawntype="abyss" musictype="flooded" />
@@ -9453,7 +9453,7 @@ MonsterEvent
       <EventSet chooserandom="true" commonness="5">
         <EventSet chooserandom="true">
           <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Polychaetes" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
@@ -9461,7 +9461,7 @@ MonsterEvent
           <MonsterEvent characterfile="Magmalarva" minamount="4" maxamount="8" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">
-          <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Polychaetes" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">
@@ -9863,7 +9863,7 @@ MonsterEvent
       <EventSet chooserandom="true" commonness="5">
         <EventSet chooserandom="true">
           <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Polychaetes" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
@@ -9871,7 +9871,7 @@ MonsterEvent
           <MonsterEvent characterfile="Magmalarva" minamount="4" maxamount="8" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">
-          <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Polychaetes" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">
@@ -10049,7 +10049,7 @@ MonsterEvent
       <EventSet chooserandom="true" commonness="5">
         <EventSet chooserandom="true">
           <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Polychaetes" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
@@ -10057,7 +10057,7 @@ MonsterEvent
           <MonsterEvent characterfile="Magmalarva" minamount="4" maxamount="8" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">
-          <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Polychaetes" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">
@@ -10238,7 +10238,7 @@ MonsterEvent
       <EventSet chooserandom="true" commonness="5">
         <EventSet chooserandom="true">
           <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Polychaetes" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
@@ -10246,7 +10246,7 @@ MonsterEvent
           <MonsterEvent characterfile="Magmalarva" minamount="4" maxamount="8" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">
-          <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Polychaetes" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">
@@ -10422,7 +10422,7 @@ MonsterEvent
       <EventSet chooserandom="true" commonness="5">
         <EventSet chooserandom="true">
           <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Polychaetes" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
@@ -10430,7 +10430,7 @@ MonsterEvent
           <MonsterEvent characterfile="Magmalarva" minamount="4" maxamount="8" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">
-          <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Polychaetes" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">

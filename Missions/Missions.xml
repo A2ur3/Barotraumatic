@@ -339,8 +339,8 @@
   textidentifier=""
   name="Beast From the Abyss"
   description="Seismic readings are indicating that something colossal has emerged from the depths of Europa. A reward of [reward] has been promised to those who get rid of whatever is causing the seismic activity."
-  monsterfile="Endwormre" successmessage="The Endworm has been terminated."
-  identifier="killendwormre"
+  monsterfile="Polychaetes" successmessage="The Endworm has been terminated."
+  identifier="killPolychaetes"
   type="Monster" 
   tags="killmonster,killmonster_set4" 
   commonness="20" 
@@ -2357,7 +2357,7 @@ reward="1000"
   sonarlabel="target"
   maxsonarmarkerdistance="20000"
   successmessage=""
-  monsterfile="Endwormre">
+  monsterfile="Polychaetes">
     <Reputation identifier="separatists" amount="3" />
     <Reputation identifier="coalition" amount="3" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48" />
