@@ -3476,7 +3476,7 @@ MonsterEvent
 		<MonsterEvent characterfile="Shrimpbrut_kse" minamount="2" maxamount="3" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Psilotoadmonster" minamount="1" maxamount="2" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="4" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-        <MonsterEvent characterfile="TuluWild" minamount="1" maxamount="2" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+        <MonsterEvent characterfile="CthulhuWild" minamount="1" maxamount="2" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Spineling" minamount="1" maxamount="2" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Seasnek" minamount="2" maxamount="3" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Crawlerhusk" minamount="2" maxamount="6" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
@@ -4230,7 +4230,7 @@ MonsterEvent
 		  <MonsterEvent characterfile="Spineling_morbusine" minamount="0" maxamount="2" probability="0.6" scatter="3000" delaybetweenspawns="1" spawntype="abyss" />
         </EventSet>
         <EventSet chooserandom="false">
-          <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
         </EventSet>
         <EventSet chooserandom="false">
           <MonsterEvent characterfile="Abyssalcrawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -4335,7 +4335,7 @@ MonsterEvent
 		  <MonsterEvent characterfile="Spineling_morbusine" minamount="0" maxamount="2" probability="0.6" scatter="3000" delaybetweenspawns="1" spawntype="abyss" />
         </EventSet>
         <EventSet chooserandom="false">
-          <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
         </EventSet>
 				<EventSet chooserandom="false">
           <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -4450,7 +4450,7 @@ MonsterEvent
 		  <MonsterEvent characterfile="Spineling_morbusine" minamount="0" maxamount="2" probability="0.6" scatter="3000" delaybetweenspawns="1" spawntype="abyss" />
         </EventSet>
         <EventSet chooserandom="false">
-          <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
         </EventSet>
 				<EventSet chooserandom="false">
           <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -4725,7 +4725,7 @@ MonsterEvent
           <MonsterEvent characterfile="Molochblackrandom" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Charybdis" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Minedetached" minamount="7" maxamount="12" scatter="6000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Praywhalemineral" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -5015,7 +5015,7 @@ MonsterEvent
           <MonsterEvent characterfile="Molochblackrandom" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Charybdis" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Minedetached" minamount="7" maxamount="10" scatter="5000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Praywhalemineral" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -5302,7 +5302,7 @@ MonsterEvent
           <MonsterEvent characterfile="Molochblackrandom" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Charybdis" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Minedetached" minamount="7" maxamount="10" scatter="5000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Praywhalemineral" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -5610,7 +5610,7 @@ MonsterEvent
           <MonsterEvent characterfile="Molochblackrandom" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Charybdis" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Minedetached" minamount="7" maxamount="10" scatter="5000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Praywhalemineral" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -5703,7 +5703,7 @@ MonsterEvent
 	  <MonsterEvent characterfile="Husk_chimera_elder" minamount="1" maxamount="1" delaybetweenspawns="12" spawntype="cave" />
       <MonsterEvent characterfile="Crawlerbroodmother" minamount="1" maxamount="1" delaybetweenspawns="12" spawntype="cave" />
       <MonsterEvent characterfile="Crawler" minamount="4" maxamount="6" delaybetweenspawns="12" spawntype="cave" />
-      <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="3" delaybetweenspawns="12" spawntype="cave" />
+      <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="3" delaybetweenspawns="12" spawntype="cave" />
 	  <MonsterEvent characterfile="Giantcrab" minamount="1" maxamount="2" delaybetweenspawns="12" spawntype="cave" />
       <MonsterEvent characterfile="Minoga" minamount="4" maxamount="5" delaybetweenspawns="25" spawntype="cave" />
       <MonsterEvent characterfile="Scorpion" minamount="4" maxamount="5" delaybetweenspawns="25" spawntype="cave" />
@@ -6000,7 +6000,7 @@ MonsterEvent
         <MonsterEvent characterfile="Seasnek" minamount="3" maxamount="5" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Gnasher" minamount="6" maxamount="8" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Shrimpbrut_kse" minamount="3" maxamount="4" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-        <MonsterEvent characterfile="TuluWild" minamount="1" maxamount="3" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+        <MonsterEvent characterfile="CthulhuWild" minamount="1" maxamount="3" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Trichordate" minamount="3" maxamount="8" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Trichordatemetalvore" minamount="3" maxamount="6" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Swarmfeeder" minamount="6" maxamount="8" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
@@ -6177,8 +6177,8 @@ MonsterEvent
           <MonsterEvent characterfile="Giantcrab" minamount="2" maxamount="3" spawntype="wreck" />
         </EventSet>
         <EventSet chooserandom="false">
-          <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="2" spawntype="wreck" />
-          <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="2" spawntype="wreck" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" spawntype="wreck" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" spawntype="wreck" />
         </EventSet>
         <EventSet chooserandom="false">
           <MonsterEvent characterfile="Xan_scavenger" minamount="1" maxamount="2" spawntype="wreck" />
@@ -6282,7 +6282,7 @@ MonsterEvent
       <MonsterEvent characterfile="Ghostshrimp" minamount="8" maxamount="10" scatter="3000" delaybetweenspawns="6" spawntype="abysscave" musictype="deep" />
       <MonsterEvent characterfile="Hermit" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="6" spawntype="abysscave" musictype="deep" />
 	  <MonsterEvent characterfile="Hermitshell" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="6" spawntype="abysscave" musictype="deep" />
-      <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="6" spawntype="abysscave" musictype="deep" />
+      <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="6" spawntype="abysscave" musictype="deep" />
 	  <MonsterEvent characterfile="Giantcrabice" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="6" spawntype="abysscave" musictype="deep" />
 	  <MonsterEvent characterfile="Husk_RandomHeavy" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="6" spawntype="abysscave" musictype="deep" />
 	  <MonsterEvent characterfile="Mudrex" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="6" spawntype="abysscave" musictype="deep" />
@@ -6472,8 +6472,8 @@ MonsterEvent
           <MonsterEvent characterfile="Minoga" minamount="0" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">
-          <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="TuluWild" minamount="0" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="0" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
 		  <EventSet chooserandom="false">
           <MonsterEvent characterfile="Huskchimerabroodmother" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -6618,8 +6618,8 @@ MonsterEvent
           <MonsterEvent characterfile="Minoga" minamount="0" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">
-          <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="TuluWild" minamount="0" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="0" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
 				<EventSet chooserandom="false">
           <MonsterEvent characterfile="Clownbomberdriver" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -6779,8 +6779,8 @@ MonsterEvent
           <MonsterEvent characterfile="Minoga" minamount="0" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">
-          <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="TuluWild" minamount="0" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="0" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
 				<EventSet chooserandom="false">
           <MonsterEvent characterfile="Clownbomberdriver" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -7305,7 +7305,7 @@ MonsterEvent
           <MonsterEvent characterfile="Legacycharybdis" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="charybdisold" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Charybdisadol" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Nuclearmine" minamount="3" maxamount="4" scatter="5000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
@@ -7577,7 +7577,7 @@ MonsterEvent
           <MonsterEvent characterfile="Legacycharybdis" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="charybdisold" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Charybdisadol" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Nuclearmine" minamount="3" maxamount="4" scatter="5000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
@@ -7876,7 +7876,7 @@ MonsterEvent
           <MonsterEvent characterfile="Legacycharybdis" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="charybdisold" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Charybdisadol" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Nuclearmine" minamount="3" maxamount="4" scatter="5000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
@@ -8169,7 +8169,7 @@ MonsterEvent
           <MonsterEvent characterfile="Legacycharybdis" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="charybdisold" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Charybdisadol" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Nuclearmine" minamount="3" maxamount="4" scatter="5000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
@@ -8392,7 +8392,7 @@ MonsterEvent
         <MonsterEvent characterfile="Lavathresher" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
 		<MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="1" delaybetweenspawns="12" spawntype="cave" />
         <MonsterEvent characterfile="Caver" minamount="4" maxamount="6" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
-		<MonsterEvent characterfile="TuluWild" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
+		<MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
 		<MonsterEvent characterfile="Nuclearmine" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
 		<MonsterEvent characterfile="Minesmall" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
 		<MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="120" />
@@ -8546,7 +8546,7 @@ MonsterEvent
 	  <MonsterEvent characterfile="Undying" minamount="0" maxamount="1" spawntype="ruin" spawnpointtag="encounter_chambers1" />
         </EventSet>
 		<EventSet identifier="chambers7" chooserandom="false" triggereventcooldown="false" allowatstart="true">
-      <MonsterEvent characterfile="TuluWild" minamount="1" maxamount="2" spawntype="ruin" probability="1" spawnpointtag="fractalguardian" />
+      <MonsterEvent characterfile="CthulhuWild" minamount="1" maxamount="2" spawntype="ruin" probability="1" spawnpointtag="fractalguardian" />
       <MonsterEvent characterfile="Psilotoadmonster" minamount="0" maxamount="1" spawntype="ruin" probability="1" spawnpointtag="fractalguardian" />
 	  <MonsterEvent characterfile="Huskcontainerhostile" minamount="0" maxamount="1" spawntype="ruin" spawnpointtag="encounter_chambers1" />
         </EventSet>
@@ -8593,7 +8593,7 @@ MonsterEvent
             <MonsterEvent characterfile="Mudraptor" amount="1" spawntype="beaconstation" spawnpointtag="encounter" spawnprobability="0.75"/>
           </EventSet>
 		    <EventSet identifier="Monster1" chooserandom="false" triggereventcooldown="false" allowatstart="true" commonness="30">
-            <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="2" spawntype="beaconstation" spawnpointtag="encounter" />
+            <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" spawntype="beaconstation" spawnpointtag="encounter" />
 		    </EventSet>
 		   <EventSet identifier="Fractals" chooserandom="false" triggereventcooldown="false" allowatstart="true" commonness="30">
             <MonsterEvent characterfile="Fractalwalker" minamount="2" maxamount="3" spawntype="beaconstation" spawnpointtag="encounter" />
@@ -8618,7 +8618,7 @@ MonsterEvent
         <MonsterEvent characterfile="Trichordatemetalvore" minamount="2" maxamount="3" spawntype="beaconstation" spawnprobability="1" spawnpointtag="encounter" />
       </EventSet>
 	        <EventSet identifier="tulu" chooserandom="false" triggereventcooldown="false" allowatstart="true" commonness="35">
-        <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="3" spawntype="beaconstation" spawnpointtag="encounter" />
+        <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="3" spawntype="beaconstation" spawnpointtag="encounter" />
       </EventSet>
       <EventSet identifier="Fractii" chooserandom="false" triggereventcooldown="false" allowatstart="true" commonness="25">
         <MonsterEvent characterfile="Fractalwalker" minamount="2" maxamount="3" spawntype="beaconstation" spawnpointtag="encounter" />
@@ -8792,7 +8792,7 @@ MonsterEvent
         <MonsterEvent characterfile="Magmaworm" minamount="4" maxamount="6" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Stonewandererlava" minamount="1" maxamount="1" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Magmalarva" minamount="1" maxamount="2" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-        <MonsterEvent characterfile="TuluWild" minamount="3" maxamount="4" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+        <MonsterEvent characterfile="CthulhuWild" minamount="3" maxamount="4" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Carrierflakrandom" minamount="2" maxamount="3" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="GrayEel" minamount="2" maxamount="3" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Trichordate" minamount="5" maxamount="8" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
@@ -8912,8 +8912,8 @@ MonsterEvent
         <MonsterEvent characterfile="Mantis" minamount="0" maxamount="1" spawntype="wreck" />
       </EventSet>
       <EventSet chooserandom="false" commonness="25">
-        <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="2" spawntype="wreck" />
-        <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="2" spawntype="wreck" />
+        <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" spawntype="wreck" />
+        <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" spawntype="wreck" />
       </EventSet>
       <EventSet chooserandom="false" commonness="25">
         <MonsterEvent characterfile="Thalamid" minamount="2" maxamount="3" spawntype="wreck" />
@@ -9058,7 +9058,7 @@ MonsterEvent
           <MonsterEvent characterfile="Ancientmudraptor" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Nuclearmine" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="TuluWild" minamount="3" maxamount="3" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="3" maxamount="3" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Carrier" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Fractalbreacher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Magmalarva" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -9136,7 +9136,7 @@ MonsterEvent
           <MonsterEvent characterfile="Ancientmudraptor" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Nuclearmine" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="TuluWild" minamount="3" maxamount="3" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="3" maxamount="3" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Carrier" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Psilosaur" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Fractalbreacher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
@@ -9214,7 +9214,7 @@ MonsterEvent
           <MonsterEvent characterfile="Ancientmudraptor" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Nuclearmine" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="TuluWild" minamount="3" maxamount="3" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="3" maxamount="3" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Carrier" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Psilosaur" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Fractalbreacher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
@@ -9293,7 +9293,7 @@ MonsterEvent
           <MonsterEvent characterfile="Razzershrimp_kse" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Magmalarva" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Thermaleel" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="TuluWild" minamount="4" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="4" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="charybdissavage" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Clownwrecker" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
@@ -9490,7 +9490,7 @@ MonsterEvent
           <MonsterEvent characterfile="Mantis" minamount="4" maxamount="6" scatter="3000" delaybetweenspawns="15" spawntype="abyss" />
           <MonsterEvent characterfile="Magmaworm" minamount="4" maxamount="6" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           <MonsterEvent characterfile="Stonewandererlava" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-          <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           <MonsterEvent characterfile="Carrierleviathan" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           <MonsterEvent characterfile="Nightraptor" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="30" spawntype="abyss" />
           <MonsterEvent characterfile="Mudraptor_veteranold" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -9558,7 +9558,7 @@ MonsterEvent
           <MonsterEvent characterfile="Mantis" minamount="4" maxamount="6" scatter="3000" delaybetweenspawns="15" spawntype="abyss" />
           <MonsterEvent characterfile="Magmaworm" minamount="4" maxamount="6" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           <MonsterEvent characterfile="Stonewandererlava" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-          <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           <MonsterEvent characterfile="Carrierleviathan" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           <MonsterEvent characterfile="Nightraptor" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="30" spawntype="abyss" />
           <MonsterEvent characterfile="Mudraptor_veteranold" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -9632,7 +9632,7 @@ MonsterEvent
           <MonsterEvent characterfile="Mantis" minamount="4" maxamount="6" scatter="3000" delaybetweenspawns="15" spawntype="abyss" />
           <MonsterEvent characterfile="Magmaworm" minamount="4" maxamount="6" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           <MonsterEvent characterfile="Stonewandererlava" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-          <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           <MonsterEvent characterfile="Carrierleviathan" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           <MonsterEvent characterfile="Nightraptor" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="30" spawntype="abyss" />
           <MonsterEvent characterfile="Mudraptor_veteranold" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -9714,7 +9714,7 @@ MonsterEvent
           <MonsterEvent characterfile="Razzershrimp_kse" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Magmalarva" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Thermaleel" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="TuluWild" minamount="4" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="4" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="charybdissavage" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Clownwrecker" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
@@ -9899,7 +9899,7 @@ MonsterEvent
           <MonsterEvent characterfile="Razzershrimp_kse" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Magmalarva" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Thermaleel" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="TuluWild" minamount="4" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="4" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Psilosaur" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="charybdissavage" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
@@ -10085,7 +10085,7 @@ MonsterEvent
           <MonsterEvent characterfile="Razzershrimp_kse" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Magmalarva" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Thermaleel" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="TuluWild" minamount="4" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="4" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Psilosaur" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="charybdissavage" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
@@ -10273,7 +10273,7 @@ MonsterEvent
           <MonsterEvent characterfile="Razzershrimp_kse" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="30" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Magmalarva" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Thermaleel" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="TuluWild" minamount="4" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="CthulhuWild" minamount="4" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="charybdissavage" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Clownwrecker" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />

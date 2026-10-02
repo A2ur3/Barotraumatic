@@ -40,7 +40,7 @@
   <Character file="%ModDir%/Characters/Defensebothostile/Defensebothostile.xml" />
   <Character file="%ModDir%/Characters/Defensebothostilelaser/Defensebothostilelaser.xml" />
   <Character file="%ModDir%/Characters/Guardianattackbot/Guardianattackbot.xml" />
-  <Character file="%ModDir%/Characters/CthulhuintermediateWild/TuluWild.xml" />
+  <Character file="%ModDir%/Characters/CthulhuWild/CthulhuWild.xml" />
   <Character file="%ModDir%/Characters/Stonewanderercrystal/Stonewanderercrystal.xml" />
   <Character file="%ModDir%/Characters/Stonewanderercrystallarge/Stonewanderercrystallarge.xml" />
   <Character file="%ModDir%/Characters/Stonewandererice/Stonewandererice.xml" />
