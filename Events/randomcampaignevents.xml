@@ -174,7 +174,7 @@ MonsterEvent
     - Abyssalhammerhead 4A Mild deep sea gigantism makes these aggressive eyeless hammerheads a force to be reckoned with, their large powerful arms allow pods to attack smaller abyss creatures.
     - Abyssalthresher 4A Similar to standard threshers these large worm like fish are adept at chewing through submarine hulls to say nothing of flesh
     - Abyssmonster TBD
-    - Abysswatcher 5 The Dyatel is a stange watcher like squid that has a mettalic organ inside of its body that can manipulate various forms of electromagnetic radiation including radio waves. Causing attacks directly through crew headsets. 
+    - Watcher_Cephalopod 5 The Dyatel is a stange watcher like squid that has a mettalic organ inside of its body that can manipulate various forms of electromagnetic radiation including radio waves. Causing attacks directly through crew headsets. 
     - Charybdis_Alpha 6A
     - Endworm_Alpha 6A
     - Ancientmudraptor 4R 7 Biomechnical raptor constructs found in ruins, were they guard pets or corrupted by the strange energies of the ruins? Their bite sears flesh due to their heated internals
@@ -2645,7 +2645,7 @@ _____ \_ |__ ___.__. ______ ______
         <MonsterEvent characterfile="Latcher_hatchling" minamount="1" maxamount="2" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Nightraptor" minamount="2" maxamount="3" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
 		<MonsterEvent characterfile="Praywhalebaby" minamount="1" maxamount="1" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
-  <!--  <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" /> -->
+  <!--  <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" /> -->
       </EventSet>
       <!-- populate the abyssal void, Abyssal and Lesser Abyssal monsters ONLY due to the repeating reset time spawn and needing to NOT turn AI off at long distance -->
       <EventSet identifier="abyssal_void" chooserandom="true" allowatstart="true" disableinhuntinggrounds="true" ignorecooldown="false" resettime="600">
@@ -2710,7 +2710,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" probability="0.2" spawntype="abyss" delaybetweenspawns="5" />
           </EventSet> 
          <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
             <MonsterEvent characterfile="Crawler" minamount="2" maxamount="3" scatter="3000" probability="0.2" spawntype="abyss" delaybetweenspawns="5" />
             <MonsterEvent characterfile="Crawlersmart" minamount="0" maxamount="2" scatter="3000" probability="0.2" spawntype="abyss" delaybetweenspawns="5" />
             <MonsterEvent characterfile="Crawler_large" minamount="0" maxamount="1" scatter="3000" probability="0.7" spawntype="abyss" delaybetweenspawns="5" />
@@ -2728,7 +2728,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hullfish" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Europantrout" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Shadowleech" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Nightraptor" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Psilosaur" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -2810,7 +2810,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Crawler" minamount="0" maxamount="3" probability="0.2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
           <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Crawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Mudraptor" minamount="0" maxamount="2" probability="0.2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
@@ -2826,7 +2826,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hullfish" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Europantrout" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Shadowleech" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Nightraptor" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Psilosaur" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -2908,7 +2908,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Crawler" minamount="0" maxamount="3" probability="0.2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
           <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Crawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Mudraptor" minamount="0" maxamount="2" probability="0.2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
@@ -2924,7 +2924,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hullfish" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Europantrout" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Shadowleech" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Nightraptor" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Psilosaur" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -3006,7 +3006,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Crawler" minamount="0" maxamount="3" probability="0.2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
           <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Crawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Mudraptor" minamount="0" maxamount="2" probability="0.2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
@@ -3090,7 +3090,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hornshrimp" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Cnidae" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Giantcrab" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Stonewandererice" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           </EventSet>
@@ -3252,7 +3252,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hornshrimp" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Cnidae" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Giantcrab" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Stonewandererice" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           </EventSet>
@@ -3414,7 +3414,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hornshrimp" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Cnidae" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Giantcrab" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Stonewandererice" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           </EventSet>
@@ -3576,7 +3576,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hornshrimp" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Cnidae" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Giantcrab" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Stonewandererice" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           </EventSet>
@@ -3696,7 +3696,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Hornshrimp" minamount="2" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Cnidae" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Cnidaeprime" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-          <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+          <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Giantcrab" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Mudraptor_unarmored" minamount="2" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Minesmall" minamount="3" maxamount="4" scatter="4000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
@@ -3787,7 +3787,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Cnidae" minamount="1" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Cnidaeprime" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Psiloturtle" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-          <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+          <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Giantcrab" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Mudraptor_unarmored" minamount="2" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Minesmall" minamount="3" maxamount="4" scatter="4500" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
@@ -3886,7 +3886,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Hornshrimp" minamount="2" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Cnidae" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Cnidaeprime" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-          <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+          <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Giantcrab" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Mudraptor_unarmored" minamount="2" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Minesmall" minamount="3" maxamount="4" scatter="5000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
@@ -4458,7 +4458,7 @@ _____ \_ |__ ___.__. ______ ______
         <MonsterEvent characterfile="Deepseaclownnew" minamount="1" maxamount="1" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Latcher_hatchling" minamount="2" maxamount="3" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Nightraptor" minamount="2" maxamount="3" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
-   <!-- <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" /> -->
+   <!-- <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" /> -->
       </EventSet>
       <!-- populate the abyssal void, Abyssal and Lesser Abyssal monsters ONLY due to the repeating reset time spawn and they need to have LONG distance pings -->
       <EventSet identifier="abyssal_void" chooserandom="true" allowatstart="true" disableinhuntinggrounds="true" ignorecooldown="false" resettime="600">
@@ -4493,7 +4493,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Latcher_hatchling" minamount="2" maxamount="4" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
           </EventSet>
          <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
             <MonsterEvent characterfile="Crawler" minamount="2" maxamount="3" scatter="3000" probability="0.2" spawntype="abyss" delaybetweenspawns="5" />
             <MonsterEvent characterfile="Crawlersmart" minamount="0" maxamount="2" scatter="3000" probability="0.2" spawntype="abyss" delaybetweenspawns="5" />
             <MonsterEvent characterfile="Crawler_large" minamount="0" maxamount="1" scatter="3000" probability="0.7" spawntype="abyss" delaybetweenspawns="5" />
@@ -4512,7 +4512,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hullfish" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Europantrout" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Shadowleech" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Nightraptor" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Psilosaur" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -4594,7 +4594,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Crawler" minamount="0" maxamount="3" probability="0.2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
           <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Crawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Mudraptor" minamount="0" maxamount="2" probability="0.2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
@@ -4610,7 +4610,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hullfish" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Europantrout" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Shadowleech" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Nightraptor" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Psilosaur" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -4692,7 +4692,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Crawler" minamount="0" maxamount="3" probability="0.2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
           <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Crawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Mudraptor" minamount="0" maxamount="2" probability="0.2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
@@ -4708,7 +4708,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hullfish" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Europantrout" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Shadowleech" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Nightraptor" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Psilosaur" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -4790,7 +4790,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Crawler" minamount="0" maxamount="3" probability="0.2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
           <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Crawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Mudraptor" minamount="0" maxamount="2" probability="0.2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
@@ -4874,7 +4874,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hornshrimp" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Cnidae" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Giantcrab" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Stonewandererice" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           </EventSet>
@@ -5036,7 +5036,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hornshrimp" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Cnidae" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Giantcrab" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Stonewandererice" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           </EventSet>
@@ -5198,7 +5198,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hornshrimp" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Cnidae" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Giantcrab" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Stonewandererice" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           </EventSet>
@@ -5360,7 +5360,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hornshrimp" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Cnidae" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Giantcrab" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Stonewandererice" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           </EventSet>
@@ -5480,7 +5480,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Hornshrimp" minamount="2" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Cnidae" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Cnidaeprime" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-          <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+          <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Giantcrab" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Mudraptor_unarmored" minamount="2" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Minesmall" minamount="3" maxamount="4" scatter="4000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
@@ -5571,7 +5571,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Cnidae" minamount="1" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Cnidaeprime" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Psiloturtle" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-          <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+          <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Giantcrab" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Mudraptor_unarmored" minamount="2" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Minesmall" minamount="3" maxamount="4" scatter="4500" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
@@ -5670,7 +5670,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Hornshrimp" minamount="2" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Cnidae" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Cnidaeprime" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-          <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+          <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Giantcrab" minamount="1" maxamount="1" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Mudraptor_unarmored" minamount="2" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           <MonsterEvent characterfile="Minesmall" minamount="3" maxamount="4" scatter="5000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
@@ -6481,7 +6481,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Abyssalcrawler" minamount="1" maxamount="2" spawntype="abyss" />
             <MonsterEvent characterfile="Trichordatemetalvore" minamount="3" maxamount="4" spawntype="abyss" />
             <MonsterEvent characterfile="Skrimsl" minamount="1" maxamount="2" spawntype="abyss" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" spawntype="abyss" />
           </EventSet>
         </EventSet>
         <EventSet identifier="swarm" chooserandom="true" commonness="30">
@@ -6585,7 +6585,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Abyssalcrawler" minamount="1" maxamount="2" spawntype="abyss" />
             <MonsterEvent characterfile="Trichordatemetalvore" minamount="3" maxamount="4" spawntype="abyss" />
             <MonsterEvent characterfile="Skrimsl" minamount="1" maxamount="2" spawntype="abyss" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" spawntype="abyss" />
           </EventSet>
         </EventSet>
         <EventSet identifier="swarm" chooserandom="true" commonness="30">
@@ -6702,7 +6702,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Abyssalcrawler" minamount="1" maxamount="2" spawntype="abyss" />
             <MonsterEvent characterfile="Trichordatemetalvore" minamount="3" maxamount="4" spawntype="abyss" />
             <MonsterEvent characterfile="Skrimsl" minamount="1" maxamount="2" spawntype="abyss" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" spawntype="abyss" />
           </EventSet>
         </EventSet>
         <EventSet identifier="swarm" chooserandom="true" commonness="30">
@@ -7916,7 +7916,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Spineling" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Seasnek" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Psilotoadmonster" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -8009,7 +8009,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Spineling" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Seasnek" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Psilotoadmonster" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -8102,7 +8102,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Spineling" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Seasnek" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Psilotoadmonster" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -8199,7 +8199,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Spineling" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Seasnek" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Psilotoadmonster" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -9077,7 +9077,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Abyssalthresher" minamount="2" maxamount="3" spawntype="abyss" />
             <MonsterEvent characterfile="Trichordatemetalvore" minamount="3" maxamount="4" spawntype="abyss" />
             <MonsterEvent characterfile="Skrimsl" minamount="1" maxamount="2" spawntype="abyss" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" spawntype="abyss" />
             <MonsterEvent characterfile="Husk_centipede" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="abyss" />
           </EventSet>
         </EventSet>
@@ -9192,7 +9192,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Abyssalcrawler" minamount="1" maxamount="2" spawntype="abyss" />
             <MonsterEvent characterfile="Trichordatemetalvore" minamount="3" maxamount="4" spawntype="abyss" />
             <MonsterEvent characterfile="Skrimsl" minamount="1" maxamount="2" spawntype="abyss" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" spawntype="abyss" />
             <MonsterEvent characterfile="Husk_centipede" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="abyss" />
           </EventSet>
         </EventSet>
@@ -9307,7 +9307,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Abyssalcrawler" minamount="1" maxamount="2" spawntype="abyss" />
             <MonsterEvent characterfile="Trichordatemetalvore" minamount="3" maxamount="4" spawntype="abyss" />
             <MonsterEvent characterfile="Skrimsl" minamount="1" maxamount="2" spawntype="abyss" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" spawntype="abyss" />
             <MonsterEvent characterfile="Husk_centipede" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="abyss" />
           </EventSet>
         </EventSet>
@@ -10532,7 +10532,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Spineling" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Seasnek" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Psilotoadmonster" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -10628,7 +10628,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Spineling" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Seasnek" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Psilotoadmonster" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -10724,7 +10724,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Spineling" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Seasnek" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Psilotoadmonster" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -10821,7 +10821,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Spineling" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Seasnek" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Iceshark" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Psilotoadmonster" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -11644,7 +11644,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Voidleviathan" minamount="1" maxamount="1" scatter="3000" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Cthulhu" minamount="1" maxamount="1" scatter="3000" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
-          <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
+          <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Observer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="2" spawntype="abyss" musictype="deep" />
         </EventSet>
         <EventSet identifier="swarm" chooserandom="true" commonness="20">
@@ -11722,7 +11722,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Trichordatemetalvore" minamount="2" maxamount="3" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Fractalbreacher" minamount="1" maxamount="2" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Xan_scavenger" minamount="1" maxamount="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Watcherelite" minamount="1" maxamount="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Thalatocyte" minamount="1" maxamount="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Thalatocytebrain" minamount="1" maxamount="1" spawntype="mainpath,sidepath" />
@@ -11852,7 +11852,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Trichordatemetalvore" minamount="2" maxamount="3" spawntype="abyss" />
             <MonsterEvent characterfile="Fractalbreacher" minamount="1" maxamount="2" spawntype="abyss" />
             <MonsterEvent characterfile="Xan_scavenger" minamount="1" maxamount="1" spawntype="abyss" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" spawntype="abyss" />
             <MonsterEvent characterfile="Watcherelite" minamount="1" maxamount="1" spawntype="abyss" />
           </EventSet>
         </EventSet>
@@ -11946,7 +11946,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Trichordatemetalvore" minamount="2" maxamount="3" spawntype="abyss" />
             <MonsterEvent characterfile="Fractalbreacher" minamount="1" maxamount="2" spawntype="abyss" />
             <MonsterEvent characterfile="Xan_scavenger" minamount="1" maxamount="1" spawntype="abyss" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" spawntype="abyss" />
             <MonsterEvent characterfile="Watcherelite" minamount="1" maxamount="1" spawntype="abyss" />
           </EventSet>
         </EventSet>
@@ -12056,7 +12056,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Trichordatemetalvore" minamount="2" maxamount="3" spawntype="abyss" />
             <MonsterEvent characterfile="Fractalbreacher" minamount="1" maxamount="2" spawntype="abyss" />
             <MonsterEvent characterfile="Xan_scavenger" minamount="1" maxamount="1" spawntype="abyss" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" spawntype="abyss" />
             <MonsterEvent characterfile="Watcherelite" minamount="1" maxamount="1" spawntype="abyss" />
           </EventSet>
         </EventSet>
@@ -14475,7 +14475,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Voidleviathan" minamount="1" maxamount="1" scatter="3000" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Cthulhu" minamount="1" maxamount="1" scatter="3000" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
-          <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
+          <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Observer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="2" spawntype="abyss" musictype="deep" />
 		  <MonsterEvent characterfile="Cthulhuadolescent" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
         </EventSet>
@@ -14548,7 +14548,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Trichordatemetalvore" minamount="2" maxamount="3" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Fractalbreacher" minamount="1" maxamount="2" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Xan_scavenger" minamount="1" maxamount="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Watcherelite" minamount="1" maxamount="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Thalatocyte" minamount="1" maxamount="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Thalatocytebrain" minamount="1" maxamount="1" spawntype="mainpath,sidepath" />
@@ -14682,7 +14682,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Trichordatemetalvore" minamount="2" maxamount="3" spawntype="abyss" />
             <MonsterEvent characterfile="Fractalbreacher" minamount="1" maxamount="2" spawntype="abyss" />
             <MonsterEvent characterfile="Xan_scavenger" minamount="1" maxamount="1" spawntype="abyss" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" spawntype="abyss" />
             <MonsterEvent characterfile="Watcherelite" minamount="1" maxamount="1" spawntype="abyss" />
           </EventSet>
         </EventSet>
@@ -14782,7 +14782,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Trichordatemetalvore" minamount="2" maxamount="3" spawntype="abyss" />
             <MonsterEvent characterfile="Fractalbreacher" minamount="1" maxamount="2" spawntype="abyss" />
             <MonsterEvent characterfile="Xan_scavenger" minamount="1" maxamount="1" spawntype="abyss" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" spawntype="abyss" />
             <MonsterEvent characterfile="Watcherelite" minamount="1" maxamount="1" spawntype="abyss" />
           </EventSet>
         </EventSet>
@@ -14898,7 +14898,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Trichordatemetalvore" minamount="2" maxamount="3" spawntype="abyss" />
             <MonsterEvent characterfile="Fractalbreacher" minamount="1" maxamount="2" spawntype="abyss" />
             <MonsterEvent characterfile="Xan_scavenger" minamount="1" maxamount="1" spawntype="abyss" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="2" spawntype="abyss" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" spawntype="abyss" />
             <MonsterEvent characterfile="Watcherelite" minamount="1" maxamount="1" spawntype="abyss" />
           </EventSet>
         </EventSet>
@@ -17283,7 +17283,7 @@ _____ \_ |__ ___.__. ______ ______
       <!-- populate the abyssal islands, we may need swarms here -->
       <EventSet identifier="abyssal_island" chooserandom="true" allowatstart="true" disableinhuntinggrounds="false" delaywhencrewaway="false" eventcount="1">
         <MonsterEvent characterfile="Xan_scavenger" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" maxamountperlevel="10" spawntype="abyss" musictype="deep" />
-  <!-- <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="10" spawntype="abyss" musictype="deep" /> -->
+  <!-- <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="10" spawntype="abyss" musictype="deep" /> -->
         <MonsterEvent characterfile="Abyssalthresher" minamount="6" maxamount="8" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="flooded" />
 		<MonsterEvent characterfile="Lavathresher" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="flooded" />
@@ -17456,7 +17456,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Observer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abysswatcher" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Molochthermal" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -18495,7 +18495,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Nightraptor" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Ancientmudraptor" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Nuclearmine" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="TuluWild" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Carrier" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Fractalbreacher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -18572,7 +18572,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Nightraptor" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Ancientmudraptor" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Nuclearmine" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="TuluWild" minamount="3" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Carrier" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Psilosaur" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -18649,7 +18649,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Nightraptor" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Ancientmudraptor" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Nuclearmine" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="TuluWild" minamount="3" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Carrier" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Psilosaur" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -19477,7 +19477,7 @@ _____ \_ |__ ___.__. ______ ______
       <!-- populate the abyssal islands -->
       <EventSet identifier="abyssal_island" chooserandom="true" allowatstart="true" disableinhuntinggrounds="false" delaywhencrewaway="false" eventcount="1">
         <MonsterEvent characterfile="Xan_scavenger" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" maxamountperlevel="10" spawntype="abyss" musictype="deep" />
-  <!-- <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="10" spawntype="abyss" musictype="deep" /> -->
+  <!-- <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="10" spawntype="abyss" musictype="deep" /> -->
         <MonsterEvent characterfile="Abyssalthresher" minamount="6" maxamount="8" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="flooded" />
 		<MonsterEvent characterfile="Lavathresher" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="flooded" />
@@ -19646,7 +19646,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Observer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abysswatcher" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Molochthermal" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -20685,7 +20685,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Nightraptor" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Ancientmudraptor" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Nuclearmine" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="TuluWild" minamount="3" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Carrier" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Fractalbreacher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -20762,7 +20762,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Nightraptor" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Ancientmudraptor" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Nuclearmine" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="TuluWild" minamount="3" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Carrier" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Psilosaur" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -20839,7 +20839,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Nightraptor" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Ancientmudraptor" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Nuclearmine" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abysswatcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="TuluWild" minamount="3" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Carrier" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Psilosaur" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />

@@ -419,7 +419,7 @@
   difficulty="3" 
   reward="4800" 
   sonarlabel="Dyatel" maxsonarmarkerdistance="10000">
-    <monster character="Abysswatcher" count="1" />
+    <monster character="Watcher_Cephalopod" count="1" />
     <monster character="Watcherling" count="3" />
     <Reputation identifier="location" amount="2" />
     <Icon texture="%ModDir:2518816103%/UI/XanIcons.png" sourcerect="0,256,256,256" color="214,50,48" />
