@@ -9014,7 +9014,7 @@ MonsterEvent
         <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
 		<MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1200" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Molochgreen" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="120" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
-        <MonsterEvent characterfile="Bossmoloch" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
+        <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Charybdis_Alpha" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="deep" />
         <MonsterEvent characterfile="Voidstalker" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="deep" />
@@ -9452,7 +9452,7 @@ MonsterEvent
       </EventSet>
       <EventSet chooserandom="true" commonness="5">
         <EventSet chooserandom="true">
-          <MonsterEvent characterfile="Bossmoloch" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
@@ -9862,7 +9862,7 @@ MonsterEvent
       </EventSet>
       <EventSet chooserandom="true" commonness="5">
         <EventSet chooserandom="true">
-          <MonsterEvent characterfile="Bossmoloch" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
@@ -10048,7 +10048,7 @@ MonsterEvent
       </EventSet>
       <EventSet chooserandom="true" commonness="5">
         <EventSet chooserandom="true">
-          <MonsterEvent characterfile="Bossmoloch" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
@@ -10237,7 +10237,7 @@ MonsterEvent
       </EventSet>
       <EventSet chooserandom="true" commonness="5">
         <EventSet chooserandom="true">
-          <MonsterEvent characterfile="Bossmoloch" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
@@ -10421,7 +10421,7 @@ MonsterEvent
       </EventSet>
       <EventSet chooserandom="true" commonness="5">
         <EventSet chooserandom="true">
-          <MonsterEvent characterfile="Bossmoloch" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
 		  <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />

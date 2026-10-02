@@ -456,7 +456,7 @@
   difficulty="4" 
   reward="3500" 
   sonarlabel="Moloch" maxsonarmarkerdistance="10000"
-  monsterfile="Bossmoloch">
+  monsterfile="Moloch_Boss">
     <Reputation identifier="location" amount="2" />
     <Icon texture="%ModDir:2518816103%/UI/XanIcons.png" sourcerect="512,0,256,256" color="214,50,48" />
     <LocationType from="AnyOutpost" to="Any" />
@@ -2378,7 +2378,7 @@ reward="1000"
   sonarlabel="target"
   maxsonarmarkerdistance="20000"
   successmessage=""
-  monsterfile="Bossmoloch">
+  monsterfile="Moloch_Boss">
     <Reputation identifier="separatists" amount="3" />
     <Reputation identifier="coalition" amount="3" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48" />

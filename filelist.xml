@@ -117,7 +117,7 @@
   <Character file="%ModDir%/Characters/Spineling_giant/Spineling_giant.xml" />
   <Character file="%ModDir%/Characters/Latcher/Latcher.xml" />
   <Character file="%ModDir%/Characters/Observer/Observer.xml" />
-  <Character file="%ModDir%/Characters/Bossmoloch/Bossmoloch.xml" />
+  <Character file="%ModDir%/Characters/Moloch_Boss/Moloch_Boss.xml" />
   <Character file="%ModDir%/Characters/Voidstalker/Voidstalker.xml" />
   <Character file="%ModDir%/Characters/Fractalmermaid/Fractalmermaid.xml" />
   <Character file="%ModDir%/Characters/Lionthresher/Lionthresher.xml" />
@@ -170,8 +170,8 @@
   <Character file="%ModDir%/Characters/Variants/FractalEnforcer2/FractalEnforcer2.xml" />
   <Character file="%ModDir%/Characters/Variants/Mudraptor_veteranold/Mudraptor_veteranold.xml" />
   <Character file="%ModDir%/Characters/Variants/MudraptorGray/MudraptorGray.xml" />
-  <Character file="%ModDir%/Characters/Variants/AlphaEndwormmission/AlphaEndworm_m.xml" />
   <Character file="%ModDir%/Characters/Endworm_Alpha/Endworm_Alpha.xml" />
+  <Character file="%ModDir%/Characters/Variants/Endworm_Alphamission/Endworm_Alpha_m.xml" />
   <Character file="%ModDir%/Characters/Variants/Teleglitch_paranormal/Teleglitch_paranormal.xml" />
   <Character file="%ModDir%/Characters/Thalamid/Thalamid.xml" />
   <Character file="%ModDir%/Characters/Teleglitch/Teleglitch.xml" />

@@ -1,5 +1,5 @@
-﻿<BossmolochSwimSlow
-  type="Bossmoloch"
+﻿<Moloch_BossSwimSlow
+  type="Moloch_Boss"
   UseSineMovement="True"
   Flip="True"
   FlipCooldown="1"

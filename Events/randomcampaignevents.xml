@@ -182,7 +182,7 @@ MonsterEvent
     - Biowormbig 3AC
     - Bombshark 3 The Mudraptor Gutbomber hosts a colony of acid flora in its distended internal organs, if this harms them is unknown as it socializes readily with regular mudraptors.
     - Bonethresher 4
-    - Bossmoloch 5A
+    - Moloch_Boss 5A
     - Brainmoss1 4 
     - Brainmoss2 4 Thought to bud off of damaged electrical or navaigational equipment these free swimming thalamus organs have namatocyst like stingers covering the lobes full of intoxicating venom
     - Brainmoss3 4
@@ -17309,7 +17309,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1200" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Molochgreen" minamount="1" maxamount="2" scatter="2000" delaybetweenspawns="5" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
-          <MonsterEvent characterfile="Bossmoloch" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
+          <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Charybdis_Alpha" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Voidstalker" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="deep" />
@@ -17506,7 +17506,7 @@ _____ \_ |__ ___.__. ______ ______
         </EventSet>
         <EventSet chooserandom="true" commonness="5">
           <EventSet chooserandom="true">
-            <MonsterEvent characterfile="Bossmoloch" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
@@ -17917,7 +17917,7 @@ _____ \_ |__ ___.__. ______ ______
         </EventSet>
         <EventSet chooserandom="true" commonness="5">
           <EventSet chooserandom="true">
-            <MonsterEvent characterfile="Bossmoloch" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
@@ -18096,7 +18096,7 @@ _____ \_ |__ ___.__. ______ ______
         </EventSet>
         <EventSet chooserandom="true" commonness="5">
           <EventSet chooserandom="true">
-            <MonsterEvent characterfile="Bossmoloch" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
@@ -18278,7 +18278,7 @@ _____ \_ |__ ___.__. ______ ______
         </EventSet>
         <EventSet chooserandom="true" commonness="5">
           <EventSet chooserandom="true">
-            <MonsterEvent characterfile="Bossmoloch" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
@@ -18456,7 +18456,7 @@ _____ \_ |__ ___.__. ______ ______
         </EventSet>
         <EventSet chooserandom="true" commonness="5">
           <EventSet chooserandom="true">
-            <MonsterEvent characterfile="Bossmoloch" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
@@ -19503,7 +19503,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1200" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Molochgreen" minamount="1" maxamount="2" scatter="2000" delaybetweenspawns="5" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
-          <MonsterEvent characterfile="Bossmoloch" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
+          <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Charybdis_Alpha" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Voidstalker" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="deep" />
@@ -19696,7 +19696,7 @@ _____ \_ |__ ___.__. ______ ______
         </EventSet>
         <EventSet chooserandom="true" commonness="5">
           <EventSet chooserandom="true">
-            <MonsterEvent characterfile="Bossmoloch" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
@@ -20107,7 +20107,7 @@ _____ \_ |__ ___.__. ______ ______
         </EventSet>
         <EventSet chooserandom="true" commonness="5">
           <EventSet chooserandom="true">
-            <MonsterEvent characterfile="Bossmoloch" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
@@ -20286,7 +20286,7 @@ _____ \_ |__ ___.__. ______ ______
         </EventSet>
         <EventSet chooserandom="true" commonness="5">
           <EventSet chooserandom="true">
-            <MonsterEvent characterfile="Bossmoloch" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
@@ -20468,7 +20468,7 @@ _____ \_ |__ ___.__. ______ ______
         </EventSet>
         <EventSet chooserandom="true" commonness="5">
           <EventSet chooserandom="true">
-            <MonsterEvent characterfile="Bossmoloch" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
@@ -20646,7 +20646,7 @@ _____ \_ |__ ___.__. ______ ______
         </EventSet>
         <EventSet chooserandom="true" commonness="5">
           <EventSet chooserandom="true">
-            <MonsterEvent characterfile="Bossmoloch" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Moloch_Boss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="mainpath,sidepath" />
