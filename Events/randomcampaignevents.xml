@@ -175,7 +175,7 @@ MonsterEvent
     - Abyssalthresher 4A Similar to standard threshers these large worm like fish are adept at chewing through submarine hulls to say nothing of flesh
     - Abyssmonster TBD
     - Abysswatcher 5 The Dyatel is a stange watcher like squid that has a mettalic organ inside of its body that can manipulate various forms of electromagnetic radiation including radio waves. Causing attacks directly through crew headsets. 
-    - AlphaCharybdis 6A
+    - Charybdis_Alpha 6A
     - AlphaEndworm 6A
     - Ancientmudraptor 4R 7 Biomechnical raptor constructs found in ruins, were they guard pets or corrupted by the strange energies of the ruins? Their bite sears flesh due to their heated internals
     - Bioworm 3AC large symbiotic worms often found infesting molochs who have spent too much time in the abyss, unknown if this is parasitic or helps the moloch to survive and feed in the abyss
@@ -17310,7 +17310,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1200" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Molochgreen" minamount="1" maxamount="2" scatter="2000" delaybetweenspawns="5" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Bossmoloch" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
-          <MonsterEvent characterfile="AlphaCharybdis" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
+          <MonsterEvent characterfile="Charybdis_Alpha" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Voidstalker" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Voidleviathan" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="deep" />
@@ -19504,7 +19504,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1200" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Molochgreen" minamount="1" maxamount="2" scatter="2000" delaybetweenspawns="5" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Bossmoloch" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
-          <MonsterEvent characterfile="AlphaCharybdis" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
+          <MonsterEvent characterfile="Charybdis_Alpha" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Voidstalker" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Voidleviathan" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="deep" />
