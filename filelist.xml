@@ -72,7 +72,7 @@
   <Character file="%ModDir%/Characters/Coelanth/Coelanth.xml" />
   <Character file="%ModDir%/Characters/Cnidaeprime/Cnidaeprime.xml" />
   <Character file="%ModDir%/Characters/Crawlerold/Crawlerold.xml" />
-  <Character file="%ModDir%/Characters/Variants/Silverhammerhead/Silverhammerhead.xml" />
+  <Character file="%ModDir%/Characters/Hammerhead_Silver/Hammerhead_Silver.xml" />
   <Character file="%ModDir%/Characters/Hammerhead_DigermNamed/Hammerhead_DigermNamed.xml" />
   <Character file="%ModDir%/Characters/Endworm/Endworm.xml" />
   <Character file="%ModDir%/Characters/Guardianrepairbot/Guardianrepairbot.xml" />
