@@ -1196,7 +1196,7 @@
           <Conditional speciesname="crawler" />
           <Conditional speciesname="swarmcrawler" />
           <Conditional speciesname="mudraptor" />
-          <Conditional speciesname="husker" />
+          <Conditional speciesname="Calyxophage" />
           <Conditional speciesname="mudraptor_unarmored" />
           <Conditional speciesname="tigerthresher" />
           <Conditional speciesname="bonethresher" />
@@ -1249,7 +1249,7 @@
           <Conditional speciesname="paralyticshark" />
           <Conditional speciesname="archimorur" />
           <Conditional speciesname="icecrab" />
-          <Conditional speciesname="husker" />
+          <Conditional speciesname="Calyxophage" />
           <Conditional speciesname="legacycharybdis" />
           <Conditional speciesname="charybdisold" />
           <Conditional speciesname="charybdisrex" />
@@ -1294,7 +1294,7 @@
           <Conditional speciesname="mudraptor_unarmored" />
           <Conditional speciesname="paralyticshark" />
           <Conditional speciesname="tigerthresher" />
-          <Conditional speciesname="husker" />
+          <Conditional speciesname="Calyxophage" />
           <Conditional speciesname="bonethresher" />
           <Conditional speciesname="icecrab" />
           <Conditional speciesname="minoga" />
