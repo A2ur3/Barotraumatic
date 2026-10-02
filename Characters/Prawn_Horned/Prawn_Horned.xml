@@ -1,4 +1,4 @@
-﻿<Character SpeciesName="Hornshrimp" Tags="" SpeciesTranslationOverride="" DisplayName="" Group="mantisoid" Humanoid="False" HasInfo="False" CanInteract="False" CanClimb="True" ForceSlowClimbing="False" Husk="False" HuskedSpecies="" NonHuskedSpecies="" UseHuskAppendage="False" NeedsAir="False" NeedsWater="False" UseHumanAI="False" IsMachine="False" CanSpeak="False" ShowHealthBar="True" UseBossHealthBar="False" Noise="100" Visibility="70" BloodDecal="btcbloodblue" BleedParticleAir="btcblooddropblue" BleedParticleWater="btcwaterbloodblue" BleedParticleMultiplier="0.4" CanEat="True" EatingSpeed="10" UsePathFinding="True" PathFinderPriority="0.5" HideInSonar="False" HideInThermalGoggles="False" SonarDisruption="0" DistantSonarRange="0" DisableDistance="25000" SoundInterval="10" DrawLast="False" AITurretPriority="1" AISlowTurretPriority="1" DespawnContainer="" MusicType="monster" MusicCommonness="1" MusicRangeMultiplier="1" UnlockKillAchievementForWholeCrew="False">
+﻿<Character SpeciesName="Prawn_Horned" Tags="" SpeciesTranslationOverride="" DisplayName="" Group="mantisoid" Humanoid="False" HasInfo="False" CanInteract="False" CanClimb="True" ForceSlowClimbing="False" Husk="False" HuskedSpecies="" NonHuskedSpecies="" UseHuskAppendage="False" NeedsAir="False" NeedsWater="False" UseHumanAI="False" IsMachine="False" CanSpeak="False" ShowHealthBar="True" UseBossHealthBar="False" Noise="100" Visibility="70" BloodDecal="btcbloodblue" BleedParticleAir="btcblooddropblue" BleedParticleWater="btcwaterbloodblue" BleedParticleMultiplier="0.4" CanEat="True" EatingSpeed="10" UsePathFinding="True" PathFinderPriority="0.5" HideInSonar="False" HideInThermalGoggles="False" SonarDisruption="0" DistantSonarRange="0" DisableDistance="25000" SoundInterval="10" DrawLast="False" AITurretPriority="1" AISlowTurretPriority="1" DespawnContainer="" MusicType="monster" MusicCommonness="1" MusicRangeMultiplier="1" UnlockKillAchievementForWholeCrew="False">
   <ragdolls folder="default" />
   <animations folder="default" />
   <gibemitter particle="btcblueheavygib" particleamount="5" velocitymin="50" velocitymax="500" anglemin="0" anglemax="360" scalemin="0.5" scalemax="0.8" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
@@ -22,60 +22,60 @@
     <target Tag="Razzershrimp_kse" State="Idle" Priority="1" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreTargetInside="False" IgnoreTargetOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" PerceptionDistanceMultiplier="1" MaxPerceptionDistance="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
   </ai>
   <Inventory Slots="Any, Any, Any, Any, Any, Any, Any" AccessibleWhenAlive="False" Commonness="10">
-    <Item Identifier="hornshrimpshell" />
+    <Item Identifier="Prawnshell" />
     <Item Identifier="shrimpclaw" />
     <Item forcetoslot="true" amount="2" Identifier="alienblood" />
   </Inventory>
   <Inventory Slots="Any, Any, Any, Any, Any, Any, Any" AccessibleWhenAlive="False" Commonness="10">
-    <Item Identifier="hornshrimpshell" />
+    <Item Identifier="Prawnshell" />
     <Item Identifier="shrimpantenna" />
     <Item forcetoslot="true" amount="2" Identifier="alienblood" />
     <Item Identifier="shrimpclaw" />
   </Inventory>
   <Inventory Slots="Any, Any, Any, Any, Any, Any, Any" AccessibleWhenAlive="False" Commonness="1">
-    <Item Identifier="hornshrimpshell" />
+    <Item Identifier="Prawnshell" />
     <Item forcetoslot="true" Identifier="diversremains" />
     <Item Identifier="shrimpclaw" />
   </Inventory>
   <Inventory Slots="Any, Any, Any, Any, Any, Any, Any" AccessibleWhenAlive="False" Commonness="1">
-    <Item Identifier="hornshrimpshell" />
+    <Item Identifier="Prawnshell" />
     <Item Identifier="shrimpstomach" />
     <Item Identifier="shrimpclaw" />
   </Inventory>
   <Inventory Slots="Any, Any, Any, Any, Any, Any, Any" AccessibleWhenAlive="False" Commonness="1">
-    <Item Identifier="hornshrimpshell" />
+    <Item Identifier="Prawnshell" />
     <Item forcetoslot="true" Identifier="diversremains" />
     <Item Identifier="shrimpantenna" />
   </Inventory>
   <Inventory Slots="Any, Any, Any, Any, Any, Any, Any" AccessibleWhenAlive="False" Commonness="1">
-    <Item Identifier="hornshrimpshell" />
+    <Item Identifier="Prawnshell" />
     <Item Identifier="shrimpstomach" />
     <Item Identifier="shrimpantenna" />
   </Inventory>
   <Inventory Slots="Any, Any, Any, Any, Any, Any, Any" AccessibleWhenAlive="False" Commonness="10">
-    <Item Identifier="hornshrimpshell" />
+    <Item Identifier="Prawnshell" />
     <Item forcetoslot="true" amount="2" Identifier="alienblood" />
   </Inventory>
   <Inventory Slots="Any, Any, Any, Any, Any, Any, Any" AccessibleWhenAlive="False" Commonness="1">
-    <Item Identifier="hornshrimpshell" />
+    <Item Identifier="Prawnshell" />
     <Item Identifier="shrimpantenna" />
     <Item forcetoslot="true" amount="2" Identifier="alienblood" />
   </Inventory>
-  <sound File="%ModDir:2518816103%\Characters\Hornshrimp\Bauur1.OGG" State="Damage" Range="1500" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Hornshrimp\Bauur2.OGG" State="Damage" Range="1000" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Hornshrimp\Bauur3.OGG" State="Damage" Range="1000" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Hornshrimp\Bauur4.OGG" State="Damage" Range="1000" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Hornshrimp\Bauur5.OGG" State="Damage" Range="1500" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Hornshrimp\Bauur6.OGG" State="Damage" Range="1500" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Hornshrimp\Blubb1.OGG" State="Idle" Range="10000" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Hornshrimp\Blubb2.OGG" State="Idle" Range="10000" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Hornshrimp\Blubb3.OGG" State="Idle" Range="10000" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Hornshrimp\Schaden1.OGG" State="Attack" Range="1000" Volume="1.2" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Hornshrimp\schaden2.OGG" State="Attack" Range="1000" Volume="1.2" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Hornshrimp\schaden3.OGG" State="Attack" Range="1000" Volume="1.2" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Hornshrimp\schaden4.OGG" State="Attack" Range="1000" Volume="1.2" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Hornshrimp\schaden5.OGG" State="Attack" Range="1000" Volume="1.2" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Hornshrimp\Gore.OGG" State="Die" Range="2000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Horned\Bauur1.OGG" State="Damage" Range="1500" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Horned\Bauur2.OGG" State="Damage" Range="1000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Horned\Bauur3.OGG" State="Damage" Range="1000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Horned\Bauur4.OGG" State="Damage" Range="1000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Horned\Bauur5.OGG" State="Damage" Range="1500" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Horned\Bauur6.OGG" State="Damage" Range="1500" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Horned\Blubb1.OGG" State="Idle" Range="10000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Horned\Blubb2.OGG" State="Idle" Range="10000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Horned\Blubb3.OGG" State="Idle" Range="10000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Horned\Schaden1.OGG" State="Attack" Range="1000" Volume="1.2" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Horned\schaden2.OGG" State="Attack" Range="1000" Volume="1.2" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Horned\schaden3.OGG" State="Attack" Range="1000" Volume="1.2" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Horned\schaden4.OGG" State="Attack" Range="1000" Volume="1.2" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Horned\schaden5.OGG" State="Attack" Range="1000" Volume="1.2" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Horned\Gore.OGG" State="Die" Range="2000" Volume="1" Tags="" />
   <StatusEffect type="OnDeath" target="Character" delay="1">
     <SpawnCharacter speciesname="Shrimpbrut_kse" count="1" probability="0.3" spread="1" />
     <particleemitter particle="brownchunks" particleamount="6" velocitymin="0" velocitymax="800" anglemin="0" anglemax="360" scalemin="0.4" scalemax="0.6" />
