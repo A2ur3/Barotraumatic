@@ -104,7 +104,7 @@
   <Character file="%ModDir%/Characters/Leatherback/Leatherback.xml" />
   <Character file="%ModDir%/Characters/Charybdisold/Charybdisold.xml" />
   <Character file="%ModDir%/Characters/Hammerheadmatriarch/Hammerheadmatriarch.xml" />
-  <Character file="%ModDir%/Characters/Variants/Mothercrawler/Mothercrawler.xml" />
+  <Character file="%ModDir%/Characters/Variants/Crawler_Pregnant/Crawler_Pregnant.xml" />
   <Character file="%ModDir%/Characters/Variants/Crawler_large2/Crawler_large2.xml" />
   <Character file="%ModDir%/Characters/Variants/Hammerhead_probe/Hammerhead_probe.xml" />
   <Character file="%ModDir%/Characters/Variants/Spineling_hard/Spineling_hard.xml" />

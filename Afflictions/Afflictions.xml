@@ -92,7 +92,7 @@
         <Conditional speciesname="crawler" />
         <Conditional speciesname="swarmcrawler" />
         <Conditional speciesname="crawler_hatchling" />
-        <Conditional speciesname="mothercrawler" />
+        <Conditional speciesname="Crawler_Pregnant" />
         <AITrigger state="Escape" duration="20" probability="1" allowtobeoverridden="false" allowtooverride="true" />
       </StatusEffect>
     </Effect>
@@ -762,14 +762,14 @@
         <Conditional speciesname="crawler_large2" />
         <Conditional isdead="false" />
         <Conditional growthvanilla="gte 100" />
-        <SpawnCharacter speciesname="Mothercrawler" count="1" spread="0" />
+        <SpawnCharacter speciesname="Crawler_Pregnant" count="1" spread="0" />
         <RemoveCharacter />
       </StatusEffect>
       <StatusEffect target="Character" comparison="and">
-        <Conditional speciesname="Mothercrawler" />
+        <Conditional speciesname="Crawler_Pregnant" />
         <Conditional isdead="false" />
         <Conditional growthvanilla="gte 90" />
-        <GiveAffliction identifier="mothercrawlergrowth" strength="2" />
+        <GiveAffliction identifier="Crawler_Pregnantgrowth" strength="2" />
         <ReduceAffliction identifier="growthvanilla" strength="80" />
       </StatusEffect>
       <StatusEffect target="Character" comparison="and">
@@ -831,18 +831,18 @@
     <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="256,896,128,128" color="10,193,114,255" origin="0,0" />
   </Affliction>
 
-  <Affliction name="Mother Growth" identifier="mothercrawlergrowth" description="The crawler is becoming a mother!" type="creaturegrowth" limbspecific="false" indicatorlimb="Torso" showiconthreshold="0" activationthreshold="0" showinhealthscannerthreshold="0" showicontoothersthreshold="0" maxstrength="100">
+  <Affliction name="Mother Growth" identifier="Crawler_Pregnantgrowth" description="The crawler is becoming a mother!" type="creaturegrowth" limbspecific="false" indicatorlimb="Torso" showiconthreshold="0" activationthreshold="0" showinhealthscannerthreshold="0" showicontoothersthreshold="0" maxstrength="100">
     <Effect minstrength="0" maxstrength="89" strengthchange="0.5">
       <!-- Grow creatures to enhanced forms when affliction reaches 100 strength -->
       <StatusEffect target="Character" comparison="and">
-        <Conditional speciesname="Mothercrawler" />
+        <Conditional speciesname="Crawler_Pregnant" />
         <Conditional isdead="false" />
         <GiveAffliction identifier="vigor" strength="5" />
       </StatusEffect>
     </Effect>
     <Effect minstrength="90" maxstrength="98" strengthchange="0.5">
       <StatusEffect target="Character" comparison="and">
-        <Conditional speciesname="Mothercrawler" />
+        <Conditional speciesname="Crawler_Pregnant" />
         <Conditional isdead="false" />
         <AITrigger state="Escape" duration="10" probability="1" allowtobeoverridden="false" allowtooverride="true" />
       </StatusEffect>
