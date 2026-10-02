@@ -176,7 +176,7 @@ MonsterEvent
     - Abyssmonster TBD
     - Abysswatcher 5 The Dyatel is a stange watcher like squid that has a mettalic organ inside of its body that can manipulate various forms of electromagnetic radiation including radio waves. Causing attacks directly through crew headsets. 
     - Charybdis_Alpha 6A
-    - AlphaEndworm 6A
+    - Endworm_Alpha 6A
     - Ancientmudraptor 4R 7 Biomechnical raptor constructs found in ruins, were they guard pets or corrupted by the strange energies of the ruins? Their bite sears flesh due to their heated internals
     - Bioworm 3AC large symbiotic worms often found infesting molochs who have spent too much time in the abyss, unknown if this is parasitic or helps the moloch to survive and feed in the abyss
     - Biowormbig 3AC
@@ -17301,7 +17301,7 @@ _____ \_ |__ ___.__. ______ ______
       <EventSet identifier="abyssal_void" chooserandom="true" allowatstart="true" triggereventcooldown="false" ignorecooldown="false" disableinhuntinggrounds="true" resettime="540">
         <EventSet identifier="boss" chooserandom="true" eventcount="1" commonness="70">
           <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="600" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
-          <MonsterEvent characterfile="AlphaEndworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
+          <MonsterEvent characterfile="Endworm_Alpha" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Pylon" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="GiantTrapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
@@ -19495,7 +19495,7 @@ _____ \_ |__ ___.__. ______ ______
       <EventSet identifier="abyssal_void" chooserandom="true" allowatstart="true" triggereventcooldown="false" ignorecooldown="false" disableinhuntinggrounds="true" resettime="540">
         <EventSet identifier="boss" chooserandom="true" eventcount="1" commonness="70">
           <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="600" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
-          <MonsterEvent characterfile="AlphaEndworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
+          <MonsterEvent characterfile="Endworm_Alpha" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Pylon" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="GiantTrapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />

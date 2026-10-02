@@ -1,4 +1,4 @@
-﻿<AlphaEndwormSwimFast
+﻿<Endworm_AlphaSwimSlow
   UseSineMovement="False"
   Flip="False"
   FlipCooldown="1"
@@ -15,8 +15,8 @@
   TailAngle="NaN"
   SteerTorque="100"
   LegTorque="25"
-  AnimationType="SwimFast"
-  MovementSpeed="23"
+  AnimationType="SwimSlow"
+  MovementSpeed="20"
   CycleSpeed="1"
   HeadAngle="0"
   TorsoAngle="0"

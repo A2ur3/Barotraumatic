@@ -2231,7 +2231,7 @@ reward="1000"
   sonarlabel="Pulse Readings"
   maxsonarmarkerdistance="20000"
   successmessage=""
-  monsterfile="AlphaEndworm">
+  monsterfile="Endworm_Alpha">
     <Reputation identifier="separatists" amount="3" />
     <Reputation identifier="coalition" amount="3" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48" />

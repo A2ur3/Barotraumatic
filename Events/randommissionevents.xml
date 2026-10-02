@@ -9006,7 +9006,7 @@ MonsterEvent
     <EventSet identifier="abyssal_void" chooserandom="true" allowatstart="true" triggereventcooldown="false" ignorecooldown="false" disableinhuntinggrounds="true" resettime="540">
       <EventSet identifier="boss" chooserandom="true" eventcount="2" commonness="70">
         <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="600" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
-        <MonsterEvent characterfile="AlphaEndworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
+        <MonsterEvent characterfile="Endworm_Alpha" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Pylon" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="GiantTrapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
