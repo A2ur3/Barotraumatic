@@ -1340,30 +1340,30 @@
 
   </Override>
   
-  <Affliction name="Observer Presense" identifier="observerpresense" description="" type="gaze" limbspecific="false" indicatorlimb="Head" causeofdeathdescription="" selfcauseofdeathdescription="" activationthreshold="0" showinhealthscannerthreshold="1000" showiconthreshold="1000" showicontoothersthreshold="1000" maxstrength="2">
+  <Affliction name="Watcher_Cephalopod2 Presense" identifier="Watcher_Cephalopod2presense" description="" type="gaze" limbspecific="false" indicatorlimb="Head" causeofdeathdescription="" selfcauseofdeathdescription="" activationthreshold="0" showinhealthscannerthreshold="1000" showiconthreshold="1000" showicontoothersthreshold="1000" maxstrength="2">
     <Effect minstrength="0" maxstrength="2" strengthchange="-1">
       <StatusEffect target="Character" checkconditionalalways="true" targetlimb="Head" stackable="false" comparison="and">
         <Conditional speciesname="human" />
         <Conditional radio="gt 1" />
         <Conditional IsPlayer="True" />
-        <Affliction identifier="observersgaze" strength="5" />
+        <Affliction identifier="Watcher_Cephalopod2sgaze" strength="5" />
       </StatusEffect>
     </Effect>
   </Affliction>
 
   <!-- TODO: make head explode at 100% -->
-  <Affliction name="Observer's Interference" identifier="observersgaze" description="Your headset is screeching an unknown spectrogram that causes pressure inside your skull. You have a sudden urge to throw off your headset." type="gaze" limbspecific="false" indicatorlimb="Head" showiconthreshold="1" showicontoothersthreshold="1" karmachangeonapplied="0" maxstrength="100">
+  <Affliction name="Watcher_Cephalopod2's Interference" identifier="Watcher_Cephalopod2sgaze" description="Your headset is screeching an unknown spectrogram that causes pressure inside your skull. You have a sudden urge to throw off your headset." type="gaze" limbspecific="false" indicatorlimb="Head" showiconthreshold="1" showicontoothersthreshold="1" karmachangeonapplied="0" maxstrength="100">
     <Effect minstrength="0" maxstrength="10" minscreendistort="0" maxscreendistort="0.1" minscreenblur="0" maxscreenblur="0.1" minradialdistort="0" maxradialdistort="0" minchromaticaberration="0" maxchromaticaberration="0" strengthchange="-1">
       <StatusEffect target="Character">
         <Conditional ishuman="true" />
-        <Sound file="%ModDir:2518816103%/Characters/Observer/headphonejack.ogg" loop="True" volume="1" dontmuffle="true" />
+        <Sound file="%ModDir:2518816103%/Characters/Watcher_Cephalopod2/headphonejack.ogg" loop="True" volume="1" dontmuffle="true" />
       </StatusEffect>
     </Effect>
     <Effect minstrength="10" maxstrength="50" minscreendistort="0.4" maxscreendistort="0.5" minscreenblur="0.4" maxscreenblur="0.5" minradialdistort="0" maxradialdistort="0" minchromaticaberration="0" maxchromaticaberration="0" strengthchange="-2">
       <StatusEffect target="Character">
         <Conditional ishuman="true" />
         <Affliction identifier="psychosis" strength="0.2" />
-        <Sound file="%ModDir:2518816103%/Characters/Observer/headphonejack.ogg" loop="True" volume="2" dontmuffle="true" />
+        <Sound file="%ModDir:2518816103%/Characters/Watcher_Cephalopod2/headphonejack.ogg" loop="True" volume="2" dontmuffle="true" />
       </StatusEffect>
     </Effect>
     <Effect minstrength="50" maxstrength="100" minscreendistort="0.5" maxscreendistort="1" minscreenblur="0.5" maxscreenblur="1" minradialdistort="0" maxradialdistort="2" minchromaticaberration="0" maxchromaticaberration="50" minvitalitydecrease="0" maxvitalitydecrease="1" multiplybymaxvitality="true" minspeedmultiplier="1.0" maxspeedmultiplier="0.2" strengthchange="-3">
@@ -1371,7 +1371,7 @@
         <Conditional ishuman="true" />
         <Affliction identifier="psychosis" strength="0.3" />
         <Affliction identifier="nausea" strength="1.5" />
-        <Sound file="%ModDir:2518816103%/Characters/Observer/headphonejack.ogg" loop="True" volume="3" dontmuffle="true" />
+        <Sound file="%ModDir:2518816103%/Characters/Watcher_Cephalopod2/headphonejack.ogg" loop="True" volume="3" dontmuffle="true" />
       </StatusEffect>
       <StatusEffect type="OnDeath" target="Character" stackable="false">
         <Conditional ishuman="true" />

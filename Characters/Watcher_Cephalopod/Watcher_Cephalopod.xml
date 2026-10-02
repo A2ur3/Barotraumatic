@@ -81,7 +81,7 @@
     <target tag="weaker" state="Idle" priority="20" attackdistance="1000" timer="20" reactdistance="0" />
     <target tag="stronger" state="Observe" priority="20" reactdistance="1000" attackdistance="0" timer="0" />
     <target tag="wall" state="Observe" priority="1" attackdistance="1500" timer="10" reactdistance="0" />
-    <target ignorewhileinside="False" ignorewhileoutside="False" Tag="Observer" State="Idle" Priority="20" ReactDistance="5000" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreTargetInside="False" IgnoreTargetOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" PerceptionDistanceMultiplier="1" MaxPerceptionDistance="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
+    <target ignorewhileinside="False" ignorewhileoutside="False" Tag="Watcher_Cephalopod2" State="Idle" Priority="20" ReactDistance="5000" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreTargetInside="False" IgnoreTargetOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" PerceptionDistanceMultiplier="1" MaxPerceptionDistance="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
     <target ignorewhileinside="True" ignorewhileoutside="False" Tag="Teleglitch" State="Idle" Priority="60" ReactDistance="9000" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreTargetInside="False" IgnoreTargetOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" PerceptionDistanceMultiplier="1" MaxPerceptionDistance="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
   </ai>
  <!-- <StatusEffect type="OnDeath" target="This" disabledeltatime="true" stackable="false" delay="400">
@@ -95,17 +95,17 @@
     </Explosion>
   </StatusEffect>
   <StatusEffect type="OnActive" target="NearbyCharacters" tag="EMI" range="4000">
-    <Affliction identifier="observerpresense" strength="20" />
+    <Affliction identifier="Watcher_Cephalopod2presense" strength="20" />
   </StatusEffect>
   <StatusEffect type="OnActive" target="NearbyCharacters" tag="EMI" range="2000">
-    <Affliction identifier="observerpresense" strength="50" />
+    <Affliction identifier="Watcher_Cephalopod2presense" strength="50" />
   </StatusEffect>
   <StatusEffect type="OnActive" target="NearbyCharacters" tag="EMI" range="1500">
-    <Affliction identifier="observerpresense" strength="100" />
+    <Affliction identifier="Watcher_Cephalopod2presense" strength="100" />
   </StatusEffect>
   <StatusEffect type="OnActive" target="NearbyItems" targettags="junctionbox" range="2200.0" setvalue="true" stackable="false" extraload="500" delay="1" />
   <StatusEffect type="OnDeath" target="NearbyCharacters" range="8000">
-    <ReduceAffliction identifier="observerpresense" strength="100" />
-    <ReduceAffliction identifier="observersgaze" strength="100" />
+    <ReduceAffliction identifier="Watcher_Cephalopod2presense" strength="100" />
+    <ReduceAffliction identifier="Watcher_Cephalopod2sgaze" strength="100" />
   </StatusEffect>
 </Character>

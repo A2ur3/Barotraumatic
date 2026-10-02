@@ -393,14 +393,14 @@
   textidentifier=""
   name="Terminate a Dybbuk"
   description="A particurarly aggressive Dybbuk has been causing severe psychological damage to nearby vessels traveling between [location1] and [location2]. A reward of [reward] marks has been promised to anyone who can eliminate it." successmessage="The Dybbuk has been terminated."
-  identifier="killobserver"
+  identifier="killWatcher_Cephalopod2"
   type="Monster" 
   tags="killmonster,killmonster_set2" 
   commonness="50" 
   difficulty="3" 
   reward="3800" 
   sonarlabel="Dybbuk" maxsonarmarkerdistance="10000">
-    <monster character="Observer" count="1" />
+    <monster character="Watcher_Cephalopod2" count="1" />
     <monster character="Watcherling" count="3" />
     <Reputation identifier="location" amount="2" />
     <Icon texture="%ModDir:2518816103%/UI/XanIcons.png" sourcerect="0,256,256,256" color="214,50,48" />
@@ -412,7 +412,7 @@
   textidentifier=""
   name="Terminate Dyatel"
   description="A particurarly aggressive group of Dyatel, Speculated to be Dybbuk's larval form, have left the abyss and are targeting vessels traveling between [location1] and [location2]. A reward of [reward] marks has been promised to anyone who can eliminate them, expect hit and run attacks." successmessage="The Dyatel have been terminated."
-  identifier="killobserver2"
+  identifier="killWatcher_Cephalopod"
   type="Monster" 
   tags="killmonster,killmonster_set3" 
   commonness="50" 

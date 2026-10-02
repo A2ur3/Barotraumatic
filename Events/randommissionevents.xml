@@ -1853,7 +1853,7 @@ MonsterEvent
           <MonsterEvent characterfile="Hermitdugong" minamount="1" maxamount="1" scatter="3000" probability="0.7" spawntype="abyss" delaybetweenspawns="5" />
         </EventSet>
         <EventSet chooserandom="false">
-          <MonsterEvent characterfile="Observer" minamount="1" maxamount="1" scatter="3000"  spawntype="abyss" delaybetweenspawns="5" />
+          <MonsterEvent characterfile="Watcher_Cephalopod2" minamount="1" maxamount="1" scatter="3000"  spawntype="abyss" delaybetweenspawns="5" />
           <MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" probability="0.2" spawntype="abyss" delaybetweenspawns="5" />
         </EventSet>
 		    <EventSet chooserandom="false">
@@ -6126,7 +6126,7 @@ MonsterEvent
         <MonsterEvent characterfile="Voidstalker" minamount="1" maxamount="1" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Charybdis" minamount="1" maxamount="1" scatter="5000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Latcher" minamount="1" maxamount="1" scatter="5000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-        <MonsterEvent characterfile="Observer" minamount="1" maxamount="1" scatter="5000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+        <MonsterEvent characterfile="Watcher_Cephalopod2" minamount="1" maxamount="1" scatter="5000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="2" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Praywhalemineral" minamount="1" maxamount="1" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
       </EventSet>
@@ -6314,7 +6314,7 @@ MonsterEvent
         <MonsterEvent characterfile="Voidleviathan" minamount="1" maxamount="1" scatter="3000" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Cthulhu" minamount="1" maxamount="1" scatter="3000" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
 		<MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="60" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
-		<MonsterEvent characterfile="Observer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="60" maxamountperlevel="2" spawntype="abyss" musictype="deep" />
+		<MonsterEvent characterfile="Watcher_Cephalopod2" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="60" maxamountperlevel="2" spawntype="abyss" musictype="deep" />
       </EventSet>
       <EventSet identifier="swarm" chooserandom="true" commonness="20">
         <EventSet chooserandom="false">
@@ -6367,7 +6367,7 @@ MonsterEvent
         <MonsterEvent characterfile="LegacyCrawler" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Brainmoss3" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="watcher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-        <MonsterEvent characterfile="Observer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+        <MonsterEvent characterfile="Watcher_Cephalopod2" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
 		<MonsterEvent characterfile="Psiloturtle" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
 		<MonsterEvent characterfile="Psilotoadmonster" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Legacycharybdis" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -6517,7 +6517,7 @@ MonsterEvent
         <MonsterEvent characterfile="LegacyCrawler" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Brainmoss3" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="watcher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-        <MonsterEvent characterfile="Observer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+        <MonsterEvent characterfile="Watcher_Cephalopod2" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
 		<MonsterEvent characterfile="Psiloturtle" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
 		<MonsterEvent characterfile="Psilotoadmonster" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Legacycharybdis" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -6677,7 +6677,7 @@ MonsterEvent
         <MonsterEvent characterfile="LegacyCrawler" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Brainmoss3" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="watcher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-        <MonsterEvent characterfile="Observer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+        <MonsterEvent characterfile="Watcher_Cephalopod2" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
 		<MonsterEvent characterfile="Psiloturtle" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
 		<MonsterEvent characterfile="Psilotoadmonster" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         <MonsterEvent characterfile="Legacycharybdis" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -7798,7 +7798,7 @@ MonsterEvent
           <MonsterEvent characterfile="Latcher_hatchling" minamount="6" maxamount="8" maxamountperlevel="10" delaybetweenspawns="5" spawntype="mainpath" />
         </EventSet>
 		        <EventSet chooserandom="false">
-          <MonsterEvent characterfile="Observer" minamount="1" maxamount="1" maxamountperlevel="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Watcher_Cephalopod2" minamount="1" maxamount="1" maxamountperlevel="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
         </EventSet>
 				        <EventSet chooserandom="false">
@@ -8100,7 +8100,7 @@ MonsterEvent
           <MonsterEvent characterfile="Latcher_hatchling" minamount="6" maxamount="8" maxamountperlevel="10" delaybetweenspawns="5" spawntype="mainpath" />
         </EventSet>
 		        <EventSet chooserandom="false">
-          <MonsterEvent characterfile="Observer" minamount="1" maxamount="1" maxamountperlevel="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Watcher_Cephalopod2" minamount="1" maxamount="1" maxamountperlevel="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
         </EventSet>
       </EventSet>
@@ -9400,7 +9400,7 @@ MonsterEvent
 		<MonsterEvent characterfile="Minedetached" minamount="8" maxamount="10" scatter="5000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
 		 <EventSet chooserandom="false">
-          <MonsterEvent characterfile="Observer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Watcher_Cephalopod2" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Watcher_Cephalopod" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">

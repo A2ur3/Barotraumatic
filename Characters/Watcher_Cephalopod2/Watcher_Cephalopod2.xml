@@ -1,4 +1,4 @@
-﻿<Character SpeciesName="Observer" Tags="" SpeciesTranslationOverride="" DisplayName="" Group="watcheroid" Humanoid="False" HasInfo="False" CanInteract="False" CanClimb="True" ForceSlowClimbing="False" Husk="False" HuskedSpecies="" NonHuskedSpecies="" UseHuskAppendage="False" NeedsAir="False" NeedsWater="False" UseHumanAI="False" IsMachine="False" CanSpeak="True" ShowHealthBar="True" UseBossHealthBar="True" Noise="100" Visibility="100" BloodDecal="blood" BleedParticleAir="blooddrop" BleedParticleWater="waterblood" BleedParticleMultiplier="1" CanEat="True" EatingSpeed="10" UsePathFinding="True" PathFinderPriority="1" HideInSonar="True" HideInThermalGoggles="False" SonarDisruption="0.4" DistantSonarRange="0" DisableDistance="25000" SoundInterval="10" DrawLast="False" AITurretPriority="1" AISlowTurretPriority="1" DespawnContainer="" MusicType="monster" MusicCommonness="1" MusicRangeMultiplier="1" UnlockKillAchievementForWholeCrew="False">
+﻿<Character SpeciesName="Watcher_Cephalopod2" Tags="" SpeciesTranslationOverride="" DisplayName="" Group="watcheroid" Humanoid="False" HasInfo="False" CanInteract="False" CanClimb="True" ForceSlowClimbing="False" Husk="False" HuskedSpecies="" NonHuskedSpecies="" UseHuskAppendage="False" NeedsAir="False" NeedsWater="False" UseHumanAI="False" IsMachine="False" CanSpeak="True" ShowHealthBar="True" UseBossHealthBar="True" Noise="100" Visibility="100" BloodDecal="blood" BleedParticleAir="blooddrop" BleedParticleWater="waterblood" BleedParticleMultiplier="1" CanEat="True" EatingSpeed="10" UsePathFinding="True" PathFinderPriority="1" HideInSonar="True" HideInThermalGoggles="False" SonarDisruption="0.4" DistantSonarRange="0" DisableDistance="25000" SoundInterval="10" DrawLast="False" AITurretPriority="1" AISlowTurretPriority="1" DespawnContainer="" MusicType="monster" MusicCommonness="1" MusicRangeMultiplier="1" UnlockKillAchievementForWholeCrew="False">
   <ragdolls folder="default" />
   <animations folder="default" />
   <sound gender="None" File="Content/Characters/Watcher/WATCHER_takeDamage1.ogg" State="Damage" Range="10000" Volume="1" Tags="" />
@@ -66,18 +66,18 @@
     <target damagethreshold="0" Tag="provocative" State="Attack" Priority="20" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreTargetInside="False" IgnoreTargetOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" PerceptionDistanceMultiplier="1" MaxPerceptionDistance="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="8000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
   </ai>
   <StatusEffect type="OnActive" target="NearbyCharacters" tag="EMI" range="12000">
-    <Affliction identifier="observerpresense" strength="20" />
+    <Affliction identifier="Watcher_Cephalopod2presense" strength="20" />
   </StatusEffect>
   <StatusEffect type="OnActive" target="NearbyCharacters" tag="EMI" range="7000">
-    <Affliction identifier="observerpresense" strength="50" />
+    <Affliction identifier="Watcher_Cephalopod2presense" strength="50" />
   </StatusEffect>
   <StatusEffect type="OnActive" target="NearbyCharacters" tag="EMI" range="5000">
-    <Affliction identifier="observerpresense" strength="100" />
+    <Affliction identifier="Watcher_Cephalopod2presense" strength="100" />
   </StatusEffect>
   <StatusEffect type="OnActive" target="NearbyItems" targettags="junctionbox" range="5000.0" setvalue="true" stackable="false" extraload="500" delay="1" />
   <StatusEffect type="OnDeath" target="NearbyCharacters" range="20000">
-    <ReduceAffliction identifier="observerpresense" strength="100" />
-    <ReduceAffliction identifier="observersgaze" strength="100" />
+    <ReduceAffliction identifier="Watcher_Cephalopod2presense" strength="100" />
+    <ReduceAffliction identifier="Watcher_Cephalopod2sgaze" strength="100" />
   </StatusEffect>
   <StatusEffect type="OnActive" target="This" checkconditionalways="true" comparison="or" delay="10" stackable="false">
     <Conditional isdead="false" />
