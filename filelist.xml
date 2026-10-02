@@ -224,7 +224,7 @@
   <Character file="%ModDir%/Characters/Undyingthermal/Undyingthermal.xml" />
   <Character file="%ModDir%/Characters/Undyingfaraday/Undyingfaraday.xml" />
   <Character file="%ModDir%/Characters/HumanImmortal/HumanImmortal.xml" />
-  <Character file="%ModDir%/Characters/Abyssalcrawler/Abyssalcrawler.xml" />
+  <Character file="%ModDir%/Characters/Crawler_Abyss/Crawler_Abyss.xml" />
   <Character file="%ModDir%/Characters/Plantworm/Plantworm.xml" />
   <Character file="%ModDir%/Characters/Ghostshrimp/Ghostshrimp.xml" />
   <Character file="%ModDir%/Characters/Carrierflak/Carrierflakrandom.xml" />

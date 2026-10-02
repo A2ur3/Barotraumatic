@@ -1216,7 +1216,7 @@
           <Conditional speciesname="magmaworm" />
           <Conditional speciesname="endwormnew" />
           <Conditional speciesname="stonewanderer" />
-          <Conditional speciesname="abyssalcrawler" />
+          <Conditional speciesname="Crawler_Abyss" />
           <Conditional speciesname="hammerhead" />
           <Conditional speciesname="hammerhead_m" />
           <Conditional speciesname="mantis" />
@@ -1262,7 +1262,7 @@
           <Conditional speciesname="magmaworm" />
           <Conditional speciesname="endwormnew" />
           <Conditional speciesname="stonewanderer" />
-          <Conditional speciesname="abyssalcrawler" />
+          <Conditional speciesname="Crawler_Abyss" />
           <Conditional speciesname="abyssalthresher" />
           <Conditional speciesname="hammerhead" />
           <Conditional speciesname="hammerhead_m" />
@@ -1311,7 +1311,7 @@
           <Conditional speciesname="magmaworm" />
           <Conditional speciesname="endwormnew" />
           <Conditional speciesname="stonewanderer" />
-          <Conditional speciesname="abyssalcrawler" />
+          <Conditional speciesname="Crawler_Abyss" />
           <Conditional speciesname="hammerhead" />
           <Conditional speciesname="hammerhead_m" />
           <Conditional speciesname="mantis" />
