@@ -128,6 +128,7 @@ HOTFIX
 	
 	CyclopsLatcher => Latcher_Cyclops
 	Gianttrapper => Latcher_Trapper
+	LatcherAbyss => Latcher_Wounded
 	
 	Exosuit => ThalamusExosuit
 	
@@ -139,8 +140,10 @@ HOTFIX
 	
 	LegacyCrawler => RoachShrimp (?)
 	
-	Nightraptor => Mudraptor_stealth
-	
+	Nightraptor => Mudraptor_stealth	
+		
+	Silverhammerhead => HammerheadSilver	
+	MotherCrawler => Crawler_Pregnant
 	
 	Carrier/TurretCarrier/anything that has to do wth carriers
 	
