@@ -2252,7 +2252,7 @@ reward="1000"
   spawntype="Abyss"
   maxsonarmarkerdistance="20000"
   successmessage=""
-  monsterfile="GiantTrapper">
+  monsterfile="Latcher_Trapper">
     <Reputation identifier="separatists" amount="3" />
     <Reputation identifier="coalition" amount="3" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48" />

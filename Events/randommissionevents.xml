@@ -3702,7 +3702,7 @@ MonsterEvent
         <MonsterEvent characterfile="Charybdis" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Endworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Endwormre" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
-        <MonsterEvent characterfile="Gianttrapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
+        <MonsterEvent characterfile="Latcher_Trapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Pylon" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
@@ -6300,7 +6300,7 @@ MonsterEvent
         <MonsterEvent characterfile="Harpoonwhale" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="20" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
         <MonsterEvent characterfile="Latcher" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="deep" />
         <MonsterEvent characterfile="Pylon" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="deep" />
-        <MonsterEvent characterfile="GiantTrapper" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="deep" />
+        <MonsterEvent characterfile="Latcher_Trapper" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="deep" />
         <MonsterEvent characterfile="Molochgreen" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="60" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
         <MonsterEvent characterfile="Voidstalker" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="60" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
 		<MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="60" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
@@ -8881,7 +8881,7 @@ MonsterEvent
 		  <MonsterEvent characterfile="Harpoonwhale" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="wreck" spawnpointtag="encounter" musictype="flooded" />
 		  <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="wreck" spawnpointtag="encounter" musictype="flooded" />
           <MonsterEvent characterfile="Latcher" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="wreck" spawnpointtag="encounter" musictype="flooded" />
-          <MonsterEvent characterfile="GiantTrapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="wreck" spawnpointtag="encounter" musictype="flooded" />
+          <MonsterEvent characterfile="Latcher_Trapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="wreck" spawnpointtag="encounter" musictype="flooded" />
           <MonsterEvent characterfile="Voidleviathan" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="wreck" spawnpointtag="encounter" musictype="flooded" />
           <MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="wreck" spawnpointtag="encounter" musictype="flooded" />
 		  <MonsterEvent characterfile="Cthulhuadolescent" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="wreck" spawnpointtag="encounter" musictype="flooded" />
@@ -9009,7 +9009,7 @@ MonsterEvent
         <MonsterEvent characterfile="Endworm_Alpha" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Pylon" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
-        <MonsterEvent characterfile="GiantTrapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
+        <MonsterEvent characterfile="Latcher_Trapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Endworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1200" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
         <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
 		<MonsterEvent characterfile="Riftworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1200" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
@@ -9364,7 +9364,7 @@ MonsterEvent
         <EventSet chooserandom="true">
           <MonsterEvent characterfile="Brainmoss2" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="GiantTrapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Latcher_Trapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Mantis" minamount="3" maxamount="6" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Bonethresher" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -9773,7 +9773,7 @@ MonsterEvent
         <EventSet chooserandom="true">
           <MonsterEvent characterfile="Brainmoss2" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="GiantTrapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Latcher_Trapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Mantis" minamount="3" maxamount="6" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Bonethresher" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -9959,7 +9959,7 @@ MonsterEvent
         <EventSet chooserandom="true">
           <MonsterEvent characterfile="Brainmoss2" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="GiantTrapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Latcher_Trapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Mantis" minamount="3" maxamount="6" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Bonethresher" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -10145,7 +10145,7 @@ MonsterEvent
         <EventSet chooserandom="true">
           <MonsterEvent characterfile="Brainmoss2" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="GiantTrapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Latcher_Trapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Mantis" minamount="3" maxamount="6" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Bonethresher" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -10332,7 +10332,7 @@ MonsterEvent
         <EventSet chooserandom="true">
           <MonsterEvent characterfile="Brainmoss2" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="GiantTrapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Latcher_Trapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Mantis" minamount="3" maxamount="6" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Bonethresher" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
