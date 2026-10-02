@@ -22,15 +22,15 @@
     <target Tag="monsterfood" State="Eat" Priority="1" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreTargetInside="False" IgnoreTargetOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" PerceptionDistanceMultiplier="1" MaxPerceptionDistance="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
     <SwarmBehavior mindistfromclosest="300" maxdistfromcenter="1000" cohesion="0.25" />
   </ai>
-  <sound gender="None" File="%ModDir%/Characters/CthulhuintermediateWild/Scream.ogg" State="Attack" Range="4000" Volume="1" Tags="" />
-  <sound gender="None" File="%ModDir%/Characters/CthulhuintermediateWild/Scream2.ogg" State="Attack" Range="4000" Volume="1" Tags="" />
-  <sound gender="None" File="%ModDir%/Characters/CthulhuintermediateWild/Groan3.ogg" State="Attack" Range="3000" Volume="1" Tags="" />
-  <sound gender="None" File="%ModDir%/Characters/CthulhuintermediateWild/Damage.ogg" State="Damage" Range="3000" Volume="1" Tags="" />
-  <sound gender="None" File="%ModDir%/Characters/CthulhuintermediateWild/Groan.ogg" State="Idle" Range="2000" Volume="1" Tags="" />
-  <sound gender="None" File="%ModDir%/Characters/CthulhuintermediateWild/Groan2.ogg" State="Idle" Range="2000" Volume="1" Tags="" />
-  <sound gender="None" File="%ModDir%/Characters/CthulhuintermediateWild/Groan3.ogg" State="Idle" Range="2000" Volume="1" Tags="" />
-  <sound gender="None" File="%ModDir%/Characters/CthulhuintermediateWild/Scream.ogg" State="Idle" Range="4000" Volume="1" Tags="" />
-  <sound gender="None" File="%ModDir%/Characters/CthulhuintermediateWild/Scream2.ogg" State="Die" Range="4000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/CthulhuWild/Scream.ogg" State="Attack" Range="4000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/CthulhuWild/Scream2.ogg" State="Attack" Range="4000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/CthulhuWild/Groan3.ogg" State="Attack" Range="3000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/CthulhuWild/Damage.ogg" State="Damage" Range="3000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/CthulhuWild/Groan.ogg" State="Idle" Range="2000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/CthulhuWild/Groan2.ogg" State="Idle" Range="2000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/CthulhuWild/Groan3.ogg" State="Idle" Range="2000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/CthulhuWild/Scream.ogg" State="Idle" Range="4000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir%/Characters/CthulhuWild/Scream2.ogg" State="Die" Range="4000" Volume="1" Tags="" />
  <Inventory Slots="Any, Any, Any, Any, Any, Any, Any" AccessibleWhenAlive="False" Commonness="15">
       <Item Identifier="btcsmallswimbladder" />
       <Item amount="1" Identifier="fishoil" />
