@@ -227,7 +227,7 @@ MonsterEvent
     - Endwormcoral 2
     - Endwormre 5A
     - Endworm_young 7C 7
-    - Epicentrum 8A
+    - Fault_Large 8A
     - Europanboxcutter 3 From the ridge down these soft bodied jellyfish-like predators slowly drift towards movement and emit electrical shocks similar to piezo crystals
     - Europantrout 1
     - Fault 7A 
@@ -14466,7 +14466,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Voidstalker" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Praywhalemineral" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
-          <MonsterEvent characterfile="Epicentrum" minamount="1" maxamount="1" scatter="3000" maxamountperlevel="1" delaybetweenspawns="5" spawntype="abyss" musictype="deep" />
+          <MonsterEvent characterfile="Fault_Large" minamount="1" maxamount="1" scatter="3000" maxamountperlevel="1" delaybetweenspawns="5" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Hermitdugong" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Shadowwhale" minamount="2" maxamount="3" scatter="2000" delaybetweenspawns="5" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Endworm" minamount="1" maxamount="1" scatter="3000" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
