@@ -176,7 +176,7 @@
   <Character file="%ModDir%/Characters/Teleglitch/Teleglitch.xml" />
   <Character file="%ModDir%/Characters/Prawn_Razor/Prawn_Razor.xml" />
   <Character file="%ModDir%/Characters/Prawn_Horned/Prawn_Horned.xml" />
-  <Character file="%ModDir%/Characters/Shrimpbrut/Shrimpbrut.xml" />
+  <Character file="%ModDir%/Characters/Prawn_Brood/Prawn_Brood.xml" />
   <Character file="%ModDir%/Characters/Seaurchin/Seaurchin.xml" />
   <Character file="%ModDir%/Characters/Seaurchinqueen/Seaurchinqueen.xml" />
   <Character file="%ModDir%/Characters/Muddragon/Muddragon.xml" />

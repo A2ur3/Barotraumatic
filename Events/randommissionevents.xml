@@ -1301,7 +1301,7 @@ MonsterEvent
         <MonsterEvent characterfile="Bombshark" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="30" />
         <MonsterEvent characterfile="Ghostshrimp" minamount="1" maxamount="3" spawntype="cave" delaybetweenspawns="30" />
         <MonsterEvent characterfile="Prawn_Horned" minamount="1" maxamount="2" spawntype="cave" delaybetweenspawns="30" />
-		<MonsterEvent characterfile="Shrimpbrut_kse" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="30" />
+		<MonsterEvent characterfile="Prawn_Brood" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="30" />
         <MonsterEvent characterfile="Paralyticshark" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="30" />
         <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="6" spawntype="cave" delaybetweenspawns="15" />
         <MonsterEvent characterfile="Trichordate" minamount="6" maxamount="8" spawntype="cave" delaybetweenspawns="15" />
@@ -1547,7 +1547,7 @@ MonsterEvent
         <MonsterEvent characterfile="Trichordatemetalvore" minamount="3" maxamount="6" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Swarmfeeder" minamount="6" maxamount="8" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="6" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-		<MonsterEvent characterfile="Shrimpbrut_kse" minamount="2" maxamount="3" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+		<MonsterEvent characterfile="Prawn_Brood" minamount="2" maxamount="3" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Carrierflakrandom" minamount="1" maxamount="1" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Minoga" minamount="4" maxamount="8" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
@@ -3135,7 +3135,7 @@ MonsterEvent
 	  <MonsterEvent characterfile="Husk_RandomHeavy" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="15" />
       <MonsterEvent characterfile="CrookBTCoutside" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="15" />
       <MonsterEvent characterfile="Prawn_Horned" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="15" />
-	  <MonsterEvent characterfile="Shrimpbrut_kse" minamount="3" maxamount="4" spawntype="cave" delaybetweenspawns="15" />
+	  <MonsterEvent characterfile="Prawn_Brood" minamount="3" maxamount="4" spawntype="cave" delaybetweenspawns="15" />
       <MonsterEvent characterfile="Gnasher" minamount="3" maxamount="6" spawntype="cave" delaybetweenspawns="15" />
       <MonsterEvent characterfile="Crawlerhusk" minamount="2" maxamount="5" spawntype="cave" delaybetweenspawns="30" />
       <MonsterEvent characterfile="Fractalguardianwanderer" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="30" />
@@ -3473,7 +3473,7 @@ MonsterEvent
         <MonsterEvent characterfile="Carrierflakrandom" minamount="1" maxamount="2" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
 		<MonsterEvent characterfile="Psilosaur" minamount="1" maxamount="1" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Gnasher" minamount="2" maxamount="8" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-		<MonsterEvent characterfile="Shrimpbrut_kse" minamount="2" maxamount="3" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+		<MonsterEvent characterfile="Prawn_Brood" minamount="2" maxamount="3" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Psilotoadmonster" minamount="1" maxamount="2" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="4" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="CthulhuWild" minamount="1" maxamount="2" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
@@ -5691,7 +5691,7 @@ MonsterEvent
       <MonsterEvent characterfile="Prawn_Horned" minamount="2" maxamount="3" delaybetweenspawns="12" spawntype="cave" />
 	  <MonsterEvent characterfile="Europanboxcutter" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="15" />
       <MonsterEvent characterfile="Prawn_Razor" minamount="1" maxamount="3" delaybetweenspawns="12" spawntype="cave" />
-	  <MonsterEvent characterfile="Shrimpbrut_kse" minamount="3" maxamount="4" delaybetweenspawns="12" spawntype="cave" />
+	  <MonsterEvent characterfile="Prawn_Brood" minamount="3" maxamount="4" delaybetweenspawns="12" spawntype="cave" />
       <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="1" delaybetweenspawns="12" spawntype="cave" />
       <MonsterEvent characterfile="Mudraptor_veteran" minamount="2" maxamount="2" delaybetweenspawns="12" spawntype="cave" />
 	  <MonsterEvent characterfile="Mudrex" minamount="1" maxamount="1" delaybetweenspawns="12" spawntype="cave" />
@@ -5999,7 +5999,7 @@ MonsterEvent
         <MonsterEvent characterfile="Minoga" minamount="2" maxamount="5" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Seasnek" minamount="3" maxamount="5" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Gnasher" minamount="6" maxamount="8" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-        <MonsterEvent characterfile="Shrimpbrut_kse" minamount="3" maxamount="4" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+        <MonsterEvent characterfile="Prawn_Brood" minamount="3" maxamount="4" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="CthulhuWild" minamount="1" maxamount="3" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Trichordate" minamount="3" maxamount="8" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
         <MonsterEvent characterfile="Trichordatemetalvore" minamount="3" maxamount="6" scatter="3000" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
@@ -6187,8 +6187,8 @@ MonsterEvent
         <EventSet chooserandom="false">
           <MonsterEvent characterfile="Prawn_Horned" minamount="1" maxamount="3" spawntype="wreck" />
           <MonsterEvent characterfile="Prawn_Horned" minamount="1" maxamount="2" spawntype="wreck" />
-          <MonsterEvent characterfile="Shrimpbrut_kse" minamount="2" maxamount="3" spawntype="wreck" />
-          <MonsterEvent characterfile="Shrimpbrut_kse" minamount="1" maxamount="2" spawntype="wreck" />
+          <MonsterEvent characterfile="Prawn_Brood" minamount="2" maxamount="3" spawntype="wreck" />
+          <MonsterEvent characterfile="Prawn_Brood" minamount="1" maxamount="2" spawntype="wreck" />
         </EventSet>
       </EventSet>
       <EventSet identifier="husk" chooserandom="true" eventcount="5" commonness="30">

@@ -347,7 +347,7 @@ MonsterEvent
     - Seaurchinqueen 3
     - Shadowleech 4C
     - Shadowwhale 7
-    - Shrimpbrut_kse 4C
+    - Prawn_Brood 4C
     - Hammerhead_Silver 3
     - Skrimsl 3A a cunning chimeric creature with mostly crawler and some fish like features that increases the frequency of the crawler broods it lives with to be smarter than usual.
     - Spineling 3
@@ -2584,7 +2584,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Icecrab" minamount="1" maxamount="1" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Iceshark" minamount="1" maxamount="1" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <!-- <MonsterEvent characterfile="Seasnekbiter" minamount="3" maxamount="4" scatter="300" spawntype="wreck" spawnprobability="1" /> -->
-            <!-- <MonsterEvent characterfile="Shrimpbrut_kse" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" /> -->
+            <!-- <MonsterEvent characterfile="Prawn_Brood" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" /> -->
           </EventSet>
           <EventSet identifier="Crawlers" chooserandom="false" allowatstart="true" triggereventcooldown="false" ignorecooldown="true" Commonness="50">
             <MonsterEvent characterfile="Crawler" minamount="2" maxamount="3" scatter="300" spawnprobability="1" spawntype="wreck" />
@@ -3995,7 +3995,7 @@ _/ ___\\__  \\  \/ // __ \ /  ___/
         <MonsterEvent characterfile="Bombshark" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Ghostshrimp" minamount="1" maxamount="3" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Prawn_Horned" minamount="1" maxamount="2" spawntype="cave" delaybetweenspawns="5" />
-        <MonsterEvent characterfile="Shrimpbrut_kse" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="5" />
+        <MonsterEvent characterfile="Prawn_Brood" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Paralyticshark" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="6" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Trichordate" minamount="3" maxamount="6" spawntype="cave" delaybetweenspawns="5" />
@@ -4388,7 +4388,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="GrayEel" minamount="1" maxamount="2" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Seasnekbiter" minamount="3" maxamount="4" scatter="300" spawntype="wreck" spawnprobability="1" />
-            <MonsterEvent characterfile="Shrimpbrut_kse" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" />
+            <MonsterEvent characterfile="Prawn_Brood" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" />
             <MonsterEvent characterfile="Hermitspawn" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" />
           </EventSet>
           <EventSet identifier="Crawlers" chooserandom="false" allowatstart="true" triggereventcooldown="false" ignorecooldown="true" Commonness="50">
@@ -5788,7 +5788,7 @@ _/ ___\\__  \\  \/ // __ \ /  ___/
         <MonsterEvent characterfile="Husk_RandomHeavy" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="CrookBTCoutside" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Prawn_Horned" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="5" />
-        <MonsterEvent characterfile="Shrimpbrut_kse" minamount="3" maxamount="4" spawntype="cave" delaybetweenspawns="5" />
+        <MonsterEvent characterfile="Prawn_Brood" minamount="3" maxamount="4" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Gnasher" minamount="3" maxamount="6" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Crawlerhusk" minamount="2" maxamount="5" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Fractalguardianwanderer" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="5" />
@@ -6303,7 +6303,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="GrayEel" minamount="1" maxamount="2" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Seasnekbiter" minamount="3" maxamount="4" scatter="300" spawntype="wreck" spawnprobability="1" />
-            <MonsterEvent characterfile="Shrimpbrut_kse" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" />
+            <MonsterEvent characterfile="Prawn_Brood" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" />
             <MonsterEvent characterfile="Hermitspawn" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" />
           </EventSet>
           <EventSet identifier="Crawlers" chooserandom="false" allowatstart="true" triggereventcooldown="false" ignorecooldown="true" Commonness="50">
@@ -8344,7 +8344,7 @@ _/ ___\\__  \\  \/ // __ \ /  ___/
         <MonsterEvent characterfile="Husk_RandomHeavy" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="CrookBTCoutside" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Prawn_Horned" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="5" />
-        <MonsterEvent characterfile="Shrimpbrut_kse" minamount="3" maxamount="4" spawntype="cave" delaybetweenspawns="5" />
+        <MonsterEvent characterfile="Prawn_Brood" minamount="3" maxamount="4" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Gnasher" minamount="3" maxamount="6" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Crawlerhusk" minamount="2" maxamount="5" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Fractalguardianwanderer" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="5" />
@@ -8887,7 +8887,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="GrayEel" minamount="1" maxamount="2" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Icecrab" minamount="1" maxamount="1" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Seasnekbiter" minamount="3" maxamount="4" scatter="300" spawntype="wreck" spawnprobability="1" />
-            <MonsterEvent characterfile="Shrimpbrut_kse" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" />
+            <MonsterEvent characterfile="Prawn_Brood" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" />
             <MonsterEvent characterfile="Hermitspawn" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" />
             <MonsterEvent characterfile="LegacyCrawler" minamount="3" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" />
           </EventSet>
@@ -10946,7 +10946,7 @@ _/ ___\\__  \\  \/ // __ \ /  ___/
         <MonsterEvent characterfile="Prawn_Horned" minamount="2" maxamount="3" delaybetweenspawns="12" spawntype="cave" />
         <MonsterEvent characterfile="Europanboxcutter" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Prawn_Razor" minamount="1" maxamount="3" delaybetweenspawns="12" spawntype="cave" />
-        <MonsterEvent characterfile="Shrimpbrut_kse" minamount="3" maxamount="4" delaybetweenspawns="12" spawntype="cave" />
+        <MonsterEvent characterfile="Prawn_Brood" minamount="3" maxamount="4" delaybetweenspawns="12" spawntype="cave" />
         <MonsterEvent characterfile="Mudraptor_veteran" minamount="2" maxamount="2" delaybetweenspawns="12" spawntype="cave" />
         <MonsterEvent characterfile="Mudrex" minamount="1" maxamount="1" delaybetweenspawns="12" spawntype="cave" />
         <MonsterEvent characterfile="Mudraptor_Night" minamount="2" maxamount="3" delaybetweenspawns="12" spawntype="cave" />
@@ -11367,7 +11367,7 @@ __  _  _________   ____   ____ |  | __  ______
           <EventSet identifier="shrimpsSet1" chooserandom="false" allowatstart="true" triggereventcooldown="false" ignorecooldown="true">
             <MonsterEvent characterfile="Prawn_Horned" minamount="1" maxamount="1" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="MantisShrimp" minamount="1" maxamount="2" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-            <MonsterEvent characterfile="Shrimpbrut_kse" minamount="3" maxamount="4" scatter="300" spawntype="wreck" spawnprobability="1" />
+            <MonsterEvent characterfile="Prawn_Brood" minamount="3" maxamount="4" scatter="300" spawntype="wreck" spawnprobability="1" />
             <MonsterEvent characterfile="MantisShrimpSmall" minamount="1" maxamount="2" scatter="300" spawntype="wreck" spawnprobability="1" />
           </EventSet>
         </EventSet>
@@ -11512,7 +11512,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Icecrab" minamount="1" maxamount="1" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Iceshark" minamount="1" maxamount="1" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Seasnekbiter" minamount="3" maxamount="4" scatter="300" spawntype="wreck" spawnprobability="1" />
-            <MonsterEvent characterfile="Shrimpbrut_kse" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" />
+            <MonsterEvent characterfile="Prawn_Brood" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" />
             <MonsterEvent characterfile="Hermitspawn" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" />
             <MonsterEvent characterfile="LegacyCrawler" minamount="3" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" />
           </EventSet>
@@ -13784,7 +13784,7 @@ _/ ___\\__  \\  \/ // __ \ /  ___/
         <MonsterEvent characterfile="Prawn_Horned" minamount="2" maxamount="3" delaybetweenspawns="12" spawntype="cave" />
         <MonsterEvent characterfile="Europanboxcutter" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Prawn_Razor" minamount="1" maxamount="3" delaybetweenspawns="12" spawntype="cave" />
-        <MonsterEvent characterfile="Shrimpbrut_kse" minamount="3" maxamount="4" delaybetweenspawns="12" spawntype="cave" />
+        <MonsterEvent characterfile="Prawn_Brood" minamount="3" maxamount="4" delaybetweenspawns="12" spawntype="cave" />
         <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="1" delaybetweenspawns="12" spawntype="cave" />
         <MonsterEvent characterfile="Mudrex" minamount="1" maxamount="1" delaybetweenspawns="12" spawntype="cave" />
         <MonsterEvent characterfile="Mudraptor_Night" minamount="2" maxamount="3" delaybetweenspawns="12" spawntype="cave" />
@@ -14197,7 +14197,7 @@ __  _  _________   ____   ____ |  | __  ______
           <EventSet identifier="shrimpsSet1" chooserandom="false" allowatstart="true" triggereventcooldown="false" ignorecooldown="true">
             <MonsterEvent characterfile="Prawn_Horned" minamount="1" maxamount="1" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="MantisShrimp" minamount="1" maxamount="2" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-            <MonsterEvent characterfile="Shrimpbrut_kse" minamount="3" maxamount="4" scatter="300" spawntype="wreck" spawnprobability="1" />
+            <MonsterEvent characterfile="Prawn_Brood" minamount="3" maxamount="4" scatter="300" spawntype="wreck" spawnprobability="1" />
             <MonsterEvent characterfile="MantisShrimpSmall" minamount="1" maxamount="2" scatter="300" spawntype="wreck" spawnprobability="1" />
           </EventSet>
         </EventSet>
@@ -14342,7 +14342,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Icecrab" minamount="1" maxamount="1" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Iceshark" minamount="1" maxamount="1" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Seasnekbiter" minamount="3" maxamount="4" scatter="300" spawntype="wreck" spawnprobability="1" />
-            <MonsterEvent characterfile="Shrimpbrut_kse" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" />
+            <MonsterEvent characterfile="Prawn_Brood" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" />
             <MonsterEvent characterfile="Hermitspawn" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" />
             <MonsterEvent characterfile="LegacyCrawler" minamount="3" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" />
           </EventSet>
@@ -17039,7 +17039,7 @@ __  _  _________   ____   ____ |  | __  ______
           <EventSet identifier="shrimpsSet1" chooserandom="false" allowatstart="true" triggereventcooldown="false" ignorecooldown="true">
             <MonsterEvent characterfile="Prawn_Horned" minamount="1" maxamount="1" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="MantisShrimp" minamount="1" maxamount="2" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-            <MonsterEvent characterfile="Shrimpbrut_kse" minamount="3" maxamount="4" scatter="300" spawntype="wreck" spawnprobability="1" />
+            <MonsterEvent characterfile="Prawn_Brood" minamount="3" maxamount="4" scatter="300" spawntype="wreck" spawnprobability="1" />
             <MonsterEvent characterfile="MantisShrimpSmall" minamount="1" maxamount="2" scatter="300" spawntype="wreck" spawnprobability="1" />
           </EventSet>
         </EventSet>
@@ -17185,7 +17185,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="GrayEel" minamount="1" maxamount="2" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Seasnekbiter" minamount="3" maxamount="4" scatter="300" spawntype="wreck" spawnprobability="1" />
-            <MonsterEvent characterfile="Shrimpbrut_kse" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" />
+            <MonsterEvent characterfile="Prawn_Brood" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" />
             <MonsterEvent characterfile="Hermitspawn" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" />
             <MonsterEvent characterfile="LegacyCrawler" minamount="3" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" />
           </EventSet>
@@ -19233,7 +19233,7 @@ __  _  _________   ____   ____ |  | __  ______
           <EventSet identifier="shrimpsSet1" chooserandom="false" allowatstart="true" triggereventcooldown="false" ignorecooldown="true">
             <MonsterEvent characterfile="Prawn_Horned" minamount="1" maxamount="1" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="MantisShrimp" minamount="1" maxamount="2" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-            <MonsterEvent characterfile="Shrimpbrut_kse" minamount="3" maxamount="4" scatter="300" spawntype="wreck" spawnprobability="1" />
+            <MonsterEvent characterfile="Prawn_Brood" minamount="3" maxamount="4" scatter="300" spawntype="wreck" spawnprobability="1" />
             <MonsterEvent characterfile="MantisShrimpSmall" minamount="1" maxamount="2" scatter="300" spawntype="wreck" spawnprobability="1" />
           </EventSet>
         </EventSet>
@@ -19379,7 +19379,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="GrayEel" minamount="1" maxamount="2" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Seasnekbiter" minamount="3" maxamount="4" scatter="300" spawntype="wreck" spawnprobability="1" />
-            <MonsterEvent characterfile="Shrimpbrut_kse" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" />
+            <MonsterEvent characterfile="Prawn_Brood" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" />
             <MonsterEvent characterfile="Hermitspawn" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" />
             <MonsterEvent characterfile="LegacyCrawler" minamount="3" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" />
           </EventSet>
