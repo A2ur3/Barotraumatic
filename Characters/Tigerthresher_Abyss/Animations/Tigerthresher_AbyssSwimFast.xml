@@ -1,5 +1,5 @@
-﻿<AbyssalthresherSwimFast
-  type="Abyssalthresher"
+﻿<Tigerthresher_AbyssSwimFast
+  type="Tigerthresher_Abyss"
   UseSineMovement="False"
   Flip="True"
   FlipCooldown="1"

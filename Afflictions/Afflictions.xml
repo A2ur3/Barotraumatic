@@ -1220,7 +1220,7 @@
           <Conditional speciesname="hammerhead" />
           <Conditional speciesname="hammerhead_m" />
           <Conditional speciesname="mantis" />
-          <Conditional speciesname="abyssalthresher" />
+          <Conditional speciesname="Tigerthresher_Abyss" />
           <Conditional speciesname="hammerheadgold" />
           <Conditional speciesname="hammerheadgold_m" />
           <Conditional speciesname="mantisbig" />
@@ -1263,7 +1263,7 @@
           <Conditional speciesname="endwormnew" />
           <Conditional speciesname="stonewanderer" />
           <Conditional speciesname="Crawler_Abyss" />
-          <Conditional speciesname="abyssalthresher" />
+          <Conditional speciesname="Tigerthresher_Abyss" />
           <Conditional speciesname="hammerhead" />
           <Conditional speciesname="hammerhead_m" />
           <Conditional speciesname="mantis" />
@@ -1315,7 +1315,7 @@
           <Conditional speciesname="hammerhead" />
           <Conditional speciesname="hammerhead_m" />
           <Conditional speciesname="mantis" />
-          <Conditional speciesname="abyssalthresher" />
+          <Conditional speciesname="Tigerthresher_Abyss" />
           <Conditional speciesname="hammerheadgold" />
           <Conditional speciesname="hammerheadgold_m" />
           <Conditional speciesname="mantisbig" />
