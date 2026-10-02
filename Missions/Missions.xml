@@ -2291,10 +2291,10 @@ reward="1000"
   commonness="0" 
   reward="7500" 
   spawntype="Abyss"
-  sonarlabel="Cyclops" 
+  sonarlabel="Latcher_Cyclops" 
   maxsonarmarkerdistance="20000"
   successmessage="">
-    <monster character="Cyclops" count="3" />
+    <monster character="Latcher_Cyclops" count="3" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48" />
     <Reputation identifier="separatists" amount="3" />
     <Reputation identifier="coalition" amount="3" />

@@ -217,7 +217,7 @@ MonsterEvent
     - CrookBTCoutside 4
     - Cthulhu 7A
     - Cthulhuadolescent 5
-    - Cyclops 3
+    - Latcher_Cyclops 3
     - Deathgill 6
     - deepseaclown 5
     - Defensebothostile 5W
@@ -2653,7 +2653,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Charybdis" minamount="1" maxamount="1" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Molochgreen" minamount="1" maxamount="1" maxamountperlevel="1" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Latcher" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="deep" delaybetweenspawns="5" />
-		  <MonsterEvent characterfile="Cyclops" minamount="1" maxamount="1" maxamountperlevel="2"  spawntype="abyss" musictype="deep" delaybetweenspawns="5" />
+		  <MonsterEvent characterfile="Latcher_Cyclops" minamount="1" maxamount="1" maxamountperlevel="2"  spawntype="abyss" musictype="deep" delaybetweenspawns="5" />
  <!--     <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="2" spawntype="abyss" musictype="deep" delaybetweenspawns="5" /> -->
           <MonsterEvent characterfile="Praywhalemineral" minamount="1" maxamount="1" spawntype="abyss" musictype="deep" delaybetweenspawns="5" />
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="130" spawntype="abyss" musictype="deep" />
@@ -4466,7 +4466,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Charybdis" minamount="1" maxamount="1" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Molochgreen" minamount="1" maxamount="1" maxamountperlevel="1" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Latcher" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="deep" delaybetweenspawns="5" />
-          <MonsterEvent characterfile="Cyclops" minamount="1" maxamount="1" maxamountperlevel="2"  spawntype="abyss" musictype="deep" delaybetweenspawns="5" />
+          <MonsterEvent characterfile="Latcher_Cyclops" minamount="1" maxamount="1" maxamountperlevel="2"  spawntype="abyss" musictype="deep" delaybetweenspawns="5" />
  <!--     <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="2" spawntype="abyss" musictype="deep" delaybetweenspawns="5" /> -->
           <MonsterEvent characterfile="Praywhalemineral" minamount="1" maxamount="1" spawntype="abyss" musictype="deep" delaybetweenspawns="5" />
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="130" spawntype="abyss" musictype="deep" />
@@ -6393,7 +6393,7 @@ _____ \_ |__ ___.__. ______ ______
       <EventSet identifier="abyssal_void" chooserandom="true" allowatstart="true" triggereventcooldown="false" ignorecooldown="false" disableinhuntinggrounds="true" resettime="600">
         <EventSet identifier="boss" chooserandom="true" eventcount="1" commonness="70">
           <MonsterEvent characterfile="Molochgreen" minamount="1" maxamount="1" maxamountperlevel="5" spawntype="abyss" musictype="deep" />
-          <MonsterEvent characterfile="Cyclops" minamount="1" maxamount="1" maxamountperlevel="5" spawntype="abyss" musictype="deep" />
+          <MonsterEvent characterfile="Latcher_Cyclops" minamount="1" maxamount="1" maxamountperlevel="5" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Voidstalker" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Charybdis" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Endworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
@@ -8988,7 +8988,7 @@ _____ \_ |__ ___.__. ______ ______
       <EventSet identifier="abyssal_void" chooserandom="true" allowatstart="true" triggereventcooldown="false" ignorecooldown="false" disableinhuntinggrounds="true" resettime="600">
         <EventSet identifier="boss" chooserandom="true" eventcount="1" commonness="70">
           <MonsterEvent characterfile="Molochgreen" minamount="1" maxamount="1" maxamountperlevel="5" spawntype="abyss" musictype="deep" />
-          <MonsterEvent characterfile="Cyclops" minamount="1" maxamount="1" maxamountperlevel="5" spawntype="abyss" musictype="deep" />
+          <MonsterEvent characterfile="Latcher_Cyclops" minamount="1" maxamount="1" maxamountperlevel="5" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Voidstalker" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Charybdis" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Endworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
@@ -12654,7 +12654,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Leatherback" minamount="2" maxamount="3" maxamountperlevel="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Cyclops" minamount="1" maxamount="1" maxamountperlevel="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Latcher_Cyclops" minamount="1" maxamount="1" maxamountperlevel="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Thalamuscarrier" minamount="1" maxamount="1" maxamountperlevel="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -12906,7 +12906,7 @@ _____ \_ |__ ___.__. ______ ______
         </EventSet>
         <EventSet chooserandom="true" commonness="5">
           <EventSet chooserandom="true">
-            <MonsterEvent characterfile="Cyclops" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Latcher_Cyclops" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Carrierflakrandom" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -14485,7 +14485,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Latcher_hatchling" minamount="4" maxamount="4" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
           </EventSet>
           <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Cyclops" minamount="1" maxamount="1" maxamountperlevel="1" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
+            <MonsterEvent characterfile="Latcher_Cyclops" minamount="1" maxamount="1" maxamountperlevel="1" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
             <MonsterEvent characterfile="Latcher" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
           </EventSet>
           <EventSet chooserandom="false">
@@ -15452,7 +15452,7 @@ _____ \_ |__ ___.__. ______ ______
         </EventSet>
         <EventSet chooserandom="true" commonness="5">
           <EventSet chooserandom="true">
-            <MonsterEvent characterfile="Cyclops" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Latcher_Cyclops" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Carrierflakrandom" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -15509,7 +15509,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Endworm_young" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Cyclops" minamount="1" maxamount="1" maxamountperlevel="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Latcher_Cyclops" minamount="1" maxamount="1" maxamountperlevel="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="3" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
@@ -15763,7 +15763,7 @@ _____ \_ |__ ___.__. ______ ______
         </EventSet>
         <EventSet chooserandom="true" commonness="5">
           <EventSet chooserandom="true">
-            <MonsterEvent characterfile="Cyclops" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Latcher_Cyclops" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Carrierflakrandom" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -15820,7 +15820,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Endworm_young" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Cyclops" minamount="1" maxamount="1" maxamountperlevel="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Latcher_Cyclops" minamount="1" maxamount="1" maxamountperlevel="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="3" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
