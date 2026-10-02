@@ -1,4 +1,4 @@
-﻿<Ragdoll type="Razzershrimp" Texture="%ModDir:2518816103%/Characters/Razzershrimp/Razzershrimp.png" Color="255,255,255,255" SpritesheetOrientation="0" LimbScale="1" JointScale="1" TextureScale="1" SourceRectScale="1" ColliderHeightFromFloor="45" ImpactTolerance="50" CanEnterSubmarine="Partial" CanWalk="False" Draggable="True" MainLimb="Torso">
+﻿<Ragdoll type="Prawn_Razor" Texture="%ModDir:2518816103%/Characters/Prawn_Razor/Prawn_Razor.png" Color="255,255,255,255" SpritesheetOrientation="0" LimbScale="1" JointScale="1" TextureScale="1" SourceRectScale="1" ColliderHeightFromFloor="45" ImpactTolerance="50" CanEnterSubmarine="Partial" CanWalk="False" Draggable="True" MainLimb="Torso">
   <collider Name="Main Collider" Radius="80" Height="381" Width="0" BodyType="Dynamic" />
   <limb Name="Magen" ID="0" Type="Torso" SecondaryType="None" Notes="" Scale="1.2" Flip="True" MirrorVertically="False" MirrorHorizontally="False" Hide="False" SpriteOrientation="NaN" InheritLimbDepth="None" SteerForce="0" Radius="70" Height="0" Width="0" Density="10" IgnoreCollisions="False" AngularDamping="7" AttackPriority="1" PullPos="0,0" StepOffset="0,0" RefJoint="-1" MouthPos="0,0" EatTorque="50" EatImpulse="2" ConstantTorque="0" ConstantAngle="0" AttackForceMultiplier="1" MinSeveranceDamage="1" CanBeSeveredAlive="True" SeveredFadeOutTime="10" ApplyTailAngle="False" ApplySineMovement="False" SineFrequencyMultiplier="1" SineAmplitudeMultiplier="1" BlinkFrequency="0" BlinkDurationIn="0.2" BlinkDurationOut="0.5" BlinkHoldTime="0" BlinkRotationIn="0" BlinkRotationOut="45" BlinkForce="50" OnlyBlinkInWater="False" UseTextureOffsetForBlinking="False" BlinkTextureOffsetIn="0.5,0.5" BlinkTextureOffsetOut="0.5,0.5" BlinkTransitionIn="Linear" BlinkTransitionOut="Linear" HealthIndex="0" Friction="0.3" Restitution="0.05" CanEnterSubmarine="False" InheritHiding="None">
     <sprite SourceRect="340,408,212,207" Origin="0.42279068,0.56372094" Depth="0.8" Texture="" IgnoreTint="False" Color="255,255,255,255" DeadColor="255,255,255,255" DeadColorTime="0" />
@@ -17,7 +17,7 @@
       <AITrigger state="Escape" duration="10" probability="1" mindamage="700" allowtobeoverridden="false" allowtooverride="true" />
       <AITrigger state="Escape" duration="6" probability="1" mindamage="200" allowtobeoverridden="true" allowtooverride="true" />
       <AITrigger state="Escape" duration="4" probability="0.25" mindamage="50" allowtobeoverridden="true" allowtooverride="false" />
-      <sound file="%ModDir%/Characters/Razzershrimp/Gore.ogg" range="30000" volume="1" dontmuffle="true" />
+      <sound file="%ModDir%/Characters/Prawn_Razor/Gore.ogg" range="30000" volume="1" dontmuffle="true" />
     </StatusEffect>
   </limb>
   <limb Name="Torso" ID="12" Type="Torso" SecondaryType="None" Notes="" Scale="1.2" Flip="True" MirrorVertically="False" MirrorHorizontally="False" Hide="False" SpriteOrientation="NaN" InheritLimbDepth="None" SteerForce="0" Radius="70" Height="0" Width="0" Density="10" IgnoreCollisions="False" AngularDamping="7" AttackPriority="1" PullPos="0,0" StepOffset="0,0" RefJoint="-1" MouthPos="0,0" EatTorque="50" EatImpulse="2" ConstantTorque="0" ConstantAngle="0" AttackForceMultiplier="1" MinSeveranceDamage="1" CanBeSeveredAlive="True" SeveredFadeOutTime="10" ApplyTailAngle="False" ApplySineMovement="False" SineFrequencyMultiplier="1" SineAmplitudeMultiplier="1" BlinkFrequency="0" BlinkDurationIn="0.2" BlinkDurationOut="0.5" BlinkHoldTime="0" BlinkRotationIn="0" BlinkRotationOut="45" BlinkForce="50" OnlyBlinkInWater="False" UseTextureOffsetForBlinking="False" BlinkTextureOffsetIn="0.5,0.5" BlinkTextureOffsetOut="0.5,0.5" BlinkTransitionIn="Linear" BlinkTransitionOut="Linear" HealthIndex="0" Friction="0.3" Restitution="0.05" CanEnterSubmarine="Partial" InheritHiding="None">
@@ -40,7 +40,7 @@
       <AITrigger state="Escape" duration="10" probability="1" mindamage="700" allowtobeoverridden="false" allowtooverride="true" />
       <AITrigger state="Escape" duration="6" probability="1" mindamage="200" allowtobeoverridden="true" allowtooverride="true" />
       <AITrigger state="Escape" duration="4" probability="0.25" mindamage="50" allowtobeoverridden="true" allowtooverride="false" />
-      <sound file="%ModDir%/Characters/Razzershrimp/Gore.ogg" range="30000" volume="1" dontmuffle="true" />
+      <sound file="%ModDir%/Characters/Prawn_Razor/Gore.ogg" range="30000" volume="1" dontmuffle="true" />
     </StatusEffect>
   </limb>
   <!-- dicker Schwanz, von hinten nach vorne -->
@@ -197,9 +197,9 @@
           <Affliction identifier="bitewounds" strength="10" probability="1" />
           <Affliction identifier="bleeding" strength="30" probability="1" />
         </Explosion>
-        <sound file="%ModDir%/Characters/Razzershrimp/Hiss 2.ogg" range="30000" volume="1" dontmuffle="true" selectionmode="random" />
-        <sound file="%ModDir%/Characters/Razzershrimp/Hiss 3.ogg" range="30000" volume="1" dontmuffle="true" />
-        <sound file="%ModDir%/Characters/Razzershrimp/Hiss 4.ogg" range="30000" volume="1" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Prawn_Razor/Hiss 2.ogg" range="30000" volume="1" dontmuffle="true" selectionmode="random" />
+        <sound file="%ModDir%/Characters/Prawn_Razor/Hiss 3.ogg" range="30000" volume="1" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Prawn_Razor/Hiss 4.ogg" range="30000" volume="1" dontmuffle="true" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="This">
         <sound file="Content/Characters/Charybdis/Bite1.ogg" range="1000" volume="1" dontmuffle="True" selectionmode="random" />
@@ -215,9 +215,9 @@
       <Affliction Strength="20" Identifier="bleeding" Probability="1" DivideByLimbCount="True" MultiplyByMaxVitality="False" />
       <Affliction Strength="0.4" Identifier="stun" Probability="1" DivideByLimbCount="True" MultiplyByMaxVitality="False" />
       <StatusEffect type="OnUse" target="This">
-        <sound file="%ModDir%/Characters/Razzershrimp/Hiss 5.ogg" range="30000" volume="1" dontmuffle="true" selectionmode="random" />
-        <sound file="%ModDir%/Characters/Razzershrimp/Hiss 6.ogg" range="30000" volume="1" dontmuffle="true" />
-        <sound file="%ModDir%/Characters/Razzershrimp/Hiss 4.ogg" range="30000" volume="1" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Prawn_Razor/Hiss 5.ogg" range="30000" volume="1" dontmuffle="true" selectionmode="random" />
+        <sound file="%ModDir%/Characters/Prawn_Razor/Hiss 6.ogg" range="30000" volume="1" dontmuffle="true" />
+        <sound file="%ModDir%/Characters/Prawn_Razor/Hiss 4.ogg" range="30000" volume="1" dontmuffle="true" />
         <Explosion ignorecover="true" distancefalloff="true" onlyinside="true" range="350" force="-20" flames="false" smoke="false" shockwave="false" sparks="false" flash="false" underwaterbubble="false" camerashake="5" playtinnitus="false" structuredamage="15" applyFireEffects="false" />
       </StatusEffect>
       <StatusEffect type="OnUse" target="This">

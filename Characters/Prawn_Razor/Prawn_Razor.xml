@@ -1,4 +1,4 @@
-﻿<Character SpeciesName="Razzershrimp_kse" Tags="" SpeciesTranslationOverride="" DisplayName="" Group="mantisoid" Humanoid="False" HasInfo="False" CanInteract="False" CanClimb="False" ForceSlowClimbing="False" Husk="False" HuskedSpecies="" NonHuskedSpecies="" UseHuskAppendage="False" NeedsAir="False" NeedsWater="False" UseHumanAI="False" IsMachine="False" CanSpeak="False" ShowHealthBar="True" UseBossHealthBar="False" Noise="100" Visibility="100" BloodDecal="btcbloodblue" BleedParticleAir="btcblooddropblue" BleedParticleWater="btcwaterbloodblue" BleedParticleMultiplier="1" CanEat="True" EatingSpeed="20" UsePathFinding="True" PathFinderPriority="1" HideInSonar="False" HideInThermalGoggles="False" SonarDisruption="0" DistantSonarRange="0" DisableDistance="25000" SoundInterval="10" DrawLast="False" AITurretPriority="1" AISlowTurretPriority="1" DespawnContainer="">
+﻿<Character SpeciesName="Prawn_Razor" Tags="" SpeciesTranslationOverride="" DisplayName="" Group="mantisoid" Humanoid="False" HasInfo="False" CanInteract="False" CanClimb="False" ForceSlowClimbing="False" Husk="False" HuskedSpecies="" NonHuskedSpecies="" UseHuskAppendage="False" NeedsAir="False" NeedsWater="False" UseHumanAI="False" IsMachine="False" CanSpeak="False" ShowHealthBar="True" UseBossHealthBar="False" Noise="100" Visibility="100" BloodDecal="btcbloodblue" BleedParticleAir="btcblooddropblue" BleedParticleWater="btcwaterbloodblue" BleedParticleMultiplier="1" CanEat="True" EatingSpeed="20" UsePathFinding="True" PathFinderPriority="1" HideInSonar="False" HideInThermalGoggles="False" SonarDisruption="0" DistantSonarRange="0" DisableDistance="25000" SoundInterval="10" DrawLast="False" AITurretPriority="1" AISlowTurretPriority="1" DespawnContainer="">
   <ragdolls folder="default" />
   <animations folder="default" />
   <gibemitter particle="btcblueheavygib" particleamount="5" velocitymin="50" velocitymax="500" anglemin="0" anglemax="360" scalemin="0.5" scalemax="0.8" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
@@ -85,20 +85,20 @@
     <ParticleEmitter scalemax="15" scalemin="15" anglemax="360" anglemin="0" velocitymax="0" velocitymin="0" particleamount="2" particle="heavygib" />
     <ParticleEmitter scalemax="2" scalemin="1" anglemax="360" anglemin="0" velocitymax="300" velocitymin="100" particleamount="200" particle="gib" />
   </StatusEffect> -->
-  <sound File="%ModDir:2518816103%\Characters\Razzershrimp\schaden.OGG" State="Attack" Range="2000" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Razzershrimp\Hiss 2.OGG" State="Damage" Range="2000" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Razzershrimp\knurren-2.OGG" State="Idle" Range="2000" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Razzershrimp\Gore.OGG" State="Die" Range="2000" Volume="2" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Razzershrimp\schaden 2.OGG" State="Attack" Range="2000" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Razzershrimp\Hiss 6.OGG" State="Damage" Range="2000" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Razzershrimp\schaden 5.OGG" State="Attack" Range="2000" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Razzershrimp\Hiss 4.OGG" State="Damage" Range="2000" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Razzershrimp\Hiss 3.OGG" State="Idle" Range="5000" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Razzershrimp\Hiss 5.OGG" State="Damage" Range="2000" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Razzershrimp\schaden 3.OGG" State="Damage" Range="2000" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Razzershrimp\schaden 4.OGG" State="Damage" Range="2000" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Razzershrimp\schaden 6.OGG" State="Damage" Range="2000" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Razzershrimp\Blubb1.OGG" State="Idle" Range="10000" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Razzershrimp\Blubb2.OGG" State="Idle" Range="10000" Volume="1" Tags="" />
-  <sound File="%ModDir:2518816103%\Characters\Razzershrimp\Blubb3.OGG" State="Idle" Range="10000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Razor\schaden.OGG" State="Attack" Range="2000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Razor\Hiss 2.OGG" State="Damage" Range="2000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Razor\knurren-2.OGG" State="Idle" Range="2000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Razor\Gore.OGG" State="Die" Range="2000" Volume="2" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Razor\schaden 2.OGG" State="Attack" Range="2000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Razor\Hiss 6.OGG" State="Damage" Range="2000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Razor\schaden 5.OGG" State="Attack" Range="2000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Razor\Hiss 4.OGG" State="Damage" Range="2000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Razor\Hiss 3.OGG" State="Idle" Range="5000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Razor\Hiss 5.OGG" State="Damage" Range="2000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Razor\schaden 3.OGG" State="Damage" Range="2000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Razor\schaden 4.OGG" State="Damage" Range="2000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Razor\schaden 6.OGG" State="Damage" Range="2000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Razor\Blubb1.OGG" State="Idle" Range="10000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Razor\Blubb2.OGG" State="Idle" Range="10000" Volume="1" Tags="" />
+  <sound File="%ModDir:2518816103%\Characters\Prawn_Razor\Blubb3.OGG" State="Idle" Range="10000" Volume="1" Tags="" />
 </Character>
