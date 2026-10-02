@@ -355,7 +355,7 @@
   textidentifier=""
   name="Injured Dispatch"
   description="An assault vessel managed to target and severely wound a Latcher in the Abyss however it managed to escape from the crew and is now fleeing around the path at [location1] and [location2] and could be still dangerous. Station administrators are offering a shared reward of [reward] to whoever can finish it off, the rest of the money will go to the first Assault vessel that wounded it."
-  monsterfile="Latcherabyss" successmessage="The Latcher has been terminated."
+  monsterfile="Latcher_Wounded" successmessage="The Latcher has been terminated."
   identifier="woundedabyss"
   type="Monster" 
   tags="killmonster,killmonster_set3" 

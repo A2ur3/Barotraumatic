@@ -286,7 +286,7 @@ MonsterEvent
     - Icewhale 2
     - Jovians 3WC Jovian Splicers are a splinter faction of terrorist extremists which have used banned surgery and genesplicing to adapt to Europas seas. 
     - Latcher 3A
-    - LatcherAbyss 3A
+    - Latcher_Wounded 3A
     - Latcher_hatchling 3A
     - Lavathresher 9
     - Leatherback 6
@@ -11649,7 +11649,7 @@ _____ \_ |__ ___.__. ______ ______
         </EventSet>
         <EventSet identifier="swarm" chooserandom="true" commonness="20">
           <EventSet chooserandom="false">
-            <MonsterEvent characterfile="LatcherAbyss" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
+            <MonsterEvent characterfile="Latcher_Wounded" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="4" maxamount="4" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
           </EventSet>
           <EventSet chooserandom="false">
