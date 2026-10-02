@@ -298,9 +298,9 @@
       <StatusEffect target="Character" interval="2" spawnitemrandomly="true">
         <SpawnItem identifier="Husk_CrabletCrawlerspawn" spawnposition="This" count="1" />
         <SpawnItem identifier="Husk_CrabletCrawlerspawn" spawnposition="This" count="1" />
-        <SpawnItem identifier="Helmetcrabletspawn" spawnposition="This" count="1" />
-        <SpawnItem identifier="Helmetcrabletspawn" spawnposition="This" count="1" />
-        <SpawnItem identifier="Helmetcrabletspawn" spawnposition="This" count="1" />
+        <SpawnItem identifier="Husk_CrabletHelmetspawn" spawnposition="This" count="1" />
+        <SpawnItem identifier="Husk_CrabletHelmetspawn" spawnposition="This" count="1" />
+        <SpawnItem identifier="Husk_CrabletHelmetspawn" spawnposition="This" count="1" />
         <SpawnItem identifier="Huskcrawlie1spawn" spawnposition="This" count="1" />
         <SpawnItem identifier="Huskcrawlie1spawn" spawnposition="This" count="1" />
         <SpawnItem identifier="Huskcrawlie1noheadspawn" spawnposition="This" count="1" />

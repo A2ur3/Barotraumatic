@@ -1,5 +1,5 @@
-﻿<HelmetcrabletSwimFast
-  type="Helmetcrablet"
+﻿<Husk_CrabletHelmetSwimFast
+  type="Husk_CrabletHelmet"
   UseSineMovement="True"
   Flip="True"
   FlipCooldown="1"

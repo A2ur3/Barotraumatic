@@ -484,7 +484,7 @@ MonsterEvent
       </EventSet>
       <EventSet identifier="husk" chooserandom="true" eventcount="4" commonness="30">
         <MonsterEvent characterfile="Husk_RandomTiny" minamount="1" maxamount="2" spawntype="wreck" />
-		<MonsterEvent characterfile="Helmetcrablet" minamount="0" maxamount="1" spawntype="wreck" />
+		<MonsterEvent characterfile="Husk_CrabletHelmet" minamount="0" maxamount="1" spawntype="wreck" />
         <MonsterEvent characterfile="Husk_RandomLight" minamount="2" maxamount="3" spawntype="wreck" />
         <MonsterEvent characterfile="Husk" minamount="0" maxamount="1" spawntype="wreck" />
         <MonsterEvent characterfile="Husksprinterold" minamount="1" maxamount="2" probability="0.5" spawntype="wreck" />
@@ -6198,7 +6198,7 @@ MonsterEvent
         <MonsterEvent characterfile="Husksprinterold" minamount="0" maxamount="2" spawntype="wreck" />
         <MonsterEvent characterfile="Husksprintercombat" minamount="1" maxamount="2" probability="0.6" spawntype="wreck" />
         <MonsterEvent characterfile="Husksprinterhumanold" minamount="2" maxamount="3" probability="0.8" spawntype="wreck" />
-        <MonsterEvent characterfile="Helmetcrablet" minamount="0" maxamount="1" spawntype="wreck" />
+        <MonsterEvent characterfile="Husk_CrabletHelmet" minamount="0" maxamount="1" spawntype="wreck" />
         <MonsterEvent characterfile="Crawler" minamount="0" maxamount="3" spawntype="wreck" />
       </EventSet>
       <EventSet identifier="thalamus" chooserandom="true" commonness="25">
@@ -8907,7 +8907,7 @@ MonsterEvent
         <MonsterEvent characterfile="Husksprinterhumanold" minamount="0" maxamount="3" spawntype="wreck" />
         <MonsterEvent characterfile="Husksprinterold" minamount="1" maxamount="2" spawntype="wreck" />
         <MonsterEvent characterfile="Husksprintercombat" minamount="1" maxamount="3" spawntype="wreck" />
-        <MonsterEvent characterfile="Helmetcrablet" minamount="0" maxamount="1" spawntype="wreck" />
+        <MonsterEvent characterfile="Husk_CrabletHelmet" minamount="0" maxamount="1" spawntype="wreck" />
         <MonsterEvent characterfile="Mantis" minamount="0" maxamount="2" spawntype="wreck" />
         <MonsterEvent characterfile="Mantis" minamount="0" maxamount="1" spawntype="wreck" />
       </EventSet>

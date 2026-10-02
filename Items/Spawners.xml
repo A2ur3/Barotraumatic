@@ -264,14 +264,14 @@
       </StatusEffect>
     </ItemComponent>
   </Item>
-    <Item name="helmetcrablet" identifier="helmetcrabletspawn" Scale="1" tags="" sonarsize="0" hideinmenus="true" impacttolerance="0.001" health="0.001">
+    <Item name="Husk_CrabletHelmet" identifier="Husk_CrabletHelmetspawn" Scale="1" tags="" sonarsize="0" hideinmenus="true" impacttolerance="0.001" health="0.001">
     <Body radius="100" density="10" />
     <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="0,0,2,2" depth="0.55" origin="0.5,0.5" />
     <ItemComponent>
       <!-- reduce condition to remove the emitter shortly after spawning it -->
       <StatusEffect type="Always" target="This" condition="-50" />
       <StatusEffect type="OnBroken" target="This">
-        <SpawnCharacter speciesname="Helmetcrablet" count="1" spread="0" />
+        <SpawnCharacter speciesname="Husk_CrabletHelmet" count="1" spread="0" />
         <Remove />
       </StatusEffect>
     </ItemComponent>

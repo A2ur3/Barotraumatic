@@ -1,4 +1,4 @@
-﻿<HelmetcrabletRun
+﻿<Husk_CrabletHelmetRun
   getupforce="0.35"
   footmovestrength="10"
   footrotatestrength="50"
@@ -16,7 +16,7 @@
   legbendtorque="50"
   footangle="-90"
   crouchingfootmoveoffset="0,0"
-  type="Helmetcrablet"
+  type="Husk_CrabletHelmet"
   MultiplyByDir="True"
   Flip="True"
   FlipCooldown="1"
