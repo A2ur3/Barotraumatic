@@ -1,4 +1,4 @@
-﻿<Character SpeciesName="Abyssalhammerhead" Tags="" SpeciesTranslationOverride="" DisplayName="" Group="hammerhead" Humanoid="False" HasInfo="False" CanInteract="False" CanClimb="True" ForceSlowClimbing="False" Husk="False" HuskedSpecies="" NonHuskedSpecies="" UseHuskAppendage="False" NeedsAir="False" NeedsWater="True" UseHumanAI="False" IsMachine="False" CanSpeak="False" ShowHealthBar="True" UseBossHealthBar="False" Noise="500" Visibility="300" BloodDecal="blackblood" BleedParticleAir="blooddrop" BleedParticleWater="waterblood" BleedParticleMultiplier="1" CanEat="False" EatingSpeed="10" UsePathFinding="True" PathFinderPriority="0.29999992" HideInSonar="False" HideInThermalGoggles="False" SonarDisruption="0" DistantSonarRange="2220" DisableDistance="50000" SoundInterval="10" DrawLast="False" AITurretPriority="1" AISlowTurretPriority="1" DespawnContainer="" MusicType="monster" MusicCommonness="1" MusicRangeMultiplier="1" UnlockKillAchievementForWholeCrew="False">
+﻿<Character SpeciesName="Hammerhead_Abyss" Tags="" SpeciesTranslationOverride="" DisplayName="" Group="hammerhead" Humanoid="False" HasInfo="False" CanInteract="False" CanClimb="True" ForceSlowClimbing="False" Husk="False" HuskedSpecies="" NonHuskedSpecies="" UseHuskAppendage="False" NeedsAir="False" NeedsWater="True" UseHumanAI="False" IsMachine="False" CanSpeak="False" ShowHealthBar="True" UseBossHealthBar="False" Noise="500" Visibility="300" BloodDecal="blackblood" BleedParticleAir="blooddrop" BleedParticleWater="waterblood" BleedParticleMultiplier="1" CanEat="False" EatingSpeed="10" UsePathFinding="True" PathFinderPriority="0.29999992" HideInSonar="False" HideInThermalGoggles="False" SonarDisruption="0" DistantSonarRange="2220" DisableDistance="50000" SoundInterval="10" DrawLast="False" AITurretPriority="1" AISlowTurretPriority="1" DespawnContainer="" MusicType="monster" MusicCommonness="1" MusicRangeMultiplier="1" UnlockKillAchievementForWholeCrew="False">
   <ragdolls folder="default" />
   <animations folder="default" />
   <bloodemitter Particle="blood" AngleMin="0" AngleMax="0" ScaleMin="1" ScaleMax="2" VelocityMin="0" VelocityMax="0" EmitInterval="0" ParticlesPerSecond="0" ParticleAmount="10" HighQualityCollisionDetection="False" CopyEntityAngle="False" />
@@ -27,10 +27,10 @@
     <target tag="stronger" state="Avoid" priority="50" />
     -->
   </ai>
-  <sound gender="None" File="%ModDir:2518816103%/Characters/Abyssalhammerhead/abyssalhammerheadidle.ogg" State="Idle" Range="10000" Volume="1" Tags="" />
-  <sound gender="None" File="%ModDir:2518816103%/Characters/Abyssalhammerhead/abyssalhammerheadidle1.ogg" State="Idle" Range="10000" Volume="1" Tags="" />
-  <sound gender="None" File="%ModDir:2518816103%/Characters/Abyssalhammerhead/abyssalhammerheadidle2.ogg" State="Idle" Range="10000" Volume="1" Tags="" />
-  <sound gender="None" File="%ModDir:2518816103%/Characters/Abyssalhammerhead/abyssalhammerheadidle3.ogg" State="Idle" Range="10000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir:2518816103%/Characters/Hammerhead_Abyss/Hammerhead_Abyssidle.ogg" State="Idle" Range="10000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir:2518816103%/Characters/Hammerhead_Abyss/Hammerhead_Abyssidle1.ogg" State="Idle" Range="10000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir:2518816103%/Characters/Hammerhead_Abyss/Hammerhead_Abyssidle2.ogg" State="Idle" Range="10000" Volume="1" Tags="" />
+  <sound gender="None" File="%ModDir:2518816103%/Characters/Hammerhead_Abyss/Hammerhead_Abyssidle3.ogg" State="Idle" Range="10000" Volume="1" Tags="" />
   <inventory Slots="Any, Any,Any, Any, Any" AccessibleWhenAlive="False" Commonness="1">
     <item Identifier="swimbladder" />
     <item Identifier="hammerheadribs" />

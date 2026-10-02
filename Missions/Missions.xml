@@ -913,7 +913,7 @@
   commonness="50" 
   reward="2600" 
   sonarlabel="Abyssal Hammerheads" maxsonarmarkerdistance="10000" successmessage="The Hammerheads have been killed.">
-    <monster character="Abyssalhammerhead" count="4" />
+    <monster character="Hammerhead_Abyss" count="4" />
     <Reputation identifier="location" amount="3" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="512,768,256,256" color="214,50,48" />
     <LocationType from="AnyOutpost" to="Any" />
@@ -931,7 +931,7 @@
   commonness="60" 
   reward="3575" 
   sonarlabel="Abyssal Hammerheads" maxsonarmarkerdistance="10000" successmessage="The Hammerheads have been killed.">
-    <monster character="Abyssalhammerhead" count="6" />
+    <monster character="Hammerhead_Abyss" count="6" />
     <Reputation identifier="location" amount="2" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="512,768,256,256" color="214,50,48" />
     <LocationType from="AnyOutpost" to="Any" />

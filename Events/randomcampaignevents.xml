@@ -171,7 +171,7 @@ MonsterEvent
   
     FULL LIST
     - Crawler_Abyss 3A Changed by their time in the abyss these crawlers are larger but no longer morph into brood maters or paters and instead small colonies breed on abyssal islands. 
-    - Abyssalhammerhead 4A Mild deep sea gigantism makes these aggressive eyeless hammerheads a force to be reckoned with, their large powerful arms allow pods to attack smaller abyss creatures.
+    - Hammerhead_Abyss 4A Mild deep sea gigantism makes these aggressive eyeless hammerheads a force to be reckoned with, their large powerful arms allow pods to attack smaller abyss creatures.
     - Tigerthresher_Abyss 4A Similar to standard threshers these large worm like fish are adept at chewing through submarine hulls to say nothing of flesh
     - Abyssmonster TBD
     - Watcher_Cephalopod 5 The Dyatel is a stange watcher like squid that has a mettalic organ inside of its body that can manipulate various forms of electromagnetic radiation including radio waves. Causing attacks directly through crew headsets. 
@@ -729,7 +729,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="1" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="1" spawntype="abyss" musictype="deep" delaybetweenspawns="5" />
           <MonsterEvent characterfile="Icewhale" minamount="1" maxamount="1" spawntype="abyss" musictype="deep" delaybetweenspawns="5" />
-          <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" spawntype="abyss" musictype="deep" delaybetweenspawns="5" />
+          <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" spawntype="abyss" musictype="deep" delaybetweenspawns="5" />
         </EventSet>
         <EventSet identifier="swarm" chooserandom="false" commonness="20">
           <MonsterEvent characterfile="Latcher" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
@@ -1492,7 +1492,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="1" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="1" spawntype="abyss" musictype="deep" delaybetweenspawns="5" />
           <MonsterEvent characterfile="Icewhale" minamount="1" maxamount="1" spawntype="abyss" musictype="deep" delaybetweenspawns="5" />
-          <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" spawntype="abyss" musictype="deep" delaybetweenspawns="5" />
+          <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" spawntype="abyss" musictype="deep" delaybetweenspawns="5" />
         </EventSet>
         <EventSet identifier="swarm" chooserandom="false" commonness="20">
           <MonsterEvent characterfile="Latcher" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
@@ -2671,7 +2671,7 @@ _____ \_ |__ ___.__. ______ ______
  <!--     <MonsterEvent characterfile="Hermitdugong" minamount="1" maxamount="1" spawntype="abyss" musictype="deep" /> -->
           <MonsterEvent characterfile="Icewhale" minamount="1" maxamount="1" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="2" spawntype="abyss" musictype="deep" />
- <!--     <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" spawntype="abyss" musictype="deep" delaybetweenspawns="145" /> -->
+ <!--     <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" spawntype="abyss" musictype="deep" delaybetweenspawns="145" /> -->
         </EventSet> 
     <!--      <EventSet identifier="swarm" chooserandom="true" commonness="20">
           <EventSet chooserandom="false">
@@ -2691,7 +2691,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet> 
            <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerhead_hard" minamount="0" maxamount="1" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" probability="0.7" spawntype="abyss" delaybetweenspawns="5" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" scatter="3000" probability="0.7" spawntype="abyss" delaybetweenspawns="5" />
           </EventSet> 
            <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
@@ -2699,7 +2699,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet> 
            <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" probability="0.7" spawntype="abyss" delaybetweenspawns="5" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" scatter="3000" probability="0.7" spawntype="abyss" delaybetweenspawns="5" />
           </EventSet>
            <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hermit" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
@@ -2738,7 +2738,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Spineling" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="mudraptor" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Tigerthresher_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-			<MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+			<MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hornshrimp" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Ghostshrimp" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="GrayEel" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -2779,7 +2779,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
 		  <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hammerhead_young" minamount="1" maxamount="2" scatter="3000" probability="0.5" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
           <EventSet chooserandom="false">
@@ -2836,7 +2836,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Spineling" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="mudraptor" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Tigerthresher_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-			<MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+			<MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hornshrimp" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Ghostshrimp" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="GrayEel" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -2877,7 +2877,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
 		  <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hammerhead_young" minamount="1" maxamount="2" scatter="3000" probability="0.5" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
           <EventSet chooserandom="false">
@@ -2934,7 +2934,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Spineling" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="mudraptor" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Tigerthresher_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-			<MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+			<MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hornshrimp" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Ghostshrimp" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="GrayEel" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -2975,7 +2975,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
 		  <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hammerhead_young" minamount="1" maxamount="2" scatter="3000" probability="0.5" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
           <EventSet chooserandom="false">
@@ -4485,7 +4485,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Icewhale" minamount="1" maxamount="1" spawntype="abyss" musictype="deep" />
 		  <MonsterEvent characterfile="Watcher_Cephalopod2" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
           <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="2" spawntype="abyss" musictype="deep" />
- <!--     <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" spawntype="abyss" musictype="deep" delaybetweenspawns="145" /> -->
+ <!--     <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" spawntype="abyss" musictype="deep" delaybetweenspawns="145" /> -->
         </EventSet> 
         <EventSet identifier="swarm" chooserandom="true" commonness="10">
           <EventSet chooserandom="false">
@@ -4522,7 +4522,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Spineling" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="mudraptor" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Tigerthresher_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-			<MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+			<MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hornshrimp" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Ghostshrimp" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="GrayEel" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -4563,7 +4563,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
 		  <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hammerhead_young" minamount="1" maxamount="2" scatter="3000" probability="0.5" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
           <EventSet chooserandom="false">
@@ -4620,7 +4620,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Spineling" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="mudraptor" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Tigerthresher_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-			<MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+			<MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hornshrimp" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Ghostshrimp" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="GrayEel" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -4661,7 +4661,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
 		  <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hammerhead_young" minamount="1" maxamount="2" scatter="3000" probability="0.5" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
           <EventSet chooserandom="false">
@@ -4718,7 +4718,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Spineling" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="mudraptor" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Tigerthresher_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-			<MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+			<MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hornshrimp" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Ghostshrimp" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="GrayEel" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -4759,7 +4759,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
 		  <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hammerhead_young" minamount="1" maxamount="2" scatter="3000" probability="0.5" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
           <EventSet chooserandom="false">
@@ -6381,7 +6381,7 @@ _____ \_ |__ ___.__. ______ ______
         <MonsterEvent characterfile="Ghostshrimp" minamount="6" maxamount="9" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Skrimsl" minamount="2" maxamount="3" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Mudrex" minamount="1" maxamount="2" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
-		<MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="2" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
+		<MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="2" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Bonethresher" minamount="1" maxamount="2" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Hermit" minamount="1" maxamount="1" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Hermitshell" minamount="1" maxamount="1" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
@@ -6418,7 +6418,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
           </EventSet>
 		  <EventSet chooserandom="false"> 
             <MonsterEvent characterfile="Hammerhead_DigermNamed" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
@@ -6461,7 +6461,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Molochgreen" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Psilosaur" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Mudraptor_Night" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Spineling" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -6516,7 +6516,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Skrimsl" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
           <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hammerheadspawn" minamount="0" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Minoga" minamount="0" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
@@ -6565,7 +6565,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Molochgreen" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Psilosaur" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Mudraptor_Night" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Spineling" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -6615,7 +6615,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
           <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hammerheadspawn" minamount="0" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Minoga" minamount="0" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
@@ -6682,7 +6682,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Molochgreen" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Psilosaur" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Mudraptor_Night" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Spineling" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -6732,7 +6732,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
           <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hammerheadspawn" minamount="0" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Minoga" minamount="0" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
@@ -8975,7 +8975,7 @@ _____ \_ |__ ___.__. ______ ______
 		<MonsterEvent characterfile="Biowormbig" minamount="3" maxamount="4" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
 		<MonsterEvent characterfile="Hermitspawn" minamount="3" maxamount="5" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Mudrex" minamount="1" maxamount="2" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
-		<MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="2" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
+		<MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="2" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Bonethresher" minamount="1" maxamount="2" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Hermit" minamount="1" maxamount="1" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Hermitshell" minamount="1" maxamount="1" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
@@ -9013,7 +9013,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
           </EventSet>
 		  <EventSet chooserandom="false"> 
             <MonsterEvent characterfile="Hammerhead_DigermNamed" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" delaybetweenspawns="5" />
@@ -9056,7 +9056,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Molochgreen" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Psilosaur" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Mudraptor_Night" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Spineling" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -9113,7 +9113,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Skrimsl" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
           <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hammerheadspawn" minamount="0" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Minoga" minamount="0" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
@@ -9172,7 +9172,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Molochgreen" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Psilosaur" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Mudraptor_Night" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Spineling" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -9223,7 +9223,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
           <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hammerheadspawn" minamount="0" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Minoga" minamount="0" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
@@ -9287,7 +9287,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Molochgreen" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Psilosaur" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Mudraptor_Night" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Spineling" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -9338,7 +9338,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
           <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hammerheadspawn" minamount="0" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Minoga" minamount="0" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
           </EventSet>
@@ -11601,7 +11601,7 @@ _____ \_ |__ ___.__. ______ ______
       <!-- populate the abyssal islands -->
       <EventSet identifier="abyssal_island" chooserandom="true" allowatstart="true" disableinhuntinggrounds="false" delaywhencrewaway="false" eventcount="1">
         <MonsterEvent characterfile="Calyxophage" minamount="6" maxamount="8" scatter="3000" delaybetweenspawns="6" spawntype="abysscave" musictype="deep" />
-        <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="6" spawntype="abysscave" musictype="deep" />
+        <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="6" spawntype="abysscave" musictype="deep" />
         <MonsterEvent characterfile="Tigerthresher_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="abysscave" musictype="flooded" />
         <MonsterEvent characterfile="Skrimsl" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="6" spawntype="abysscave" musictype="deep" />
 		<MonsterEvent characterfile="Biowormbig" minamount="3" maxamount="4" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
@@ -11635,7 +11635,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Voidstalker" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Praywhalemineral" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
-          <MonsterEvent characterfile="Abyssalhammerhead" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="deep" />
+          <MonsterEvent characterfile="Hammerhead_Abyss" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Hermitdugong" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Shadowwhale" minamount="2" maxamount="3" scatter="2000" delaybetweenspawns="5" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Endworm" minamount="1" maxamount="1" scatter="3000" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
@@ -11688,7 +11688,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Thermaleel" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hullfish" minamount="5" maxamount="9" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Shadowleech" minamount="6" maxamount="7" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="1" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Mudraptor_Night" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -11821,7 +11821,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Spineling_Electric2" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" />
             <MonsterEvent characterfile="Viperling_giant" minamount="1" maxamount="1" spawntype="abyss" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="1" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Mudraptor_Night" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -11914,7 +11914,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Spineling_Electric2" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" />
             <MonsterEvent characterfile="Viperling_giant" minamount="1" maxamount="1" spawntype="abyss" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="1" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Mudraptor_Night" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -12024,7 +12024,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Spineling_Electric2" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" />
             <MonsterEvent characterfile="Viperling_giant" minamount="1" maxamount="1" spawntype="abyss" />
             <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" spawntype="abyss" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="1" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Mudraptor_Night" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -14431,7 +14431,7 @@ _____ \_ |__ ___.__. ______ ______
       <!-- populate the abyssal islands -->
       <EventSet identifier="abyssal_island" chooserandom="true" allowatstart="true" disableinhuntinggrounds="false" delaywhencrewaway="false" eventcount="2">
         <MonsterEvent characterfile="Calyxophage" minamount="6" maxamount="8" scatter="3000" delaybetweenspawns="6" spawntype="abysscave" musictype="deep" />
-        <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="6" spawntype="abysscave" musictype="deep" />
+        <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="6" spawntype="abysscave" musictype="deep" />
         <MonsterEvent characterfile="Tigerthresher_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="abysscave" musictype="flooded" />
         <MonsterEvent characterfile="Skrimsl" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="6" spawntype="abysscave" musictype="deep" />
 		<MonsterEvent characterfile="Biowormbig" minamount="3" maxamount="4" spawntype="abysscave" musictype="deep" delaybetweenspawns="5" />
@@ -14513,7 +14513,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Thermaleel" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hullfish" minamount="5" maxamount="9" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Shadowleech" minamount="6" maxamount="7" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="1" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Mudraptor_Night" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -14573,7 +14573,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
 		  <EventSet chooserandom="false">
 		    <MonsterEvent characterfile="Hammerhead_DigermNamed" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerhead_hard" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerhead_young" minamount="0" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
@@ -14651,7 +14651,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Spineling_Electric2" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" />
             <MonsterEvent characterfile="Viperling_giant" minamount="1" maxamount="1" spawntype="abyss" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="1" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Mudraptor_Night" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -14703,7 +14703,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
 		  <EventSet chooserandom="false">
 		    <MonsterEvent characterfile="Hammerhead_DigermNamed" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerhead_hard" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerhead_young" minamount="0" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
@@ -14750,7 +14750,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Spineling_Electric2" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" />
             <MonsterEvent characterfile="Viperling_giant" minamount="1" maxamount="1" spawntype="abyss" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="1" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Mudraptor_Night" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -14803,7 +14803,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
 		  <EventSet chooserandom="false">
 		    <MonsterEvent characterfile="Hammerhead_DigermNamed" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerhead_hard" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerhead_young" minamount="0" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
@@ -14866,7 +14866,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Spineling_Electric2" minamount="1" maxamount="1" scatter="3000" spawntype="abyss" />
             <MonsterEvent characterfile="Viperling_giant" minamount="1" maxamount="1" spawntype="abyss" />
             <MonsterEvent characterfile="LegacyCrawler" minamount="2" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="1" spawntype="abyss" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="1" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Mudraptor_Night" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -14919,7 +14919,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
 		  <EventSet chooserandom="false">
 		    <MonsterEvent characterfile="Hammerhead_DigermNamed" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerhead_hard" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerhead_young" minamount="0" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
@@ -16640,7 +16640,7 @@ _/ ___\\__  \\  \/ // __ \ /  ___/
         <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
         <MonsterEvent characterfile="Nuclearmine" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
         <MonsterEvent characterfile="Minesmall" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
-        <MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="120" />
+        <MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="120" />
         <MonsterEvent characterfile="Shadowleech" minamount="5" maxamount="5" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
         <MonsterEvent characterfile="Fractalwalker" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
         <MonsterEvent characterfile="Magmaworm" minamount="5" maxamount="7" scatter="3000" delaybetweenspawns="25" spawntype="cave" />
@@ -17285,7 +17285,7 @@ _____ \_ |__ ___.__. ______ ______
         <MonsterEvent characterfile="Xan_scavenger" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" maxamountperlevel="10" spawntype="abyss" musictype="deep" />
   <!-- <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="10" spawntype="abyss" musictype="deep" /> -->
         <MonsterEvent characterfile="Tigerthresher_Abyss" minamount="6" maxamount="8" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="flooded" />
-        <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="flooded" />
+        <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="flooded" />
 		<MonsterEvent characterfile="Lavathresher" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="flooded" />
 		<MonsterEvent characterfile="Magmalarva" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="flooded" />
 		<MonsterEvent characterfile="Magmaworm" minamount="4" maxamount="6" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="flooded" />
@@ -17355,7 +17355,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Jovianwrecker" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Manraptor" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Deepseaclownnew" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Spineling_hard" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -17466,14 +17466,14 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hammerheadmatriarch" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmatriarchconcept" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadgold" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmauler" minamount="0" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerhead_hard" minamount="0" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadgold" minamount="2" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerhead_swordfish" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -17550,7 +17550,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Ancientmudraptor" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Nuclearmine" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Fractalbreacher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Magmalarva" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Husk_RandomLight" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -17617,7 +17617,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Ancientmudraptor" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Nuclearmine" minamount="1" maxamount="2" scatter="4500" delaybetweenspawns="5" spawntype="abyss" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Fractalbreacher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Magmalarva" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Husk_RandomLight" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -17690,7 +17690,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Ancientmudraptor" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Nuclearmine" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Fractalbreacher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Magmalarva" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Husk_RandomLight" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -17781,7 +17781,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Clownwrecker" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Jovianwrecker" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Deepseaclownnew" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Spineling_hard" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -17872,14 +17872,14 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hammerheadmatriarch" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmatriarchconcept" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadgold" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmauler" minamount="0" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerhead_hard" minamount="0" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadgold" minamount="2" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerhead_swordfish" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -17960,7 +17960,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Clownwrecker" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Jovianwrecker" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Deepseaclownnew" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Spineling_hard" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -18051,14 +18051,14 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hammerheadmatriarch" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmatriarchconcept" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadgold" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmauler" minamount="0" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerhead_hard" minamount="0" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadgold" minamount="2" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerhead_swordfish" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -18139,7 +18139,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Clownwrecker" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Jovianwrecker" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Deepseaclownnew" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Spineling_hard" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -18233,14 +18233,14 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hammerheadmatriarch" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmatriarchconcept" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadgold" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmauler" minamount="0" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerhead_hard" minamount="0" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadgold" minamount="2" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerhead_swordfish" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -18320,7 +18320,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Clownwrecker" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Jovianwrecker" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Deepseaclownnew" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Spineling_hard" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -18411,14 +18411,14 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hammerheadmatriarch" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmatriarchconcept" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadgold" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmauler" minamount="0" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerhead_hard" minamount="0" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadgold" minamount="2" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerhead_swordfish" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -18752,7 +18752,7 @@ _/ ___\\__  \\  \/ // __ \ /  ___/
         <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
         <MonsterEvent characterfile="Nuclearmine" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
         <MonsterEvent characterfile="Minesmall" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
-        <MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="120" />
+        <MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="120" />
         <MonsterEvent characterfile="Shadowleech" minamount="5" maxamount="5" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
         <MonsterEvent characterfile="Fractalwalker" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="75" spawntype="cave" />
         <MonsterEvent characterfile="Magmaworm" minamount="5" maxamount="7" scatter="3000" delaybetweenspawns="25" spawntype="cave" />
@@ -19479,7 +19479,7 @@ _____ \_ |__ ___.__. ______ ______
         <MonsterEvent characterfile="Xan_scavenger" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" maxamountperlevel="10" spawntype="abyss" musictype="deep" />
   <!-- <MonsterEvent characterfile="Watcher_Cephalopod" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="10" spawntype="abyss" musictype="deep" /> -->
         <MonsterEvent characterfile="Tigerthresher_Abyss" minamount="6" maxamount="8" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="flooded" />
-        <MonsterEvent characterfile="Abyssalhammerhead" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="flooded" />
+        <MonsterEvent characterfile="Hammerhead_Abyss" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="flooded" />
 		<MonsterEvent characterfile="Lavathresher" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="flooded" />
 		<MonsterEvent characterfile="Magmalarva" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="flooded" />
 		<MonsterEvent characterfile="Magmaworm" minamount="4" maxamount="6" scatter="3000" delaybetweenspawns="5" spawntype="abyss" musictype="flooded" />
@@ -19549,7 +19549,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Jovianwrecker" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Manraptor" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Deepseaclownnew" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Spineling_hard" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -19656,14 +19656,14 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hammerheadmatriarch" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmatriarchconcept" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadgold" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmauler" minamount="0" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerhead_hard" minamount="0" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadgold" minamount="2" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerhead_swordfish" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -19740,7 +19740,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Ancientmudraptor" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Nuclearmine" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Fractalbreacher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Magmalarva" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Husk_RandomLight" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -19807,7 +19807,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Ancientmudraptor" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Nuclearmine" minamount="1" maxamount="2" scatter="4500" delaybetweenspawns="5" spawntype="abyss" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Fractalbreacher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Magmalarva" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Husk_RandomLight" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -19880,7 +19880,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Ancientmudraptor" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Latcher_hatchling" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Nuclearmine" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Fractalbreacher" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Magmalarva" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
             <MonsterEvent characterfile="Husk_RandomLight" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="abyss" />
@@ -19971,7 +19971,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Clownwrecker" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Jovianwrecker" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Deepseaclownnew" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Spineling_hard" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -20062,14 +20062,14 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hammerheadmatriarch" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmatriarchconcept" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadgold" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmauler" minamount="0" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerhead_hard" minamount="0" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadgold" minamount="2" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerhead_swordfish" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -20150,7 +20150,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Clownwrecker" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Jovianwrecker" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Deepseaclownnew" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Spineling_hard" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -20241,14 +20241,14 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hammerheadmatriarch" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmatriarchconcept" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadgold" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmauler" minamount="0" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerhead_hard" minamount="0" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadgold" minamount="2" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerhead_swordfish" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -20329,7 +20329,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Clownwrecker" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Jovianwrecker" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Deepseaclownnew" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Spineling_hard" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -20423,14 +20423,14 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hammerheadmatriarch" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmatriarchconcept" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadgold" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmauler" minamount="0" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerhead_hard" minamount="0" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadgold" minamount="2" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerhead_swordfish" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -20510,7 +20510,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Clownwrecker" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Jovianwrecker" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Deepseaclownnew" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Spineling_hard" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Endurance" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -20601,14 +20601,14 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hammerheadmatriarch" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmatriarchconcept" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadgold" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadmauler" minamount="0" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerhead_hard" minamount="0" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerheadmauler" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Hammerheadgold" minamount="2" maxamount="5" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Abyssalhammerhead" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Hammerhead_Abyss" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Hammerhead_swordfish" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />

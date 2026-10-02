@@ -1,5 +1,5 @@
-﻿<AbyssalhammerheadSwimSlow
-  type="Abyssalhammerhead"
+﻿<Hammerhead_AbyssSwimSlow
+  type="Hammerhead_Abyss"
   UseSineMovement="False"
   Flip="False"
   FlipCooldown="1"
