@@ -296,8 +296,8 @@
       <!-- Spawn a random item which will spawn one of the husks. -->
       <!-- By repeating the same item over and over, we can emulate giving each item a different probability to spawn. -->
       <StatusEffect target="Character" interval="2" spawnitemrandomly="true">
-        <SpawnItem identifier="Crawlercrabletspawn" spawnposition="This" count="1" />
-        <SpawnItem identifier="Crawlercrabletspawn" spawnposition="This" count="1" />
+        <SpawnItem identifier="Husk_CrabletCrawlerspawn" spawnposition="This" count="1" />
+        <SpawnItem identifier="Husk_CrabletCrawlerspawn" spawnposition="This" count="1" />
         <SpawnItem identifier="Helmetcrabletspawn" spawnposition="This" count="1" />
         <SpawnItem identifier="Helmetcrabletspawn" spawnposition="This" count="1" />
         <SpawnItem identifier="Helmetcrabletspawn" spawnposition="This" count="1" />

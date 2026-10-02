@@ -1,4 +1,4 @@
-﻿<CrawlercrabletWalk
+﻿<Husk_CrabletCrawlerWalk
   getupforce="0.35"
   footmovestrength="20"
   footrotatestrength="20"
@@ -16,7 +16,7 @@
   legbendtorque="50"
   footangle="-90"
   crouchingfootmoveoffset="0,0"
-  type="Crawlercrablet"
+  type="Husk_CrabletCrawler"
   Flip="True"
   FlipCooldown="1"
   FlipDelay="0.5"

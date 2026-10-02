@@ -1,5 +1,5 @@
-﻿<CrawlercrabletSwimFast
-  type="Crawlercrablet"
+﻿<Husk_CrabletCrawlerSwimFast
+  type="Husk_CrabletCrawler"
   UseSineMovement="True"
   Flip="True"
   FlipCooldown="1"
