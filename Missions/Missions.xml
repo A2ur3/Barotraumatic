@@ -599,8 +599,8 @@
   <!-- TODO: this doesn't work because wasteyard is no longer a thing... -->
   <!-- <MonsterMission
   textidentifier=""
-  name="The Twins"
-  identifier="twins"
+  name="The FractalTwins"
+  identifier="FractalTwins"
   type="Monster" 
   spawntype="Mainpath" 
   tags="killmonster,killmonster_set4"
@@ -610,7 +610,7 @@
   reward="4500" 
   sonarlabel="Disruption Zone" successmessage="The cause of the massive sonar disruption was infact from two robotic Fractal Destroyers, the scientists are very excited to hear about your encounter.">
     <monster character="fractaldestroyer" count="1" />
-    <monster character="twin" count="1" />
+    <monster character="FractalTwin" count="1" />
     <LocationType to="WasteyardDE" from="Research" />
     <LocationType to="WasteyardDE" from="City" />
     <LocationType to="WasteyardDE" from="Military" />

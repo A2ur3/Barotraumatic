@@ -190,7 +190,7 @@
   <Character file="%ModDir%/Characters/Mudraptor_Night/Mudraptor_Night.xml" />
   <Character file="%ModDir%/Characters/Fractalwalker/Fractalwalker.xml" />
   <Character file="%ModDir%/Characters/FractalEnforcer/FractalEnforcer.xml" />
-  <Character file="%ModDir%/Characters/Twin/Twin.xml" />
+  <Character file="%ModDir%/Characters/FractalTwin/FractalTwin.xml" />
   <Character file="%ModDir%/Characters/Huskcontainer/Huskcontainer.xml" />
   <Character file="%ModDir%/Characters/Huskcontainerhostile/Huskcontainerhostile.xml" />
   <Character file="%ModDir%/Characters/Crawlernaught/Crawlernaught.xml" />
