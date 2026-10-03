@@ -118,7 +118,7 @@
   <Character file="%ModDir%/Characters/Spineling/Spineling.xml" />
   <Character file="%ModDir%/Characters/Spineling_giant/Spineling_giant.xml" />
   <Character file="%ModDir%/Characters/Latcher/Latcher.xml" />
-  <Character file="%ModDir%/Characters/Variants/Abyssmonster/Abyssmonster.xml" />
+  <Character file="%ModDir%/Characters/Variants/Latcher_Scuttler/Latcher_Scuttler.xml" />
   <Character file="%ModDir%/Characters/Observer/Observer.xml" />
   <Character file="%ModDir%/Characters/Bossmoloch/Bossmoloch.xml" />
   <Character file="%ModDir%/Characters/Voidstalker/Voidstalker.xml" />
