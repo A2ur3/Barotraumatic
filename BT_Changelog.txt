@@ -91,59 +91,13 @@ HOTFIX
 	RENAMING LIST:
 	NOTE, THE GOAL IS TO GROUP THE FISH ID TOGETHER. THE DISPLAYED NAME OF THE FISH CAN BE WHATEVER WE WANT THEM TO BE
 	
-	Thrasher => Gnasher
-	TigerSharkThresher => Barracuda
-	LionThresher => Barranha
-	
-	Endurance => FractalEndurance (FractalSentry?)
-	Undying => FractalUndying
-	UndyingRad => FractalUndyingRad
-	UndyingFaraday => FractalUndyingFaraday
-	UndyingThermal => FractalUndyingThermal
-	Twin => FractalTwin
-	AncientMudraptor => FractalMudraptor
 	Pylon => FractalPylon
 
-	Abyssalthresher => Tigerthresher_Abyssal
-	Abyssalhammerhead => Hammerhead_Abyss
-	AbyssalCrawler => Crawler_Abyss
-	
-	AlphaCharybdis => Charybdis_alpha
-	AlphaEndworm => Endworm_alpha
-
-	Abysswatcher => WatcherCephalopod
-	Observer => WatcherCephalopod_Blue
-
 	Charybdisold => LeatherbackLarge
-	Bossmoloch => MolochBoss
-
-	Crawlercrablet => Husk_CrawlerCrablet
-	Helmetcrablet => Husk_HelmetCrablet
 	
-	TuluWild => CthulhuWild (this one has a proper folder)
-
-	Endwormre => Polychaetas (?)
-	
-	Epicentrum => Fault_Large 
-	
-	CyclopsLatcher => Latcher_Cyclops
-	Gianttrapper => Latcher_Trapper
-	LatcherAbyss => Latcher_Wounded
-	
-	Exosuit => ThalamusExosuit
-	
-	Hornshrimp => Prawn_Horn
-	Razzershrimp_kse => Prawn_Razor
-	Shrimpbrut_kse => Prawn_Brood
-	
-	Husker => Calyxophage
+	Exosuit => ThalamusExosuit	
 	
 	LegacyCrawler => RoachShrimp (?)
-	
-	Nightraptor => Mudraptor_stealth	
-		
-	Silverhammerhead => HammerheadSilver	
-	MotherCrawler => Crawler_Pregnant
 	
 	Carrier/TurretCarrier/anything that has to do wth carriers
 	
