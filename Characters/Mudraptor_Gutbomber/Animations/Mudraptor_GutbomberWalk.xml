@@ -1,5 +1,5 @@
-﻿<BombsharkWalk
-  type="Bombshark"
+﻿<Mudraptor_GutbomberWalk
+  type="Mudraptor_Gutbomber"
   MultiplyByDir="False"
   Flip="True"
   FlipCooldown="1.5"

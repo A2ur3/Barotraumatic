@@ -180,7 +180,7 @@ MonsterEvent
     - FractalMudraptor 4R 7 Biomechnical raptor constructs found in ruins, were they guard pets or corrupted by the strange energies of the ruins? Their bite sears flesh due to their heated internals
     - Bioworm 3AC large symbiotic worms often found infesting molochs who have spent too much time in the abyss, unknown if this is parasitic or helps the moloch to survive and feed in the abyss
     - Biowormbig 3AC
-    - Bombshark 3 The Mudraptor Gutbomber hosts a colony of acid flora in its distended internal organs, if this harms them is unknown as it socializes readily with regular mudraptors.
+    - Mudraptor_Gutbomber 3 The Mudraptor Gutbomber hosts a colony of acid flora in its distended internal organs, if this harms them is unknown as it socializes readily with regular mudraptors.
     - Bonethresher 4
     - Moloch_Boss 5A
     - Brainmoss1 4 
@@ -2195,7 +2195,7 @@ _/ ___\\__  \\  \/ // __ \ /  ___/
         <MonsterEvent characterfile="Hermitspawn" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Spineling" minamount="2" maxamount="4" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" spawntype="cave" delaybetweenspawns="5" />
-        <MonsterEvent characterfile="Bombshark" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="5" />
+        <MonsterEvent characterfile="Mudraptor_Gutbomber" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Paralyticshark" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="6" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Trichordate" minamount="3" maxamount="6" spawntype="cave" delaybetweenspawns="5" />
@@ -3084,7 +3084,7 @@ _____ \_ |__ ___.__. ______ ______
         <EventSet chooserandom="true" commonness="25">
           <EventSet chooserandom="true">
             <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="1" probability="0.5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Bombshark" minamount="3" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Mudraptor_Gutbomber" minamount="3" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Muddragon" minamount="1" maxamount="1" probability="0.5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Prawn_Horned" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -3246,7 +3246,7 @@ _____ \_ |__ ___.__. ______ ______
         <EventSet chooserandom="true" commonness="25">
           <EventSet chooserandom="true">
             <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="1" probability="0.5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Bombshark" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Mudraptor_Gutbomber" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Muddragon" minamount="1" maxamount="1" probability="0.5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Prawn_Horned" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -3408,7 +3408,7 @@ _____ \_ |__ ___.__. ______ ______
         <EventSet chooserandom="true" commonness="25">
           <EventSet chooserandom="true">
             <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="1" probability="0.5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Bombshark" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Mudraptor_Gutbomber" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Muddragon" minamount="1" maxamount="1" probability="0.5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Prawn_Horned" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -3570,7 +3570,7 @@ _____ \_ |__ ___.__. ______ ______
         <EventSet chooserandom="true" commonness="25">
           <EventSet chooserandom="true">
             <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="1" probability="0.5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Bombshark" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Mudraptor_Gutbomber" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Muddragon" minamount="1" maxamount="1" probability="0.5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Prawn_Horned" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -3992,7 +3992,7 @@ _/ ___\\__  \\  \/ // __ \ /  ___/
         <MonsterEvent characterfile="Spineling" minamount="2" maxamount="4" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Seasnek" minamount="2" maxamount="4" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" spawntype="cave" delaybetweenspawns="5" />
-        <MonsterEvent characterfile="Bombshark" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="5" />
+        <MonsterEvent characterfile="Mudraptor_Gutbomber" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Ghostshrimp" minamount="1" maxamount="3" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Prawn_Horned" minamount="1" maxamount="2" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Prawn_Brood" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="5" />
@@ -4868,7 +4868,7 @@ _____ \_ |__ ___.__. ______ ______
         <EventSet chooserandom="true" commonness="25">
           <EventSet chooserandom="true">
             <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="1" probability="0.5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Bombshark" minamount="3" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Mudraptor_Gutbomber" minamount="3" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Muddragon" minamount="1" maxamount="1" probability="0.5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Prawn_Horned" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -5030,7 +5030,7 @@ _____ \_ |__ ___.__. ______ ______
         <EventSet chooserandom="true" commonness="25">
           <EventSet chooserandom="true">
             <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="1" probability="0.5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Bombshark" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Mudraptor_Gutbomber" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Muddragon" minamount="1" maxamount="1" probability="0.5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Prawn_Horned" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -5192,7 +5192,7 @@ _____ \_ |__ ___.__. ______ ______
         <EventSet chooserandom="true" commonness="25">
           <EventSet chooserandom="true">
             <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="1" probability="0.5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Bombshark" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Mudraptor_Gutbomber" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Muddragon" minamount="1" maxamount="1" probability="0.5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Prawn_Horned" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -5354,7 +5354,7 @@ _____ \_ |__ ___.__. ______ ______
         <EventSet chooserandom="true" commonness="25">
           <EventSet chooserandom="true">
             <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="1" probability="0.5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Bombshark" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Mudraptor_Gutbomber" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Harpoonwhale" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Muddragon" minamount="1" maxamount="1" probability="0.5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
             <MonsterEvent characterfile="Prawn_Horned" minamount="2" maxamount="2" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
