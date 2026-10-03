@@ -25,7 +25,8 @@
 	Abysswatcher => WatcherCephalopod
 	Observer => WatcherCephalopod_Blue
 
-	Charybdisold => LeatherbackLarge
+	Charybdisold => Leatherback_Titan
+	
 	Bossmoloch => MolochBoss
 
 	Crawlercrablet => Husk_CrabletCrawler

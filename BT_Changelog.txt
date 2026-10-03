@@ -91,10 +91,6 @@ HOTFIX
 	RENAMING LIST:
 	NOTE, THE GOAL IS TO GROUP THE FISH ID TOGETHER. THE DISPLAYED NAME OF THE FISH CAN BE WHATEVER WE WANT THEM TO BE
 	
-	Pylon => FractalPylon
-
-	Charybdisold => LeatherbackLarge
-	
 	Exosuit => ThalamusExosuit	
 	
 	LegacyCrawler => RoachShrimp (?)
