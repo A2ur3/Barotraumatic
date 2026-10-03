@@ -1567,7 +1567,7 @@
   difficulty="3" 
   reward="4000" 
   sonarlabel="Fractal Creatures" maxsonarmarkerdistance="18000">
-    <monster character="undyingfaraday" min="0" max="1" />
+    <monster character="FractalUndyingfaraday" min="0" max="1" />
     <monster character="Fractalguardian3" min="2" max="2" />
     <monster character="FractalBreacher" min="1" max="1" />
     <monster character="FractalEnforcer" min="1" max="1" />
@@ -2680,8 +2680,8 @@ reward="1000"
     <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,5" cooldownafterchange="15" />
     <Characters>
       <Character identifier="bandit_elite" from="abandonedoutpostnpcs" min="0" max="3" />
-      <Character identifier="Undying" min="3" max="4" requirekill="true" />
-      <Character identifier="Undying" min="2" max="2" requirekill="true" multiplayeronly="true"/>
+      <Character identifier="FractalUndying" min="3" max="4" requirekill="true" />
+      <Character identifier="FractalUndying" min="2" max="2" requirekill="true" multiplayeronly="true"/>
       <Character identifier="Fractalwalker" min="2" max="2" requirekill="true" />
       <Character identifier="Fractalwalker" min="1" max="1" requirekill="true" multiplayeronly="true" />
       <Character identifier="FractalMudraptor" min="1" max="1" requirekill="true" />

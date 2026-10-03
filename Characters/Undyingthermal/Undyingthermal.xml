@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Character SpeciesName="Undyingthermal" SpeciesTranslationOverride="undying" DisplayName="" Group="ancientalien" Humanoid="True" HasInfo="False" CanInteract="True" Husk="False" UseHuskAppendage="False" NeedsAir="False" NeedsWater="False" UseHumanAI="False" IsMachine="True" CanSpeak="True" ShowHealthBar="True" UseBossHealthBar="False" Noise="150" Visibility="150" BloodDecal="blood" BleedParticleAir="blooddrop" BleedParticleWater="waterblood" BleedParticleMultiplier="1" CanEat="True" EatingSpeed="10" UsePathFinding="True" PathFinderPriority="1" HideInSonar="False" HideInThermalGoggles="False" SonarDisruption="0" DistantSonarRange="0" DisableDistance="25000" SoundInterval="10" DrawLast="False" AITurretPriority="1" AISlowTurretPriority="1" DespawnContainer="">
+<Character SpeciesName="FractalUndyingthermal" SpeciesTranslationOverride="FractalUndying" DisplayName="" Group="ancientalien" Humanoid="True" HasInfo="False" CanInteract="True" Husk="False" UseHuskAppendage="False" NeedsAir="False" NeedsWater="False" UseHumanAI="False" IsMachine="True" CanSpeak="True" ShowHealthBar="True" UseBossHealthBar="False" Noise="150" Visibility="150" BloodDecal="blood" BleedParticleAir="blooddrop" BleedParticleWater="waterblood" BleedParticleMultiplier="1" CanEat="True" EatingSpeed="10" UsePathFinding="True" PathFinderPriority="1" HideInSonar="False" HideInThermalGoggles="False" SonarDisruption="0" DistantSonarRange="0" DisableDistance="25000" SoundInterval="10" DrawLast="False" AITurretPriority="1" AISlowTurretPriority="1" DespawnContainer="">
   <ragdolls folder="default" />
   <animations folder="default" />
   <sound gender="None" File="%ModDir:2518816103%/Characters/Fractalwalker/Fractalguardian1.ogg" State="Attack" Range="1000" Volume="1" Tags="" />
@@ -50,7 +50,7 @@
     <target Tag="husk" State="Attack" Priority="1" ReactDistance="1000" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Straight" PrioritizeSubCenter="False" SweepDistance="0" SweepStrength="10" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
   </ai>
   <StatusEffect type="OnActive" target="This" stackable="false" delay="0.1">
-    <Conditional speciesname="!eq undyingthermal" />
+    <Conditional speciesname="!eq FractalUndyingthermal" />
     <Conditional speciesname="human" />
     <Explosion range="90" empstrength="0" force="1" shockwave="false" flames="true" smoke="false" sparks="false" underwaterbubble="false" camerashake="5" playtinnitus="false">
       <Affliction identifier="burn" strength="0.9" />
