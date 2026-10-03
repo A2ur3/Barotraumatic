@@ -88,7 +88,7 @@
     reward="1600"
     sonarlabel="Barracuda" maxsonarmarkerdistance="10000">
     <monster character="Barracuda" min="2" max="3"/>
-    <monster character="Lionthresher" min="3" max="4"/>
+    <monster character="Barahna" min="3" max="4"/>
     <Reputation identifier="location" amount="1" />
     <LocationType from="AnyOutpost" to="Any" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,768,256,256" color="214,50,48"/>
@@ -711,7 +711,7 @@
     reward="2000"
     sonarlabel="Barracuda" maxsonarmarkerdistance="10000">
     <monster character="Barracuda" min="5" max="6"/>
-    <monster character="Lionthresher" min="4" max="5"/>
+    <monster character="Barahna" min="4" max="5"/>
     <Reputation identifier="location" amount="1" />
     <LocationType from="AnyOutpost" to="Any" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,768,256,256" color="214,50,48"/>

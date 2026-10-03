@@ -664,7 +664,7 @@
     <PeriodicEffect mininterval="1" maxinterval="10">
       <!-- Grow creatures to enhanced forms when affliction reaches 100 strength -->
       <StatusEffect target="Character" comparison="and">
-        <Conditional speciesname="Lionthresher" />
+        <Conditional speciesname="Barahna" />
         <Conditional isdead="false" />
         <Conditional growth="gte 100" />
         <SpawnCharacter speciesname="Barracuda" count="1" spread="0" />

@@ -291,7 +291,7 @@ MonsterEvent
     - Lavathresher 9
     - Leatherback 6
     - LegacyCrawler 1
-    - Lionthresher 1
+    - Barahna 1
     - Magmalarva 9
     - Magmaworm 9 A curious thick skinned roughly crawler sized creature that prowls the thermal wastes similar to crawlers and threshers tough for its size. 
     - Mantis 3C 
@@ -436,7 +436,7 @@ _/ ___\\__  \\  \/ // __ \ /  ___/
 	  <MonsterEvent characterfile="Crawlerold" minamount="3" maxamount="4" spawntype="cave" delaybetweenspawns="5" />
       <MonsterEvent characterfile="Crawler" minamount="3" maxamount="4" spawntype="cave" delaybetweenspawns="5" />
 	  <MonsterEvent characterfile="Trichordate" minamount="3" maxamount="4" spawntype="cave" delaybetweenspawns="5" />
-      <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="5" spawntype="cave" delaybetweenspawns="5" />
+      <MonsterEvent characterfile="Barahna" minamount="4" maxamount="5" spawntype="cave" delaybetweenspawns="5" />
 	  <MonsterEvent characterfile="Hullfish" minamount="4" maxamount="5" spawntype="cave" delaybetweenspawns="5" />
       <MonsterEvent characterfile="Mudraptor_unarmored" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="5" />
       <MonsterEvent characterfile="Minoga" minamount="3" maxamount="5" spawntype="cave" delaybetweenspawns="5" />
@@ -555,7 +555,7 @@ ___.
             <MonsterEvent characterfile="hullfish" minamount="2" maxamount="3" spawntype="beaconstation" spawnprobability="1" spawnpointtag="encounter" offset="2000"/>
           </EventSet>
           <EventSet identifier="Scavengers2" chooserandom="false" triggereventcooldown="false" allowatstart="true" commonness="10">
-            <MonsterEvent characterfile="Lionthresher" minamount="2" maxamount="3" spawntype="beaconstation" spawnprobability="1" spawnpointtag="encounter" delaybetweenspawns="5" />
+            <MonsterEvent characterfile="Barahna" minamount="2" maxamount="3" spawntype="beaconstation" spawnprobability="1" spawnpointtag="encounter" delaybetweenspawns="5" />
             <MonsterEvent characterfile="Europantrout" minamount="2" maxamount="3" spawntype="beaconstation" spawnprobability="1" spawnpointtag="encounter" offset="2000"/>
           </EventSet>
         </EventSet>
@@ -656,7 +656,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Europantrout" minamount="4" maxamount="5" offset="800" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Hullfish" minamount="1" maxamount="2" offset="800" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" offset="800" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-            <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" offset="800" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+            <MonsterEvent characterfile="Barahna" minamount="4" maxamount="6" offset="800" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Minoga" minamount="3" maxamount="6" offset="800" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Iceshark" minamount="1" maxamount="1" offset="800" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
           </EventSet>
@@ -677,7 +677,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Europantrout" minamount="2" maxamount="3" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="hullfish" minamount="1" maxamount="2" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
-            <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="4" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
+            <MonsterEvent characterfile="Barahna" minamount="4" maxamount="4" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Minoga" minamount="3" maxamount="4" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Icecrab" minamount="1" maxamount="1" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Iceshark" minamount="1" maxamount="1" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
@@ -863,7 +863,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Crawler_hatchling" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           </EventSet>
           <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Lionthresher" minamount="3" maxamount="4" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="3" maxamount="4" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           </EventSet>
         </EventSet>
         <EventSet chooserandom="true" commonness="25">
@@ -883,7 +883,7 @@ _____ \_ |__ ___.__. ______ ______
             <MonsterEvent characterfile="Hammerheadspawn" minamount="3" maxamount="5" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           </EventSet>
           <EventSet chooserandom="false">
-            <MonsterEvent characterfile="Lionthresher" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
             <MonsterEvent characterfile="Minoga" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
             <MonsterEvent characterfile="hullfish" minamount="0" maxamount="2" scatter="3000" probability="0.2" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           </EventSet>
@@ -912,7 +912,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="1" maxamount="1" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-            <MonsterEvent characterfile="Lionthresher" minamount="3" maxamount="5" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="3" maxamount="5" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           </EventSet>
         </EventSet>
         <EventSet chooserandom="true" commonness="25">
@@ -1060,7 +1060,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="1" maxamount="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Lionthresher" minamount="2" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="2" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           </EventSet>
         </EventSet>
       </EventSet>
@@ -1090,7 +1090,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="1" maxamount="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Lionthresher" minamount="2" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="2" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           </EventSet>
         </EventSet>
       </EventSet>
@@ -1150,7 +1150,7 @@ _/ ___\\__  \\  \/ // __ \ /  ___/
       <MonsterEvent characterfile="Gnasher" minamount="4" maxamount="6" spawntype="cave" delaybetweenspawns="5" />
       <MonsterEvent characterfile="Crawlerold" minamount="4" maxamount="6" spawntype="cave" delaybetweenspawns="5" />
 	  <MonsterEvent characterfile="Crawler" minamount="4" maxamount="6" spawntype="cave" delaybetweenspawns="5" />
-      <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" spawntype="cave" delaybetweenspawns="5" />
+      <MonsterEvent characterfile="Barahna" minamount="4" maxamount="6" spawntype="cave" delaybetweenspawns="5" />
       <MonsterEvent characterfile="Mudraptor_unarmored" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="5" />
       <MonsterEvent characterfile="Hammerhead_young" minamount="2" maxamount="2" spawntype="cave" delaybetweenspawns="5" />
       <MonsterEvent characterfile="Hammerheadspawn" minamount="6" maxamount="8" spawntype="cave" delaybetweenspawns="5" />
@@ -1408,7 +1408,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Europantrout" minamount="4" maxamount="5" offset="800" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Hullfish" minamount="1" maxamount="2" offset="800" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" offset="800" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-            <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" offset="800" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+            <MonsterEvent characterfile="Barahna" minamount="4" maxamount="6" offset="800" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Minoga" minamount="3" maxamount="6" offset="800" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" offset="800" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="GrayEel" minamount="1" maxamount="2" offset="800" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
@@ -1438,7 +1438,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="hullfish" minamount="1" maxamount="2" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Trichordate" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
-            <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
+            <MonsterEvent characterfile="Barahna" minamount="4" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Husk_RandomLight" minamount="1" maxamount="2" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Minoga" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
@@ -1538,7 +1538,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="0" maxamount="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Lionthresher" minamount="2" maxamount="4" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="2" maxamount="4" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           </EventSet>
         </EventSet>
         <EventSet identifier="whale" chooserandom="true" commonness="5">
@@ -1647,7 +1647,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="1" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-            <MonsterEvent characterfile="Lionthresher" minamount="0" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="0" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           </EventSet>
         </EventSet>
         <EventSet chooserandom="true" commonness="25">
@@ -1678,7 +1678,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="1" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="3" />
-            <MonsterEvent characterfile="Lionthresher" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
             <MonsterEvent characterfile="Minoga" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
             <MonsterEvent characterfile="Scorpion" minamount="0" maxamount="2" scatter="3000" probability="0.2" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           </EventSet>
@@ -1748,7 +1748,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="1" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-            <MonsterEvent characterfile="Lionthresher" minamount="0" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="0" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           </EventSet>
         </EventSet>
         <EventSet chooserandom="true" commonness="25">
@@ -1780,7 +1780,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="1" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="3" />
-            <MonsterEvent characterfile="Lionthresher" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
             <MonsterEvent characterfile="Minoga" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
             <MonsterEvent characterfile="Scorpion" minamount="0" maxamount="2" scatter="3000" probability="0.2" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           </EventSet>
@@ -1851,7 +1851,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="1" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-            <MonsterEvent characterfile="Lionthresher" minamount="0" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="0" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           </EventSet>
         </EventSet>
         <EventSet chooserandom="true" commonness="25">
@@ -1883,7 +1883,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="1" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="3" />
-            <MonsterEvent characterfile="Lionthresher" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
             <MonsterEvent characterfile="Minoga" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
             <MonsterEvent characterfile="Scorpion" minamount="0" maxamount="2" scatter="3000" probability="0.2" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           </EventSet>
@@ -1954,7 +1954,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="1" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-            <MonsterEvent characterfile="Lionthresher" minamount="0" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="0" maxamount="3" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           </EventSet>
         </EventSet>
         <EventSet chooserandom="true" commonness="25">
@@ -1986,7 +1986,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="1" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="3" />
-            <MonsterEvent characterfile="Lionthresher" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
             <MonsterEvent characterfile="Minoga" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
             <MonsterEvent characterfile="Scorpion" minamount="0" maxamount="2" scatter="3000" probability="0.2" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           </EventSet>
@@ -2059,7 +2059,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="0" maxamount="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Lionthresher" minamount="2" maxamount="4" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="2" maxamount="4" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           </EventSet>
         </EventSet>
         <EventSet identifier="whale" chooserandom="true" commonness="5">
@@ -2102,7 +2102,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="0" maxamount="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Lionthresher" minamount="2" maxamount="4" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="2" maxamount="4" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           </EventSet>
         </EventSet>
         <EventSet identifier="whale" chooserandom="true" commonness="5">
@@ -2145,7 +2145,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="0" maxamount="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Lionthresher" minamount="2" maxamount="4" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="2" maxamount="4" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
           </EventSet>
         </EventSet>
         <EventSet identifier="whale" chooserandom="true" commonness="5">
@@ -2207,7 +2207,7 @@ _/ ___\\__  \\  \/ // __ \ /  ___/
         <MonsterEvent characterfile="Clownhomie" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Iceshark" minamount="1" maxamount="2" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Crawlerhusk" minamount="2" maxamount="3" spawntype="cave" delaybetweenspawns="5" />
-        <MonsterEvent characterfile="Lionthresher" minamount="3" maxamount="6" spawntype="cave" delaybetweenspawns="5" />
+        <MonsterEvent characterfile="Barahna" minamount="3" maxamount="6" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Iceshark" minamount="1" maxamount="2" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Praywhalebaby" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Mantispink" minamount="2" maxamount="4" spawntype="cave" delaybetweenspawns="5" />
@@ -2504,10 +2504,10 @@ __  _  _________   ____   ____ |  | __  ______
           <EventSet identifier="barracudasSet1" chooserandom="false" allowatstart="true" triggereventcooldown="false" ignorecooldown="true">
             <!-- Outside (uses scatter and spawnpointtag="encounter") -->
             <MonsterEvent characterfile="Barracuda" minamount="1" maxamount="2" probability="1" offset="800" scatter="300" spawntype="wreck" spawnpointtag="encounter" />
-            <MonsterEvent characterfile="Lionthresher" minamount="2" maxamount="3" probability="1" offset="800" scatter="300" spawntype="wreck" spawnpointtag="encounter" />
+            <MonsterEvent characterfile="Barahna" minamount="2" maxamount="3" probability="1" offset="800" scatter="300" spawntype="wreck" spawnpointtag="encounter" />
             <!-- Inside (use spawntype="wreck") -->
-            <MonsterEvent characterfile="Lionthresher" minamount="2" maxamount="3" probability="1" spawntype="wreck" />
-            <MonsterEvent characterfile="Lionthresher" minamount="1" maxamount="2" probability="1" spawntype="wreck" />
+            <MonsterEvent characterfile="Barahna" minamount="2" maxamount="3" probability="1" spawntype="wreck" />
+            <MonsterEvent characterfile="Barahna" minamount="1" maxamount="2" probability="1" spawntype="wreck" />
           </EventSet>
         </EventSet>
         <EventSet identifier="husks" chooserandom="true" triggereventcooldown="false" allowatstart="true" commonness="50">
@@ -2541,7 +2541,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Europantrout" minamount="4" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Hullfish" minamount="3" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-            <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+            <MonsterEvent characterfile="Barahna" minamount="4" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Minoga" minamount="3" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="GrayEel" minamount="1" maxamount="2" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
@@ -2576,7 +2576,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Trichordate" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Trichordate_random" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
-            <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
+            <MonsterEvent characterfile="Barahna" minamount="4" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Husk_RandomLight" minamount="1" maxamount="2" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Minoga" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
@@ -3074,7 +3074,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Lionthresher" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Barahna" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Seaurchin" minamount="3" maxamount="5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -3236,7 +3236,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Lionthresher" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Barahna" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Seaurchin" minamount="3" maxamount="5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -3398,7 +3398,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Lionthresher" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Barahna" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Seaurchin" minamount="3" maxamount="5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -3560,7 +3560,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Lionthresher" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Barahna" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Seaurchin" minamount="3" maxamount="5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -3728,7 +3728,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-            <MonsterEvent characterfile="Lionthresher" minamount="2" maxamount="8" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="2" maxamount="8" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
             <MonsterEvent characterfile="Minoga" minamount="0" maxamount="4" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="5" />
           </EventSet>
           <EventSet chooserandom="false">
@@ -3819,7 +3819,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-            <MonsterEvent characterfile="Lionthresher" minamount="2" maxamount="8" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="2" maxamount="8" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
             <MonsterEvent characterfile="Minoga" minamount="0" maxamount="4" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="5" />
           </EventSet>
           <EventSet chooserandom="false">
@@ -3919,7 +3919,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-            <MonsterEvent characterfile="Lionthresher" minamount="2" maxamount="8" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="2" maxamount="8" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
             <MonsterEvent characterfile="Minoga" minamount="0" maxamount="5" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="5" />
           </EventSet>
           <EventSet chooserandom="false">
@@ -4011,7 +4011,7 @@ _/ ___\\__  \\  \/ // __ \ /  ___/
         <MonsterEvent characterfile="Molochbaby" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Iceshark" minamount="1" maxamount="2" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Crawlerhusk" minamount="4" maxamount="6" spawntype="cave" delaybetweenspawns="5" />
-        <MonsterEvent characterfile="Lionthresher" minamount="3" maxamount="6" spawntype="cave" delaybetweenspawns="5" />
+        <MonsterEvent characterfile="Barahna" minamount="3" maxamount="6" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Iceshark" minamount="1" maxamount="2" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Praywhalebaby" minamount="1" maxamount="1" spawntype="cave" delaybetweenspawns="5" />
         <MonsterEvent characterfile="Mantispink" minamount="2" maxamount="4" spawntype="cave" delaybetweenspawns="5" />
@@ -4313,10 +4313,10 @@ __  _  _________   ____   ____ |  | __  ______
           <EventSet identifier="barracudasSet1" chooserandom="false" allowatstart="true" triggereventcooldown="false" ignorecooldown="true">
             <!-- Outside (uses scatter and spawnpointtag="encounter") -->
             <MonsterEvent characterfile="Barracuda" minamount="1" maxamount="2" probability="1" offset="800" scatter="300" spawntype="wreck" spawnpointtag="encounter" />
-            <MonsterEvent characterfile="Lionthresher" minamount="2" maxamount="3" probability="1" offset="800" scatter="300" spawntype="wreck" spawnpointtag="encounter" />
+            <MonsterEvent characterfile="Barahna" minamount="2" maxamount="3" probability="1" offset="800" scatter="300" spawntype="wreck" spawnpointtag="encounter" />
             <!-- Inside (use spawntype="wreck") -->
-            <MonsterEvent characterfile="Lionthresher" minamount="2" maxamount="3" probability="1" spawntype="wreck" />
-            <MonsterEvent characterfile="Lionthresher" minamount="1" maxamount="2" probability="1" spawntype="wreck" />
+            <MonsterEvent characterfile="Barahna" minamount="2" maxamount="3" probability="1" spawntype="wreck" />
+            <MonsterEvent characterfile="Barahna" minamount="1" maxamount="2" probability="1" spawntype="wreck" />
             <MonsterEvent characterfile="Minoga" minamount="1" maxamount="2" probability="1" spawntype="wreck" />
           </EventSet>
         </EventSet>
@@ -4352,7 +4352,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Europantrout" minamount="4" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Hullfish" minamount="1" maxamount="2" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-            <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+            <MonsterEvent characterfile="Barahna" minamount="4" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Minoga" minamount="3" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="GrayEel" minamount="1" maxamount="2" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
@@ -4382,7 +4382,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Trichordate" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Trichordate_random" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
-            <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
+            <MonsterEvent characterfile="Barahna" minamount="4" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Husk_RandomLight" minamount="1" maxamount="2" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Minoga" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
@@ -4858,7 +4858,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Lionthresher" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Barahna" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Seaurchin" minamount="3" maxamount="5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -5020,7 +5020,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Lionthresher" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Barahna" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Seaurchin" minamount="3" maxamount="5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -5182,7 +5182,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Lionthresher" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Barahna" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Seaurchin" minamount="3" maxamount="5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -5344,7 +5344,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="2" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
-            <MonsterEvent characterfile="Lionthresher" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
+            <MonsterEvent characterfile="Barahna" minamount="3" maxamount="4" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Seaurchin" minamount="3" maxamount="5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
@@ -5512,7 +5512,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-            <MonsterEvent characterfile="Lionthresher" minamount="2" maxamount="8" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="2" maxamount="8" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
             <MonsterEvent characterfile="Minoga" minamount="0" maxamount="4" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="5" />
           </EventSet>
           <EventSet chooserandom="false">
@@ -5603,7 +5603,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-            <MonsterEvent characterfile="Lionthresher" minamount="2" maxamount="8" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="2" maxamount="8" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
             <MonsterEvent characterfile="Minoga" minamount="0" maxamount="4" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="5" />
           </EventSet>
           <EventSet chooserandom="false">
@@ -5703,7 +5703,7 @@ _____ \_ |__ ___.__. ______ ______
           </EventSet>
           <EventSet chooserandom="false">
             <MonsterEvent characterfile="Barracuda" minamount="0" maxamount="2" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
-            <MonsterEvent characterfile="Lionthresher" minamount="2" maxamount="8" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
+            <MonsterEvent characterfile="Barahna" minamount="2" maxamount="8" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="1" />
             <MonsterEvent characterfile="Minoga" minamount="0" maxamount="5" scatter="3000" spawntype="mainpath,sidepath" delaybetweenspawns="5" />
           </EventSet>
           <EventSet chooserandom="false">
@@ -6249,7 +6249,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Europantrout" minamount="4" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Hullfish" minamount="1" maxamount="2" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-            <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+            <MonsterEvent characterfile="Barahna" minamount="4" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Minoga" minamount="3" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="GrayEel" minamount="1" maxamount="2" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
@@ -6297,7 +6297,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Trichordate" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Trichordate_random" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
-            <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
+            <MonsterEvent characterfile="Barahna" minamount="4" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Husk_RandomLight" minamount="1" maxamount="2" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Minoga" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
@@ -8828,7 +8828,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Europantrout" minamount="4" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Hullfish" minamount="1" maxamount="2" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-            <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+            <MonsterEvent characterfile="Barahna" minamount="4" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Minoga" minamount="3" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="GrayEel" minamount="1" maxamount="2" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
@@ -8880,7 +8880,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Trichordate" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Trichordate_random" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
-            <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
+            <MonsterEvent characterfile="Barahna" minamount="4" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Husk_RandomLight" minamount="1" maxamount="2" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Minoga" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
@@ -11440,7 +11440,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Europantrout" minamount="4" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Hullfish" minamount="1" maxamount="2" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-            <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+            <MonsterEvent characterfile="Barahna" minamount="4" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Minoga" minamount="3" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="GrayEel" minamount="1" maxamount="2" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
@@ -11504,7 +11504,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Trichordate" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Trichordate_random" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
-            <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
+            <MonsterEvent characterfile="Barahna" minamount="4" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Husk_RandomLight" minamount="1" maxamount="2" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Minoga" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
@@ -14270,7 +14270,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Europantrout" minamount="4" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Hullfish" minamount="1" maxamount="2" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-            <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+            <MonsterEvent characterfile="Barahna" minamount="4" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Minoga" minamount="3" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="GrayEel" minamount="1" maxamount="2" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
@@ -14334,7 +14334,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Trichordate" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Trichordate_random" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
-            <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
+            <MonsterEvent characterfile="Barahna" minamount="4" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Husk_RandomLight" minamount="1" maxamount="2" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Minoga" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
@@ -17120,7 +17120,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Europantrout" minamount="4" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Hullfish" minamount="1" maxamount="2" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-            <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+            <MonsterEvent characterfile="Barahna" minamount="4" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Minoga" minamount="3" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="GrayEel" minamount="1" maxamount="2" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
@@ -17179,7 +17179,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Trichordate" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Trichordate_random" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
-            <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
+            <MonsterEvent characterfile="Barahna" minamount="4" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Husk_RandomLight" minamount="1" maxamount="2" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Minoga" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
@@ -19314,7 +19314,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Europantrout" minamount="4" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Hullfish" minamount="1" maxamount="2" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
-            <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
+            <MonsterEvent characterfile="Barahna" minamount="4" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Minoga" minamount="3" maxamount="6" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
             <MonsterEvent characterfile="GrayEel" minamount="1" maxamount="2" offset="500" spawntype="wreck" spawnprobability="1" spawnpointtag="encounter" />
@@ -19373,7 +19373,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Guppy" minamount="4" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Trichordate" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Trichordate_random" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
-            <MonsterEvent characterfile="Lionthresher" minamount="4" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
+            <MonsterEvent characterfile="Barahna" minamount="4" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Husk_RandomLight" minamount="1" maxamount="2" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Minoga" minamount="3" maxamount="6" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />
             <MonsterEvent characterfile="Scorpion" minamount="3" maxamount="5" scatter="300" spawntype="wreck" spawnprobability="1" spawnpointtag="wreck" />

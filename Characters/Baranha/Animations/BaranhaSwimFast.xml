@@ -1,5 +1,5 @@
-﻿<LionthresherSwimFast
-  type="Lionthresher"
+﻿<BarahnaSwimFast
+  type="Barahna"
   UseSineMovement="False"
   Flip="True"
   FlipCooldown="1"
