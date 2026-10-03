@@ -256,7 +256,7 @@
   difficulty="4" 
   reward="3500" 
   sonarlabel="Target" successmessage="The representative from [location1] thanks you for your bravery and compensate you with a large bounty of [reward] marks."
-  monsterfile="Endurance">
+  monsterfile="FractalSentry">
     <Reputation identifier="location" amount="4" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,512,256,256" color="64,188,216" />
     <LocationType from="AnyOutpost" to="Any" />
@@ -2273,7 +2273,7 @@ reward="1000"
   spawntype="Abyss"
    maxsonarmarkerdistance="20000"
    successmessage=""
-  monsterfile="Endurance">
+  monsterfile="FractalSentry">
     <Reputation identifier="separatists" amount="3" />
     <Reputation identifier="coalition" amount="3" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48" />
