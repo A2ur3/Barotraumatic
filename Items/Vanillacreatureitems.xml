@@ -1261,8 +1261,8 @@
       <Item identifier="calcium" />
       <Item identifier="carbon" />
     </Deconstruct>
-    <InventoryIcon texture="%ModDir:2518816103%/Characters/TigerSharkThresher/tigersharkthresher.png" sourcerect="280,299,56,97" />
-    <Sprite texture="%ModDir:2518816103%/Characters/TigerSharkThresher/tigersharkthresher.png" depth="0.54" sourcerect="280,299,56,97" />
+    <InventoryIcon texture="%ModDir:2518816103%/Characters/Barracuda/Barracuda.png" sourcerect="280,299,56,97" />
+    <Sprite texture="%ModDir:2518816103%/Characters/Barracuda/Barracuda.png" depth="0.54" sourcerect="280,299,56,97" />
     <Body width="20" height="44" density="13" />
     <Holdable slots="RightHand,LeftHand,Any" holdpos="0,0" handle1="0,0" handle2="0,0" />
   </Item>
@@ -1281,8 +1281,8 @@
       <Item identifier="iron" />
       <Item identifier="paralyzant" />
     </Deconstruct>
-    <InventoryIcon texture="%ModDir:2518816103%/Characters/TigerSharkThresher/tigersharkthresher.png" sourcerect="391,171,27,107" />
-    <Sprite texture="%ModDir:2518816103%/Characters/TigerSharkThresher/tigersharkthresher.png" depth="0.54" sourcerect="391,171,27,107" />
+    <InventoryIcon texture="%ModDir:2518816103%/Characters/Barracuda/Barracuda.png" sourcerect="391,171,27,107" />
+    <Sprite texture="%ModDir:2518816103%/Characters/Barracuda/Barracuda.png" depth="0.54" sourcerect="391,171,27,107" />
     <Body width="20" height="44" density="13" />
     <Holdable slots="RightHand,LeftHand,Any" holdpos="0,0" handle1="0,0" handle2="0,0" />
   </Item>
@@ -1309,8 +1309,8 @@
       <Item identifier="uranium" copycondition="true" commonness="0.5" />
       <Item identifier="titaniumaluminiumalloy" copycondition="true" commonness="0.2" />
     </Deconstruct>
-    <InventoryIcon texture="%ModDir:2518816103%/Characters/TigerSharkThresher/tigersharkthresher.png" sourcerect="327,3,34,289" />
-    <Sprite texture="%ModDir:2518816103%/Characters/TigerSharkThresher/tigersharkthresher.png" depth="0.54" sourcerect="327,3,34,289" />
+    <InventoryIcon texture="%ModDir:2518816103%/Characters/Barracuda/Barracuda.png" sourcerect="327,3,34,289" />
+    <Sprite texture="%ModDir:2518816103%/Characters/Barracuda/Barracuda.png" depth="0.54" sourcerect="327,3,34,289" />
     <Body width="20" height="44" density="13" />
     <Holdable slots="Any" holdpos="0,0" handle1="0,0" handle2="0,0" />
   </Item>

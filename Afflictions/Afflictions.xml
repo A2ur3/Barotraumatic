@@ -667,7 +667,7 @@
         <Conditional speciesname="Lionthresher" />
         <Conditional isdead="false" />
         <Conditional growth="gte 100" />
-        <SpawnCharacter speciesname="TigerSharkThresher" count="1" spread="0" />
+        <SpawnCharacter speciesname="Barracuda" count="1" spread="0" />
         <RemoveCharacter />
       </StatusEffect>
     </PeriodicEffect>

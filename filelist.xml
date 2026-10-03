@@ -146,7 +146,7 @@
   <Character file="%ModDir%/Characters/TrichordateMetalvore/TrichordateMetalvore.xml" />
   <Character file="%ModDir%/Characters/TrichordateBloodsucker/TrichordateBloodsucker.xml" />
   <Character file="%ModDir%/Characters/Gnasher/Gnasher.xml" />
-  <Character file="%ModDir%/Characters/TigerSharkThresher/TigerSharkThresher.xml" />
+  <Character file="%ModDir%/Characters/Barracuda/Barracuda.xml" />
   <Character file="%ModDir%/Characters/Charybdis_Alpha/Charybdis_Alpha.xml" />
   <Character file="%ModDir%/Characters/Hammerhead_Abyss/Hammerhead_Abyss.xml" />
   <Character file="%ModDir%/Characters/Tigerthresher_Abyss/Tigerthresher_Abyss.xml" />
