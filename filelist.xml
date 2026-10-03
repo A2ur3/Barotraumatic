@@ -222,7 +222,7 @@
   <Character file="%ModDir%/Characters/Nuclearmine/Nuclearmine.xml" />
   <Character file="%ModDir%/Characters/Penance/Fractalpenance.xml" />
   <Character file="%ModDir%/Characters/FractalUndyingthermal/FractalUndyingthermal.xml" />
-  <Character file="%ModDir%/Characters/FractalUndyingfaraday/FractalUndyingfaraday.xml" />
+  <Character file="%ModDir%/Characters/FractalUndying_Faraday/FractalUndying_Faraday.xml" />
   <Character file="%ModDir%/Characters/HumanImmortal/HumanImmortal.xml" />
   <Character file="%ModDir%/Characters/Crawler_Abyss/Crawler_Abyss.xml" />
   <Character file="%ModDir%/Characters/Plantworm/Plantworm.xml" />

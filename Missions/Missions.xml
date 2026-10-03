@@ -1567,7 +1567,7 @@
   difficulty="3" 
   reward="4000" 
   sonarlabel="Fractal Creatures" maxsonarmarkerdistance="18000">
-    <monster character="FractalUndyingfaraday" min="0" max="1" />
+    <monster character="FractalUndying_Faraday" min="0" max="1" />
     <monster character="Fractalguardian3" min="2" max="2" />
     <monster character="FractalBreacher" min="1" max="1" />
     <monster character="FractalEnforcer" min="1" max="1" />

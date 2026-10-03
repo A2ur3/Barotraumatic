@@ -11426,7 +11426,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Swarmfeeder" minamount="3" maxamount="5" spawntype="wreck" delaybetweenspawns="5" />
             <MonsterEvent characterfile="FractalUndying" minamount="1" maxamount="2" spawntype="wreck" delaybetweenspawns="5" />
             <MonsterEvent characterfile="FractalUndying" minamount="1" maxamount="1" spawntype="wreck" spawnprobability="0.5" delaybetweenspawns="5" />
-            <MonsterEvent characterfile="FractalUndyingfaraday" minamount="1" maxamount="1" spawntype="wreck" delaybetweenspawns="5" />
+            <MonsterEvent characterfile="FractalUndying_Faraday" minamount="1" maxamount="1" spawntype="wreck" delaybetweenspawns="5" />
           </EventSet>
         </EventSet>
       </EventSet>
@@ -14256,7 +14256,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Swarmfeeder" minamount="3" maxamount="5" spawntype="wreck" delaybetweenspawns="5" />
             <MonsterEvent characterfile="FractalUndying" minamount="1" maxamount="2" spawntype="wreck" delaybetweenspawns="5" />
             <MonsterEvent characterfile="FractalUndying" minamount="1" maxamount="1" spawntype="wreck" spawnprobability="0.5" delaybetweenspawns="5" />
-            <MonsterEvent characterfile="FractalUndyingfaraday" minamount="1" maxamount="1" spawntype="wreck" delaybetweenspawns="5" />
+            <MonsterEvent characterfile="FractalUndying_Faraday" minamount="1" maxamount="1" spawntype="wreck" delaybetweenspawns="5" />
           </EventSet>
         </EventSet>
       </EventSet>
@@ -16817,7 +16817,7 @@ _______ __ __|__| ____   ______
           </EventSet>
           <EventSet identifier="entrance3_FractalUndying2" chooserandom="false" triggereventcooldown="false" allowatstart="true">
             <MonsterEvent characterfile="FractalUndyingthermal" probability="0.5" amount="1" spawntype="ruin" spawnpointtag="encounter_entrance3" />
-            <MonsterEvent characterfile="FractalUndyingfaraday" probability="0.5" amount="1" spawntype="ruin" spawnpointtag="encounter_entrance3" />
+            <MonsterEvent characterfile="FractalUndying_Faraday" probability="0.5" amount="1" spawntype="ruin" spawnpointtag="encounter_entrance3" />
           </EventSet>
           <EventSet identifier="entrance3_clowns" chooserandom="false" triggereventcooldown="false" allowatstart="true">
             <MonsterEvent characterfile="Clownwanderer" minamount="1" maxamount="2" spawntype="ruin" spawnpointtag="encounter_entrance3" />
@@ -16849,7 +16849,7 @@ _______ __ __|__| ____   ______
           <EventSet identifier="chambers6" chooserandom="false" triggereventcooldown="false" allowatstart="true">
             <MonsterEvent characterfile="FractalUndying_Rad" minamount="1" maxamount="1" spawntype="ruin" probability="0.7" spawnpointtag="fractalguardian" />
             <MonsterEvent characterfile="FractalUndyingthermal" minamount="1" maxamount="1" spawntype="ruin" probability="0.5" spawnpointtag="fractalguardian" />
-            <MonsterEvent characterfile="FractalUndyingfaraday" minamount="1" maxamount="1" spawntype="ruin" spawnpointtag="encounter_chambers1" />
+            <MonsterEvent characterfile="FractalUndying_Faraday" minamount="1" maxamount="1" spawntype="ruin" spawnpointtag="encounter_chambers1" />
             <MonsterEvent characterfile="FractalUndying" minamount="0" maxamount="1" spawntype="ruin" spawnpointtag="encounter_chambers1" />
           </EventSet>
           <EventSet identifier="chambers7" chooserandom="false" triggereventcooldown="false" allowatstart="true">
@@ -17106,7 +17106,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Swarmfeeder" minamount="3" maxamount="5" spawntype="wreck" delaybetweenspawns="5" />
             <MonsterEvent characterfile="FractalUndying" minamount="1" maxamount="2" spawntype="wreck" delaybetweenspawns="5" />
             <MonsterEvent characterfile="FractalUndying" minamount="1" maxamount="1" spawntype="wreck" spawnprobability="0.5" delaybetweenspawns="5" />
-            <MonsterEvent characterfile="FractalUndyingfaraday" minamount="1" maxamount="1" spawntype="wreck" delaybetweenspawns="5" />
+            <MonsterEvent characterfile="FractalUndying_Faraday" minamount="1" maxamount="1" spawntype="wreck" delaybetweenspawns="5" />
           </EventSet>
         </EventSet>
       </EventSet>
@@ -19300,7 +19300,7 @@ __  _  _________   ____   ____ |  | __  ______
             <MonsterEvent characterfile="Swarmfeeder" minamount="3" maxamount="5" spawntype="wreck" delaybetweenspawns="5" />
             <MonsterEvent characterfile="FractalUndying" minamount="1" maxamount="2" spawntype="wreck" delaybetweenspawns="5" />
             <MonsterEvent characterfile="FractalUndying" minamount="1" maxamount="1" spawntype="wreck" spawnprobability="0.5" delaybetweenspawns="5" />
-            <MonsterEvent characterfile="FractalUndyingfaraday" minamount="1" maxamount="1" spawntype="wreck" delaybetweenspawns="5" />
+            <MonsterEvent characterfile="FractalUndying_Faraday" minamount="1" maxamount="1" spawntype="wreck" delaybetweenspawns="5" />
           </EventSet>
         </EventSet>
       </EventSet>
