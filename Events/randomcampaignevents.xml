@@ -6400,7 +6400,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Polychaetes" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Latcher_Trapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
-          <MonsterEvent characterfile="Pylon" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
+          <MonsterEvent characterfile="FractalPylon" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Chelicerate" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Voidleviathan" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
@@ -8995,7 +8995,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Polychaetes" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Latcher_Trapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
-          <MonsterEvent characterfile="Pylon" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
+          <MonsterEvent characterfile="FractalPylon" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Riftworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Chelicerate" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Voidleviathan" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1" maxamountperlevel="5" spawntype="abyss" musictype="flooded" />
@@ -11629,7 +11629,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Harpoonwhale" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Latcher" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="deep" />
-          <MonsterEvent characterfile="Pylon" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="deep" />
+          <MonsterEvent characterfile="FractalPylon" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Latcher_Trapper" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Molochgreen" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Voidstalker" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
@@ -14460,7 +14460,7 @@ _____ \_ |__ ___.__. ______ ______
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Harpoonwhale" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Latcher" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="deep" />
-          <MonsterEvent characterfile="Pylon" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="deep" />
+          <MonsterEvent characterfile="FractalPylon" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Latcher_Trapper" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Molochgreen" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
           <MonsterEvent characterfile="Voidstalker" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="4" spawntype="abyss" musictype="deep" />
@@ -17302,7 +17302,7 @@ _____ \_ |__ ___.__. ______ ______
         <EventSet identifier="boss" chooserandom="true" eventcount="1" commonness="70">
           <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="600" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Endworm_Alpha" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
-          <MonsterEvent characterfile="Pylon" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
+          <MonsterEvent characterfile="FractalPylon" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Latcher_Trapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Endworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1200" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
@@ -19496,7 +19496,7 @@ _____ \_ |__ ___.__. ______ ______
         <EventSet identifier="boss" chooserandom="true" eventcount="1" commonness="70">
           <MonsterEvent characterfile="Fractaldestroyer" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="600" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Endworm_Alpha" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
-          <MonsterEvent characterfile="Pylon" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
+          <MonsterEvent characterfile="FractalPylon" minamount="1" maxamount="1" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Fault" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Latcher_Trapper" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" maxamountperlevel="1" spawntype="abyss" musictype="flooded" />
           <MonsterEvent characterfile="Endworm" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="1200" maxamountperlevel="2" spawntype="abyss" musictype="flooded" />

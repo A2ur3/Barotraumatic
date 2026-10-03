@@ -212,8 +212,8 @@
   <Character file="%ModDir%/Characters/Clowns/Clownwrecker/Clownwrecker.xml" />
   <Character file="%ModDir%/Characters/Clowns/Clownbox/Clownbox.xml" />
   <Character file="%ModDir%/Characters/Clowns/ClownWandererElite/ClownWandererElite.xml" />
-  <Character file="%ModDir%/Characters/Pylon/Pylon.xml" />
-  <Character file="%ModDir%/Characters/Pylon/Pylonbolt/Pylonbolt.xml" />
+  <Character file="%ModDir%/Characters/FractalPylon/FractalPylon.xml" />
+  <Character file="%ModDir%/Characters/FractalPylon/Pylonbolt/Pylonbolt.xml" />
   <Character file="%ModDir%/Characters/FractalUndying/FractalUndying.xml" />
   <Character file="%ModDir%/Characters/FractalUndying_Rad/FractalUndying_Rad.xml" />
   <Character file="%ModDir%/Characters/Chelicerate/Chelicerate.xml" />

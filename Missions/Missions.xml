@@ -274,7 +274,7 @@
   difficulty="4" 
   reward="4500" 
   sonarlabel="Target" successmessage="The representative from [location1] thanks you for your bravery and compensate you with a large bounty of [reward] marks."
-  monsterfile="pylon">
+  monsterfile="FractalPylon">
     <Reputation identifier="location" amount="4" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,512,256,256" color="64,188,216" />
     <LocationType from="AnyOutpost" to="Any" />

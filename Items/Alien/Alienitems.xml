@@ -459,10 +459,10 @@
           <Affliction identifier="stun" strength="1" probability="0.5" />
           <Affliction identifier="stun" strength="2" probability="0.5" />
         </Explosion>
-        <sound file="%ModDir:2518816103%/Characters/Pylon/Piezo_ReallyClose.ogg" range="10000" volume="3" selectionmode="random" />
-        <sound file="%ModDir:2518816103%/Characters/Pylon/Piezo_ReallyClose2.ogg" range="10000" volume="3" />
-        <sound file="%ModDir:2518816103%/Characters/Pylon/Piezo_ReallyClose3.ogg" range="10000" volume="3" />
-        <sound file="%ModDir:2518816103%/Characters/Pylon/Piezo_ReallyClose4.ogg" range="10000" volume="3" />
+        <sound file="%ModDir:2518816103%/Characters/FractalPylon/Piezo_ReallyClose.ogg" range="10000" volume="3" selectionmode="random" />
+        <sound file="%ModDir:2518816103%/Characters/FractalPylon/Piezo_ReallyClose2.ogg" range="10000" volume="3" />
+        <sound file="%ModDir:2518816103%/Characters/FractalPylon/Piezo_ReallyClose3.ogg" range="10000" volume="3" />
+        <sound file="%ModDir:2518816103%/Characters/FractalPylon/Piezo_ReallyClose4.ogg" range="10000" volume="3" />
         <RemoveItem />
       </StatusEffect>
     </ElectricalDischarger>
