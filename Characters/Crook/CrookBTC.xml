@@ -69,7 +69,7 @@
   <StatusEffect duration="1" type="OnActive" target="This" disabledeltatime="true">
     <Conditional AIState="Observe" />
     <TriggerAnimation Type="Walk" filename="CrookBTCObserve" priority="5" ExpectedSpecies="crook, crookBTCinside, crookBTCoutside, crookBTCaggressive, crookBTCsatisfied" />
-    <TriggerAnimation Type="Run" filename="CrookBTCWatcher_Cephalopod2un" priority="5" ExpectedSpecies="crook, crookBTCinside, crookBTCoutside, crookBTCaggressive, crookBTCsatisfied" />
+    <TriggerAnimation Type="Run" filename="CrookBTCObserverun" priority="5" ExpectedSpecies="crook, crookBTCinside, crookBTCoutside, crookBTCaggressive, crookBTCsatisfied" />
   </StatusEffect>
   <StatusEffect type="OnActive" target="This" stackable="false" delay="5" checkconditionalalways="true" disabledeltatime="true" ConditionalComparison="AND">
     <Conditional AIState="neq Eat" />
