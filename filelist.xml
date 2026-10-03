@@ -215,7 +215,7 @@
   <Character file="%ModDir%/Characters/Pylon/Pylon.xml" />
   <Character file="%ModDir%/Characters/Pylon/Pylonbolt/Pylonbolt.xml" />
   <Character file="%ModDir%/Characters/FractalUndying/FractalUndying.xml" />
-  <Character file="%ModDir%/Characters/FractalUndyingrad/FractalUndyingrad.xml" />
+  <Character file="%ModDir%/Characters/FractalUndying_Rad/FractalUndying_Rad.xml" />
   <Character file="%ModDir%/Characters/Chelicerate/Chelicerate.xml" />
   <Character file="%ModDir%/Characters/Fractalmermaid/Fractalmermaidinvisattack.xml" />
   <Character file="%ModDir%/Characters/Fault/Fault.xml" />
