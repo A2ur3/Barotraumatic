@@ -186,7 +186,7 @@
   <Character file="%ModDir%/Characters/Iceshark/Iceshark.xml" />
   <Character file="%ModDir%/Characters/Caver/Caver.xml" />
   <Character file="%ModDir%/Characters/Harpoonwhale/Harpoonwhale.xml" />
-  <Character file="%ModDir%/Characters/Ancientmudraptor/Ancientmudraptor.xml" />
+  <Character file="%ModDir%/Characters/FractalMudraptor/FractalMudraptor.xml" />
   <Character file="%ModDir%/Characters/Mudraptor_Night/Mudraptor_Night.xml" />
   <Character file="%ModDir%/Characters/Fractalwalker/Fractalwalker.xml" />
   <Character file="%ModDir%/Characters/FractalEnforcer/FractalEnforcer.xml" />

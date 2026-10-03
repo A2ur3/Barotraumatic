@@ -2684,7 +2684,7 @@ reward="1000"
       <Character identifier="Undying" min="2" max="2" requirekill="true" multiplayeronly="true"/>
       <Character identifier="Fractalwalker" min="2" max="2" requirekill="true" />
       <Character identifier="Fractalwalker" min="1" max="1" requirekill="true" multiplayeronly="true" />
-      <Character identifier="Ancientmudraptor" min="1" max="1" requirekill="true" />
+      <Character identifier="FractalMudraptor" min="1" max="1" requirekill="true" />
       <Character identifier="Fractalsiren" min="1" max="1" requirekill="true" />
     </Characters>
     <TriggerEvent state="0" delay="5" eventidentifier="assassinationofjacovsubra1" campaignonly="true" />
