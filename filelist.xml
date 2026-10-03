@@ -120,7 +120,7 @@
   <Character file="%ModDir%/Characters/Moloch_Boss/Moloch_Boss.xml" />
   <Character file="%ModDir%/Characters/Voidstalker/Voidstalker.xml" />
   <Character file="%ModDir%/Characters/Fractalmermaid/Fractalmermaid.xml" />
-  <Character file="%ModDir%/Characters/Barahna/Barahna.xml" />
+  <Character file="%ModDir%/Characters/Baranha/Baranha.xml" />
   <Character file="%ModDir%/Characters/Xan_scavenger/Xan_scavenger.xml" />
   <Character file="%ModDir%/Characters/Charybdisre/Charybdisre.xml" />
   <Character file="%ModDir%/Characters/Mechflora/Mechflora.xml" />
@@ -221,7 +221,7 @@
   <Character file="%ModDir%/Characters/Fault/Fault.xml" />
   <Character file="%ModDir%/Characters/Nuclearmine/Nuclearmine.xml" />
   <Character file="%ModDir%/Characters/Penance/Fractalpenance.xml" />
-  <Character file="%ModDir%/Characters/FractalFractalUndying_Thermal/FractalFractalUndying_Thermal.xml" />
+  <Character file="%ModDir%/Characters/FractalUndying_Thermal/FractalUndying_Thermal.xml" />
   <Character file="%ModDir%/Characters/FractalUndying_Faraday/FractalUndying_Faraday.xml" />
   <Character file="%ModDir%/Characters/HumanImmortal/HumanImmortal.xml" />
   <Character file="%ModDir%/Characters/Crawler_Abyss/Crawler_Abyss.xml" />
