@@ -1205,7 +1205,7 @@
           <Conditional speciesname="minoga" />
           <Conditional speciesname="archimorur" />
           <Conditional speciesname="paralyticshark" />
-          <Conditional speciesname="charybdisold" />
+          <Conditional speciesname="Leatherback_Titan" />
           <Conditional speciesname="charybdisrex" />
           <Conditional speciesname="charybdisugly" />
           <Conditional speciesname="Icedleatherback" />
@@ -1251,7 +1251,7 @@
           <Conditional speciesname="icecrab" />
           <Conditional speciesname="Calyxophage" />
           <Conditional speciesname="legacycharybdis" />
-          <Conditional speciesname="charybdisold" />
+          <Conditional speciesname="Leatherback_Titan" />
           <Conditional speciesname="charybdisrex" />
           <Conditional speciesname="legacycrawler" />
           <Conditional speciesname="charybdisugly" />
@@ -1301,7 +1301,7 @@
           <Conditional speciesname="archimorur" />
           <Conditional speciesname="legacycrawler" />
           <Conditional speciesname="legacycharybdis" />
-          <Conditional speciesname="charybdisold" />
+          <Conditional speciesname="Leatherback_Titan" />
           <Conditional speciesname="charybdisrex" />
           <Conditional speciesname="charybdisugly" />
           <Conditional speciesname="Icedleatherback" />

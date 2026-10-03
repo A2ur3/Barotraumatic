@@ -999,8 +999,8 @@
       <Item identifier="titanium" />
       <Item identifier="carbon" amount="2" />
     </Deconstruct>
-    <InventoryIcon texture="Content/Characters/charybdisold/charybdis.png" sourcerect="1445,1081,556,107" />
-    <Sprite texture="Content/Characters/charybdisold/charybdis.png" depth="0.54" sourcerect="1445,1081,556,107" />
+    <InventoryIcon texture="Content/Characters/Leatherback_Titan/Leatherback_Titan.png" sourcerect="1445,1081,556,107" />
+    <Sprite texture="Content/Characters/Leatherback_Titan/Leatherback_Titan.png" depth="0.54" sourcerect="1445,1081,556,107" />
     <Body width="20" height="44" density="13" />
     <Holdable slots="Any" holdpos="0,0" handle1="0,0" handle2="0,0" />
   </Item>
@@ -1031,8 +1031,8 @@
       <Item identifier="bonetail" copycondition="true" commonness="0.5" />
       <Item identifier="mudhead" copycondition="true" commonness="0.5" />
     </Deconstruct>
-    <InventoryIcon texture="Content/Characters/charybdisold/charybdis.png" sourcerect="324,248,193,192" />
-    <Sprite texture="Content/Characters/charybdisold/charybdis.png" depth="0.54" sourcerect="324,248,193,192" />
+    <InventoryIcon texture="Content/Characters/Leatherback_Titan/Leatherback_Titan.png" sourcerect="324,248,193,192" />
+    <Sprite texture="Content/Characters/Leatherback_Titan/Leatherback_Titan.png" depth="0.54" sourcerect="324,248,193,192" />
     <Body width="20" height="44" density="13" />
     <Holdable slots="Any" holdpos="0,0" handle1="0,0" handle2="0,0" />
   </Item>
@@ -1062,8 +1062,8 @@
       <Item identifier="aragonite" copycondition="true" commonness="0.5" />
       <Item identifier="titaniumaluminiumalloy" copycondition="true" commonness="0.2" />
     </Deconstruct>
-    <InventoryIcon texture="Content/Characters/charybdisold/charybdis.png" sourcerect="1586,323,443,140" />
-    <Sprite texture="Content/Characters/charybdisold/charybdis.png" depth="0.54" sourcerect="1586,323,443,140" />
+    <InventoryIcon texture="Content/Characters/Leatherback_Titan/Leatherback_Titan.png" sourcerect="1586,323,443,140" />
+    <Sprite texture="Content/Characters/Leatherback_Titan/Leatherback_Titan.png" depth="0.54" sourcerect="1586,323,443,140" />
     <Body width="20" height="44" density="13" />
     <Holdable slots="Any" holdpos="0,0" handle1="0,0" handle2="0,0" />
   </Item>

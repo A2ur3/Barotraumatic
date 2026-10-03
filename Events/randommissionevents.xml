@@ -7304,7 +7304,7 @@ MonsterEvent
         <EventSet chooserandom="true">
           <MonsterEvent characterfile="Legacycharybdis" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="charybdisold" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Leatherback_Titan" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Charybdisadol" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
@@ -7474,7 +7474,7 @@ MonsterEvent
         </EventSet>
         <EventSet chooserandom="false">
           <MonsterEvent characterfile="legacycharybdis" minamount="2" maxamount="3" maxamountperlevel="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="charybdisold" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Leatherback_Titan" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">
           <MonsterEvent characterfile="Thalamuscarrier" minamount="1" maxamount="1" maxamountperlevel="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -7576,7 +7576,7 @@ MonsterEvent
         <EventSet chooserandom="true">
           <MonsterEvent characterfile="Legacycharybdis" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="charybdisold" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Leatherback_Titan" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Charybdisadol" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
@@ -7756,7 +7756,7 @@ MonsterEvent
         </EventSet>
         <EventSet chooserandom="false">
           <MonsterEvent characterfile="legacycharybdis" minamount="2" maxamount="3" maxamountperlevel="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="charybdisold" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Leatherback_Titan" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">
           <MonsterEvent characterfile="Endworm" minamount="1" maxamount="1" maxamountperlevel="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -7875,7 +7875,7 @@ MonsterEvent
         <EventSet chooserandom="true">
           <MonsterEvent characterfile="Legacycharybdis" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="charybdisold" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Leatherback_Titan" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Charybdisadol" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
@@ -8058,7 +8058,7 @@ MonsterEvent
         </EventSet>
         <EventSet chooserandom="false">
           <MonsterEvent characterfile="legacycharybdis" minamount="2" maxamount="3" maxamountperlevel="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="charybdisold" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Leatherback_Titan" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">
           <MonsterEvent characterfile="Endworm" minamount="1" maxamount="1" maxamountperlevel="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -8168,7 +8168,7 @@ MonsterEvent
         <EventSet chooserandom="true">
           <MonsterEvent characterfile="Legacycharybdis" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Rockworm" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="charybdisold" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Leatherback_Titan" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="CthulhuWild" minamount="2" maxamount="3" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Endworm_young" minamount="1" maxamount="3" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="Charybdisadol" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="3" spawntype="mainpath,sidepath" />
@@ -8339,7 +8339,7 @@ MonsterEvent
         </EventSet>
         <EventSet chooserandom="false">
           <MonsterEvent characterfile="legacycharybdis" minamount="2" maxamount="3" maxamountperlevel="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
-          <MonsterEvent characterfile="charybdisold" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Leatherback_Titan" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="10" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">
           <MonsterEvent characterfile="Thalamuscarrier" minamount="1" maxamount="1" maxamountperlevel="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
@@ -9309,7 +9309,7 @@ MonsterEvent
           <MonsterEvent characterfile="Mantis" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">
-          <MonsterEvent characterfile="charybdisold" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Leatherback_Titan" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="charybdissavage" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="legacycharybdis" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
@@ -9730,7 +9730,7 @@ MonsterEvent
           <MonsterEvent characterfile="Mantis" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">
-          <MonsterEvent characterfile="charybdisold" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Leatherback_Titan" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="charybdissavage" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="legacycharybdis" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
@@ -9916,7 +9916,7 @@ MonsterEvent
           <MonsterEvent characterfile="Mantis" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">
-          <MonsterEvent characterfile="charybdisold" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Leatherback_Titan" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="charybdissavage" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="legacycharybdis" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
@@ -10102,7 +10102,7 @@ MonsterEvent
           <MonsterEvent characterfile="Mantis" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">
-          <MonsterEvent characterfile="charybdisold" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Leatherback_Titan" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="charybdissavage" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="legacycharybdis" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
@@ -10289,7 +10289,7 @@ MonsterEvent
           <MonsterEvent characterfile="Mantis" minamount="4" maxamount="5" scatter="3000" delaybetweenspawns="1" spawntype="mainpath,sidepath" />
         </EventSet>
         <EventSet chooserandom="false">
-          <MonsterEvent characterfile="charybdisold" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
+          <MonsterEvent characterfile="Leatherback_Titan" minamount="1" maxamount="1" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="charybdissavage" HealthIndex="1" maxamount="1" scatter="3000" delaybetweenspawns="15" spawntype="mainpath,sidepath" />
           <MonsterEvent characterfile="legacycharybdis" minamount="1" maxamount="2" scatter="3000" delaybetweenspawns="5" spawntype="mainpath,sidepath" />
         </EventSet>
