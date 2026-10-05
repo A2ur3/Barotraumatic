@@ -420,10 +420,11 @@
   <character.Turretcarrierflak>Thalamus Flakgun</character.Turretcarrierflak>
   <character.Turretcarrierpulselaser>Thalamus Pulse Laser</character.Turretcarrierpulselaser>
   <character.Turretcarrierrail>Thalamus Railgun</character.Turretcarrierrail>
-  <character.FractalTwin>FractalTwin</character.FractalTwin>
-  <character.FractalUndying>Fractal Walker</character.FractalUndying>
-  <character.FractalUndying_Faraday>FractalUndying</character.FractalUndying_Faraday>
-  <character.FractalUndying_Rad>Fractal Radiant</character.FractalUndying_Rad>
+  <character.FractalTwin>Twin</character.FractalTwin>
+  <character.FractalUndying>Undying</character.FractalUndying>
+  <character.FractalUndying_Faraday>Undying</character.FractalUndying_Faraday>
+  <character.FractalUndying_Thermal>Undying</character.FractalUndying_Thermal>
+  <character.FractalUndying_Rad>Undying</character.FractalUndying_Rad>
   <character.Viperling_giant>Giant viperling</character.Viperling_giant>
   <character.Voidleviathan>Void Leviathan</character.Voidleviathan>
   <character.Voidstalker>Void Stalker</character.Voidstalker>
