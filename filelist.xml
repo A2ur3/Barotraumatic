@@ -90,7 +90,6 @@
   <Character file="%ModDir%/Characters/Hammerhead/Hammerhead.xml" />
   <Character file="%ModDir%/Characters/Hammerheadgold/Hammerheadgold.xml" />
   <Character file="%ModDir%/Characters/Charybdis/Charybdis.xml" />
-  <Character file="%ModDir%/Characters/Charybdisadol/Charybdisadol.xml" />
   <Character file="%ModDir%/Characters/Molochold/Molochold.xml" />
   <Character file="%ModDir%/Characters/Moloch/Moloch.xml" />
   <Character file="%ModDir%/Characters/Variants/Moloch_nuclear/Moloch_nuclear.xml" />
@@ -120,7 +119,6 @@
   <Character file="%ModDir%/Characters/Latcher/Latcher.xml" />
   <Character file="%ModDir%/Characters/Variants/Latcher_Scuttler/Latcher_Scuttler.xml" />
   <Character file="%ModDir%/Characters/Observer/Observer.xml" />
-  <Character file="%ModDir%/Characters/Bossmoloch/Bossmoloch.xml" />
   <Character file="%ModDir%/Characters/Voidstalker/Voidstalker.xml" />
   <Character file="%ModDir%/Characters/Fractalmermaid/Fractalmermaid.xml" />
   <Character file="%ModDir%/Characters/Lionthresher/Lionthresher.xml" />
@@ -372,4 +370,15 @@
   <Character file="%ModDir%/Characters/Variants/Trichordate_random/Trichordate_random.xml" />
   <Character file="%ModDir%/Characters/Watcherling/Watcherling.xml" />
   <Character file="%ModDir%/Characters/Molochbaby/Molochbaby.xml" />
+  <Character file="%ModDir%/Characters/Charybdis_young/Charybdis_young.xml" />
+  <Character file="%ModDir%/Characters/Humanmutantspider/Humanmutantspider.xml" />
+  <Character file="%ModDir%/Characters/Humanmutantspider2/Humanmutantspider2.xml" />
+  <Character file="%ModDir%/Characters/Latcher_young/Latcher_young.xml" />
+  <Character file="%ModDir%/Characters/Leatherback_Porphyrios/Leatherback_Porphyrios.xml" />
+  <Character file="%ModDir%/Characters/Moloch_Hydrothermal/Moloch_Hydrothermal.xml" />
+  <Character file="%ModDir%/Characters/Moloch_Piezo/Moloch_Piezo.xml" />
+  <Character file="%ModDir%/Characters/Moloch_Young/Moloch_Young.xml" />
+  <Character file="%ModDir%/Characters/Spineling_giantlava/Spineling_giantlava.xml" />
+  <Character file="%ModDir%/Characters/Thresher_baron/Thresher_baron.xml" />
+  <Character file="%ModDir%/Characters/Watcher_husk/Watcher_husk.xml" />
 </contentpackage>
