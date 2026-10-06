@@ -2632,7 +2632,7 @@ reward="1000"
       <Character identifier="Yellowboyspawnerarmored" min="0" max="1" requirekill="false" />
       <Character identifier="BTPsychoclown" from="BTPsychoclownstation" moduleflags="securitymodule" probability="0.2" requirekill="false" />
       <Character identifier="bandit_elite" from="abandonedoutpostnpcs" min="0" max="3" />
-      <Character identifier="bandit_heacy" from="abandonedoutpostnpcs" min="0" max="3" />
+      <Character identifier="bandit_heavy" from="abandonedoutpostnpcs" min="0" max="3" />
       <Character identifier="Husk_RandomLight" min="0" max="3" probability="0.2" requirekill="false" />
     </Characters>
     <TriggerEvent state="0" delay="5" eventidentifier="assassinationofjacovsubra1" campaignonly="true" />
