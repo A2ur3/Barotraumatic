@@ -2124,4 +2124,81 @@
       </Attack>
     </MeleeWeapon>
   </Item>
+   <Item name="" identifier="tonguetendonscuttler" tags="" health="50" hideinmenus="true" category="" sonarsize="0" scale="1" damagedbyexplosions="false" damagedbyprojectiles="false" damagedbyrepairtools="false" damagedbymeleeweapons="false" impactsoundtag="impact_soft">
+    <Sprite texture="Content/Characters/Latcher/Latcher.png" sourcerect="0,0,1,1" depth="0.55" origin="0.5,0.5" />
+    <Body radius="100" density="10" />
+    <Rope sourcepullforce="0" targetpullforce="200000" projectilepullforce="0" maxlength="5000" snaponcollision="false" spritewidth="256" tile="true" snapanimduration="1" breakfrommiddle="false" maxangle="60">
+      <Sprite name="tongue" texture="%ModDir:2518816103%/Characters/Variants/Latcher_Scuttler/Latcher_Scuttler.png" sourcerect="16,0,480,256" depth="0.57" origin="0.5,0.5" />
+      <EndSprite texture="%ModDir:2518816103%/Characters/Variants/Latcher_Scuttler/Latcher_Scuttler.png" sourcerect="544,0,228,256" depth="0.56" origin="0.5,0.5" />
+      <SnapSound file="Content/Items/Weapons/HarpoonGun1.ogg" range="500" frequencymultiplier="3.0,4.0" />
+      <!-- Automatically snap after 14 seconds -->
+      <StatusEffect type="OnUse" target="This" Snapped="true" delay="14" />
+      <!-- Remove 1 second after snapping -->
+      <StatusEffect type="Always" target="This" delay="1" checkconditionalalways="true">
+        <Conditional Snapped="true" />
+        <Remove />
+      </StatusEffect>
+      <!-- Snap after 3 seconds if not stuck to anything -->
+      <StatusEffect type="OnUse" target="This" Snapped="true" delay="3" checkconditionalalways="true">
+        <Conditional targetitemcomponent="Projectile" IsStuckToTarget="false" />
+      </StatusEffect>
+    </Rope>
+    <Projectile characterusable="false" launchimpulse="75.0" sticktostructures="true" sticktoitems="false" sticktodoors="false" sticktodeflective="true" sticktocharacters="false" maxtargetstohit="1" prismatic="false">
+      <Attack structuredamage="10" />
+      <StatusEffect type="OnImpact" target="This">
+        <sound file="Content/Characters/Latcher/ABYSSM_tongueHit.ogg" range="20000" volume="1" selectionmode="random" dontmuffle="true" />
+        <sound file="Content/Characters/Latcher/ABYSSM_tongueHit_1.ogg" range="20000" volume="1" selectionmode="random" dontmuffle="true" />
+        <particleemitter drawontop="true" particle="tonguehitsplash" particleamount="20" scalemin="1" scalemax="3" anglemin="0" anglemax="360" />
+        <particleemitter drawontop="false" particle="damagebubbles" particleamount="20" scalemin="1" scalemax="3" anglemin="0" anglemax="360" />
+        <particleemitter drawontop="true" particle="damagebubbles" particleamount="10" scalemin="1" scalemax="3" anglemin="0" anglemax="360" />
+        <!--Add some impact effect-->
+        <Explosion ignorecover="true" onlyinside="true" range="2000" force="20" playtinnitus="false" showeffects="false" applyfireeffects="false">
+          <Affliction identifier="stun" strength="3" />
+        </Explosion>
+      </StatusEffect>
+      <StatusEffect type="Always" target="This">
+        <Conditional Snapped="true" />
+        <sound file="Content/Characters/Latcher/ABYSSM_tongueMove_1.ogg" range="20000" volume="1" dontmuffle="false" />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+    <Item name="" identifier="tonguetendoncharacterscuttler" nameidentifier="tonguetendon" tags="" health="100" hideinmenus="true" category="" sonarsize="0" scale="1" damagedbyexplosions="false" damagedbyprojectiles="false" damagedbyrepairtools="false" damagedbymeleeweapons="false" impactsoundtag="impact_soft">
+    <Sprite texture="Content/Characters/Latcher/Latcher.png" sourcerect="0,0,1,1" depth="0.55" origin="0.5,0.5" />
+    <Body radius="100" density="10" />
+    <Rope sourcepullforce="0" targetpullforce="500" projectilepullforce="0" maxlength="3000" snaponcollision="false" spritewidth="256" tile="true" snapanimduration="1" breakfrommiddle="false" maxangle="60" lerpforces="false">
+      <Sprite name="tongue" texture="%ModDir:2518816103%/Characters/Variants/Latcher_Scuttler/Latcher_Scuttler.png" sourcerect="16,0,480,256" depth="0.57" origin="0.5,0.5" />
+      <EndSprite texture="%ModDir:2518816103%/Characters/Variants/Latcher_Scuttler/Latcher_Scuttler.png" sourcerect="544,0,228,256" depth="0.56" origin="0.5,0.5" />
+      <SnapSound file="Content/Items/Weapons/HarpoonGun1.ogg" range="500" frequencymultiplier="3.0,4.0" />
+      <!-- Automatically snap after 5 seconds -->
+      <StatusEffect type="OnUse" target="This" Snapped="true" delay="5" />
+      <!-- Remove 1 second after snapping -->
+      <StatusEffect type="Always" target="This" delay="1" checkconditionalalways="true">
+        <Conditional Snapped="true" />
+        <Remove />
+      </StatusEffect>
+      <!-- Snap after 3 seconds if not stuck to anything -->
+      <StatusEffect type="OnUse" target="This" Snapped="true" delay="3" checkconditionalalways="true">
+        <Conditional targetitemcomponent="Projectile" IsStuckToTarget="false" />
+      </StatusEffect>
+    </Rope>
+    <Projectile characterusable="false" launchimpulse="75.0" sticktostructures="false" sticktoitems="false" sticktodoors="false" sticktodeflective="true" sticktocharacters="true" maxtargetstohit="1" sticktolighttargets="true" prismatic="false">
+      <Attack structuredamage="10">
+        <Affliction identifier="blunttrauma" strength="20" />
+        <Affliction identifier="stun" strength="5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="UseTarget,This" comparison="And" disabledeltatime="true">
+        <Conditional Snapped="false" />
+        <Affliction identifier="drag" strength="1" />
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="This">
+        <particleemitter drawontop="true" particle="tonguehitsplash" particleamount="20" scalemin="1" scalemax="3" anglemin="0" anglemax="360" />
+        <particleemitter drawontop="false" particle="damagebubbles" particleamount="20" scalemin="1" scalemax="3" anglemin="0" anglemax="360" />
+        <particleemitter drawontop="true" particle="damagebubbles" particleamount="10" scalemin="1" scalemax="3" anglemin="0" anglemax="360" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="This">
+        <Conditional Snapped="true" />
+        <sound file="Content/Characters/Latcher/ABYSSM_tongueMove_1.ogg" range="20000" volume="1" dontmuffle="false" />
+      </StatusEffect>
+    </Projectile>
+  </Item>
 </Items>
