@@ -2992,10 +2992,10 @@
       </StatusEffect>
     </Projectile>
   </Item>
-  <Item name="" identifier="tonguetendonsmall" nameidentifier="tonguetendonsmall" tags="" health="20" hideinmenus="true" category="" sonarsize="0" scale="0.1" damagedbyexplosions="true" damagedbyprojectiles="true" damagedbyrepairtools="true" damagedbymeleeweapons="true" impactsoundtag="impact_soft">
+  <Item name="" identifier="tonguetendonsmall" nameidentifier="tonguetendonsmall" tags="" health="30" hideinmenus="true" category="" sonarsize="0" scale="0.25" damagedbyexplosions="true" damagedbyprojectiles="true" damagedbyrepairtools="true" damagedbymeleeweapons="true" impactsoundtag="impact_soft">
     <Sprite texture="Content/Characters/Latcher/Latcher.png" sourcerect="544,0,228,256" depth="0.55" origin="0.5,0.5" />
     <Body radius="20" density="10" />
-    <Rope sourcepullforce="0" targetpullforce="150" projectilepullforce="0" maxlength="3000" snaponcollision="false" spritewidth="20" tile="true" snapanimduration="1" breakfrommiddle="false" maxangle="60" lerpforces="false">
+    <Rope sourcepullforce="0" targetpullforce="150" projectilepullforce="0" maxlength="3000" snaponcollision="false" spritewidth="35" tile="true" snapanimduration="1" breakfrommiddle="false" maxangle="60" lerpforces="false">
       <Sprite name="tongue" texture="Content/Characters/Latcher/Latcher.png" sourcerect="16,0,480,256" depth="0.57" origin="0.5,0.5" />
       <SnapSound file="Content/Items/Weapons/HarpoonGun1.ogg" range="500" frequencymultiplier="3.0,4.0" />
       <StatusEffect type="OnUse" target="This" Snapped="true" delay="5" />
