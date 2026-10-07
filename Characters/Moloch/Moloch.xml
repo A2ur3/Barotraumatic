@@ -76,17 +76,11 @@
     <StatusEffect type="OnActive" target="this">
       <Sound file="Content/Characters/Moloch/MOLOCH_moving.ogg" loop="true" range="5000" />
     </StatusEffect>
-    <inventory Slots="Any, Any, Any, Any, Any, Any" AccessibleWhenAlive="False" Commonness="10">
-      <Item Identifier="molochbone" />
-	  <item Identifier="hydroxyapatite" />
+    <inventory Slots="Any, Any, Any, Any, Any, Any" AccessibleWhenAlive="False" Commonness="1">
+      <item Identifier="hydroxyapatite" />
       <item Identifier="brockite" />
       <item Identifier="molochtentacles" />
-    </inventory>
-	<inventory Slots="Any, Any, Any, Any, Any, Any" AccessibleWhenAlive="False" Commonness="1">
-	  <item Identifier="hydroxyapatite" />
-      <item Identifier="brockite" />
-      <item Identifier="molochtentacles" />
-    <Item forcetoslot="true" Identifier="shellshield" />
+      <item Identifier="shellshield" />
     </inventory>
   </Character>
 </Override>

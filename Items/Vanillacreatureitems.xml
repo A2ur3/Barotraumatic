@@ -1004,7 +1004,7 @@
     <Body width="20" height="44" density="13" />
     <Holdable slots="Any" holdpos="0,0" handle1="0,0" handle2="0,0" />
   </Item>
-  <Item name="Leatherback Stomach" identifier="leatherbackstomach" category="Misc" tags="smallitem" scale="0.4" maxstacksize="1" pickdistance="150" impactsoundtag="impact_soft" cargocontaineridentifier="metalcrate" description="Hard like flexible rock the stomach of the Leatherback undulates softly for hours after death. Could something be inside?">
+  <Item name="Mother Leatherback Stomach" identifier="leatherbackstomach" category="Misc" tags="smallitem" scale="0.4" maxstacksize="1" pickdistance="150" impactsoundtag="impact_soft" cargocontaineridentifier="metalcrate" description="Hard stomach of the Leatherback. Could be something inside?">
     <!--<Price storeidentifier="merchantresearch" buyprice="450" />-->
        <PreferredContainer primary="storagecab" secondary="mineralcab" />
    <Price baseprice="1100">

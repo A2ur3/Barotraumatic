@@ -1,36 +1,49 @@
-<<<<<<<< HEAD:Characters/Moloch_Piezo/Animations/PiezomolochSwimSlow.xml
-﻿<PiezomolochSwimSlow
-  type="Piezomoloch"
+<<<<<<<< HEAD:Characters/Barracuda/Animations/BarracudaSwimSlow.xml
+﻿<BarracudaSwimSlow
+  UseSineMovement="False"
 ========
 ﻿<UrchinmolochSwimSlow
->>>>>>>> main:Characters/Moloch_Hydrothermal/Animations/Moloch_HydrothermalSwimSlow.xml
   UseSineMovement="True"
+>>>>>>>> main:Characters/Moloch_Hydrothermal/Animations/Moloch_HydrothermalSwimSlow.xml
   Flip="True"
   FlipCooldown="2"
   FlipDelay="0.5"
-  Mirror="True"
+  Mirror="False"
   MirrorLerp="True"
+<<<<<<<< HEAD:Characters/Barracuda/Animations/BarracudaSwimSlow.xml
+  WaveAmplitude="9.3330145"
+  WaveLength="42.645855"
+========
   WaveAmplitude="100"
   WaveLength="150"
+>>>>>>>> main:Characters/Moloch_Hydrothermal/Animations/Moloch_HydrothermalSwimSlow.xml
   RotateTowardsMovement="True"
   TailTorque="50"
   TailTorqueMultiplier="1"
   FootAngles=""
   UpdateAnimationWhenNotMoving="False"
   TailAngle="NaN"
+<<<<<<<< HEAD:Characters/Barracuda/Animations/BarracudaSwimSlow.xml
+  SteerTorque="100"
+  LegTorque="25"
+  AnimationType="SwimSlow"
+  MovementSpeed="4"
+  CycleSpeed="1"
+  HeadAngle="NaN"
+  TorsoAngle="0"
+  HeadTorque="25"
+  TorsoTorque="100"
+========
   SteerTorque="25"
   LegTorque="25"
   AnimationType="SwimSlow"
-<<<<<<<< HEAD:Characters/Moloch_Piezo/Animations/PiezomolochSwimSlow.xml
-  MovementSpeed="2.766256"
-========
   MovementSpeed="3.7101471"
->>>>>>>> main:Characters/Moloch_Hydrothermal/Animations/Moloch_HydrothermalSwimSlow.xml
   CycleSpeed="1"
   HeadAngle="NaN"
   TorsoAngle="65"
   HeadTorque="50"
   TorsoTorque="50"
+>>>>>>>> main:Characters/Moloch_Hydrothermal/Animations/Moloch_HydrothermalSwimSlow.xml
   FootTorque="25"
   ArmIKStrength="1"
   HandIKStrength="1" />
