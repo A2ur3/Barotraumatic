@@ -127,7 +127,7 @@
     <Item slot="OuterClothes" Identifier="bombervest" />
     <Item slot="Head" Identifier="raggedclownmask" />
   </inventory>
-    <inventory arrowslot="9" Slots="Card, Headset, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Bag, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="12">
+  <inventory arrowslot="9" Slots="Card, Headset, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Bag, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="12">
     <Item Identifier="huskeggsbasic" />
     <Item equip="true" Identifier="idcard" />
   </inventory>
@@ -390,13 +390,13 @@
     <Item slot="Head" Identifier="clowndivingmask" />
     <Item slot="InnerClothes" Identifier="clowncostume" />
   </inventory>
-    <inventory arrowslot="9" Slots="Card, Headset, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Bag, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="2">
+  <inventory arrowslot="9" Slots="Card, Headset, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Bag, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="2">
     <Item Identifier="huskeggsbasic" />
     <Item equip="true" Identifier="idcard" />
     <Item slot="Head" Identifier="clownmask" />
     <Item slot="InnerClothes" Identifier="clowncostume" />
   </inventory>
-      <inventory arrowslot="9" Slots="Card, Headset, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Bag, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="2">
+  <inventory arrowslot="9" Slots="Card, Headset, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Bag, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="2">
     <Item Identifier="huskeggsbasic" />
     <Item equip="true" Identifier="idcard" />
     <Item slot="Head" Identifier="raggedclownmask" />

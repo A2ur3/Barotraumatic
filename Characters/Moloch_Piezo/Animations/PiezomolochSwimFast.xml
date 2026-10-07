@@ -1,40 +1,19 @@
-<<<<<<<< HEAD:Characters/Barracuda/Animations/BarracudaSwimFast.xml
-﻿<BarracudaSwimFast
-  UseSineMovement="False"
-========
 ﻿<PiezomolochSwimFast
   type="Piezomoloch"
   UseSineMovement="True"
->>>>>>>> main:Characters/Moloch_Piezo/Animations/PiezomolochSwimFast.xml
   Flip="True"
   FlipCooldown="1"
   FlipDelay="0.5"
-  Mirror="False"
+  Mirror="True"
   MirrorLerp="True"
-<<<<<<<< HEAD:Characters/Barracuda/Animations/BarracudaSwimFast.xml
-  WaveAmplitude="29.198128"
-  WaveLength="45.828285"
-========
   WaveAmplitude="100"
   WaveLength="250"
->>>>>>>> main:Characters/Moloch_Piezo/Animations/PiezomolochSwimFast.xml
   RotateTowardsMovement="True"
   TailTorque="50"
   TailTorqueMultiplier="1"
   FootAngles=""
   UpdateAnimationWhenNotMoving="False"
   TailAngle="NaN"
-<<<<<<<< HEAD:Characters/Barracuda/Animations/BarracudaSwimFast.xml
-  SteerTorque="100"
-  LegTorque="25"
-  AnimationType="SwimFast"
-  MovementSpeed="9"
-  CycleSpeed="1"
-  HeadAngle="NaN"
-  TorsoAngle="0"
-  HeadTorque="25"
-  TorsoTorque="100"
-========
   SteerTorque="30"
   LegTorque="25"
   AnimationType="SwimFast"
@@ -44,7 +23,6 @@
   TorsoAngle="55"
   HeadTorque="50"
   TorsoTorque="500"
->>>>>>>> main:Characters/Moloch_Piezo/Animations/PiezomolochSwimFast.xml
   FootTorque="25"
   ArmIKStrength="1"
   HandIKStrength="1" />
