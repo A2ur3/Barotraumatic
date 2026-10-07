@@ -43,8 +43,6 @@
       <WaitAction time="0.5" />
       <SpawnAction SpeciesName="Leatherback_Titan" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Charybdisre" offset="500" />
-      <WaitAction time="0.5" />
       <SpawnAction SpeciesName="Charybdissavage" offset="500" />
       <WaitAction time="0.5" />
       <SpawnAction SpeciesName="Chelicerate" offset="500" />
@@ -227,8 +225,6 @@
       <WaitAction time="0.5" />
       <SpawnAction SpeciesName="Legacycrawler" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Legacyendworm" offset="500" />
-      <WaitAction time="0.5" />
       <SpawnAction SpeciesName="Magmalarva" offset="500" />
       <WaitAction time="0.5" />
       <SpawnAction SpeciesName="Magmaworm" offset="500" />
@@ -303,7 +299,7 @@
       <WaitAction time="0.5" />
       <SpawnAction SpeciesName="Psiloturtle" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Pylon" offset="500" />
+      <SpawnAction SpeciesName="FractalPylon" offset="500" />
       <WaitAction time="0.5" />
       <SpawnAction SpeciesName="Pylonbolt" offset="500" />
       <WaitAction time="0.5" />
