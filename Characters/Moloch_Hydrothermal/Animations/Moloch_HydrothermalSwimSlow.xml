@@ -1,9 +1,4 @@
-<<<<<<<< HEAD:Characters/Moloch_Piezo/Animations/PiezomolochSwimSlow.xml
-﻿<PiezomolochSwimSlow
-  type="Piezomoloch"
-========
 ﻿<UrchinmolochSwimSlow
->>>>>>>> main:Characters/Moloch_Hydrothermal/Animations/Moloch_HydrothermalSwimSlow.xml
   UseSineMovement="True"
   Flip="True"
   FlipCooldown="2"
@@ -21,11 +16,7 @@
   SteerTorque="25"
   LegTorque="25"
   AnimationType="SwimSlow"
-<<<<<<<< HEAD:Characters/Moloch_Piezo/Animations/PiezomolochSwimSlow.xml
   MovementSpeed="2.766256"
-========
-  MovementSpeed="3.7101471"
->>>>>>>> main:Characters/Moloch_Hydrothermal/Animations/Moloch_HydrothermalSwimSlow.xml
   CycleSpeed="1"
   HeadAngle="NaN"
   TorsoAngle="65"
