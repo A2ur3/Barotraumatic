@@ -2825,7 +2825,7 @@
     <LightComponent range="50" castshadows="False" drawbehindsubs="False" ison="True" flicker="1" flickerspeed="0.5" lightcolor="255,50,30,50" isactive="True" minvoltage="0" powerconsumption="0" />
   </Item>
   
-  <!-- scavie claws, what is it? -->
+  <!-- scavie claws, what is it? Invisible Knife like weapons the scavie uses to make it look like its clawing you with its filthy paws -->
   <Item name="claws" description="Filthy claws." hideinmenus="true" identifier="scavieclawsbtc" nameidentifier="" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon" Scale="0.6" impactsoundtag="impact_metal_light" inventoryiconcolor="230,215,160,255" spritecolor="230,215,160" >
     <Price baseprice="160" sold="false" />
      <Deconstruct>
@@ -2855,7 +2855,176 @@
       </StatusEffect>
     </MeleeWeapon>
   </Item>
-  
+    <Item name="" identifier="silkstrand" nameidentifier="silkstrand" tags="" health="50" hideinmenus="true" category="" sonarsize="0" scale="0.2" damagedbyexplosions="false" damagedbyprojectiles="false" damagedbyrepairtools="false" damagedbymeleeweapons="true" impactsoundtag="impact_soft">
+    <Sprite texture="%ModDir%/Characters/Humanmutantspider/spidermutant_spritesheet02_main.png" sourcerect="115,229,39,27" depth="0.55" origin="0.4951179,0.49830022" />
+    <Body radius="20" density="10" />
+    <Rope sourcepullforce="0" targetpullforce="13" projectilepullforce="1" maxlength="1000" snaponcollision="false" spritewidth="5" tile="true" snapanimduration="0.3" breakfrommiddle="true" maxangle="90" lerpforces="false">
+      <Sprite name="tongue" texture="%ModDir%/Characters/Humanmutantspider/spidermutant_spritesheet02_main.png" sourcerect="17,245,97,4" depth="0.57" origin="0.5,0.5" />
+      <EndSprite texture="%ModDir%/Characters/Humanmutantspider/spidermutant_spritesheet02_main.png" sourcerect="1,1,1,1" scale="0.1" depth="0.56" origin="0.5,0.5" />
+      <SnapSound file="Content/Items/Weapons/HarpoonGun1.ogg" range="500" frequencymultiplier="3.0,4.0" />
+      <StatusEffect type="OnUse" target="This" Snapped="true" delay="2" />
+      <StatusEffect type="Always" target="This" delay="0.5" checkconditionalalways="true">
+        <Conditional Snapped="true" />
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" Snapped="true" delay="1" checkconditionalalways="true">
+        <Conditional targetitemcomponent="Projectile" IsStuckToTarget="false" />
+      </StatusEffect>
+    </Rope>
+    <Projectile characterusable="false" launchimpulse="20.0" sticktostructures="true" sticktoitems="false" sticktodoors="false" sticktodeflective="true" sticktocharacters="true" maxtargetstohit="1" sticktolighttargets="true" friendlyfire="false" prismatic="false">
+      <Attack structuredamage="0">
+        <Affliction identifier="blunttrauma" strength="1" />
+        <Affliction identifier="slow" strength="50" />
+      </Attack>
+      <StatusEffect type="OnImpact" target="This">
+        <particleemitter drawontop="true" particle="tonguehitsplash" particleamount="1" scalemin="0.1" scalemax="0.4" anglemin="0" anglemax="360" />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="giantlavaspike" category="Misc" scale="0.5" sonarsize="6" isdangerous="true" hideinmenus="true">
+    <Sprite texture="%ModDir%/Characters/Spineling_giantlava/lavaspiderling_spritesheet_main.png" sourcerect="0,860,720,72" depth="0.55" />
+    <Body width="600" height="35" density="20" />
+    <Projectile characterusable="false" launchimpulse="400" maxtargetstohit="4" sticktocharacters="false" sticktoitems="false" sticktodoors="false" sticktostructures="true" friendlyfire="false" damagedoors="true">
+      <Attack structuredamage="100" itemdamage="100" severlimbsprobability="2.0" penetration="0.5">
+        <Affliction identifier="lacerations" strength="15" />
+        <Affliction identifier="burn" strength="15" />
+        <Affliction identifier="stun" strength="1" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" lifetime="0.5">
+        <ParticleEmitter particle="ammotrailwater" copyentityangle="true" anglemin="0" anglemax="0" particleamount="10" velocitymin="-10" velocitymax="-100" scalemin="0.5" scalemax="1" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="7">
+        <SpawnItem identifier="lavaemitter" count="5" aimspread="120" rotationtype="Collider" rotation="0" />
+        <ParticleEmitter particle="explosionfire" anglemin="0" anglemax="360" particleamount="1" scalemin="1" scalemax="1" />
+        <ParticleEmitter particle="underwaterexplosion" anglemin="0" anglemax="360" particleamount="1" scalemin="1" scalemax="1" />
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure" />
+        <ParticleEmitter particle="shrapnel" copyentityangle="true" anglemin="0" anglemax="360" particleamount="5" velocitymin="100" velocitymax="2000" scalemin="0.1" scalemax="0.2" />
+        <Explosion ignorecover="true" onlyinside="true" range="600" force="10" playtinnitus="false" showeffects="false" applyfireeffects="false">
+          <Affliction identifier="stun" strength="1" />
+        </Explosion>
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure" />
+        <Conditional hastag="eq door" />
+        <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="NearbyCharacters" range="120" delay="0.1" stackable="false" disabledeltatime="true">
+        <Affliction identifier="burn" strength="0.05"/>
+        <Affliction identifier="slow" strength="10"/>
+        <Affliction identifier="burning" strength="0.15" dividebylimbcount="true"/>
+      </StatusEffect>
+      <StatusEffect type="Always" targettype="This">
+        <ParticleEmitter particle="heavysmoke" particlespersecond="3" scalemin="2" scalemax="2.5"/>
+      </StatusEffect>
+      <StatusEffect type="OnBroken" target="This">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+    <LightComponent range="400" castshadows="False" drawbehindsubs="False" ison="True" blinkfrequency="0" lightcolor="255,125,0,150" isactive="True" minvoltage="0" powerconsumption="0" vulnerabletoemp="False" pickingtime="0" canbepicked="False" allowingameediting="False" msg="">
+      <Sprite texture="Content/Characters/Spineling_giant/Spineling_giant.png" sourcerect="0,940,720,72" origin="0.55,0.5" alpha="0.1" />
+    </LightComponent>
+  </Item>
+  <Item name="" identifier="lavaemitter" Scale="0.5" hideinmenus="true" isdangerous="true" noninteractable="true" tags="gas" sonarsize="0" depth="0.1">
+    <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="1,1,1,1" depth="0.55" origin="0.5,0.5"/>
+    <Body width="15" height="15" density="30"/>
+    <Projectile characterusable="false" launchimpulse="5" sticktocharacters="false" sticktostructures="false" sticktoitems="false" sticktodeflective="false">
+      <StatusEffect type="OnImpact" target="This" delay="0.1" IsOn="true"/>
+      <LightComponent LightColor="220,100,45,200" Flicker="0.8" range="110" IsOn="false">
+        <StatusEffect type="OnActive" targettype="This" Condition="-5.0">
+          <ParticleEmitter particle="lavasplash2" particlespersecond="10" scalemin="0.3" scalemax="0.9" anglemin="-90" anglemax="90" distancemin="0" distancemax="30"/>
+          <ParticleEmitter particle="heavysmoke" particlespersecond="5" scalemin="2" scalemax="2.5"/>
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="NearbyCharacters" range="180" delay="0.1" stackable="false" disabledeltatime="true">
+          <Affliction identifier="burn" strength="0.05"/>
+          <Affliction identifier="slow" strength="10"/>
+          <Affliction identifier="burning" strength="0.20" dividebylimbcount="true"/>
+        </StatusEffect>
+      <StatusEffect type="InWater" target="This" stackable="false">
+          <ParticleEmitter particle="heavysmoke" particlespersecond="5" scalemin="2" scalemax="2.5"/>
+        <sound file="%ModDir%/Characters/Husknyx/acid1.ogg" range="500.0" selectionmode="Random" frequencymultiplier="0.9,1.1"/>
+        <sound file="%ModDir%/Characters/Husknyx/acid2.ogg" range="500.0" selectionmode="Random" frequencymultiplier="0.9,1.1"/>
+        <sound file="%ModDir%/Characters/Husknyx/acid3.ogg" range="500.0" selectionmode="Random" frequencymultiplier="0.9,1.1"/>
+      </StatusEffect>
+      <StatusEffect type="InWater" target="This" stackable="false" delay="6">
+        <Remove />
+      </StatusEffect>
+        <StatusEffect type="OnBroken" target="This">
+          <Remove/>
+        </StatusEffect>
+        <Fire size="1.0" />
+        <sound file="Content/Sounds/FireSmall.ogg" type="OnActive" range="500.0" loop="true"/>
+      </LightComponent>
+      <StatusEffect type="Always" target="This" interval="2" checkconditionalalways="true">
+        <Conditional condition="gt 0"/>
+        <Explosion range="200" ballastfloradamage="15" ignorecover="false" structuredamage="15" itemdamage="15" smoke="true" flames="false" force="0" sparks="false" shockwave="false" underwaterbubble="false" camerashake="0" flash="false" playtinnitus="false" />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="toothspikesmall" category="Misc" scale="0.2" sonarsize="0" hideinmenus="true">
+    <Sprite texture="Content/Characters/Latcher/Latcher.png" sourcerect="1794,924,256,64" depth="0.55" origin="0.5,0.5" />
+    <Body width="130" height="15" density="20" />
+    <Projectile characterusable="false" launchimpulse="80" maxtargetstohit="1" sticktocharacters="false" sticktoitems="false" sticktodoors="false" sticktostructures="false" penetration="0.25" friendlyfire="false" damagedoors="true">
+      <Attack structuredamage="7" itemdamage="7" severlimbsprobability="0.2" penetration="0.3">
+        <Affliction identifier="lacerations" strength="10" />
+        <Affliction identifier="bleeding" strength="4" />
+        <Affliction identifier="stun" strength="0.25" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" lifetime="0.5">
+        <ParticleEmitter particle="ammotrailwater" copyentityangle="true" anglemin="0" anglemax="0" particleamount="10" velocitymin="-10" velocitymax="-100" scalemin="0.2" scalemax="0.4" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure" />
+        <ParticleEmitter particle="shrapnel" copyentityangle="true" anglemin="0" anglemax="360" particleamount="5" velocitymin="100" velocitymax="2000" scalemin="0.1" scalemax="0.2" />
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="UseTarget">
+        <Conditional entitytype="eq Structure" />
+        <Conditional hastag="eq door" />
+        <ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="This">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="tonguetendonsmall" nameidentifier="tonguetendonsmall" tags="" health="30" hideinmenus="true" category="" sonarsize="0" scale="0.15" damagedbyexplosions="true" damagedbyprojectiles="true" damagedbyrepairtools="true" damagedbymeleeweapons="true" impactsoundtag="impact_soft">
+    <Sprite texture="Content/Characters/Latcher/Latcher.png" sourcerect="544,0,228,256" depth="0.55" origin="0.5,0.5" />
+    <Body radius="20" density="10" />
+    <Rope sourcepullforce="0" targetpullforce="165" projectilepullforce="0" maxlength="3000" snaponcollision="false" spritewidth="40" tile="true" snapanimduration="1" breakfrommiddle="false" maxangle="60" lerpforces="false">
+      <Sprite name="tongue" texture="Content/Characters/Latcher/Latcher.png" sourcerect="16,0,480,256" depth="0.57" origin="0.5,0.5" />
+      <SnapSound file="Content/Items/Weapons/HarpoonGun1.ogg" range="500" frequencymultiplier="3.0,4.0" />
+      <StatusEffect type="OnUse" target="This" Snapped="true" delay="5" />
+      <StatusEffect type="Always" target="This" delay="1" checkconditionalalways="true">
+        <Conditional Snapped="true" />
+        <Remove />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" Snapped="true" delay="3" checkconditionalalways="true">
+        <Conditional targetitemcomponent="Projectile" IsStuckToTarget="false" />
+      </StatusEffect>
+    </Rope>
+    <Projectile characterusable="false" launchimpulse="60.0" sticktostructures="false" sticktoitems="false" sticktodoors="false" sticktodeflective="true" sticktocharacters="true" maxtargetstohit="1" sticktolighttargets="true" prismatic="false">
+      <Attack structuredamage="10">
+        <Affliction identifier="stun" strength="0.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="UseTarget,This" comparison="And" disabledeltatime="true">
+        <Conditional Snapped="false" />
+        <Affliction identifier="drag" strength="1" />
+      </StatusEffect>
+      <StatusEffect type="OnImpact" target="This">
+        <particleemitter drawontop="true" particle="tonguehitsplash" particleamount="20" scalemin="0.2" scalemax="0.3" anglemin="0" anglemax="360" />
+        <particleemitter drawontop="false" particle="damagebubbles" particleamount="20" scalemin="0.2" scalemax="0.3" anglemin="0" anglemax="360" />
+        <particleemitter drawontop="true" particle="damagebubbles" particleamount="10" scalemin="0.2" scalemax="0.3" anglemin="0" anglemax="360" />
+      </StatusEffect>
+      <StatusEffect type="Always" target="This">
+        <Conditional Snapped="true" />
+      </StatusEffect>
+    </Projectile>
+  </Item>
   
   
   
