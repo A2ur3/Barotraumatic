@@ -96,7 +96,7 @@
       <Conditional speciesname="crawler_large2" />
       <Conditional speciesname="crawler_large" />
       <Conditional speciesname="crawler_hatchling" />
-      <Conditional speciesname="mothercrawler" />
+      <Conditional speciesname="Crawler_Pregnant" />
       <Affliction identifier="runcrawler" strength="100" />
     </StatusEffect> -->
 	  <StatusEffect type="OnDamaged" target="LastLimb" checkconditionalways="true" comparison="and" delay="0.25" stackable="false" targetlimb="Tail">

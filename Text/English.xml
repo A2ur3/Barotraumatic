@@ -207,17 +207,17 @@
   <missionmessage0.clearmermaidruin>The Mermaid and fractal creatures have been wiped out. Navigate the submarine out of the cavern to claim the reward.</missionmessage0.clearmermaidruin>
   <missionsuccess.clearmermaidruin>Mermaid has been destroyed.</missionsuccess.clearmermaidruin>
   <!-- Characters -->
-  <character.Abyssalcrawler>Abyssal Crawler</character.Abyssalcrawler>
-  <character.Abyssalhammerhead>Abyssal Hammerhead</character.Abyssalhammerhead>
-  <character.Abyssalthresher>Abyssal Thresher</character.Abyssalthresher>
+  <character.Crawler_Abyss>Abyssal Crawler</character.Crawler_Abyss>
+  <character.Hammerhead_Abyss>Abyssal Hammerhead</character.Hammerhead_Abyss>
+  <character.Tigerthresher_Abyss>Abyssal Thresher</character.Tigerthresher_Abyss>
   <character.Abyssmonster>Latcher Scuttler</character.Abyssmonster>
-  <character.Abysswatcher>Dyatel</character.Abysswatcher>
-  <character.Alphacharybdis>Alpha Charybdis</character.Alphacharybdis>
-  <character.Alphaendworm>Black Endworm</character.Alphaendworm>
-  <character.Ancientmudraptor>Ancient Mudraptor</character.Ancientmudraptor>
+  <character.Watcher_Cephalopod>Dyatel</character.Watcher_Cephalopod>
+  <character.Charybdis_Alpha>Alpha Charybdis</character.Charybdis_Alpha>
+  <character.Endworm_Alpha>Black Endworm</character.Endworm_Alpha>
+  <character.FractalMudraptor>Ancient Mudraptor</character.FractalMudraptor>
   <character.Bioworm>Bio Worm</character.Bioworm>
-  <character.Bombshark>Mudraptor Gutbomb</character.Bombshark>
-  <character.Bossmoloch>Hydrothermal Moloch</character.Bossmoloch>
+  <character.Mudraptor_Gutbomber>Mudraptor Gutbomb</character.Mudraptor_Gutbomber>
+  <character.Moloch_Boss>Hydrothermal Moloch</character.Moloch_Boss>
   <character.Brainmoss1>Brain Moss</character.Brainmoss1>
   <character.Brainmoss2>Radioactive Brain Moss</character.Brainmoss2>
   <character.Brutebtc>Brute Security Robot</character.Brutebtc>
@@ -226,7 +226,7 @@
   <character.Carrierleviathan>Carrier Leviathan</character.Carrierleviathan>
   <character.Caver>Caver</character.Caver>
   <character.Charybdisadol>Young Charybdis</character.Charybdisadol>
-  <character.Charybdisold>Mother Leatherback</character.Charybdisold>
+  <character.Leatherback_Titan>Leatherback Titan</character.Leatherback_Titan>
   <character.Charybdisre>Baby Charybdis</character.Charybdisre>
   <character.Charybdissavage>Savage Leatherback</character.Charybdissavage>
   <character.Chelicerate>Chelicerate</character.Chelicerate>
@@ -245,26 +245,26 @@
   <character.Cnidaeprime>Prime Cnidae</character.Cnidaeprime>
   <character.Crawleralphamale>Crawler Alpha Male</character.Crawleralphamale>
   <character.Crawlerbroodmotherold>Galvanic Crawler Broodmother</character.Crawlerbroodmotherold>
-  <character.Crawlercrablet>Crawler crablet</character.Crawlercrablet>
+  <character.Husk_CrabletCrawler>Crawler crablet</character.Husk_CrabletCrawler>
   <character.Crawlermetamorph>Crawler Metamorph</character.Crawlermetamorph>
   <character.Crawlernaught>King Crawler</character.Crawlernaught>
   <character.Crookbtc>Crook</character.Crookbtc>
   <character.Cthulhuadolescent>Cthulhu Progeny</character.Cthulhuadolescent>
-  <character.Cyclops>Cyclops</character.Cyclops>
+  <character.Latcher_Cyclops>Cyclops</character.Latcher_Cyclops>
   <character.Deadnoughthomingshell>Homing Torpedo</character.Deadnoughthomingshell>
   <character.Deathgill>Deathgill</character.Deathgill>
   <character.Deepseaclownnew>Deep Sea Clown</character.Deepseaclownnew>
   <character.Defensebothostile>Hostile Defense Bot</character.Defensebothostile>
-  <character.Endurance>Fractal Sentry</character.Endurance>
+  <character.FractalSentry>Fractal Sentry</character.FractalSentry>
   <character.Endwhale>End Whale</character.Endwhale>
   <character.Endworm_young>Endworm Young</character.Endworm_young>
   <character.Endwormcoral>The Glacier</character.Endwormcoral>
-  <character.Endwormre>Europan Polychaetes</character.Endwormre>
-  <character.Epicentrum>Epicentrum</character.Epicentrum>
+  <character.Polychaetes>Europan Polychaetes</character.Polychaetes>
   <character.Europanboxcutter>Europan Box Cutter</character.Europanboxcutter>
   <character.Europantrout>Europan Trout</character.Europantrout>
   <character.Exosuit>Broken Exosuit</character.Exosuit>
   <character.Fault>Fault</character.Fault>
+  <character.Fault_Large>Epicentrum</character.Fault_Large>
   <character.Fractalbreacher>Fractal Breacher</character.Fractalbreacher>
   <character.Fractaldestroyer>Fractal Destroyer</character.Fractaldestroyer>
   <character.Fractalenforcer>Fractal Enforcer</character.Fractalenforcer>
@@ -280,7 +280,7 @@
   <character.Ghostshrimp>Ghost Shrimp</character.Ghostshrimp>
   <character.Giantcrab>Giant Crab</character.Giantcrab>
   <character.Giantcrabice>Giant Ice Crab</character.Giantcrabice>
-  <character.Gianttrapper>Giant Trapper Spider</character.Gianttrapper>
+  <character.Latcher_Trapper>Giant Trapper Spider</character.Latcher_Trapper>
   <character.Glowfish>Glow Fish</character.Glowfish>
   <character.Goofyfish>Goofy Fish</character.Goofyfish>
   <character.Grayeel>Gray Eel</character.Grayeel>
@@ -299,13 +299,13 @@
   <character.Hammerheadmatriarchconcept>Hammerhead Broodmother</character.Hammerheadmatriarchconcept>
   <character.Hammerheadmauler>Hammerhead Mauler</character.Hammerheadmauler>
   <character.Harpoonwhale>Harpoon Whale</character.Harpoonwhale>
-  <character.Helmetcrablet>Helmet Crablet</character.Helmetcrablet>
+  <character.Husk_CrabletHelmet>Helmet Crablet</character.Husk_CrabletHelmet>
   <character.Hermit>Hermit</character.Hermit>
   <character.Hermitbig>Hermit Sundered</character.Hermitbig>
   <character.Hermitdugong>Hermit Dugong</character.Hermitdugong>
   <character.Hermitshell>Hermit Moloch</character.Hermitshell>
   <character.Hermitspawn>Hermit Spawn</character.Hermitspawn>
-  <character.Hornshrimp>Horn Shrimp</character.Hornshrimp>
+  <character.Prawn_Horned>Horned Prawn</character.Prawn_Horned>
   <character.Hullfish>Hull Fish</character.Hullfish>
   <character.Humancrookcape>Humancrookcape</character.Humancrookcape>
   <character.Humanhuskcrawlielatched>Humanhuskcrawlielatched</character.Humanhuskcrawlielatched>
@@ -322,7 +322,7 @@
   <character.Huskchimerabroodmother>Husk Chimera Broodmother</character.Huskchimerabroodmother>
   <character.Huskcontainerhostile>Husk Container</character.Huskcontainerhostile>
   <character.Huskcrawlie1>Husked Carcass</character.Huskcrawlie1>
-  <character.Husker>Calyxophage</character.Husker>
+  <character.Calyxophage>Calyxophage</character.Calyxophage>
   <character.Icecrab>Ice Crab</character.Icecrab>
   <character.Iceshark>Ice Shark</character.Iceshark>
   <character.Icewhale>Glacial Praywhale</character.Icewhale>
@@ -351,15 +351,15 @@
   <character.Molochgreen>Abyssal Moloch</character.Molochgreen>
   <character.Molochold>Moloch Matriarch</character.Molochold>
   <character.Molochthermal>Lava Moloch</character.Molochthermal>
-  <character.Mothercrawler>Mother Crawler</character.Mothercrawler>
+  <character.Crawler_Pregnant>Mother Crawler</character.Crawler_Pregnant>
   <character.Muddragon>Mud Dragon</character.Muddragon>
   <character.Mudraptor_mother>Mudraptor Mother</character.Mudraptor_mother>
   <character.Mudraptor_veteran>Mudraptor Veteran</character.Mudraptor_veteran>
   <character.Mudraptorgray>Mother Mudraptor</character.Mudraptorgray>
   <character.Mudrex>Tyrant Mudraptor</character.Mudrex>
-  <character.Nightraptor>Night Raptor</character.Nightraptor>
+  <character.Mudraptor_Night>Night Raptor</character.Mudraptor_Night>
   <character.Nuclearmine>Nuclear Mine</character.Nuclearmine>
-  <character.Observer>Dybbuk</character.Observer>
+  <character.Watcher_Cephalopod2>Dybbuk</character.Watcher_Cephalopod2>
   <character.Paralyticshark>Paralytic Shark</character.Paralyticshark>
   <character.Peanutslug>Peanought</character.Peanutslug>
   <character.Peanutslug2>Dreadnut</character.Peanutslug2>
@@ -376,7 +376,7 @@
   <character.Pylon>PYLON</character.Pylon>
   <character.Pylonbolt>Pylonbolt</character.Pylonbolt>
   <character.Railgunshell>Railgunshell</character.Railgunshell>
-  <character.Razzershrimp_kse>Razor Shrimp</character.Razzershrimp_kse>
+  <character.Prawn_Razor>Razor Prawn</character.Prawn_Razor>
   <character.Riftworm>Riftworm</character.Riftworm>
   <character.Rockworm>Rock Worm</character.Rockworm>
   <character.Scaviebtc>Rotting Scavie</character.Scaviebtc>
@@ -386,8 +386,8 @@
   <character.Seaurchinqueen>Sea Urchin Queen</character.Seaurchinqueen>
   <character.Shadowleech>Shadow Leech</character.Shadowleech>
   <character.Shadowwhale>Shadow Whale</character.Shadowwhale>
-  <character.Shrimpbrut_kse>Shrimp Spawn</character.Shrimpbrut_kse>
-  <character.Silverhammerhead>Silver Hammerhead</character.Silverhammerhead>
+  <character.Prawn_Brood>Prawn Brood</character.Prawn_Brood>
+  <character.Hammerhead_Silver>Silver Hammerhead</character.Hammerhead_Silver>
   <character.Skrimsl>Skrimsl</character.Skrimsl>
   <character.Spineling_electric2>Electric Spineling</character.Spineling_electric2>
   <character.Spineyfish>Saberback</character.Spineyfish>
@@ -406,12 +406,13 @@
   <character.Thermaleel>Thermal Eel</character.Thermaleel>
   <character.Gnasher>Gnasher</character.Gnasher>
   <character.Thresherking>Thresher King</character.Thresherking>
-  <character.Tigersharkthresher>Barracuda</character.Tigersharkthresher>
+  <character.Baranha>Baranha</character.Baranha>
+  <character.Barracuda>Barracuda</character.Barracuda>
   <character.Trichordate>Trichordate</character.Trichordate>
   <character.Trichordatebloodsucker>Trichordate Bloodsucker</character.Trichordatebloodsucker>
   <character.Trichordatemetalvore>Trichordate Metalvore</character.Trichordatemetalvore>
   <character.Trichordatevitriolic>Trichordate Vitriolic</character.Trichordatevitriolic>
-  <character.Tuluwild>Tulu</character.Tuluwild>
+  <character.CthulhuWild>Tulu</character.CthulhuWild>
   <character.Turretcarrier>Turret Carrier</character.Turretcarrier>
   <character.Turretcarrierchaingun>Thalamus Chaingun</character.Turretcarrierchaingun>
   <character.Turretcarriercoil>Thalamus Coilgun</character.Turretcarriercoil>
@@ -419,10 +420,11 @@
   <character.Turretcarrierflak>Thalamus Flakgun</character.Turretcarrierflak>
   <character.Turretcarrierpulselaser>Thalamus Pulse Laser</character.Turretcarrierpulselaser>
   <character.Turretcarrierrail>Thalamus Railgun</character.Turretcarrierrail>
-  <character.Twin>Twin</character.Twin>
-  <character.Undying>Fractal Walker</character.Undying>
-  <character.Undyingfaraday>Undying</character.Undyingfaraday>
-  <character.Undyingrad>Fractal Radiant</character.Undyingrad>
+  <character.FractalTwin>Twin</character.FractalTwin>
+  <character.FractalUndying>Undying</character.FractalUndying>
+  <character.FractalUndying_Faraday>Undying</character.FractalUndying_Faraday>
+  <character.FractalUndying_Thermal>Undying</character.FractalUndying_Thermal>
+  <character.FractalUndying_Rad>Undying</character.FractalUndying_Rad>
   <character.Viperling_giant>Giant viperling</character.Viperling_giant>
   <character.Voidleviathan>Void Leviathan</character.Voidleviathan>
   <character.Voidstalker>Void Stalker</character.Voidstalker>

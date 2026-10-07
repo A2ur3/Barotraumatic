@@ -167,21 +167,21 @@
   <character.Voidleech>Sanguijuela del Vacío</character.Voidleech>
   <character.Xan_Scavenger>Carroñero Xan</character.Xan_Scavenger>
   <character.Xanothresher>Xenoazotador</character.Xanothresher>
-  <character.Lionthresher>Barracuda</character.Lionthresher>
+  <character.Barahna>Baranha</character.Barahna>
   <character.Mudbouncer>Fangorrebotador</character.Mudbouncer>
   <character.Charybdisre>Bebé Charybdis</character.Charybdisre>
-  <character.Bossmoloch>Moloch Hidrotermal</character.Bossmoloch>
+  <character.Moloch_Boss>Moloch Hidrotermal</character.Moloch_Boss>
   <character.Immortal>character.Immortal</character.Immortal>
   <character.Bruteflora>Bruto Infectado</character.Bruteflora>
-  <character.Observer>Dybbuk</character.Observer>
+  <character.Watcher_Cephalopod2>Dybbuk</character.Watcher_Cephalopod2>
   <character.Hydrathresher>Hydrazotador</character.Hydrathresher>
   <character.Carrier>Transportador</character.Carrier>
   <character.Carrierleviathan>Leviatán Transportador</character.Carrierleviathan>
   <character.Huskhammerspawn>Cría de Martillo de la Vaina</character.Huskhammerspawn>
   <character.Huskbroodmother>Madre de la Prole de la Vaina</character.Huskbroodmother>
-  <character.Helmetcrablet>Cangrejo de Casco</character.Helmetcrablet>
-  <character.Crawlercrablet>Cangrejo Rastreador</character.Crawlercrablet>
-  <character.Endwormre>Poliquetos Europanos</character.Endwormre>
+  <character.Husk_CrabletHelmet>Cangrejo de Casco</character.Husk_CrabletHelmet>
+  <character.Husk_CrabletCrawler>Cangrejo Rastreador</character.Husk_CrabletCrawler>
+  <character.Polychaetes>Poliquetos Europanos</character.Polychaetes>
   <character.Crawlerhusk>Reptador de la Vaina</character.Crawlerhusk>
   <character.Huskslasher>Desgarrador de la Vaina</character.Huskslasher>
   <character.Juggernaut>Juggernaut</character.Juggernaut>
@@ -193,8 +193,8 @@
   <character.Teleglitch>Anomalía Eléctrica</character.Teleglitch>
   <character.Thalamid>Thalamid</character.Thalamid>
   <character.Ravager>Devastador</character.Ravager>
-  <character.AlphaEndworm>Gusano Final Alpha</character.AlphaEndworm>
-  <character.AlphaCharybdis>Charybdis Alpha</character.AlphaCharybdis>
+  <character.Endworm_Alpha>Gusano Final Alpha</character.Endworm_Alpha>
+  <character.Charybdis_Alpha>Charybdis Alpha</character.Charybdis_Alpha>
   <character.wastecrawler>Reptador de los Desperdicios</character.wastecrawler>
   <character.wastetigerthresher>Azotador Tigre de los Desperdicios</character.wastetigerthresher>
   <character.wastebonethresher>Azotador de Huesos de los Desperdicios</character.wastebonethresher>
@@ -211,10 +211,10 @@
   <character.Hotdog>Perro Caliente</character.Hotdog>
   <character.Minoga>Minoga</character.Minoga>
   <character.Archimorur>Archimorur</character.Archimorur>
-  <character.Husker>Anguila</character.Husker>
+  <character.Calyxophage>Anguila</character.Calyxophage>
   <character.Endwormcoral>El Glaciar</character.Endwormcoral>
   <character.Endwormnew>Gusano de Concha Gigante</character.Endwormnew>
-  <character.Abysswatcher>Vigilante del Abismo</character.Abysswatcher>
+  <character.Watcher_Cephalopod>Vigilante del Abismo</character.Watcher_Cephalopod>
   <character.Charybdissavage>Laúd Salvaje</character.Charybdissavage>
   <character.Thalamuscarrier>Transportador de Thalamus</character.Thalamuscarrier>
   <character.Icedleatherback>Laúd Helado</character.Icedleatherback>
@@ -224,16 +224,16 @@
   <character.Brainmoss3>Musgo Cerebral</character.Brainmoss3>
   <character.Turretcarrier>Transportador de Torretas</character.Turretcarrier>
   <character.Paralyticshark>Tiburón Paralizador</character.Paralyticshark>
-  <character.Epicentrum>Epicentro</character.Epicentrum>
+  <character.Fault_Large>Epicentro</character.Fault_Large>
   <character.Shadowwhale>Ballena de las Sombras</character.Shadowwhale>
   <character.Magmarlarva>Larva de Magma</character.Magmarlarva>
   <character.Magmaworm>Gusano de Magma</character.Magmaworm>
-  <character.Abyssalhammerhead>Pez ariete Abismal</character.Abyssalhammerhead>
+  <character.Hammerhead_Abyss>Pez ariete Abismal</character.Hammerhead_Abyss>
   <character.Mantisbig>Mantis Grande</character.Mantisbig>
   <character.Abyssalmantis>Mantis Abismal</character.Abyssalmantis>
-  <character.Abyssalthresher>Azotador Abismal</character.Abyssalthresher>
+  <character.Tigerthresher_Abyss>Azotador Abismal</character.Tigerthresher_Abyss>
   <character.Deepseaclown>El Payaso del Mar Profundo</character.Deepseaclown>
-  <character.Mothercrawler>Madre Reptadora</character.Mothercrawler>
+  <character.Crawler_Pregnant>Madre Reptadora</character.Crawler_Pregnant>
   <character.Europa>Reflejo de Europa</character.Europa>
   <character.Redfish>Pez Rojo</character.Redfish>
   <character.Pirafish>Pez Pira</character.Pirafish>
@@ -244,7 +244,7 @@
   <character.CharybdisUgly>Laúd de Coral</character.CharybdisUgly>
   <character.Icewhale>Ballena de Hielo</character.Icewhale>
   <character.Irmahusk>Esqueleto de Irma</character.Irmahusk>
-  <character.TigerSharkThresher>Barracuda</character.TigerSharkThresher>
+  <character.Barracuda>Barracuda</character.Barracuda>
   <character.Gnasherhusk>Esqueleto de Desgarrador</character.Gnasherhusk>
   <character.Punkfish>Pez Punk</character.Punkfish>
   <character.Punkfishhusk>Esqueleto de Pez Punk</character.Punkfishhusk>
@@ -262,9 +262,9 @@
   <character.Babymoloch>Bebé Moloch</character.Babymoloch>
   <character.FractalguardianRe>Maneba</character.FractalguardianRe>
   <character.Fractalguardianre2>Ronteal</character.Fractalguardianre2>
-  <character.GiantTrapper>Araña trampa gigante</character.GiantTrapper>
+  <character.Latcher_Trapper>Araña trampa gigante</character.Latcher_Trapper>
   <character.Fractalguardianre3>Cosechador</character.Fractalguardianre3>
-  <character.Undying>Paseante fractal</character.Undying>
+  <character.FractalUndying>Paseante fractal</character.FractalUndying>
   <character.Fractalpenance>Guerrero penitente</character.Fractalpenance>
   <character.Latcher_hatchling>Cría de Latcher</character.Latcher_hatchling>
   <character.Hammerhead_hunter>Cazador de Pez ariete</character.Hammerhead_hunter>
@@ -275,7 +275,7 @@
   <character.Molochold>Matriarca Moloch</character.Molochold>
   <character.Europanboxcutter>Cortador de cajas europano</character.Europanboxcutter>
   <character.Shroomjelly>Medusa de hongos</character.Shroomjelly>
-  <character.Endurance>Centinela fractal</character.Endurance>
+  <character.FractalSentry>Centinela fractal</character.FractalSentry>
   <character.Deepseaclownnew>Payasito de las profundidades marinas</character.Deepseaclownnew>
   <character.Suffering>El sufrimiento</character.Suffering>
   <character.Moloch_nuclear>Moloch herido</character.Moloch_nuclear>

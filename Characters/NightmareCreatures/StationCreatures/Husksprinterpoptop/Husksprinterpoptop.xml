@@ -78,7 +78,7 @@
       <ParticleEmitter particle="gib" particleamount="7" scalemin="0.6" scalemax="1" velocitymin="50" velocitymax="200" anglemin="0" anglemax="360" />
 	  <particleemitter particle="brownchunks" particleamount="15" velocitymin="0" velocitymax="300" anglemin="0" anglemax="360" scalemin="0.1" scalemax="0.2" />
       <Sound file="Content/Sounds/Damage/Gore6.ogg" range="500" />
-      <SpawnCharacter speciesname="Helmetcrablet" count="1" spread="5" />
+      <SpawnCharacter speciesname="Husk_CrabletHelmet" count="1" spread="5" />
     </StatusEffect>
 	<StatusEffect type="OnDeconstructed" target="Character">
     <SpawnItem identifiers="alienblood" spawnposition="ThisInventory" count="1" probability="0.1" />

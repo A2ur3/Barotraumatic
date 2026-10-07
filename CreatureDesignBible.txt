@@ -1,0 +1,38 @@
+Character:
+Character ID should be consistent with its familiy (example: Husk_XXX or MolochXXX). Group should be the same as other creatures in its family. Preferably usepathfinding="true" to allow navigation inside subs and ruins. Define ismachine="true" if machine.
+
+Health:
+Vitality should be checked against size of other creatures and damage reduction. Preferably do not use stun immunity. Bleed and Poison immunity for mechanical enemies. Emp vulnerability for mechanical enemies.
+
+Healthindex:
+Index starts from 0 to X, top to bottom, each limb referencing healthindex. Should have at least Torso Head Tail. Define healthindex for limbs with special resistances, for example making appendices contribute less to total damage taken, without using damageresistance
+
+Sounds:
+Have sounds defined by state rather than statuseffects. Try to at least have Idle, Attack, Die. Use frequencymultiplier to pitch sounds based on creature size (example: higher pitch for smaller moloch)
+
+Inventory:
+Have several empty Any slots for potential talent loot. For balance, have some of the inventory presets empty.
+
+AI:
+Combatstrength should be adjusted based on size and vitality. Sight and Hearing should be kept between 0 and 1 for non-abyss creatures, higher for aggressive large abyss enemies. (WIP: go into more detail about fine tuning in targets)
+
+Limbs:
+Always use deformablesprite. Limbs should be as straight as possible on the spritesheet, the creature oriented facing the right. Always center limbs using origin="0.5,0.5". Use hidelimb and ignorecollisions if you want a limb to not get damaged
+
+Spritedeformation:
+Always use bendjoint between limbs. Learn to use custom grid deformation for fine tuning.
+
+Joints:
+Always set joints using the newer limb connecting to the older limb (example: torso is 0, tail is 1, define limb as 1 - 0). Define joints by entering the field and refreshing ragdoll, do NOT use the joint knobs
+
+Colliders:
+Main collider defines mass. Match collider size to limb visually. Do not make rectangle colliders if possible, use radius to round the colliders. Colliders can only be aligned properly if limbs use origin="0.5,0.5"
+
+Damage modifier:
+Do not substitute damagemodifier for limbindex if possible. Common afflictions types are "damage" (lacerations/gunshot/bitewound,blunttrauma...), bleed and burn. Define an armorsector (angle) to match armored/soft limb parts. Deflectprojectiles needs to be true to enable penetration
+
+Attack Limbs:
+Always create a separate 1x1 pixel limb for attacks. Do not put attacks on existing limbs.
+
+Attacks:
+(WIP make a list of all attack behaviours later)

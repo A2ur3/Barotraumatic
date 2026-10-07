@@ -87,8 +87,8 @@
     commonness="70"
     reward="1600"
     sonarlabel="Barracuda" maxsonarmarkerdistance="10000">
-    <monster character="TigerSharkThresher" min="2" max="3"/>
-    <monster character="Lionthresher" min="3" max="4"/>
+    <monster character="Barracuda" min="2" max="3"/>
+    <monster character="Barahna" min="3" max="4"/>
     <Reputation identifier="location" amount="1" />
     <LocationType from="AnyOutpost" to="Any" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,768,256,256" color="214,50,48"/>
@@ -256,7 +256,7 @@
   difficulty="4" 
   reward="3500" 
   sonarlabel="Target" successmessage="The representative from [location1] thanks you for your bravery and compensate you with a large bounty of [reward] marks."
-  monsterfile="Endurance">
+  monsterfile="FractalSentry">
     <Reputation identifier="location" amount="4" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,512,256,256" color="64,188,216" />
     <LocationType from="AnyOutpost" to="Any" />
@@ -274,7 +274,7 @@
   difficulty="4" 
   reward="4500" 
   sonarlabel="Target" successmessage="The representative from [location1] thanks you for your bravery and compensate you with a large bounty of [reward] marks."
-  monsterfile="pylon">
+  monsterfile="FractalPylon">
     <Reputation identifier="location" amount="4" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,512,256,256" color="64,188,216" />
     <LocationType from="AnyOutpost" to="Any" />
@@ -339,8 +339,8 @@
   textidentifier=""
   name="Beast From the Abyss"
   description="Seismic readings are indicating that something colossal has emerged from the depths of Europa. A reward of [reward] has been promised to those who get rid of whatever is causing the seismic activity."
-  monsterfile="Endwormre" successmessage="The Endworm has been terminated."
-  identifier="killendwormre"
+  monsterfile="Polychaetes" successmessage="The Endworm has been terminated."
+  identifier="killPolychaetes"
   type="Monster" 
   tags="killmonster,killmonster_set4" 
   commonness="20" 
@@ -355,7 +355,7 @@
   textidentifier=""
   name="Injured Dispatch"
   description="An assault vessel managed to target and severely wound a Latcher in the Abyss however it managed to escape from the crew and is now fleeing around the path at [location1] and [location2] and could be still dangerous. Station administrators are offering a shared reward of [reward] to whoever can finish it off, the rest of the money will go to the first Assault vessel that wounded it."
-  monsterfile="Latcherabyss" successmessage="The Latcher has been terminated."
+  monsterfile="Latcher_Wounded" successmessage="The Latcher has been terminated."
   identifier="woundedabyss"
   type="Monster" 
   tags="killmonster,killmonster_set3" 
@@ -393,14 +393,14 @@
   textidentifier=""
   name="Terminate a Dybbuk"
   description="A particurarly aggressive Dybbuk has been causing severe psychological damage to nearby vessels traveling between [location1] and [location2]. A reward of [reward] marks has been promised to anyone who can eliminate it." successmessage="The Dybbuk has been terminated."
-  identifier="killobserver"
+  identifier="killWatcher_Cephalopod2"
   type="Monster" 
   tags="killmonster,killmonster_set2" 
   commonness="50" 
   difficulty="3" 
   reward="3800" 
   sonarlabel="Dybbuk" maxsonarmarkerdistance="10000">
-    <monster character="Observer" count="1" />
+    <monster character="Watcher_Cephalopod2" count="1" />
     <monster character="Watcherling" count="3" />
     <Reputation identifier="location" amount="2" />
     <Icon texture="%ModDir:2518816103%/UI/XanIcons.png" sourcerect="0,256,256,256" color="214,50,48" />
@@ -412,14 +412,14 @@
   textidentifier=""
   name="Terminate Dyatel"
   description="A particurarly aggressive group of Dyatel, Speculated to be Dybbuk's larval form, have left the abyss and are targeting vessels traveling between [location1] and [location2]. A reward of [reward] marks has been promised to anyone who can eliminate them, expect hit and run attacks." successmessage="The Dyatel have been terminated."
-  identifier="killobserver2"
+  identifier="killWatcher_Cephalopod"
   type="Monster" 
   tags="killmonster,killmonster_set3" 
   commonness="50" 
   difficulty="3" 
   reward="4800" 
   sonarlabel="Dyatel" maxsonarmarkerdistance="10000">
-    <monster character="Abysswatcher" count="1" />
+    <monster character="Watcher_Cephalopod" count="1" />
     <monster character="Watcherling" count="3" />
     <Reputation identifier="location" amount="2" />
     <Icon texture="%ModDir:2518816103%/UI/XanIcons.png" sourcerect="0,256,256,256" color="214,50,48" />
@@ -456,7 +456,7 @@
   difficulty="4" 
   reward="3500" 
   sonarlabel="Moloch" maxsonarmarkerdistance="10000"
-  monsterfile="Bossmoloch">
+  monsterfile="Moloch_Boss">
     <Reputation identifier="location" amount="2" />
     <Icon texture="%ModDir:2518816103%/UI/XanIcons.png" sourcerect="512,0,256,256" color="214,50,48" />
     <LocationType from="AnyOutpost" to="Any" />
@@ -599,8 +599,8 @@
   <!-- TODO: this doesn't work because wasteyard is no longer a thing... -->
   <!-- <MonsterMission
   textidentifier=""
-  name="The Twins"
-  identifier="twins"
+  name="The FractalTwins"
+  identifier="FractalTwins"
   type="Monster" 
   spawntype="Mainpath" 
   tags="killmonster,killmonster_set4"
@@ -610,7 +610,7 @@
   reward="4500" 
   sonarlabel="Disruption Zone" successmessage="The cause of the massive sonar disruption was infact from two robotic Fractal Destroyers, the scientists are very excited to hear about your encounter.">
     <monster character="fractaldestroyer" count="1" />
-    <monster character="twin" count="1" />
+    <monster character="FractalTwin" count="1" />
     <LocationType to="WasteyardDE" from="Research" />
     <LocationType to="WasteyardDE" from="City" />
     <LocationType to="WasteyardDE" from="Military" />
@@ -710,8 +710,8 @@
     commonness="20"
     reward="2000"
     sonarlabel="Barracuda" maxsonarmarkerdistance="10000">
-    <monster character="TigerSharkThresher" min="5" max="6"/>
-    <monster character="Lionthresher" min="4" max="5"/>
+    <monster character="Barracuda" min="5" max="6"/>
+    <monster character="Barahna" min="4" max="5"/>
     <Reputation identifier="location" amount="1" />
     <LocationType from="AnyOutpost" to="Any" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,768,256,256" color="214,50,48"/>
@@ -913,7 +913,7 @@
   commonness="50" 
   reward="2600" 
   sonarlabel="Abyssal Hammerheads" maxsonarmarkerdistance="10000" successmessage="The Hammerheads have been killed.">
-    <monster character="Abyssalhammerhead" count="4" />
+    <monster character="Hammerhead_Abyss" count="4" />
     <Reputation identifier="location" amount="3" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="512,768,256,256" color="214,50,48" />
     <LocationType from="AnyOutpost" to="Any" />
@@ -931,7 +931,7 @@
   commonness="60" 
   reward="3575" 
   sonarlabel="Abyssal Hammerheads" maxsonarmarkerdistance="10000" successmessage="The Hammerheads have been killed.">
-    <monster character="Abyssalhammerhead" count="6" />
+    <monster character="Hammerhead_Abyss" count="6" />
     <Reputation identifier="location" amount="2" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="512,768,256,256" color="214,50,48" />
     <LocationType from="AnyOutpost" to="Any" />
@@ -1106,7 +1106,7 @@
   reward="4500" 
   sonarlabel="Thresher" maxsonarmarkerdistance="10000">
     <monster character="tigerthresher" count="6" />
-    <monster character="abyssalthresher" count="2" />
+    <monster character="Tigerthresher_Abyss" count="2" />
     <monster character="bonethresher" count="3" />
     <Reputation identifier="location" amount="5" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,758,256,256" color="214,50,48" />
@@ -1215,7 +1215,7 @@
   <MonsterMission
   textidentifier=""
   name="Stopping Unusual Mudraptor Attacks"
-  identifier="killnightraptor" 
+  identifier="killMudraptor_Night" 
   tags="killmonster,killmonster_set2"
   type="Monster"
   description="Unusual mudraptor attacks have been reportered between [location1] and [location2], the attacks came suddenly and without warning. A reward of [reward] credits has been promised to anyone who can stop these creatures." 
@@ -1223,7 +1223,7 @@
   commonness="55" 
   reward="4500" 
   sonarlabel="Mudraptor?" maxsonarmarkerdistance="550" successmessage="The Mudraptors have been killed.">
-    <monster character="Nightraptor" count="8" />
+    <monster character="Mudraptor_Night" count="8" />
     <Reputation identifier="location" amount="2" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,512,256,256" color="214,50,48" />
     <LocationType from="AnyOutpost" to="Any" />
@@ -1233,7 +1233,7 @@
   <MonsterMission
   textidentifier=""
   name="Stopping Unusual Mudraptor Attacks"
-  identifier="killnightraptor2" 
+  identifier="killMudraptor_Night2" 
   tags="killmonster,killmonster_set2"
   type="Monster"
   description="Unusual mudraptor attacks have been reportered between [location1] and [location2], the attacks came suddenly and without warning. A reward of [reward] credits has been promised to anyone who can stop these creatures." 
@@ -1241,7 +1241,7 @@
   commonness="35" 
   reward="4500" 
   sonarlabel="Mudraptor?" maxsonarmarkerdistance="550" successmessage="The Mudraptors have been killed.">
-    <monster character="Nightraptor" count="6" />
+    <monster character="Mudraptor_Night" count="6" />
     <monster character="Mudrex" min="1" max="1" />
     <Reputation identifier="location" amount="2" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="768,512,256,256" color="214,50,48" />
@@ -1507,7 +1507,7 @@
   sonarlabel="Thresher" maxsonarmarkerdistance="10000">
     <!-- space reserved for new giant thresher <monster character="Xanothresher" /> -->
     <monster character="bonethresher" min="2" max="3" />
-    <monster character="abyssalthresher" min="2" max="3" />
+    <monster character="Tigerthresher_Abyss" min="2" max="3" />
     <monster character="tigerthresher" min="4" max="6" />
     <Reputation identifier="location" amount="5" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,758,256,256" color="214,50,48" />
@@ -1567,7 +1567,7 @@
   difficulty="3" 
   reward="4000" 
   sonarlabel="Fractal Creatures" maxsonarmarkerdistance="18000">
-    <monster character="undyingfaraday" min="0" max="1" />
+    <monster character="FractalUndying_Faraday" min="0" max="1" />
     <monster character="Fractalguardian3" min="2" max="2" />
     <monster character="FractalBreacher" min="1" max="1" />
     <monster character="FractalEnforcer" min="1" max="1" />
@@ -2210,7 +2210,7 @@ reward="1000"
   sonarlabel="Target"
   maxsonarmarkerdistance="20000"
   successmessage=""
-  monsterfile="AlphaCharybdis">
+  monsterfile="Charybdis_Alpha">
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48" />
     <Reputation identifier="separatists" amount="3" />
     <Reputation identifier="coalition" amount="3" />
@@ -2231,7 +2231,7 @@ reward="1000"
   sonarlabel="Pulse Readings"
   maxsonarmarkerdistance="20000"
   successmessage=""
-  monsterfile="AlphaEndworm">
+  monsterfile="Endworm_Alpha">
     <Reputation identifier="separatists" amount="3" />
     <Reputation identifier="coalition" amount="3" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48" />
@@ -2252,7 +2252,7 @@ reward="1000"
   spawntype="Abyss"
   maxsonarmarkerdistance="20000"
   successmessage=""
-  monsterfile="GiantTrapper">
+  monsterfile="Latcher_Trapper">
     <Reputation identifier="separatists" amount="3" />
     <Reputation identifier="coalition" amount="3" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48" />
@@ -2273,7 +2273,7 @@ reward="1000"
   spawntype="Abyss"
    maxsonarmarkerdistance="20000"
    successmessage=""
-  monsterfile="Endurance">
+  monsterfile="FractalSentry">
     <Reputation identifier="separatists" amount="3" />
     <Reputation identifier="coalition" amount="3" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48" />
@@ -2291,10 +2291,10 @@ reward="1000"
   commonness="0" 
   reward="7500" 
   spawntype="Abyss"
-  sonarlabel="Cyclops" 
+  sonarlabel="Latcher_Cyclops" 
   maxsonarmarkerdistance="20000"
   successmessage="">
-    <monster character="Cyclops" count="3" />
+    <monster character="Latcher_Cyclops" count="3" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48" />
     <Reputation identifier="separatists" amount="3" />
     <Reputation identifier="coalition" amount="3" />
@@ -2357,7 +2357,7 @@ reward="1000"
   sonarlabel="target"
   maxsonarmarkerdistance="20000"
   successmessage=""
-  monsterfile="Endwormre">
+  monsterfile="Polychaetes">
     <Reputation identifier="separatists" amount="3" />
     <Reputation identifier="coalition" amount="3" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48" />
@@ -2378,7 +2378,7 @@ reward="1000"
   sonarlabel="target"
   maxsonarmarkerdistance="20000"
   successmessage=""
-  monsterfile="Bossmoloch">
+  monsterfile="Moloch_Boss">
     <Reputation identifier="separatists" amount="3" />
     <Reputation identifier="coalition" amount="3" />
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48" />
@@ -2548,7 +2548,7 @@ reward="1000"
       <Character identifier="Husk_RandomLight" min="0" max="2" />
       <Character identifier="crawler" min="5" max="8" />
       <Character identifier="Crawlersmart" min="1" max="3" />
-      <Character identifier="Abyssalcrawler" asfaraspossible="true" min="1" max="2" />
+      <Character identifier="Crawler_Abyss" asfaraspossible="true" min="1" max="2" />
       <Character identifier="Skrimsl" asfaraspossible="true" min="1" max="1" multiplayeronly="true" />
       <Character identifier="Crawlermetamorph" min="1" max="1" multiplayeronly="true" />
     </Characters>
@@ -2680,11 +2680,11 @@ reward="1000"
     <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,5" cooldownafterchange="15" />
     <Characters>
       <Character identifier="bandit_elite" from="abandonedoutpostnpcs" min="0" max="3" />
-      <Character identifier="Undying" min="3" max="4" requirekill="true" />
-      <Character identifier="Undying" min="2" max="2" requirekill="true" multiplayeronly="true"/>
+      <Character identifier="FractalUndying" min="3" max="4" requirekill="true" />
+      <Character identifier="FractalUndying" min="2" max="2" requirekill="true" multiplayeronly="true"/>
       <Character identifier="Fractalwalker" min="2" max="2" requirekill="true" />
       <Character identifier="Fractalwalker" min="1" max="1" requirekill="true" multiplayeronly="true" />
-      <Character identifier="Ancientmudraptor" min="1" max="1" requirekill="true" />
+      <Character identifier="FractalMudraptor" min="1" max="1" requirekill="true" />
       <Character identifier="Fractalsiren" min="1" max="1" requirekill="true" />
     </Characters>
     <TriggerEvent state="0" delay="5" eventidentifier="assassinationofjacovsubra1" campaignonly="true" />

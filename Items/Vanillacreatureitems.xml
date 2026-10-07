@@ -141,7 +141,7 @@
     <Body width="20" height="20" radius="14" density="30" />
     <Holdable slots="RightHand,LeftHand,Any" holdpos="0,0" handle1="0,0" handle2="0,0" />
   </Item>
-    <Item name="Horn Shrimp shell" identifier="hornshrimpshell" category="Misc" maxstacksize="4" Tags="smallitem" canbepicked="true" description="The heavy mineralized back of a Horn Shrimp. Rich in copper compounds, it flexes under extreme pressure without cracking." cargocontaineridentifier="metalcrate" scale="0.22" impactsoundtag="impact_metal_light">
+    <Item name="Horn Shrimp shell" identifier="Prawnshell" category="Misc" maxstacksize="4" Tags="smallitem" canbepicked="true" description="The heavy mineralized back of a Horn Shrimp. Rich in copper compounds, it flexes under extreme pressure without cracking." cargocontaineridentifier="metalcrate" scale="0.22" impactsoundtag="impact_metal_light">
         <PreferredContainer primary="storagecab" secondary="mineralcab" />
 	<Price baseprice="170">
       <Price storeidentifier="merchantoutpost" multiplier="1" sold="false" />
@@ -154,8 +154,8 @@
       <Item identifier="copper" amount="2" />
 	  <Item identifier="carbon" amount="1" />
     </Deconstruct>
-    <InventoryIcon texture="%ModDir:2518816103%\Characters\Hornshrimp\Hornschrimp.png" SourceRect="233,228,191,243" />
-    <Sprite texture="%ModDir:2518816103%\Characters\Hornshrimp\Hornschrimp.png" SourceRect="233,228,191,243" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir:2518816103%\Characters\Prawn_Horned\Prawn_Horned.png" SourceRect="233,228,191,243" />
+    <Sprite texture="%ModDir:2518816103%\Characters\Prawn_Horned\Prawn_Horned.png" SourceRect="233,228,191,243" depth="0.55" origin="0.5,0.5" />
     <Body width="45" height="45" density="22" />
     <Holdable canBeCombined="true" removeOnCombined="true" slots="Any" handle1="0,0" msg="ItemMsgPickUpSelect" />
   </Item>
@@ -172,8 +172,8 @@
       <Item identifier="copper" amount="2" />
 	  <Item identifier="titanium" amount="1" />
     </Deconstruct>
-    <InventoryIcon texture="%ModDir:2518816103%/Characters/Razzershrimp/Razzershrimp.png" SourceRect="665,244,126,116" />
-    <Sprite texture="%ModDir:2518816103%/Characters/Razzershrimp/Razzershrimp.png" SourceRect="665,244,126,116" depth="0.55" origin="0.5,0.5" />
+    <InventoryIcon texture="%ModDir:2518816103%/Characters/Prawn_Razor/Prawn_Razor.png" SourceRect="665,244,126,116" />
+    <Sprite texture="%ModDir:2518816103%/Characters/Prawn_Razor/Prawn_Razor.png" SourceRect="665,244,126,116" depth="0.55" origin="0.5,0.5" />
     <Body width="45" height="45" density="22" />
     <Holdable canBeCombined="true" removeOnCombined="true" slots="Any" handle1="0,0" msg="ItemMsgPickUpSelect" />
   </Item>
@@ -999,8 +999,8 @@
       <Item identifier="titanium" />
       <Item identifier="carbon" amount="2" />
     </Deconstruct>
-    <InventoryIcon texture="Content/Characters/charybdisold/charybdis.png" sourcerect="1445,1081,556,107" />
-    <Sprite texture="Content/Characters/charybdisold/charybdis.png" depth="0.54" sourcerect="1445,1081,556,107" />
+    <InventoryIcon texture="Content/Characters/Charybdis/Charybdis.png" sourcerect="1445,1081,556,107" />
+    <Sprite texture="Content/Characters/Charybdis/Charybdis.png" depth="0.54" sourcerect="1445,1081,556,107" />
     <Body width="20" height="44" density="13" />
     <Holdable slots="Any" holdpos="0,0" handle1="0,0" handle2="0,0" />
   </Item>
@@ -1031,8 +1031,8 @@
       <Item identifier="bonetail" copycondition="true" commonness="0.5" />
       <Item identifier="mudhead" copycondition="true" commonness="0.5" />
     </Deconstruct>
-    <InventoryIcon texture="Content/Characters/charybdisold/charybdis.png" sourcerect="324,248,193,192" />
-    <Sprite texture="Content/Characters/charybdisold/charybdis.png" depth="0.54" sourcerect="324,248,193,192" />
+    <InventoryIcon texture="Content/Characters/Charybdis/Charybdis.png" sourcerect="324,248,193,192" />
+    <Sprite texture="Content/Characters/Charybdis/Charybdis.png" depth="0.54" sourcerect="324,248,193,192" />
     <Body width="20" height="44" density="13" />
     <Holdable slots="Any" holdpos="0,0" handle1="0,0" handle2="0,0" />
   </Item>
@@ -1062,8 +1062,8 @@
       <Item identifier="aragonite" copycondition="true" commonness="0.5" />
       <Item identifier="titaniumaluminiumalloy" copycondition="true" commonness="0.2" />
     </Deconstruct>
-    <InventoryIcon texture="Content/Characters/charybdisold/charybdis.png" sourcerect="1586,323,443,140" />
-    <Sprite texture="Content/Characters/charybdisold/charybdis.png" depth="0.54" sourcerect="1586,323,443,140" />
+    <InventoryIcon texture="Content/Characters/Charybdis/Charybdis.png" sourcerect="1586,323,443,140" />
+    <Sprite texture="Content/Characters/Charybdis/Charybdis.png" depth="0.54" sourcerect="1586,323,443,140" />
     <Body width="20" height="44" density="13" />
     <Holdable slots="Any" holdpos="0,0" handle1="0,0" handle2="0,0" />
   </Item>
@@ -1261,8 +1261,8 @@
       <Item identifier="calcium" />
       <Item identifier="carbon" />
     </Deconstruct>
-    <InventoryIcon texture="%ModDir:2518816103%/Characters/TigerSharkThresher/tigersharkthresher.png" sourcerect="280,299,56,97" />
-    <Sprite texture="%ModDir:2518816103%/Characters/TigerSharkThresher/tigersharkthresher.png" depth="0.54" sourcerect="280,299,56,97" />
+    <InventoryIcon texture="%ModDir:2518816103%/Characters/Barracuda/Barracuda.png" sourcerect="280,299,56,97" />
+    <Sprite texture="%ModDir:2518816103%/Characters/Barracuda/Barracuda.png" depth="0.54" sourcerect="280,299,56,97" />
     <Body width="20" height="44" density="13" />
     <Holdable slots="RightHand,LeftHand,Any" holdpos="0,0" handle1="0,0" handle2="0,0" />
   </Item>
@@ -1281,8 +1281,8 @@
       <Item identifier="iron" />
       <Item identifier="paralyzant" />
     </Deconstruct>
-    <InventoryIcon texture="%ModDir:2518816103%/Characters/TigerSharkThresher/tigersharkthresher.png" sourcerect="391,171,27,107" />
-    <Sprite texture="%ModDir:2518816103%/Characters/TigerSharkThresher/tigersharkthresher.png" depth="0.54" sourcerect="391,171,27,107" />
+    <InventoryIcon texture="%ModDir:2518816103%/Characters/Barracuda/Barracuda.png" sourcerect="391,171,27,107" />
+    <Sprite texture="%ModDir:2518816103%/Characters/Barracuda/Barracuda.png" depth="0.54" sourcerect="391,171,27,107" />
     <Body width="20" height="44" density="13" />
     <Holdable slots="RightHand,LeftHand,Any" holdpos="0,0" handle1="0,0" handle2="0,0" />
   </Item>
@@ -1309,8 +1309,8 @@
       <Item identifier="uranium" copycondition="true" commonness="0.5" />
       <Item identifier="titaniumaluminiumalloy" copycondition="true" commonness="0.2" />
     </Deconstruct>
-    <InventoryIcon texture="%ModDir:2518816103%/Characters/TigerSharkThresher/tigersharkthresher.png" sourcerect="327,3,34,289" />
-    <Sprite texture="%ModDir:2518816103%/Characters/TigerSharkThresher/tigersharkthresher.png" depth="0.54" sourcerect="327,3,34,289" />
+    <InventoryIcon texture="%ModDir:2518816103%/Characters/Barracuda/Barracuda.png" sourcerect="327,3,34,289" />
+    <Sprite texture="%ModDir:2518816103%/Characters/Barracuda/Barracuda.png" depth="0.54" sourcerect="327,3,34,289" />
     <Body width="20" height="44" density="13" />
     <Holdable slots="Any" holdpos="0,0" handle1="0,0" handle2="0,0" />
   </Item>

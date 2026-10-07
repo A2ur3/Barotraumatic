@@ -44,21 +44,21 @@
   <character.Voidleech>虚空水蛭</character.Voidleech>
   <character.Xan_Scavenger>清道夫</character.Xan_Scavenger>
   <character.Xanothresher>沙诺长尾鲨</character.Xanothresher>
-  <character.Lionthresher>梭鱼</character.Lionthresher>
+  <character.Barahna>梭鱼</character.Barahna>
   <character.Mudbouncer>泥偶守卫</character.Mudbouncer>
   <character.Charybdisre>幼年深海女妖</character.Charybdisre>
-  <character.Bossmoloch>荒芜摩洛克</character.Bossmoloch>
+  <character.Moloch_Boss>荒芜摩洛克</character.Moloch_Boss>
   <character.Immortal>画皮不朽者</character.Immortal>
   <character.Bruteflora>被感染的野兽</character.Bruteflora>
-  <character.Observer>恶灵</character.Observer>
+  <character.Watcher_Cephalopod2>恶灵</character.Watcher_Cephalopod2>
   <character.Hydrathresher>九头蛇长尾鲨</character.Hydrathresher>
   <character.Carrier>运输舰</character.Carrier>
   <character.Carrierleviathan>巨型运输舰</character.Carrierleviathan>
   <character.Huskhammerspawn>变异锤头鲨卵孢</character.Huskhammerspawn>
   <character.Huskbroodmother>画皮孵育者之母</character.Huskbroodmother>
-  <character.Helmetcrablet>潜水服头蟹</character.Helmetcrablet>
-  <character.Crawlercrablet>爬行头蟹</character.Crawlercrablet>
-  <character.Endwormre>木卫二多毛蠕虫</character.Endwormre>
+  <character.Husk_CrabletHelmet>潜水服头蟹</character.Husk_CrabletHelmet>
+  <character.Husk_CrabletCrawler>爬行头蟹</character.Husk_CrabletCrawler>
+  <character.Polychaetes>木卫二多毛蠕虫</character.Polychaetes>
   <character.Crawlerhusk>变异藻鬃爬行者</character.Crawlerhusk>
   <character.Huskslasher>砍杀者</character.Huskslasher>
   <character.Juggernaut>巨兽</character.Juggernaut>
@@ -70,8 +70,8 @@
   <character.Teleglitch>电力异常点</character.Teleglitch>
   <character.Thalamid>丘胺</character.Thalamid>
   <character.Ravager>掠夺者</character.Ravager>
-  <character.AlphaEndworm>阿尔法末日蠕虫</character.AlphaEndworm>
-  <character.AlphaCharybdis>阿尔法深海女妖</character.AlphaCharybdis>
+  <character.Endworm_Alpha>阿尔法末日蠕虫</character.Endworm_Alpha>
+  <character.Charybdis_Alpha>阿尔法深海女妖</character.Charybdis_Alpha>
   <character.wastecrawler>荒芜藻鬃爬行者</character.wastecrawler>
   <character.wastetigerthresher>荒芜虎尾鱼蛇</character.wastetigerthresher>
   <character.wastebonethresher>荒芜碎骨鲨</character.wastebonethresher>
@@ -88,10 +88,10 @@
   <character.Hotdog>热狗</character.Hotdog>
   <character.Minoga>米诺珈</character.Minoga>
   <character.Archimorur>阿齐默尔</character.Archimorur>
-  <character.Husker>垂钓者</character.Husker>
+  <character.Calyxophage>垂钓者</character.Calyxophage>
   <character.Endwormcoral>冰封裂隙蠕虫</character.Endwormcoral>
   <character.Endwormnew>裂隙蠕虫</character.Endwormnew>
-  <character.Abysswatcher>深渊监视者</character.Abysswatcher>
+  <character.Watcher_Cephalopod>深渊监视者</character.Watcher_Cephalopod>
   <character.Charybdissavage>凶恶深海女妖</character.Charybdissavage>
   <character.Thalamuscarrier>丘脑载体</character.Thalamuscarrier>
   <character.Icedleatherback>冰棱皮龟</character.Icedleatherback>
@@ -101,16 +101,16 @@
   <character.Brainmoss3>脑苔</character.Brainmoss3>
   <character.Turretcarrier>炮塔载体</character.Turretcarrier>
   <character.Paralyticshark>麻痹鲨</character.Paralyticshark>
-  <character.Epicentrum>震源之中</character.Epicentrum>
+  <character.Fault_Large>震源之中</character.Fault_Large>
   <character.Shadowwhale>暗影鲸</character.Shadowwhale>
   <character.Magmarlarva>熔岩幼虫</character.Magmarlarva>
   <character.Magmaworm>熔岩蠕虫</character.Magmaworm>
-  <character.Abyssalhammerhead>深渊锤头鲨</character.Abyssalhammerhead>
+  <character.Hammerhead_Abyss>深渊锤头鲨</character.Hammerhead_Abyss>
   <character.Mantisbig>硕大虾脊螳螂</character.Mantisbig>
   <character.Abyssalmantis>深渊虾脊螳螂</character.Abyssalmantis>
-  <character.Abyssalthresher>深渊长尾鲨</character.Abyssalthresher>
+  <character.Tigerthresher_Abyss>深渊长尾鲨</character.Tigerthresher_Abyss>
   <character.Deepseaclown>深海小丑</character.Deepseaclown>
-  <character.Mothercrawler>藻鬃爬行者之母</character.Mothercrawler>
+  <character.Crawler_Pregnant>藻鬃爬行者之母</character.Crawler_Pregnant>
   <character.Europa>木卫二反射</character.Europa>
   <character.Redfish>红鱼</character.Redfish>
   <character.Pirafish>琵琶鱼</character.Pirafish>
@@ -120,7 +120,7 @@
   <character.CharybdisUgly>珊瑚棱皮龟</character.CharybdisUgly>
   <character.Icewhale>冰鲸</character.Icewhale>
   <character.Irmahusk>变异厄玛</character.Irmahusk>
-  <character.TigerSharkThresher>Barracuda</character.TigerSharkThresher>
+  <character.Barracuda>Barracuda</character.Barracuda>
   <character.Gnasherhusk>变异斯拉舍</character.Gnasherhusk>
   <character.Punkfish>朋克鱼</character.Punkfish>
   <character.Punkfishhusk>变异朋克鱼</character.Punkfishhusk>
