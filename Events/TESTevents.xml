@@ -3,436 +3,437 @@
 <Randomevents>
   <EventPrefabs>
   
-    <ScriptedEvent>      
-      <SpawnAction SpeciesName="Hammerhead_Abyss" SpawnLocation="MainPath" offset="500" />
+    <!-- 
+    Use this event to spawn EVERY SINGLE EXISTING CREATURE (might not be complete) for testing and debugging purposes.
+    USE AT YOUR OWN PERIL -->
+    <ScriptedEvent  identifier="SPAWNALLBTCMONSTERS">      
+      <SpawnAction SpeciesName="Hammerhead_Abyss" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Tigerthresher_Abyss" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Tigerthresher_Abyss" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Abyssmonster" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Watcher_Cephalopod" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Watcher_Cephalopod" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Charybdis_Alpha" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Charybdis_Alpha" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Endworm_Alpha" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Endworm_Alpha" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="FractalMudraptor" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="FractalMudraptor" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Bioworm" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Bioworm" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Mudraptor_Gutbomber" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Mudraptor_Gutbomber" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Moloch_Boss" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Moloch_Boss" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Brainmoss1" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Brainmoss1" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Brainmoss2" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Brainmoss2" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Brutebtc" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Brutebtc" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Carrier" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Carrier" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Carrierflaknormal" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Carrierflaknormal" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Carrierleviathan" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Carrierleviathan" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Caver" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Caver" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Charybdisadol" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Charybdisadol" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Leatherback_Titan" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Leatherback_Titan" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Charybdisre" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Charybdisre" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Charybdissavage" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Charybdissavage" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Chelicerate" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Chelicerate" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Clownbox" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Clownbox" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Clownhead" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Clownhead" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Clownhead_spawn" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Clownhead_spawn" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Cnidae" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Cnidae" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Cnidaeprime" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Cnidaeprime" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Crawleralphamale" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Crawleralphamale" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Crawlerbroodmotherold" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Crawlerbroodmotherold" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Husk_CrabletCrawler" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Husk_CrabletCrawler" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Crawlermetamorph" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Crawlermetamorph" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Crawlernaught" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Crawlernaught" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Crookbtc" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Crookbtc" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Cthulhuadolescent" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Cthulhuadolescent" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Latcher_Cyclops" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Latcher_Cyclops" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Deadnoughthomingshell" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Deadnoughthomingshell" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Deathgill" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Deathgill" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Deepseaclownnew" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Deepseaclownnew" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Defensebothostile" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Defensebothostile" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="FractalSentry" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="FractalSentry" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Endwhale" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Endwhale" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Endworm_young" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Endworm_young" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Endwormcoral" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Endwormcoral" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Polychaetes" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Polychaetes" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Europanboxcutter" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Europanboxcutter" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Europantrout" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Europantrout" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Exosuit" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Exosuit" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Fault" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Fault" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Fault_Large" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Fault_Large" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Fractalbreacher" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Fractalbreacher" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Fractaldestroyer" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Fractaldestroyer" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Fractalenforcer" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Fractalenforcer" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Fractalguardianrepairbot" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Fractalguardianrepairbot" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Fractalguardianwanderer" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Fractalguardianwanderer" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Fractalherald" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Fractalherald" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Fractalmermaid" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Fractalmermaid" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Fractalmermaidinvisattack" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Fractalmermaidinvisattack" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Fractalpenance" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Fractalpenance" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Fractalsinger" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Fractalsinger" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Fractalsiren" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Fractalsiren" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Fractalwalker" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Fractalwalker" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Ghostshrimp" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Ghostshrimp" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Giantcrab" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Giantcrab" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Giantcrabice" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Giantcrabice" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Latcher_Trapper" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Latcher_Trapper" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Glowfish" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Glowfish" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Goofyfish" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Goofyfish" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Grayeel" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Grayeel" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Guardianattackbot" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Guardianattackbot" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Guppy" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Guppy" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Hallucination1" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Hallucination1" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Hallucination2" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Hallucination2" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Hammerhead_breacher" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Hammerhead_breacher" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Hammerhead_digermnamed" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Hammerhead_digermnamed" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Hammerhead_hard" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Hammerhead_hard" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Hammerhead_hunter" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Hammerhead_hunter" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Hammerhead_probe" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Hammerhead_probe" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Hammerhead_swordfish" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Hammerhead_swordfish" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Hammerhead_swordfishexplode" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Hammerhead_swordfishexplode" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Hammerhead_young" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Hammerhead_young" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Hammerheadmatriarchconcept" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Hammerheadmatriarchconcept" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Hammerheadmauler" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Hammerheadmauler" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Harpoonwhale" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Harpoonwhale" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Husk_CrabletHelmet" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Husk_CrabletHelmet" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Hermit" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Hermit" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Hermitbig" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Hermitbig" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Hermitdugong" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Hermitdugong" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Hermitshell" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Hermitshell" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Hermitspawn" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Hermitspawn" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Prawn_Horned" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Prawn_Horned" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Hullfish" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Hullfish" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Humancrookcape" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Humancrookcape" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Humanhuskcrawlielatched" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Humanhuskcrawlielatched" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Husk_abyss" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Husk_abyss" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Husk_centipede" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Husk_centipede" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Husk_oldsuit" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Husk_oldsuit" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Husk_prowlerhulk" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Husk_prowlerhulk" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Husk_pucs" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Husk_pucs" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Husk_scylla" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Husk_scylla" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Husk_slipsuit" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Husk_slipsuit" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Husk_spawn1" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Husk_spawn1" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Huskchimerabroodmother" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Huskchimerabroodmother" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Huskcontainerhostile" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Huskcontainerhostile" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Huskcrawlie1" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Huskcrawlie1" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Calyxophage" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Calyxophage" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Icecrab" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Icecrab" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Iceshark" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Iceshark" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Icewhale" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Icewhale" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Invisiblecthulhuspawner" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Invisiblecthulhuspawner" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Invisiblecthulhuspawner2" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Invisiblecthulhuspawner2" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Lavathresher" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Lavathresher" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Leatherback" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Leatherback" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Legacycrawler" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Legacycrawler" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Legacyendworm" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Legacyendworm" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Magmalarva" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Magmalarva" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Magmaworm" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Magmaworm" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Manraptor" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Manraptor" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Mantispink" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Mantispink" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Mantispinkpet" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Mantispinkpet" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Mantisshrimp" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Mantisshrimp" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Mantisshrimpsmall" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Mantisshrimpsmall" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Mechflora" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Mechflora" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Mechflorathalamus" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Mechflorathalamus" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Mine" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Mine" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Minoga" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Minoga" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Moloch_nuclear" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Moloch_nuclear" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Molochgreen" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Molochgreen" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Molochold" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Molochold" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Molochthermal" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Molochthermal" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Crawler_Pregnant" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Crawler_Pregnant" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Muddragon" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Muddragon" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Mudraptor_mother" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Mudraptor_mother" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Mudraptor_veteran" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Mudraptor_veteran" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Mudraptorgray" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Mudraptorgray" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Mudrex" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Mudrex" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Mudraptor_Night" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Mudraptor_Night" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Nuclearmine" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Nuclearmine" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Watcher_Cephalopod2" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Watcher_Cephalopod2" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Paralyticshark" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Paralyticshark" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Peanutslug" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Peanutslug" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Peanutslug2" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Peanutslug2" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Plantskeleton" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Plantskeleton" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Plantworm" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Plantworm" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Praywhale" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Praywhale" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Praywhalebaby" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Praywhalebaby" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Praywhalemineral" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Praywhalemineral" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Psilosaur" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Psilosaur" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Psilotoadadult" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Psilotoadadult" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Psilotoadadultpet" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Psilotoadadultpet" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Psilotoadmonster" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Psilotoadmonster" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Psiloturtle" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Psiloturtle" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Pylon" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Pylon" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Pylonbolt" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Pylonbolt" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Railgunshell" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Railgunshell" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Prawn_Razor" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Prawn_Razor" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Riftworm" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Riftworm" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Rockworm" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Rockworm" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Scaviebtc" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Scaviebtc" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Scorpion" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Scorpion" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Seasnek" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Seasnek" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Seaurchin" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Seaurchin" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Seaurchinqueen" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Seaurchinqueen" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Shadowleech" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Shadowleech" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Shadowwhale" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Shadowwhale" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Prawn_Brood" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Prawn_Brood" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Hammerhead_Silver" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Hammerhead_Silver" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Skrimsl" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Skrimsl" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Spineling_electric2" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Spineling_electric2" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Spineyfish" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Spineyfish" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Stalker" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Stalker" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Stonewanderercrystal" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Stonewanderercrystal" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Stonewanderercrystallarge" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Stonewanderercrystallarge" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Stonewandererice" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Stonewandererice" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Stonewanderericelarge" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Stonewanderericelarge" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Stonewandererlava" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Stonewandererlava" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Stonewandererlavalarge" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Stonewandererlavalarge" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Teleglitch" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Teleglitch" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Thalamid" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Thalamid" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Thalamuscarrier" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Thalamuscarrier" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Thalamusk" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Thalamusk" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Thalatocyte" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Thalatocyte" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Thermaleel" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Thermaleel" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Gnasher" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Gnasher" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Thresherking" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Thresherking" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Baranha" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Baranha" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Barracuda" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Barracuda" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Trichordate" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Trichordate" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Trichordatebloodsucker" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Trichordatebloodsucker" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Trichordatemetalvore" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Trichordatemetalvore" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Trichordatevitriolic" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Trichordatevitriolic" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="CthulhuWild" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="CthulhuWild" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Turretcarrier" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Turretcarrier" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Turretcarrierchaingun" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Turretcarrierchaingun" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Turretcarriercoil" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Turretcarriercoil" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Turretcarrierdoublecoil" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Turretcarrierdoublecoil" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Turretcarrierflak" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Turretcarrierflak" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Turretcarrierpulselaser" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Turretcarrierpulselaser" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Turretcarrierrail" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Turretcarrierrail" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="FractalTwin" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="FractalTwin" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="FractalUndying" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="FractalUndying" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="FractalUndying_Faraday" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="FractalUndying_Faraday" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="FractalUndying_Thermal" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="FractalUndying_Thermal" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="FractalUndying_Rad" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="FractalUndying_Rad" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Viperling_giant" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Viperling_giant" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Voidleviathan" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Voidleviathan" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Voidstalker" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Voidstalker" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Watcherelite" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Watcherelite" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Watcherling" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Watcherling" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Watcherwanderer" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Watcherwanderer" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Whitefish" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Whitefish" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Wolfeel" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Wolfeel" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Xan_scavenger" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Xan_scavenger" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Yellowboy" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Yellowboy" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Yellowboyhatchling" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Yellowboyhatchling" SpawnLocation="MainPath" offset="500" />
-      <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Yellowboywarrior" SpawnLocation="MainPath" offset="500" />
+      <SpawnAction SpeciesName="Yellowboywarrior" offset="500" />
       <WaitAction time="0.5" />
     </ScriptedEvent>
 
