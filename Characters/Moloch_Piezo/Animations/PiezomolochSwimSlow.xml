@@ -1,4 +1,5 @@
-﻿<UrchinmolochSwimSlow 
+<PiezomolochSwimSlow
+  type="Piezomoloch"
   UseSineMovement="True"
   Flip="True"
   FlipCooldown="2"
@@ -25,5 +26,3 @@
   FootTorque="25"
   ArmIKStrength="1"
   HandIKStrength="1" />
-  
-  
