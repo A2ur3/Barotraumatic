@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+  <Character speciesname="Moloch_Young" humanoid="False" group="moloch" SpeciesTranslationOverride="" husk="False" needsair="False" canspeak="False" noise="100" blooddecal="blackblood" bleedparticlewater="blackwaterblood" disabledistance="30000" caneat="False">
+    <ragdolls folder="default" />
+    <animations folder="default" />
+    <damageemitter particle="blackgib" drawontop="True" particleamount="10" velocitymin="200" velocitymax="300" anglemin="0" anglemax="360" scalemin="0.3" scalemax="0.5" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+    <bloodemitter particle="blackwaterblood" particleamount="5" velocitymin="0" velocitymax="100" anglemin="0" anglemax="360" scalemin="5" scalemax="10" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+    <gibemitter particle="blackwaterblood" particleamount="40" velocitymin="0" velocitymax="100" anglemin="0" anglemax="360" scalemin="5" scalemax="10" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+    <gibemitter particle="blackwaterblood" drawontop="True" particleamount="1" velocitymin="0" velocitymax="100" anglemin="0" anglemax="360" scalemin="3" scalemax="5" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+    <gibemitter particle="blackgib" drawontop="True" particleamount="20" velocitymin="200" velocitymax="700" anglemin="0" anglemax="360" scalemin="0.5" scalemax="1.5" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
+    <health vitality="400" doesbleed="True" crushdepth="Infinity" usehealthwindow="True" bleedingreduction="0.01" burnreduction="0" constanthealthregeneration="0" healthregenerationwheneating="0" stunimmunity="false" poisonimmunity="false">
+      <Limb name="Head" />
+      <Limb name="Torso" />
+      <Limb name="LeftArm" />
+      <Limb name="RightArm" />
+      <Limb name="LeftLeg" />
+      <Limb name="RightLeg" />
+    </health>
+  <sound file="%ModDir%/Characters/Moloch_Young/MOLOCHBABY_attack1.ogg" state="Attack" range="5000"/>
+  <sound file="%ModDir%/Characters/Moloch_Young/MOLOCHBABY_attack2.ogg" state="Attack" range="5000"/> 
+  <sound file="%ModDir%/Characters/Moloch_Young/MOLOCHBABY_damage1.ogg" state="Damage" range="5000"/>
+  <sound file="%ModDir%/Characters/Moloch_Young/MOLOCHBABY_damage1.ogg" state="Damage" range="5000"/>  
+  <sound file="%ModDir%/Characters/Moloch_Young/MOLOCHBABY_death1.ogg" state="Die" range="5000"/>  
+  <sound file="%ModDir%/Characters/Moloch_Young/MOLOCHBABY_idle1.ogg" state="Idle" range="8000"/>
+  <sound file="%ModDir%/Characters/Moloch_Young/MOLOCHBABY_idle2.ogg" state="Idle" range="8000"/>
+  <sound file="%ModDir%/Characters/Moloch_Young/MOLOCHBABY_idle3.ogg" state="Idle" range="8000"/>  
+    <Inventory slots="Any, Any, Any, Any, Any" accessiblewhenalive="False" commonness="100">
+    <Item Identifier="alienblood" />
+      <Item identifier="swimbladder" />
+    </Inventory>
+    <Inventory slots="Any, Any, Any, Any" accessiblewhenalive="False" commonness="20">
+    <Item Identifier="alienblood" />
+      <Item identifier="swimbladder" />
+      <Item identifier="molochtentacles" />
+    </Inventory>
+  <ai combatstrength="350" sight="0.075" hearing="1" aggressionhurt="5" aggressiongreed="1" fleehealththreshold="0" attackwhenprovoked="True" aggressiveboarding="False" avoidgunfire="False" enforceaggressivebehaviorformissions="True" targetouterwalls="True" randomattack="False">
+    <target tag="leucocyte" state="Avoid" priority="200" reactdistance="1500" attackdistance="0" />
+    <target tag="stronger" state="Avoid" priority="200" reactdistance="2000" attackdistance="0" />
+    <target tag="decoy" state="Attack" priority="100" ignoreifnotinsamesub="True" />
+    <target tag="provocative" state="Attack" priority="40" ignoreifnotinsamesub="True"/>
+    <target tag="weapon" state="Attack" priority="5" ignoreifnotinsamesub="True"/>
+    <target tag="nasonov" state="Attack" priority="100" ignoreinside="True"/>
+    <target tag="room" state="Attack" priority="20" reactdistance="4000" attackdistance="0" />
+    <target tag="wall" state="Attack" priority="20" reactdistance="4000" attackdistance="0" />
+    <target tag="sonar" state="Attack" priority="50" reactdistance="0" attackdistance="0" />
+    <target tag="tool" state="PassiveAggressive" priority="50" reactdistance="1000" attackdistance="0" ignoreifnotinsamesub="True"/>
+    <target tag="molochbaby" state="Protect" priority="10" reactdistance="1000" attackdistance="0" />
+    <target tag="turret" state="Attack" priority="1" reactdistance="0" attackdistance="0" />
+  </ai>
+  </Character>
