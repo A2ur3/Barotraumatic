@@ -187,10 +187,6 @@
       <WaitAction time="0.5" />
       <SpawnAction SpeciesName="Hullfish" offset="500" />
       <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Humancrookcape" offset="500" />
-      <WaitAction time="0.5" />
-      <SpawnAction SpeciesName="Humanhuskcrawlielatched" offset="500" />
-      <WaitAction time="0.5" />
       <SpawnAction SpeciesName="Husk_abyss" offset="500" />
       <WaitAction time="0.5" />
       <SpawnAction SpeciesName="Husk_centipede" offset="500" />
