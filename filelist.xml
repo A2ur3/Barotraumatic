@@ -89,7 +89,6 @@
   <Character file="%ModDir%/Characters/Hammerhead/Hammerhead.xml" />
   <Character file="%ModDir%/Characters/Hammerheadgold/Hammerheadgold.xml" />
   <Character file="%ModDir%/Characters/Charybdis/Charybdis.xml" />
-  <Character file="%ModDir%/Characters/Charybdisadol/Charybdisadol.xml" />
   <Character file="%ModDir%/Characters/Molochold/Molochold.xml" />
   <Character file="%ModDir%/Characters/Moloch/Moloch.xml" />
   <Character file="%ModDir%/Characters/Variants/Moloch_nuclear/Moloch_nuclear.xml" />
