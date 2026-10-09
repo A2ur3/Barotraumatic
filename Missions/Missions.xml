@@ -1027,7 +1027,7 @@
   <MonsterMission
   textidentifier=""
   name="Purging a Developed Husk Brood Nexus "
-  description="This area has been a nexus for husk activity. Biological readings suggest a considerable number of lifeform have converged and from reports fused, resulting in a massive and particurlarly aggressive husk that has had time to metastasize in the region. Researchers are offering [reward] Marks for anyone capable of eliminating the threats. Survival is not expected for anyone under-prepared." successmessage="The Brood has been Purged."
+  description="This area has been a nexus for husk activity. Biological readings suggest a considerable number of lifeforms have converged and from reports fused, resulting in a massive and particurlarly aggressive husk that has had time to metastasize in the region. Researchers are offering [reward] Marks for anyone capable of eliminating the threats. Survival is not expected for anyone under-prepared." successmessage="The Brood has been Purged."
   identifier="killbroodemperor3"
   type="Monster" 
   tags="killmonster,killswarm,killmonsterswarm,killswarm_set4" 

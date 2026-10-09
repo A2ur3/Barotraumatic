@@ -1086,4 +1086,61 @@
       texture="Content/Particles/ParticleAtlas.png"
       sourcerect="384,128,128,128" />
   </btcbluebloodtrail>
+  <lavasplash2
+    drawontop="False"
+    LifeTime="2"
+    LifeTimeMin="0.3"
+    StartDelayMin="0"
+    StartDelayMax="0"
+    AngularVelocityMin="-10"
+    AngularVelocityMax="10"
+    StartRotationMin="0"
+    StartRotationMax="360"
+    RotateToDirection="False"
+    Drag="0.1"
+    WaterDrag="0.08"
+    VelocityChange="0,-10"
+    VelocityChangeWater="0,-8"
+    CanEnterSubs="True"
+    CollisionRadius="10"
+    InvariantCollisionSize="True"
+    UseCollision="True"
+    DeleteOnCollision="False"
+    Friction="0"
+    Restitution="0.1"
+    StartSizeMin="0.5,0.5"
+    StartSizeMax="1,1"
+    SizeChangeMin="1,1"
+    SizeChangeMax="2,2"
+    GrowTime="0.1"
+    StartColor="255,100,0,255"
+    MiddleColor="255,10,0,255"
+    EndColor="50,0,10,0"
+    UseMiddleColor="True"
+    DrawTarget="Both"
+    DrawOrder="Foreground"
+    DrawAlways="False"
+    BlendState="Additive"
+    Priority="0"
+    AnimDuration="2.5"
+    LoopAnim="False">
+    <animatedsprite
+      texture="Content/Particles/Spatter1.png"
+      sourcerect="0,0,1024,1024"
+      columns="4"
+      rows="8"
+      origin="0.2,0.5" />
+    <animatedsprite
+      texture="Content/Particles/Spatter2.png"
+      sourcerect="0,0,1024,1024"
+      columns="4"
+      rows="8"
+      origin="0.5,0.5" />
+    <animatedsprite
+      texture="Content/Particles/Spatter3.png"
+      sourcerect="0,0,1024,1024"
+      columns="4"
+      rows="8"
+      origin="0.3,0.5" />
+  </lavasplash2>
 </Particles>
