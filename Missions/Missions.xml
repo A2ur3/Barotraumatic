@@ -430,7 +430,7 @@
   <MonsterMission
   textidentifier=""
   name="Slay a Baby Charybdis"
-  description="A Baby Charybdis has been attacking vessels traveling between [location1] and [location2]. A reward of [reward] marks has been promised to anyone who can eliminate it." successmessage="The Baby Charybdis has been terminated."
+  description="A young Charybdis has been attacking vessels traveling between [location1] and [location2]. A reward of [reward] marks has been promised to anyone who can eliminate it." successmessage="The Baby Charybdis has been terminated."
   identifier="killcharybdisre"
   type="Monster" 
   tags="killmonster,killmonster_set2" 
@@ -438,7 +438,7 @@
   difficulty="3" 
   reward="2000" 
   sonarlabel="Baby Charybdis" maxsonarmarkerdistance="10000"
-  monsterfile="Charybdisadol">
+  monsterfile="Charybdis_young">
     <Reputation identifier="location" amount="1" />
     <Icon texture="%ModDir:2518816103%/UI/XanIcons.png" sourcerect="758,0,256,256" color="214,50,48" />
     <LocationType from="AnyOutpost" to="Any" />

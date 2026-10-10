@@ -366,7 +366,7 @@
   <Character file="%ModDir%/Characters/Variants/Trichordate_random/Trichordate_random.xml" />
   <Character file="%ModDir%/Characters/Watcherling/Watcherling.xml" />
   <Character file="%ModDir%/Characters/Molochbaby/Molochbaby.xml" />
-  <RandomEvents file="%ModDir%/Events/TESTevents.xml" /> 
+  <RandomEvents file="%ModDir%/Events/TESTevents.xml" />
   <Character file="%ModDir%/Characters/Charybdis_young/Charybdis_young.xml" />
   <Character file="%ModDir%/Characters/Humanmutantspider/Humanmutantspider.xml" />
   <Character file="%ModDir%/Characters/Humanmutantspider2/Humanmutantspider2.xml" />
