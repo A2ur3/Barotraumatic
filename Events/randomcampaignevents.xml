@@ -174,7 +174,6 @@ MonsterEvent
     - Crawler_Abyss 3A Changed by their time in the abyss these crawlers are larger but no longer morph into brood maters or paters and instead small colonies breed on abyssal islands. 
     - Hammerhead_Abyss 4A Mild deep sea gigantism makes these aggressive eyeless hammerheads a force to be reckoned with, their large powerful arms allow pods to attack smaller abyss creatures.
     - Tigerthresher_Abyss 4A Similar to standard threshers these large worm like fish are adept at chewing through submarine hulls to say nothing of flesh
-    - Abyssmonster TBD
     - Watcher_Cephalopod 5 The Dyatel is a stange watcher like squid that has a mettalic organ inside of its body that can manipulate various forms of electromagnetic radiation including radio waves. Causing attacks directly through crew headsets. 
     - Charybdis_Alpha 6A
     - Endworm_Alpha 6A
@@ -289,6 +288,7 @@ MonsterEvent
     - Latcher 3A
     - Latcher_Wounded 3A
     - Latcher_hatchling 3A
+	- Latcher_Scuttler 4A
     - Lavathresher 9
     - Leatherback 6
     - LegacyCrawler 1
