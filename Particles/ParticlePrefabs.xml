@@ -1143,4 +1143,46 @@
       rows="8"
       origin="0.3,0.5" />
   </lavasplash2>
+  <echowave
+    drawontop="False"
+    LifeTime="1"
+    LifeTimeMin="0"
+    StartDelayMin="0"
+    StartDelayMax="0"
+    AngularVelocityMin="0"
+    AngularVelocityMax="0"
+    StartRotationMin="0"
+    StartRotationMax="360"
+    RotateToDirection="False"
+    Drag="0"
+    WaterDrag="0"
+    VelocityChange="0,0"
+    VelocityChangeWater="0,0"
+    CanEnterSubs="True"
+    CollisionRadius="1"
+    InvariantCollisionSize="False"
+    UseCollision="False"
+    DeleteOnCollision="False"
+    Friction="0.5"
+    Restitution="0.5"
+    StartSizeMin="0.1,0.1"
+    StartSizeMax="0.1,0.1"
+    SizeChangeMin="20,21"
+    SizeChangeMax="20,21"
+    GrowTime="0"
+    StartColor="255,100,100,200"
+    MiddleColor="255,255,255,255"
+    EndColor="255,255,255,0"
+    UseMiddleColor="False"
+    DrawTarget="Water"
+    DrawOrder="Foreground"
+    DrawAlways="True"
+    BlendState="AlphaBlend"
+    Priority="100"
+    AnimDuration="1"
+    LoopAnim="True">
+    <sprite
+      texture="Content/Particles/ParticleAtlas.png"
+      sourcerect="0,256,128,128" />
+  </echowave>
 </Particles>
