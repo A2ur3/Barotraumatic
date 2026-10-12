@@ -40,7 +40,7 @@
       <sound file="Content/Items/Weapons/FlameThrowerLoop.ogg" type="OnUse" range="750.0" loop="true" />
       <StatusEffect type="OnUse" target="UseTarget">
         <Affliction identifier="burn" amount="0.8" />
-        <Affliction identifier="radiationsickness" amount="5" />
+        <Affliction identifier="radiationsickness" amount="0.75" />
       </StatusEffect>
       <StatusEffect type="OnNotContained" target="This">
         <Remove />

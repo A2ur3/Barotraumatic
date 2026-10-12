@@ -210,7 +210,7 @@
   <character.Crawler_Abyss>Abyssal Crawler</character.Crawler_Abyss>
   <character.Hammerhead_Abyss>Abyssal Hammerhead</character.Hammerhead_Abyss>
   <character.Tigerthresher_Abyss>Abyssal Thresher</character.Tigerthresher_Abyss>
-  <character.Abyssmonster>Latcher Scuttler</character.Abyssmonster>
+  <character.Latcher_Scuttler>Latcher Scuttler</character.Latcher_Scuttler>
   <character.Watcher_Cephalopod>Dyatel</character.Watcher_Cephalopod>
   <character.Charybdis_Alpha>Alpha Charybdis</character.Charybdis_Alpha>
   <character.Endworm_Alpha>Black Endworm</character.Endworm_Alpha>
@@ -373,7 +373,7 @@
   <character.Psilotoadadultpet>Adult Psilotoad Pet</character.Psilotoadadultpet>
   <character.Psilotoadmonster>Psiloturtle</character.Psilotoadmonster>
   <character.Psiloturtle>Psiloturtle</character.Psiloturtle>
-  <character.Pylon>PYLON</character.Pylon>
+  <character.FractalPylon>PYLON</character.FractalPylon>
   <character.Pylonbolt>Pylonbolt</character.Pylonbolt>
   <character.Railgunshell>Railgunshell</character.Railgunshell>
   <character.Prawn_Razor>Razor Prawn</character.Prawn_Razor>

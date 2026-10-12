@@ -154,7 +154,6 @@
     <Item Identifier="pressurestabilizer" />
     <Item Identifier="honkmotherianscriptures1" />
     <Item amount="3" Identifier="antibleeding1" />
-	<Item Identifier="proteinbar" />
   </inventory>
     <inventory arrowslot="9" Slots="Card, Headset, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Bag, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="10">
     <Item amount="2" Identifier="steroids" />
@@ -217,7 +216,7 @@
     <Item amount="3" Identifier="antibleeding1" />
     <Item slot="Head" Identifier="raggedclownmask" />
     <Item Identifier="bikehorn" />
-		<Item Identifier="proteinbar" />
+	<Item Identifier="proteinbar" />
   </inventory>
     <inventory arrowslot="9" Slots="Card, Headset, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Bag, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="10">
     <Item Identifier="humanassaultrifle" />
@@ -230,7 +229,7 @@
     <Item amount="3" Identifier="antibleeding1" />
     <Item slot="Head" Identifier="raggedclownmask" />
     <Item Identifier="bikehorn" />
-		<Item Identifier="proteinbar" />
+	<Item Identifier="proteinbar" />
   </inventory>
   <inventory arrowslot="9" Slots="Card, Headset, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Bag, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="10">
     <Item Identifier="revolver" />
@@ -286,6 +285,7 @@
     <Item slot="OuterClothes" Identifier="bodyarmor" />
     <Item Identifier="combatstimulantsyringe" />
     <Item Identifier="steroids" />
+	<Item Identifier="proteinbar" />
   </inventory>
     <inventory arrowslot="9" Slots="Card, Headset, Head, InnerClothes, OuterClothes, LeftHand, RightHand, Bag, Any, Any, Any, Any, Any, Any, Any, Any, Any, Any, HealthInterface" AccessibleWhenAlive="False" Commonness="10">
     <Item Identifier="humanhandcannon" />

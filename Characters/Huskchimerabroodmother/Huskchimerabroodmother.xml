@@ -77,21 +77,10 @@
     <Item Identifier="slimebacteria" />
     <Item Identifier="huskstinger" />
   </inventory>
-      <StatusEffect type="OnDeath" target="Character,Limb" delay="2.4" targetlimb="Guts">
-       <Explosion ignorecover="true" onlyinside="true" range="500" force="5" flames="false" shockwave="true" sparks="false" flash="false" underwaterbubble="false" playtinnitus="true" camerashake="35" structuredamage="105" applyFireEffects="false">
-        <Affliction identifier="stun" strength="4.5" />
-      </Explosion>
-      <ParticleEmitter particle="bubbles" particleamount="30" scalemin="2" scalemax="4" velocitymin="50" velocitymax="100" anglemin="0" anglemax="360" />
-      <ParticleEmitter particle="bloodtrail" particleamount="10" scalemin="4" scalemax="6" velocitymin="200" velocitymax="1000" anglemin="0" anglemax="360" />
-      <ParticleEmitter particle="waterblood" particleamount="10" scalemin="4" scalemax="5" velocitymin="0" velocitymax="20" anglemin="0" anglemax="360" />
-      <ParticleEmitter particle="blackwaterblood" drawontop="True" particleamount="15" scalemin="4" scalemax="6" velocitymin="0" velocitymax="20" anglemin="0" anglemax="360" />
-      <ParticleEmitter particle="blackwaterblood" particleamount="30" scalemin="5" scalemax="8" velocitymin="0" velocitymax="20" anglemin="0" anglemax="360" />
-      <ParticleEmitter particle="heavygib" particleamount="3" scalemin="15" scalemax="18" velocitymin="0" velocitymax="0" anglemin="0" anglemax="360" />
-      <ParticleEmitter particle="gib" particleamount="60" scalemin="2" scalemax="3" velocitymin="100" velocitymax="300" anglemin="0" anglemax="360" />
-      <SpawnCharacter speciesname="Crawlerhusk" count="1" spread="100" />
-      <SpawnCharacter speciesname="Crawlerhusk" count="1" spread="100" />
-      <SpawnCharacter speciesname="Husk_RandomTiny" count="1" spread="100" />
-      <SpawnCharacter speciesname="Husk_RandomTiny" count="1" spread="100" />
-	  <BreakLimb />
-    </StatusEffect>
+  <StatusEffect type="OnDeath" target="Limb" setvalue="true" disableddeltatime="true" delay="2.4" targetlimb="Waist">
+    <Explosion ignorecover="false" onlyinside="true" range="500" force="5" flames="false" shockwave="true" sparks="false" flash="false" underwaterbubble="false" playtinnitus="true" camerashake="35" structuredamage="50" applyFireEffects="false">
+      <Affliction identifier="stun" strength="1" />
+    </Explosion>
+    <BreakLimb />
+  </StatusEffect>
 </Character>

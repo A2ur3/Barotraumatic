@@ -17,7 +17,7 @@
   SteerTorque="0"
   LegTorque="25"
   AnimationType="SwimFast"
-  MovementSpeed="8.65484"
+  MovementSpeed="9.4"
   CycleSpeed="3.9999986"
   HeadAngle="0"
   TorsoAngle="0"
