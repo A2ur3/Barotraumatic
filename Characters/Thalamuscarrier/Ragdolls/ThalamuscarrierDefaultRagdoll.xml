@@ -83,7 +83,7 @@
         <SpawnItem identifier="fleshguntendonthalamuscarrier" spawnposition="This" count="1" aimspread="20" rotationtype="Target" rotation="0" />
       </StatusEffect>
       <StatusEffect type="OnFailure" target="This">
-        <Sound file="Content/Map/Thalamus/Sounds/CARRIER_harpoonLaunch1.ogg" range="10000" type="OnUse" />
+        <Sound file="Content/Map/Thalamus/Sounds/CARRIER_harpoonLaunch1.ogg" range="10000" />
       </StatusEffect>
     </attack>
   </limb>

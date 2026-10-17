@@ -99,8 +99,8 @@
         <SpawnItem identifier="sirengravprojectile" spawnposition="This" rotationtype="Limb" rotation="0" impulse="3" count="1" />
         <ParticleEmitter particle="shockwavesmall" anglemin="0" anglemax="360" DistanceMin="20" DistanceMax="30" particleamount="10" velocitymin="0" velocitymax="0" scalemin="0.25" scalemax="0.35" colormultiplier="120,220,200,255"/>
         <ParticleEmitter particle="largeplasma" anglemin="0" anglemax="0" copyentityangle="true" DistanceMin="30" DistanceMax="30" particleamount="1" velocitymin="0" velocitymax="0" scalemin="0.25" scalemax="0.25" scalemultiplier="0.5,3" colormultiplier="120,220,200,255"/>  
-        <sound file="Content/Items/Alien/AlienTurret1.ogg" type="OnUse" range="1000.0" frequencymultiplier="2.5" />
-        <sound file="Content/Items/Alien/AlienTurret2.ogg" type="OnUse" range="1000.0" frequencymultiplier="2.5" />
+        <sound file="Content/Items/Alien/AlienTurret1.ogg" range="1000.0" frequencymultiplier="2.5" />
+        <sound file="Content/Items/Alien/AlienTurret2.ogg" range="1000.0" frequencymultiplier="2.5" />
       </StatusEffect>
     </attack>
     <lightsource color="220,80,50,255" range="80" scale="1" castshadows="false" offset="0,0" rotation="0" flicker="0.3" flickerspeed="100" pulsefrequency="0.2" pulseamount="0.2" >

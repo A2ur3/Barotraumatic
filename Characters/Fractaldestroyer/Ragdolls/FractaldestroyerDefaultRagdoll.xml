@@ -11,8 +11,8 @@
     <attack StructureSoundType="StructureBlunt" Context="Any" TargetType="Any" TargetLimbType="None" HitDetectionType="Distance" AfterAttack="IdleUntilCanAttack" AfterAttackDelay="0.1" AfterAttackSecondary="FallBack" AfterAttackSecondaryDelay="0" Reverse="False" SnapRopeOnNewAttack="True" Retreat="False" Range="8000" DamageRange="8000" MinRange="0" Duration="0.1" CoolDown="15" SecondaryCoolDown="3" CoolDownRandomFactor="0" FullSpeedAfterAttack="True" StructureDamage="0" CreateWallDamageProjectiles="False" EmitStructureDamageParticles="True" ItemDamage="0" Penetration="0" LevelWallDamage="0" Ranged="True" AvoidFriendlyFire="False" RequiredAngle="45" RequiredAngleToShoot="10" AimRotationTorque="500" RotationLimbIndex="81" SwayAmount="0" SwayFrequency="5" Stun="0" OnlyHumans="False" ApplyForceOnLimbs="" Force="0" RootForceWorldStart="0,0" RootForceWorldMiddle="0,0" RootForceWorldEnd="0,0" RootTransitionEasing="Linear" Torque="0" ApplyForcesOnlyOnce="False" TargetImpulse="0" TargetImpulseWorld="0,0" TargetForce="0" TargetForceWorld="0,0" SubmarineImpactMultiplier="1" SeverLimbsProbability="0" Priority="1" Blink="False">
       <StatusEffect type="OnFailure" target="UseTarget">
         <SpawnItem identifier="fractallaserbolt" spawnposition="This" count="1" aimspread="0" rotationtype="Limb" rotation="90" />
-        <sound file="Content/Items/Alien/AlienTurret1.ogg" range="10000" type="OnUse" dontmuffle="true" selectionmode="random" />
-        <sound file="Content/Items/Alien/AlienTurret2.ogg" range="10000" type="OnUse" dontmuffle="true" selectionmode="random" />
+        <sound file="Content/Items/Alien/AlienTurret1.ogg" range="10000" dontmuffle="true" selectionmode="random" />
+        <sound file="Content/Items/Alien/AlienTurret2.ogg" range="10000" dontmuffle="true" selectionmode="random" />
       </StatusEffect>
     </attack>
     <lightsource Color="255,63,0,255" Range="2048" Scale="1" Offset="0,0" Rotation="0" Directional="False" Flicker="0.6" FlickerSpeed="1" PulseFrequency="0" PulseAmount="0" BlinkFrequency="0">
@@ -186,8 +186,8 @@
       <StatusEffect type="OnFailure" target="UseTarget">
         <Explosion range="1500.0" force="1" shockwave="true" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
         <SpawnItem identifier="cyborgturretammo" spawnposition="This" count="1" aimspread="0" rotationtype="Limb" rotation="90" />
-        <sound file="Content/Items/Alien/AlienTurret1.ogg" range="10000" type="OnUse" dontmuffle="true" selectionmode="random" />
-        <sound file="Content/Items/Alien/AlienTurret2.ogg" range="10000" type="OnUse" dontmuffle="true" selectionmode="random" />
+        <sound file="Content/Items/Alien/AlienTurret1.ogg" range="10000" dontmuffle="true" selectionmode="random" />
+        <sound file="Content/Items/Alien/AlienTurret2.ogg" range="10000" dontmuffle="true" selectionmode="random" />
       </StatusEffect>
     </attack>
     <lightsource castshadows="true" Color="100,150,180,200" Range="1000" Scale="1" Offset="160,0" Rotation="270" Directional="False" Flicker="0.3" FlickerSpeed="100" PulseFrequency="0.2" PulseAmount="0.8" BlinkFrequency="0">
@@ -206,8 +206,8 @@
       <StatusEffect type="OnFailure" target="UseTarget">
         <Explosion range="1500.0" force="1" shockwave="true" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
         <SpawnItem identifier="cyborgturretammo" spawnposition="This" count="1" aimspread="0" rotationtype="Limb" rotation="90" />
-        <sound file="Content/Items/Alien/AlienTurret1.ogg" range="10000" type="OnUse" dontmuffle="true" selectionmode="random" />
-        <sound file="Content/Items/Alien/AlienTurret2.ogg" range="10000" type="OnUse" dontmuffle="true" selectionmode="random" />
+        <sound file="Content/Items/Alien/AlienTurret1.ogg" range="10000" dontmuffle="true" selectionmode="random" />
+        <sound file="Content/Items/Alien/AlienTurret2.ogg" range="10000" dontmuffle="true" selectionmode="random" />
       </StatusEffect>
     </attack>
     <lightsource castshadows="true" Color="100,150,180,200" Range="1000" Scale="1" Offset="160,0" Rotation="270" Directional="False" Flicker="0.3" FlickerSpeed="100" PulseFrequency="0.2" PulseAmount="0.8" BlinkFrequency="0">
@@ -226,8 +226,8 @@
       <StatusEffect type="OnFailure" target="UseTarget">
         <Explosion range="1500.0" force="1" shockwave="true" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
         <SpawnItem identifier="cyborgturretammo" spawnposition="This" count="1" aimspread="0" rotationtype="Limb" rotation="90" />
-        <sound file="Content/Items/Alien/AlienTurret1.ogg" range="10000" type="OnUse" dontmuffle="true" selectionmode="random" />
-        <sound file="Content/Items/Alien/AlienTurret2.ogg" range="10000" type="OnUse" dontmuffle="true" selectionmode="random" />
+        <sound file="Content/Items/Alien/AlienTurret1.ogg" range="10000" dontmuffle="true" selectionmode="random" />
+        <sound file="Content/Items/Alien/AlienTurret2.ogg" range="10000" dontmuffle="true" selectionmode="random" />
       </StatusEffect>
     </attack>
     <lightsource castshadows="true" Color="100,150,180,200" Range="1000" Scale="1" Offset="160,0" Rotation="270" Directional="False" Flicker="0.3" FlickerSpeed="100" PulseFrequency="0.2" PulseAmount="0.8" BlinkFrequency="0">
@@ -246,8 +246,8 @@
       <StatusEffect type="OnFailure" target="UseTarget">
         <Explosion range="1500.0" force="1" shockwave="true" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
         <SpawnItem identifier="cyborgturretammo" spawnposition="This" count="1" aimspread="0" rotationtype="Limb" rotation="90" />
-        <sound file="Content/Items/Alien/AlienTurret1.ogg" range="10000" type="OnUse" dontmuffle="true" selectionmode="random" />
-        <sound file="Content/Items/Alien/AlienTurret2.ogg" range="10000" type="OnUse" dontmuffle="true" selectionmode="random" />
+        <sound file="Content/Items/Alien/AlienTurret1.ogg" range="10000" dontmuffle="true" selectionmode="random" />
+        <sound file="Content/Items/Alien/AlienTurret2.ogg" range="10000" dontmuffle="true" selectionmode="random" />
       </StatusEffect>
     </attack>
     <lightsource castshadows="true" Color="100,150,180,200" Range="1000" Scale="1" Offset="160,0" Rotation="270" Directional="False" Flicker="0.3" FlickerSpeed="100" PulseFrequency="0.2" PulseAmount="0.8" BlinkFrequency="0">

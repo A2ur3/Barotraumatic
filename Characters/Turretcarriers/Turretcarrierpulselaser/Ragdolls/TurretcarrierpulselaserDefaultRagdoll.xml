@@ -47,10 +47,10 @@
         <Explosion range="500.0" force="1" shockwave="true" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="6.0" />
         <SpawnItem identifier="pulselaserbolt" spawnposition="This" count="1" aimspread="0" rotationtype="Limb" rotation="90" />
         <ParticleEmitter particle="muzzleflashguardianlaser" CopyEntityAngle="true" particleamount="5" velocitymin="0" scalemultiplier="0.65,0.65" colormultiplier="255,255,255,255" scalemin="0.25" scalemax="0.25" />
-        <sound file="Content/Items/Weapons/WEAPONS_laserGunShot1.ogg" range="10000" type="OnUse" />
-        <sound file="Content/Items/Weapons/WEAPONS_laserGunShot2.ogg" range="10000" type="OnUse" />
-        <sound file="Content/Items/Weapons/WEAPONS_laserGunShot3.ogg" range="10000" type="OnUse" />
-        <sound file="Content/Items/Weapons/WEAPONS_laserGunShot4.ogg" range="10000" type="OnUse" />
+        <sound file="Content/Items/Weapons/WEAPONS_laserGunShot1.ogg" range="10000" />
+        <sound file="Content/Items/Weapons/WEAPONS_laserGunShot2.ogg" range="10000" />
+        <sound file="Content/Items/Weapons/WEAPONS_laserGunShot3.ogg" range="10000" />
+        <sound file="Content/Items/Weapons/WEAPONS_laserGunShot4.ogg" range="10000" />
       </StatusEffect>
     </attack>
     <lightsource castshadows="true" Color="255,255,255,200" Range="800" Scale="1" Offset="-105,-8" Rotation="90" Directional="True" Flicker="0.3" FlickerSpeed="100" PulseFrequency="0.2" PulseAmount="0.8" BlinkFrequency="0">

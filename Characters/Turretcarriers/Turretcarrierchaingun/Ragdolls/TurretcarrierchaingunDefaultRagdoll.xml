@@ -50,12 +50,12 @@
           <Explosion range="1500.0" structuredamage="0" force="0.0" camerashake="7" flames="false" smoke="false" sparks="false" underwaterbubble="false" />
         </StatusEffect>
         <SpawnItem identifier="thalamuschaingunbolt" spawnposition="This" count="1" aimspread="0" rotationtype="Limb" rotation="360" />
-        <Sound file="Content/Items/Weapons/WEAPONS_chainGunShot1.ogg" type="OnUse" range="10000" selectionmode="Random" />
-        <Sound file="Content/Items/Weapons/WEAPONS_chainGunShot2.ogg" type="OnUse" range="10000" />
-        <Sound file="Content/Items/Weapons/WEAPONS_chainGunShot3.ogg" type="OnUse" range="10000" />
-        <Sound file="Content/Items/Weapons/WEAPONS_chainGunShot4.ogg" type="OnUse" range="10000" />
-        <Sound file="Content/Items/Weapons/WEAPONS_chainGunShot5.ogg" type="OnUse" range="10000" />
-        <Sound file="Content/Items/Weapons/WEAPONS_chainGunShot6.ogg" type="OnUse" range="10000" />
+        <Sound file="Content/Items/Weapons/WEAPONS_chainGunShot1.ogg" range="10000" selectionmode="Random" />
+        <Sound file="Content/Items/Weapons/WEAPONS_chainGunShot2.ogg" range="10000" />
+        <Sound file="Content/Items/Weapons/WEAPONS_chainGunShot3.ogg" range="10000" />
+        <Sound file="Content/Items/Weapons/WEAPONS_chainGunShot4.ogg" range="10000" />
+        <Sound file="Content/Items/Weapons/WEAPONS_chainGunShot5.ogg" range="10000" />
+        <Sound file="Content/Items/Weapons/WEAPONS_chainGunShot6.ogg" range="10000" />
       </StatusEffect>
     </attack>
   </limb>

@@ -50,12 +50,12 @@
           <Explosion range="1000.0" structuredamage="0" force="0.0" camerashake="50.0" flames="false" smoke="false" sparks="false" underwaterbubble="false" />
         </StatusEffect>
         <SpawnItem identifier="thalamusflakboltdirectional" spawnposition="This" count="1" aimspread="0" rotationtype="Limb" rotation="90" />
-        <sound file="Content/Items/Weapons/WEAPONS_FlakGun1.ogg" range="10000" type="OnUse" volume="2.0" />
-        <sound file="Content/Items/Weapons/WEAPONS_FlakGun2.ogg" range="10000" type="OnUse" volume="2.0" />
-        <sound file="Content/Items/Weapons/WEAPONS_FlakGun3.ogg" range="10000" type="OnUse" volume="2.0" />
-        <sound file="Content/Items/Weapons/WEAPONS_FlakGun4.ogg" range="10000" type="OnUse" volume="2.0" />
-        <sound file="Content/Items/Weapons/WEAPONS_FlakGun5.ogg" range="10000" type="OnUse" volume="2.0" />
-        <sound file="Content/Items/Weapons/WEAPONS_FlakGun6.ogg" range="10000" type="OnUse" volume="2.0" />
+        <sound file="Content/Items/Weapons/WEAPONS_FlakGun1.ogg" range="10000" volume="2.0" />
+        <sound file="Content/Items/Weapons/WEAPONS_FlakGun2.ogg" range="10000" volume="2.0" />
+        <sound file="Content/Items/Weapons/WEAPONS_FlakGun3.ogg" range="10000" volume="2.0" />
+        <sound file="Content/Items/Weapons/WEAPONS_FlakGun4.ogg" range="10000" volume="2.0" />
+        <sound file="Content/Items/Weapons/WEAPONS_FlakGun5.ogg" range="10000" volume="2.0" />
+        <sound file="Content/Items/Weapons/WEAPONS_FlakGun6.ogg" range="10000" volume="2.0" />
       </StatusEffect>
     </attack>
   </limb>

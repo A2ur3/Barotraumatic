@@ -65,8 +65,8 @@
       <conditional targetself="true" healthpercentage="lt 100" />
       <StatusEffect type="OnFailure" target="UseTarget">
         <SpawnItem identifier="seasnekprojectile" spawnposition="This" count="1" rotationtype="Limb" rotation="0" />
-        <Sound file="%ModDir:2518816103%/characters/Seasnek/grossslimesquelch.ogg" type="OnUse" range="3000" selectionmode="Random" volume="1" />
-        <Sound file="%ModDir:2518816103%/characters/Seasnek/yucky slime.ogg" type="OnUse" range="3000" volume="1" />
+        <Sound file="%ModDir:2518816103%/characters/Seasnek/grossslimesquelch.ogg" range="3000" selectionmode="Random" volume="1" />
+        <Sound file="%ModDir:2518816103%/characters/Seasnek/yucky slime.ogg" range="3000" volume="1" />
       </StatusEffect>
       <StatusEffect type="OnFailure" target="This" DeadColor="150,150,150,0" setvalue="true">
         <Affliction identifier="internaldamage" strength="300" />
@@ -80,8 +80,8 @@
       <conditional targetself="true" healthpercentage="lt 30" />
       <StatusEffect type="OnFailure" target="UseTarget">
         <SpawnItem identifier="seasnekprojectile" spawnposition="This" count="1" rotationtype="Limb" rotation="0" />
-        <Sound file="%ModDir:2518816103%/characters/Seasnek/grossslimesquelch.ogg" type="OnUse" range="3000" selectionmode="Random" volume="1" />
-        <Sound file="%ModDir:2518816103%/characters/Seasnek/yucky slime.ogg" type="OnUse" range="3000" volume="1" />
+        <Sound file="%ModDir:2518816103%/characters/Seasnek/grossslimesquelch.ogg" range="3000" selectionmode="Random" volume="1" />
+        <Sound file="%ModDir:2518816103%/characters/Seasnek/yucky slime.ogg" range="3000" volume="1" />
       </StatusEffect>
       <StatusEffect type="OnFailure" target="This" DeadColor="150,150,150,0" setvalue="true">
         <Affliction identifier="internaldamage" strength="300" />
@@ -94,8 +94,8 @@
     <attack StructureSoundType="StructureBlunt" Context="Any" TargetType="Structure" TargetLimbType="None" HitDetectionType="Distance" AfterAttack="FallBackUntilCanAttack" AfterAttackDelay="0.1" AfterAttackSecondary="FallBack" AfterAttackSecondaryDelay="0" Reverse="False" SnapRopeOnNewAttack="True" Retreat="False" Range="320" DamageRange="700" MinRange="50" Duration="0.1" CoolDown="0.1" SecondaryCoolDown="0" CoolDownRandomFactor="0" FullSpeedAfterAttack="True" StructureDamage="0" CreateWallDamageProjectiles="False" EmitStructureDamageParticles="True" ItemDamage="0" Penetration="0" LevelWallDamage="0" Ranged="True" AvoidFriendlyFire="True" RequiredAngle="10" RequiredAngleToShoot="0" AimRotationTorque="0" RotationLimbIndex="-1" SwayAmount="0" SwayFrequency="5" Stun="0" OnlyHumans="False" ApplyForceOnLimbs="" Force="0" RootForceWorldStart="0,0" RootForceWorldMiddle="0,0" RootForceWorldEnd="0,0" RootTransitionEasing="Linear" Torque="0" ApplyForcesOnlyOnce="False" TargetImpulse="0" TargetImpulseWorld="0,0" TargetForce="0" TargetForceWorld="0,0" SubmarineImpactMultiplier="1" SeverLimbsProbability="0" Priority="1" Blink="True">
       <StatusEffect type="OnFailure" target="UseTarget">
         <SpawnItem identifier="seasnekprojectile" spawnposition="This" count="1" rotationtype="Limb" rotation="0" />
-        <Sound file="%ModDir:2518816103%/characters/Seasnek/grossslimesquelch.ogg" type="OnUse" range="3000" selectionmode="Random" volume="1" />
-        <Sound file="%ModDir:2518816103%/characters/Seasnek/yucky slime.ogg" type="OnUse" range="3000" volume="1" />
+        <Sound file="%ModDir:2518816103%/characters/Seasnek/grossslimesquelch.ogg" range="3000" selectionmode="Random" volume="1" />
+        <Sound file="%ModDir:2518816103%/characters/Seasnek/yucky slime.ogg" range="3000" volume="1" />
       </StatusEffect>
       <StatusEffect type="OnFailure" target="This" DeadColor="150,150,150,0" setvalue="true">
         <Affliction identifier="internaldamage" strength="300" />

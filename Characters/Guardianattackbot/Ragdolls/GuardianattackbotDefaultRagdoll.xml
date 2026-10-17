@@ -17,7 +17,7 @@
       <StatusEffect type="OnFailure" target="UseTarget">
         <SpawnItem identifier="guardianattackprojectile" spawnposition="This" count="1" aimspread="0" rotationtype="Target" rotation="0" />
         <ParticleEmitter particle="muzzleflashnucleargun" anglemin="0" anglemax="360" particleamount="3" velocitymin="0" lifetimemultiplier="0.5" scalemultiplier="0.65,0.65" scalemin="0.5" scalemax="1.0" colormultiplier="200,50,150,255" />
-        <sound file="Content/Items/Tools/WeldingLoop.ogg" type="OnUse" range="3000.0" loop="true" />
+        <sound file="Content/Items/Tools/WeldingLoop.ogg" range="3000.0" loop="true" />
       </StatusEffect>
     </attack>
   </limb>

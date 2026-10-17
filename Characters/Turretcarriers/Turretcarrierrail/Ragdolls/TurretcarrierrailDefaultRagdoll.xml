@@ -48,9 +48,9 @@
         <SpawnItem identifier="railgunshellthalcarrier" spawnposition="This" count="1" aimspread="0" rotationtype="Limb" rotation="90" />
         <!-- 	 <ParticleEmitter particle="muzzleflashrailgun" CopyEntityAngle="true" particleamount="1" velocitymin="50" velocitymax="100" /> -->
         <ParticleEmitter particle="risingbubbles" particlespersecond="20" anglemin="60" anglemax="120" velocitymin="10" velocitymax="100" scalemin="0.8" scalemax="1.5" />
-        <sound file="Content/Items/Weapons/Railgun1.ogg" range="10000" type="OnUse" volume="3" />
-        <sound file="Content/Items/Weapons/Railgun2.ogg" range="10000" type="OnUse" volume="3" />
-        <sound file="Content/Items/Weapons/Railgun3.ogg" range="10000" type="OnUse" volume="3" />
+        <sound file="Content/Items/Weapons/Railgun1.ogg" range="10000" volume="3" />
+        <sound file="Content/Items/Weapons/Railgun2.ogg" range="10000" volume="3" />
+        <sound file="Content/Items/Weapons/Railgun3.ogg" range="10000" volume="3" />
       </StatusEffect>
     </attack>
     <lightsource castshadows="true" Color="255,255,255,200" Range="800" Scale="1" Offset="-75,0" Rotation="90" Directional="True" Flicker="0.3" FlickerSpeed="100" PulseFrequency="0.2" PulseAmount="0.8" BlinkFrequency="0">

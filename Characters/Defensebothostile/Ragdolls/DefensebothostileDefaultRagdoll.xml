@@ -30,12 +30,12 @@
         <RequiredItem item="defensebotammobox" type="Picked" ExcludeBroken="true" />
         <SpawnItem identifier="defensebotround" spawnposition="This" count="1" aimspread="0" rotationtype="Limb" rotation="-90" />
         <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" CopyEntityAngle="True" CopyEntityDir="False" />
-        <Sound file="Content/Items/Weapons/SMGsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
-        <Sound file="Content/Items/Weapons/SMGsingleShot2.ogg" type="OnUse" range="3000" />
-        <Sound file="Content/Items/Weapons/SMGsingleShot3.ogg" type="OnUse" range="3000" />
-        <Sound file="Content/Items/Weapons/SMGsingleShot4.ogg" type="OnUse" range="3000" />
-        <Sound file="Content/Items/Weapons/SMGsingleShot5.ogg" type="OnUse" range="3000" />
-        <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
+        <Sound file="Content/Items/Weapons/SMGsingleShot1.ogg" range="3000" selectionmode="Random" />
+        <Sound file="Content/Items/Weapons/SMGsingleShot2.ogg" range="3000" />
+        <Sound file="Content/Items/Weapons/SMGsingleShot3.ogg" range="3000" />
+        <Sound file="Content/Items/Weapons/SMGsingleShot4.ogg" range="3000" />
+        <Sound file="Content/Items/Weapons/SMGsingleShot5.ogg" range="3000" />
+        <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" range="3000" />
         <Explosion range="150.0" force="0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="0" flash="true" />
       </StatusEffect>
       <!-- -0.5 -> 200 shots per magazine-->

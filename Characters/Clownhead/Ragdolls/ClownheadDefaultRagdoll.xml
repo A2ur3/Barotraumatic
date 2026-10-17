@@ -87,16 +87,16 @@
       </StatusEffect>
       <StatusEffect type="OnFailure" target="This"></StatusEffect>
       <StatusEffect type="OnFailure" target="This">
-        <sound file="Content/Items/Weapons/Railgun1.ogg" range="10000" type="OnUse" volume="0.5" selectionmode="random" />
-        <sound file="Content/Items/Weapons/Railgun2.ogg" range="10000" type="OnUse" volume="0.5" />
-        <sound file="Content/Items/Weapons/Railgun3.ogg" range="10000" type="OnUse" volume="0.5" />
+        <sound file="Content/Items/Weapons/Railgun1.ogg" range="10000" volume="0.5" selectionmode="random" />
+        <sound file="Content/Items/Weapons/Railgun2.ogg" range="10000" volume="0.5" />
+        <sound file="Content/Items/Weapons/Railgun3.ogg" range="10000" volume="0.5" />
         <Explosion range="300.0" ballastfloradamage="0" structuredamage="0" levelwalldamage="0" itemdamage="0" force="0.0" severlimbsprobability="0" camerashake="200" camerashakerange="600"></Explosion>
         <SpawnItem identifier="ClownheadTorpedo1" spawnposition="This" count="2" aimspread="5" rotationtype="Limb" rotation="0" />
       </StatusEffect>
       <StatusEffect type="OnFailure" target="This" delay="0.25">
-        <sound file="Content/Items/Weapons/Railgun1.ogg" range="10000" type="OnUse" volume="0.5" selectionmode="random" />
-        <sound file="Content/Items/Weapons/Railgun2.ogg" range="10000" type="OnUse" volume="0.5" />
-        <sound file="Content/Items/Weapons/Railgun3.ogg" range="10000" type="OnUse" volume="0.5" />
+        <sound file="Content/Items/Weapons/Railgun1.ogg" range="10000" volume="0.5" selectionmode="random" />
+        <sound file="Content/Items/Weapons/Railgun2.ogg" range="10000" volume="0.5" />
+        <sound file="Content/Items/Weapons/Railgun3.ogg" range="10000" volume="0.5" />
         <Explosion range="300.0" ballastfloradamage="0" structuredamage="0" levelwalldamage="0" itemdamage="0" force="0.0" severlimbsprobability="0" camerashake="200" camerashakerange="600"></Explosion>
         <SpawnItem identifier="ClownheadTorpedo1" spawnposition="This" count="3" aimspread="15" rotationtype="Limb" rotation="0" />
       </StatusEffect>
