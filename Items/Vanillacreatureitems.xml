@@ -86,10 +86,10 @@
     <Body width="20" height="44" density="13" />
     <Holdable canBeCombined="false" removeOnCombined="false" slots="Any" handle1="0,0" msg="ItemMsgPickUpSelect" />
   </Item>
-  <Item name="Broodmother Breast" identifier="motherbreast" category="Misc" tags="smallitem,chem,medical,monsterfood" description="The breast of a Crawler Broodmother, will not elaborate further. Can be used to heal crew members. Can be deconstructed into saline." scale="0.3" pickdistance="150" impactsoundtag="impact_wetsplat" cargocontaineridentifier="metalcrate">
-    <!--<Price storeidentifier="merchantresearch" buyprice="450" />-->
-       <PreferredContainer primary="storagecab" secondary="mineralcab" />
-   <Price baseprice="580">
+  <Item name="Broodmother Breast" identifier="motherbreast" category="Misc" tags="smallitem,chem,medical,monsterfood" description="The breast of a Crawler Broodmother, will not elaborate further. Can be used to heal crew members. Can be deconstructed into saline." scale="0.3" pickdistance="150" impactsoundtag="impact_wetsplat" cargocontaineridentifier="metalcrate" useinhealthinterface="true">
+    <!-- <Price storeidentifier="merchantresearch" buyprice="450" /> -->
+    <PreferredContainer primary="storagecab" secondary="mineralcab" />
+    <Price baseprice="580">
       <Price storeidentifier="merchantoutpost" multiplier="0.5" sold="false" />
       <Price storeidentifier="merchantcity" multiplier="0.5" sold="false" />
       <Price storeidentifier="merchantresearch" multiplier="1" sold="false" />
@@ -104,19 +104,18 @@
     <Body width="20" height="44" density="13" />
     <Holdable canBeCombined="false" removeOnCombined="false" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
       <RequiredSkill identifier="medical" level="5" />
-      <StatusEffect type="OnFailure" target="This" Condition="-100.0" disabledeltatime="true" />
-      <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
-      <StatusEffect tags="medical" type="OnUse" target="Character, This" duration="15">
+      <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true">
         <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+      </StatusEffect>
+      <StatusEffect statuseffecttags="medical" type="OnSuccess" target="UseTarget, This" duration="15">
         <ReduceAffliction identifier="bloodloss" amount="1" />
         <ReduceAffliction identifier="damage" amount="0.2" />
         <ReduceAffliction identifier="psychosis" amount="25" />
-        <Affliction identifier="drunk" amount="1" />
       </StatusEffect>
-      <StatusEffect tags="medical" type="OnFailure" target="Character, This" duration="15">
-        <Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+      <StatusEffect statuseffecttags="medical" type="OnFailure" target="UseTarget, This" duration="15">
         <ReduceAffliction identifier="bloodloss" amount="1.25" />
       </StatusEffect>
+      <!-- Remove the item when fully used -->
       <StatusEffect type="OnBroken" target="This">
         <Remove />
       </StatusEffect>
@@ -686,10 +685,10 @@
     <Body width="20" height="44" density="13" />
     <Holdable slots="Any" holdpos="0,0" handle1="0,0" handle2="0,0" />
   </Item>
-  <Item name="Moloch Tentacles" identifier="molochtentacles" category="Misc" tags="smallitem,medical" description="A piece of tentacle taken from a Moloch. Can be used as a emergency bandage. Can be deconstructed into a fauna derived elastin type material." scale="0.4" pickdistance="150" impactsoundtag="impact_wetsplat" cargocontaineridentifier="metalcrate">
+  <Item name="Moloch Tentacles" identifier="molochtentacles" category="Misc" tags="smallitem,medical" description="A piece of tentacle taken from a Moloch. Can be used as a emergency bandage. Can be deconstructed into a fauna derived elastin type material." scale="0.4" pickdistance="150" impactsoundtag="impact_wetsplat" cargocontaineridentifier="metalcrate" useinhealthinterface="true">
     <!--<Price storeidentifier="merchantresearch" buyprice="450" />-->
-       <PreferredContainer primary="storagecab" secondary="mineralcab" />
-   <Price baseprice="300">
+    <PreferredContainer primary="storagecab" secondary="mineralcab" />
+    <Price baseprice="300">
       <Price storeidentifier="merchantoutpost" multiplier="1" sold="false" />
       <Price storeidentifier="merchantcity" multiplier="1.55" sold="false" />
       <Price storeidentifier="merchantresearch" multiplier="1.55" sold="false" />
@@ -704,18 +703,17 @@
     <Body width="20" height="44" density="13" />
     <Holdable canBeCombined="false" removeOnCombined="false" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
       <RequiredSkill identifier="medical" level="5" />
-      <StatusEffect type="OnFailure" target="This" Condition="-100.0" disabledeltatime="true" />
-      <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
-      <StatusEffect tags="medical" type="OnUse" target="Character, This" duration="15">
-        <Sound file="Content/Items/Medical/Bandage1.ogg" type="OnUse" range="500" />
-        <Sound file="Content/Items/Medical/Bandage2.ogg" type="OnUse" range="500" />
-        <ReduceAffliction identifier="bleeding" amount="25" />
+      <StatusEffect type="OnUse" target="This" Condition="-100.0" setvalue="true">
+        <Sound file="Content/Items/Medical/Bandage1.ogg" range="500" />
+        <Sound file="Content/Items/Medical/Bandage2.ogg" range="500" />
       </StatusEffect>
-      <StatusEffect tags="medical" type="OnFailure" target="Character, This" duration="15">
-        <Sound file="Content/Items/Medical/Bandage1.ogg" type="OnUse" range="500" />
-        <Sound file="Content/Items/Medical/Bandage2.ogg" type="OnUse" range="500" />
-        <ReduceAffliction identifier="bleeding" amount="1.25" />
+      <StatusEffect statuseffecttags="medical" type="OnSuccess" target="This, Limb" duration="15.0">
+        <ReduceAffliction type="bleeding" amount="2.5" />
       </StatusEffect>
+      <StatusEffect statuseffecttags="medical" type="OnFailure" target="This, Limb" duration="15.0">
+        <ReduceAffliction type="bleeding" amount="1.25" />
+      </StatusEffect>
+      <!-- Remove the item when fully used -->
       <StatusEffect type="OnBroken" target="This">
         <Remove />
       </StatusEffect>
@@ -754,10 +752,10 @@
       </StatusEffect> -->
     </Holdable>
   </Item>
-  <Item name="Black Moloch Tentacles" identifier="blackmolochtentacles" category="Misc" tags="smallitem,medical" description="A piece of tentacle taken from a Black Moloch. Can be used as a emergency bandage or seal. Can be deconstructed into animal derived elastin and lithium." scale="0.4" pickdistance="150" impactsoundtag="impact_wetsplat" cargocontaineridentifier="metalcrate">
-    <!--<Price storeidentifier="merchantresearch" buyprice="450" />-->
-        <PreferredContainer primary="storagecab" secondary="mineralcab" />
-	<Price baseprice="250">
+  <Item name="Black Moloch Tentacles" identifier="blackmolochtentacles" category="Misc" tags="smallitem,medical" description="A piece of tentacle taken from a Black Moloch. Can be used as a emergency bandage or seal. Can be deconstructed into animal derived elastin and lithium." scale="0.4" pickdistance="150" impactsoundtag="impact_wetsplat" cargocontaineridentifier="metalcrate" useinhealthinterface="true">
+    <!-- <Price storeidentifier="merchantresearch" buyprice="450" /> -->
+    <PreferredContainer primary="storagecab" secondary="mineralcab" />
+    <Price baseprice="250">
       <Price storeidentifier="merchantoutpost" multiplier="1" sold="false" />
       <Price storeidentifier="merchantcity" multiplier="1.45" sold="false" />
       <Price storeidentifier="merchantresearch" multiplier="1.7" sold="false" />
@@ -773,18 +771,17 @@
     <Body width="20" height="44" density="13" />
     <Holdable canBeCombined="false" removeOnCombined="false" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
       <RequiredSkill identifier="medical" level="5" />
-      <StatusEffect type="OnFailure" target="This" Condition="-100.0" disabledeltatime="true" />
-      <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
-      <StatusEffect tags="medical" type="OnUse" target="Character, This" duration="15">
-        <Sound file="Content/Items/Medical/Bandage1.ogg" type="OnUse" range="500" />
-        <Sound file="Content/Items/Medical/Bandage2.ogg" type="OnUse" range="500" />
-        <ReduceAffliction identifier="bleeding" amount="25" />
+      <StatusEffect type="OnUse" target="This" Condition="-100.0" setvalue="true">
+        <Sound file="Content/Items/Medical/Bandage1.ogg" range="500" />
+        <Sound file="Content/Items/Medical/Bandage2.ogg" range="500" />
       </StatusEffect>
-      <StatusEffect tags="medical" type="OnFailure" target="Character, This" duration="15">
-        <Sound file="Content/Items/Medical/Bandage1.ogg" type="OnUse" range="500" />
-        <Sound file="Content/Items/Medical/Bandage2.ogg" type="OnUse" range="500" />
-        <ReduceAffliction identifier="bleeding" amount="1.25" />
+      <StatusEffect statuseffecttags="medical" type="OnSuccess" target="This, Limb" duration="15.0">
+        <ReduceAffliction type="bleeding" amount="2.5" />
       </StatusEffect>
+      <StatusEffect statuseffecttags="medical" type="OnFailure" target="This, Limb" duration="15.0">
+        <ReduceAffliction type="bleeding" amount="1.25" />
+      </StatusEffect>
+      <!-- Remove the item when fully used -->
       <StatusEffect type="OnBroken" target="This">
         <Remove />
       </StatusEffect>
